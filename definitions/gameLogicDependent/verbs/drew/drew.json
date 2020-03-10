@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "drew",
+		"de-DE": "malte"
+    },
+    "description": {
+        "en-US": "A player or group drew something inside the game.",
+		"de-DE": "Ein Spieler oder eine Gruppe malte etwas in einem Spiel."
+    }
+}

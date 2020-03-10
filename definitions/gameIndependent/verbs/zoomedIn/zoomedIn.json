@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "zoomed in",
+		"de-DE": "vergrößerte"
+    },
+    "description": {
+        "en-US": "An actor zoomed into some visual part of the game.",
+		"de-DE": "Ein Akteur vergrößerte einen sichtbaren Teil des Spiels."
+    }
+}

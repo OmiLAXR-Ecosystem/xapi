@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number",
+		"de-DE": "Nummer"
+    },
+    "description": {
+        "en-US": "A number shown on the screen, with which for example can be interacted with in some way.",
+		"de-DE": "Eine Nummer die auf dem Bildschirm angezeigt wird und mit der zum Beispiel interagiert werden kann."
+    }
+}

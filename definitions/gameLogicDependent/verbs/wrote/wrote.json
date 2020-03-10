@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wrote",
+		"de-DE": "schrieb"
+    },
+    "description": {
+        "en-US": "A player put some text into a text field.",
+		"de-DE": "Ein Spieler oder eine Gruppe gab einen Text in ein Textfeld ein."
+    }
+}

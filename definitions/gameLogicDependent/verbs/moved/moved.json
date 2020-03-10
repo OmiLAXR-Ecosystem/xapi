@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "moved",
+		"de-DE": "bewegte"
+    },
+    "description": {
+        "en-US": "A player or group moved itself or some game related object in the game world.",
+		"de-DE": "Ein Spieler oder eine Gruppe bewegte sich oder einen spielrelevanten Gegenstand in der Spielwelt."
+    }
+}

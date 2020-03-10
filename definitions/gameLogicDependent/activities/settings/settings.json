@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "settings",
+		"de-DE": "Einstellungen"
+    },
+    "description": {
+        "en-US": "The settings of a game.",
+		"de-DE": "Die EInstellungen eines Spiels."
+    }
+}

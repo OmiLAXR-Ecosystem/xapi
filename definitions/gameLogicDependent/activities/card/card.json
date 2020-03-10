@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "card",
+		"de-DE": "Karte"
+    },
+    "description": {
+        "en-US": "A card showning something inside the game.",
+		"de-DE": "Eine Karte die etwas im Spiel anzeigt."
+    }
+}

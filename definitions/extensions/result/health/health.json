@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "health",
+		"de-DE": "Leben"
+    },
+    "description": {
+        "en-US": "The current health of a player character. Has to be an integer.",
+		"de-DE": "Das momentane Leben eines Spielers. Muss ein Integer sein."
+    }
+}

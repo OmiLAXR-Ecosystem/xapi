@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "opened",
+		"de-DE": "öffnete"
+    },
+    "description": {
+        "en-US": "A player or group opened something ingame. Could also be the settings for example.",
+		"de-DE": "Ein Spieler oder eine Gruppe öffnete etwas im Spiel. Könnten zum Beispiel auch die Einstellungen sein."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "unfolded",
+		"de-DE": "klappte aus"
+    },
+    "description": {
+        "en-US": "A player or group unfolded a menu for example.",
+		"de-DE": "Ein Spieler oder eine Gruppe klappte ein Menü zum Beispiel aus."
+    }
+}

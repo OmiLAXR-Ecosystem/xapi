@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "level",
+		"de-DE": "Level"
+    },
+    "description": {
+        "en-US": "The result of a level change. Has to be a string or integer.",
+		"de-DE": "Das neue Level welches das Ergebnis des Ereignisses ist."
+    }
+}

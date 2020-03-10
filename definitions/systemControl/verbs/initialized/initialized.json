@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "initialized",
+		"de-DE": "initialisierte"
+    },
+    "description": {
+        "en-US": "An actor initialized a game session. This verb is only used with the gamesession activity for better session tracking.",
+		"de-DE": "Ein Akteur initialisierte eine Spiel Instanz. Dieses Verb wird nur mit der gamesession Aktivität verwendet, um Spiel Instanzen besser verfolgen zu können."
+    }
+}

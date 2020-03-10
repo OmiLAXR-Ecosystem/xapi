@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "level",
+		"de-DE": "Level"
+    },
+    "description": {
+        "en-US": "The level in which or for which something happened. Can be an integer or a string.",
+		"de-DE": "Das Level in welchem ein Ereignis stattfand. Kann ein String oder Integer sein."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "playstone",
+		"de-DE": "Spielstein"
+    },
+    "description": {
+        "en-US": "A representation of the player ingame. Could also be an object the player can interact with.",
+		"de-DE": "Eine Representation des Spielers im Spiel. Könnte auch ein Objekt sein mit welchem der Spieler im Spiel interagieren kann."
+    }
+}

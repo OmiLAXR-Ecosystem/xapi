@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "start video button",
+		"de-DE": "Videostarten Knopf"
+    },
+    "description": {
+        "en-US": "A button to start a video.",
+		"de-DE": "Ein Knopf um ein Video zu starten."
+    }
+}

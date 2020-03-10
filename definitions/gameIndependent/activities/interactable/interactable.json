@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "interactable",
+		"de-DE": "interagierfähiges Objekt"
+    },
+    "description": {
+        "en-US": "Something a player can interact with in the game.",
+		"de-DE": "Etwas womit der Spieler im Spiel interagieren kann."
+    }
+}

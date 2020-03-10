@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "sorted",
+		"de-DE": "sortierte"
+    },
+    "description": {
+        "en-US": "A player or group sorted some game related objects.",
+		"de-DE": "Ein Spieler oder eine Gruppe sortierte spielrelevante Objekte."
+    }
+}
