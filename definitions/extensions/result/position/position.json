@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "position",
+		"de-DE": "Position"
+    },
+    "description": {
+        "en-US": "The position of an object in the game. Can be in X and Y coordinates.",
+		"de-DE": "Die Position eines Objektes im Spiel. Können X- und Y-Koordinaten sein."
+    }
+}

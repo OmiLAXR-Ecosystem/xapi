@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "screen",
+		"de-DE": "Bildschirm"
+    },
+    "description": {
+        "en-US": "The screen showing the game and being clicked or touched on for interaction with the game.",
+		"de-DE": "Der Bildschirm der das Spiel anzeigt und auf dem geklickt werden kann oder der berührt wird um mit dem Spiel zu interagieren."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "solution",
+		"de-DE": "Lösung"
+    },
+    "description": {
+        "en-US": "The solution to a task in the game.",
+		"de-DE": "Die Lösung zu einer Aufgabe im Spiel."
+    }
+}

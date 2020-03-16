@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "changed",
+		"de-DE": "veränderte"
+    },
+    "description": {
+        "en-US": "An actor changed something ingame. This could be the level, some settings or something ingame related.",
+		"de-DE": "Ein Akteur veränderte etwas im Spiel. Dies könnte das Level sein, die Einstellungen oder etwas im Spiel selbst."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "combined",
+		"de-DE": "kombinierte"
+    },
+    "description": {
+        "en-US": "A player or group brought two or more game related objects together. This can create a new object out of the combined ones. If just a logical connection is meant, use connected.",
+		"de-DE": "Ein Spieler oder eine Gruppe brachte zwei oder mehr spielrelevante Gegenstände zusammen. Aus den kombinierten Gegenständen können neue Gegenstände entstehen. Wenn eine logische Kombination der Gegenstände gemeint ist, nutzte verband."
+    }
+}

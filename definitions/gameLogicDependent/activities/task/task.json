@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "task",
+		"de-DE": "Aufgabe"
+    },
+    "description": {
+        "en-US": "Some part of the goal or something to be completed to progress in the game or a level.",
+		"de-DE": "Eine Aufgabe die zum Erreichen des Spielziels erfüllt werden muss oder zum Abschließen eines Levels."
+    }
+}

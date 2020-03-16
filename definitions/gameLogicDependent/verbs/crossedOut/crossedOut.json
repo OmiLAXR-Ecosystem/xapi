@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "crossedOut",
+		"de-DE": "streichte durch"
+    },
+    "description": {
+        "en-US": "A player crossed out some text or object.",
+		"de-DE": "Ein Spieler streichte einen Text oder ein Objekt durch."
+    }
+}

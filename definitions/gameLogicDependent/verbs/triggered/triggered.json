@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "triggered",
+		"de-DE": "löste aus"
+    },
+    "description": {
+        "en-US": "A player or group triggered a game related event.",
+		"de-DE": "Ein Spieler oder eine Gruppe löste ein spielrelevantes Ereignis aus."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "deselected",
+		"de-DE": "nahm Auswahl zurück"
+    },
+    "description": {
+        "en-US": "A player or group deselected a game related option.",
+		"de-DE": "Ein Spieler oder eine Gruppe nahm die Auswahl einer spielrelevanten Option zurück."
+    }
+}

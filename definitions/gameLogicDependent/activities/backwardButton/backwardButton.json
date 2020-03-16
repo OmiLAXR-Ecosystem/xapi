@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "backward button",
+		"de-DE": "Zurück Knopf"
+    },
+    "description": {
+        "en-US": "A button to go backward on a page or a screen.",
+		"de-DE": "Ein Knopf um auf einer Seite oder dem Bildschirm zurück zu gehen."
+    }
+}

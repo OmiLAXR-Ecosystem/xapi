@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "asked",
+		"de-DE": "fragte"
+    },
+    "description": {
+        "en-US": "A player or group asked a question. Could also asked for help or advice.",
+		"de-DE": "Ein Spieler oder eine Gruppe stellte eine Frage. Es kann auch nach Hilfe oder Ratschlag fragen."
+    }
+}

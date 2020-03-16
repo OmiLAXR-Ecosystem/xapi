@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "voted",
+		"de-DE": "stimmte ab"
+    },
+    "description": {
+        "en-US": "A group of players voted on something.",
+		"de-DE": "Eine Gruppe von Spielern stimmte für etwas ab."
+    }
+}

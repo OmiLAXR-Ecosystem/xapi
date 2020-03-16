@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "read",
+		"de-DE": "las"
+    },
+    "description": {
+        "en-US": "A player read some text. Only use if it can be assured that the text is read.",
+		"de-DE": "Ein Spieler las einen Text. Sollte nur genutzt werden wenn sichergestellt werden kann, dass der Text auch wirklich gelesen wurde."
+    }
+}
