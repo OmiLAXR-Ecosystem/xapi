@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "made",
-		"de-DE": "fällte"
+        "de-DE": "fällte"
     },
     "description": {
         "en-US": "A player or group made a decision relevant for the game state.",
-		"de-DE": "Ein Spieler oder eine Gruppe fällte eine spielrelevante Entscheidung."
+        "de-DE": "Ein Spieler oder eine Gruppe fällte eine spielrelevante Entscheidung."
     }
 }

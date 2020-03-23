@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "game",
-		"de-DE": "Spiel"
+        "de-DE": "Spiel"
     },
     "description": {
         "en-US": "Represents a game or competition of any kind.",
-		"de-DE": "Repräsentiert jede Art von Spiel."
+        "de-DE": "Repräsentiert jede Art von Spiel."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "text",
-		"de-DE": "Text"
+        "de-DE": "Text"
     },
     "description": {
         "en-US": "A text which can be read or entered.",
-		"de-DE": "Ein Text der gelesen oder eingegeben werden kann."
+        "de-DE": "Ein Text der gelesen oder eingegeben werden kann."
     }
 }

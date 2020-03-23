@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "game",
-		"de-DE": "Spiel"
+        "de-DE": "Spiel"
     },
     "description": {
         "en-US": "The identifier for the game in which the event happened. Can be a string or integer.",
-		"de-DE": "Der Identifikator dafür welches Spiel gespielt wird. Kann ein String oder Integer sein."
+        "de-DE": "Der Identifikator dafür welches Spiel gespielt wird. Kann ein String oder Integer sein."
     }
 }

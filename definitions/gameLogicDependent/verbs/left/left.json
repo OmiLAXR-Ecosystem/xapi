@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "left",
-		"de-DE": "lies zurück"
+        "de-DE": "lies zurück"
     },
     "description": {
         "en-US": "A player or group left behind some game related object.",
-		"de-DE": "Ein Spieler oder eine Gruppe lies einen spielrelevanten Gegenstand zurück."
+        "de-DE": "Ein Spieler oder eine Gruppe lies einen spielrelevanten Gegenstand zurück."
     }
 }

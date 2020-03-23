@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "won",
-		"de-DE": "gewann"
+        "de-DE": "gewann"
     },
     "description": {
         "en-US": "A player or group won a game.",
-		"de-DE": "Ein Spieler oder eine Gruppe gewann ein Spiel."
+        "de-DE": "Ein Spieler oder eine Gruppe gewann ein Spiel."
     }
 }

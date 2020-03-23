@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "stage",
-		"de-DE": "Spielabschnitt"
+        "de-DE": "Spielabschnitt"
     },
     "description": {
         "en-US": "A stage is a part of a level.",
-		"de-DE": "Ein Spielabschnitt ist ein Teil eines Levels."
+        "de-DE": "Ein Spielabschnitt ist ein Teil eines Levels."
     }
 }

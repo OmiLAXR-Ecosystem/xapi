@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "collected",
-		"de-DE": "sammelte"
+        "de-DE": "sammelte"
     },
     "description": {
         "en-US": "A player or group collected some game related item.",
-		"de-DE": "Ein Spieler oder eine Gruppe sammelte einen für das Spiel relevanten Gegenstand ein."
+        "de-DE": "Ein Spieler oder eine Gruppe sammelte einen für das Spiel relevanten Gegenstand ein."
     }
 }

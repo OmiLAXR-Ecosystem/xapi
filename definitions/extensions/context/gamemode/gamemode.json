@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "gamemode",
-		"de-DE": "Spielmodus"
+        "de-DE": "Spielmodus"
     },
     "description": {
         "en-US": "The gamemode in which the game is played. Can be a string or integer.",
-		"de-DE": "Der Spielmodus in welchem das Spiel gespielt wird. Kann ein String oder ein Integer sein."
+        "de-DE": "Der Spielmodus in welchem das Spiel gespielt wird. Kann ein String oder ein Integer sein."
     }
 }

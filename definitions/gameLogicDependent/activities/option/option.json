@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "option",
-		"de-DE": "Option"
+        "de-DE": "Option"
     },
     "description": {
         "en-US": "An option is something a player can decide for or against in the game.",
-		"de-DE": "Ein Spieler kann sich für oder gegen eine Option entscheiden."
+        "de-DE": "Ein Spieler kann sich für oder gegen eine Option entscheiden."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "shared",
-		"de-DE": "teilte"
+        "de-DE": "teilte"
     },
     "description": {
         "en-US": "A player or group shared an ingame object with another player or a group of players.",
-		"de-DE": "Ein Spieler oder eine Gruppe teitle eine Spielgegenstand mit einem anderen Spieler oder einer Gruppe."
+        "de-DE": "Ein Spieler oder eine Gruppe teitle eine Spielgegenstand mit einem anderen Spieler oder einer Gruppe."
     }
 }

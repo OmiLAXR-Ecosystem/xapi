@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "ordered",
-		"de-DE": "ordnete"
+        "de-DE": "ordnete"
     },
     "description": {
         "en-US": "A player or group brought some game objects into order.",
-		"de-DE": "Ein Spieler oder eine Gruppe ordnete ein Anzahl an spielrelevanten Gegenständen."
+        "de-DE": "Ein Spieler oder eine Gruppe ordnete ein Anzahl an spielrelevanten Gegenständen."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "answered",
-		"de-DE": "beantwortete"
+        "de-DE": "beantwortete"
     },
     "description": {
         "en-US": "A player or group answered some game related question.",
-		"de-DE": "Ein Spieler oder eine Gruppe beantwortete eine für das Spiel relevante Frage."
+        "de-DE": "Ein Spieler oder eine Gruppe beantwortete eine für das Spiel relevante Frage."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "accepted",
-		"de-DE": "akzeptierte"
+        "de-DE": "akzeptierte"
     },
     "description": {
         "en-US": "Indicates that that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment.",
-		"de-DE": "Signalisiert, dass ein Akteur ein Objekt akzeptiert hat. Zum Beispiel: Eine Person akzeptiert eine Auszeichnung, oder eine Aufgabe."
+        "de-DE": "Signalisiert, dass ein Akteur ein Objekt akzeptiert hat. Zum Beispiel: Eine Person akzeptiert eine Auszeichnung, oder eine Aufgabe."
     }
 }

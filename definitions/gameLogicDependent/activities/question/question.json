@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "question",
-		"de-DE": "Frage"
+        "de-DE": "Frage"
     },
     "description": {
         "en-US": "A question can be asked or answered.",
-		"de-DE": "Eine Frage kann gestellt oder beantwortet werden."
+        "de-DE": "Eine Frage kann gestellt oder beantwortet werden."
     }
 }

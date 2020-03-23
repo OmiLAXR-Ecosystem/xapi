@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "number of players",
-		"de-DE": "Spieleranzahl"
+        "de-DE": "Spieleranzahl"
     },
     "description": {
         "en-US": "The number of players participating at the game. Has to be an integer.",
-		"de-DE": "Die Anzahl an Spielern welche am Spiel teilnehmen. Muss ein Integer sein."
+        "de-DE": "Die Anzahl an Spielern welche am Spiel teilnehmen. Muss ein Integer sein."
     }
 }
