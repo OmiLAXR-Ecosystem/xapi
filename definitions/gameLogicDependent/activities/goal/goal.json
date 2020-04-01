@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "goal",
-		"de-DE": "Ziel"
+        "de-DE": "Ziel"
     },
     "description": {
         "en-US": "The overall thing to be achieved in the game.",
-		"de-DE": "Das Übergreifende Ziel des Spiels."
+        "de-DE": "Das Übergreifende Ziel des Spiels."
     }
 }

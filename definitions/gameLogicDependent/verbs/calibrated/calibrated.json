@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "calibrated",
-		"de-DE": "kalibrierte"
+        "de-DE": "kalibrierte"
     },
     "description": {
         "en-US": "An actor calibrated something. This could	be an eye tracking system for example.",
-		"de-DE": "Ein Akteur kalibrierte etwas. Dies kann zum Beispiel ein Eyetracking System sein."
+        "de-DE": "Ein Akteur kalibrierte etwas. Dies kann zum Beispiel ein Eyetracking System sein."
     }
 }

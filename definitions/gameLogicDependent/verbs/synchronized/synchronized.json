@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "synchronized",
-		"de-DE": "synchronisierte"
+        "de-DE": "synchronisierte"
     },
     "description": {
         "en-US": "An actor synchronized game data with an LMS for example.",
-		"de-DE": "Ein akteur synchronisierte Spieldaten mit einem LMS zum Beispiel."
+        "de-DE": "Ein akteur synchronisierte Spieldaten mit einem LMS zum Beispiel."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "menu",
-		"de-DE": "Menü"
+        "de-DE": "Menü"
     },
     "description": {
         "en-US": "A start menu or ingame menu for settings for example.",
-		"de-DE": "Ein Startmenü oder ein Menü im Spiel für Einstellungen zum Beispiel."
+        "de-DE": "Ein Startmenü oder ein Menü im Spiel für Einstellungen zum Beispiel."
     }
 }

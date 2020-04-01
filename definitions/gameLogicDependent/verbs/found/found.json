@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "found",
-		"de-DE": "fand"
+        "de-DE": "fand"
     },
     "description": {
         "en-US": "A player or group found some game related item.",
-		"de-DE": "Ein Spieler oder eine Gruppe fand einen für das Spiel relevanten Gegenstand."
+        "de-DE": "Ein Spieler oder eine Gruppe fand einen für das Spiel relevanten Gegenstand."
     }
 }

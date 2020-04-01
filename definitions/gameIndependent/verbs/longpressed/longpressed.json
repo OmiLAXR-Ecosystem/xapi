@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "longpressed",
-		"de-DE": "hielt gedrückt"
+        "de-DE": "hielt gedrückt"
     },
     "description": {
         "en-US": "An actor held down the mousebutton, a finger or a tangible at one spot. How much time has to pass until a press becomes a longpress is up to the user.",
-		"de-DE": "Ein Akteur hielt eine Maustaste, einen Finger oder ein Tangible länger auf einem Punkt gedrückt. Wie lange es dauert bis ein drücken ein gedrückt halten wird ist dem Nutzer überlassen."
+        "de-DE": "Ein Akteur hielt eine Maustaste, einen Finger oder ein Tangible länger auf einem Punkt gedrückt. Wie lange es dauert bis ein drücken ein gedrückt halten wird ist dem Nutzer überlassen."
     }
 }

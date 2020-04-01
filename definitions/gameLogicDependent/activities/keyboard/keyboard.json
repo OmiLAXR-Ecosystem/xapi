@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "keyboard",
-		"de-DE": "Tastatur"
+        "de-DE": "Tastatur"
     },
     "description": {
         "en-US": "A keyboard to input text or interact with the game in another way.",
-		"de-DE": "Eine Tastatur um Text einzugeben oder in einer anderen Form mit dem Spiel zu interagieren."
+        "de-DE": "Eine Tastatur um Text einzugeben oder in einer anderen Form mit dem Spiel zu interagieren."
     }
 }

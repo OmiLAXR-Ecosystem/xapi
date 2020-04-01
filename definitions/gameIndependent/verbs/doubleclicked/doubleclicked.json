@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "doubleclicked",
-		"de-DE": "doppelklickte"
+        "de-DE": "doppelklickte"
     },
     "description": {
         "en-US": "An actor clicked two times at the same spot in a short time period. Can also bve done with a finger or tangible.",
-		"de-DE": "Ein Akteur klickte zwei mal auf den selben Punkt kurz hintereinander. Kann auch mit dem Finger oder einem Tangible gemacht werden."
+        "de-DE": "Ein Akteur klickte zwei mal auf den selben Punkt kurz hintereinander. Kann auch mit dem Finger oder einem Tangible gemacht werden."
     }
 }

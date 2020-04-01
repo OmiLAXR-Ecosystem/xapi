@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "dragged",
-		"de-DE": "zog"
+        "de-DE": "zog"
     },
     "description": {
         "en-US": "An actor dragged a draggable object across the screen.",
-		"de-DE": "Ein Akteur zog ein ziehbares Objekt über den Bildschirm."
+        "de-DE": "Ein Akteur zog ein ziehbares Objekt über den Bildschirm."
     }
 }

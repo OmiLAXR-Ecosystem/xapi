@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "eye tracking system",
-		"de-DE": "Eye-Tracking System"
+        "de-DE": "Eye-Tracking System"
     },
     "description": {
         "en-US": "A system to track the eyes of a player and use the gathered data in some way.",
-		"de-DE": "Ein system um die Augenbewegungen des Spielers aufzuzeichnen und diese Daten in einer Form zu nutzen."
+        "de-DE": "Ein system um die Augenbewegungen des Spielers aufzuzeichnen und diese Daten in einer Form zu nutzen."
     }
 }

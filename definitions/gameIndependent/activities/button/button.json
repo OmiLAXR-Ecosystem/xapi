@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "button",
-		"de-DE": "Knopf"
+        "de-DE": "Knopf"
     },
     "description": {
         "en-US": "Something an actor can press, which then triggers an action in the game.",
-		"de-DE": "Etwas was ein Akteur drücken kann, was dann eine Aktion im Spiel hervorruft."
+        "de-DE": "Etwas was ein Akteur drücken kann, was dann eine Aktion im Spiel hervorruft."
     }
 }

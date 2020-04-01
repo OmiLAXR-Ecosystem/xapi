@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "locked",
-		"de-DE": "verschloss"
+        "de-DE": "verschloss"
     },
     "description": {
         "en-US": "A player or group did some action to lock up some game related object. Could also be locked out of a progression path for example.",
-		"de-DE": "Ein Spieler oder eine Gruppe verschloss einen spielrelevantenten Gegenstand. Kann zum Beispiel aber auch ausschließen von einem Weg zu voran kommen sein."
+        "de-DE": "Ein Spieler oder eine Gruppe verschloss einen spielrelevantenten Gegenstand. Kann zum Beispiel aber auch ausschließen von einem Weg zu voran kommen sein."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "entered",
-		"de-DE": "gab ein"
+        "de-DE": "gab ein"
     },
     "description": {
         "en-US": "A player or group gave some input to the game.",
-		"de-DE": "Ein Spieler oder eine Gruppe gab dem Spiel eine Eingabe."
+        "de-DE": "Ein Spieler oder eine Gruppe gab dem Spiel eine Eingabe."
     }
 }

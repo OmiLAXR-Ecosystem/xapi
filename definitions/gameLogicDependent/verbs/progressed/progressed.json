@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "progressed",
-		"de-DE": "erzielte Fortschritt"
+        "de-DE": "erzielte Fortschritt"
     },
     "description": {
         "en-US": "A player or group progressed in some game related way(achieved something or completed something).",
-		"de-DE": "Ein Spieler oder eine Gruppe erzielte in einer Form einen Fortschritt im Spiel(erreichte oder vollendete etwas)."
+        "de-DE": "Ein Spieler oder eine Gruppe erzielte in einer Form einen Fortschritt im Spiel(erreichte oder vollendete etwas)."
     }
 }

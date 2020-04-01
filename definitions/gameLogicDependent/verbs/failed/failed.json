@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "failed",
-		"de-DE": "scheiterte"
+        "de-DE": "scheiterte"
     },
     "description": {
         "en-US": "A player or group failed some task.",
-		"de-DE": "Ein Spieler oder eine Gruppe scheiterte an einer Aufgabe."
+        "de-DE": "Ein Spieler oder eine Gruppe scheiterte an einer Aufgabe."
     }
 }

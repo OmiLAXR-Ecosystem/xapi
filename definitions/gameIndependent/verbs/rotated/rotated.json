@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "rotated",
-		"de-DE": "rotierte"
+        "de-DE": "rotierte"
     },
     "description": {
         "en-US": "An actor rotated a game object.",
-		"de-DE": "Ein Akteur rotierte ein Spiel Objekt."
+        "de-DE": "Ein Akteur rotierte ein Spiel Objekt."
     }
 }

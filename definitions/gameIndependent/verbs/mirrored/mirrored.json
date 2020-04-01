@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "mirrored",
-		"de-DE": "spiegelte"
+        "de-DE": "spiegelte"
     },
     "description": {
         "en-US": "An actor mirrored some game object.",
-		"de-DE": "Ein Akteur spiegelte ein Spiel Objekt."
+        "de-DE": "Ein Akteur spiegelte ein Spiel Objekt."
     }
 }

@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "video",
-		"de-DE": "Video"
+        "de-DE": "Video"
     },
     "description": {
         "en-US": "A video which can be watched inside the game.",
-		"de-DE": "Ein Video welches im Spiel angeschaut werden kann."
+        "de-DE": "Ein Video welches im Spiel angeschaut werden kann."
     }
 }

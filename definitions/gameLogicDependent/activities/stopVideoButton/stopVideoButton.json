@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "stop video button",
-		"de-DE": "Videostoppen Knopf"
+        "de-DE": "Videostoppen Knopf"
     },
     "description": {
         "en-US": "A button to stop a video.",
-		"de-DE": "Ein Knopf um ein Video zu stoppen."
+        "de-DE": "Ein Knopf um ein Video zu stoppen."
     }
 }
