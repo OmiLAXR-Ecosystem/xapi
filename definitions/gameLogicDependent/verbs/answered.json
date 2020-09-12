@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "answered",
+        "de-DE": "beantwortete"
+    },
+    "description": {
+        "en-US": "A player or group answered some game related question.",
+        "de-DE": "Ein Spieler oder eine Gruppe beantwortete eine für das Spiel relevante Frage."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/21",
+        "https://adlnet.gov/expapi/verbs/answered"
+    ]
+}

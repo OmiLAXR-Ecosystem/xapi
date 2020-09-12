@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "saved",
+        "de-DE": "speicherte"
+    },
+    "description": {
+        "en-US": "A player or group saved their progress in a game session.",
+        "de-DE": "Ein Spieler oder eine Gruppe speicherte ihren Spielfortschritt in einer Spielinstanz ab."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/142",
+        "https://activitystrea.ms/schema/1.0/save"
+    ]
+}

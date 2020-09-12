@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "shared",
+        "de-DE": "teilte"
+    },
+    "description": {
+        "en-US": "A player or group shared an ingame object with another player or a group of players.",
+        "de-DE": "Ein Spieler oder eine Gruppe teitle eine Spielgegenstand mit einem anderen Spieler oder einer Gruppe."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/147",
+        "https://activitystrea.ms/schema/1.0/share"
+    ]
+}

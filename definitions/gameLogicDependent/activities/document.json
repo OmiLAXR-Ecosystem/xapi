@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "document",
+        "de-DE": "Dokument"
+    },
+    "description": {
+        "en-US": "A document ingame. Could be relevant for the game or not.",
+        "de-DE": "Ein Dokument im Spiel."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/479",
+        "http://id.tincanapi.com/activitytype/document"
+    ]
+}

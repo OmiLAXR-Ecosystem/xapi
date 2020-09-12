@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "group",
+        "de-DE": "Gruppe"
+    },
+    "description": {
+        "en-US": "A group of players playing a game together.",
+        "de-DE": "Eine Gruppe von Spielern welche zusammen ein Spiel spielen."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/64",
+        "https://activitystrea.ms/schema/1.0/group"
+    ]
+}

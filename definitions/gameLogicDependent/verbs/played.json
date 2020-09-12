@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "played",
+        "de-DE": "spielte"
+    },
+    "description": {
+        "en-US": "A player or group played a game or something specific in a game.",
+        "de-DE": "Ein Spieler oder eine Gruppe spielte ein Spiel oder etwas spezifisches in einem Spiel."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/49",
+        "https://activitystrea.ms/schema/1.0/play"
+    ]
+}

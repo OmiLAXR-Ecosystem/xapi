@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "question",
+        "de-DE": "Frage"
+    },
+    "description": {
+        "en-US": "A question can be asked or answered.",
+        "de-DE": "Eine Frage kann gestellt oder beantwortet werden."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/75",
+        "https://activitystrea.ms/schema/1.0/question"
+    ]
+}

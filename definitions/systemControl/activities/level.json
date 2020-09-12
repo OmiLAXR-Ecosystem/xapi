@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "level",
+        "de-DE": "Level"
+    },
+    "description": {
+        "en-US": "A level is some, in itself closed, part of the game which the game itself calls level.",
+        "de-DE": "Ein Level ist ein in sich selbst geschlossener Teil eines Spiels, den das Spiel selber Level nennt."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/352",
+        "http://curatr3.com/define/type/level"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "resumed",
+        "de-DE": "setzte fort"
+    },
+    "description": {
+        "en-US": "An actor resumed an activity in a game session.",
+        "de-DE": "Ein Akteur setzte eine Aktivität in einer Spiel Instanz fort."
+    },
+    "exactMatch": [
+        "https://adlnet.gov/expapi/verbs/resumed",
+        "https://registry.tincanapi.com/#uri/verb/33"
+    ]
+}
