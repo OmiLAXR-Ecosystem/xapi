@@ -1,0 +1,10 @@
+stages:
+  - linting
+
+jsonlint:
+  stage: linting
+  image: pipelinecomponents/jsonlint:latest
+  script:
+    - |
+      find . -not -path './.git/*' -name '*.json' -type f -print0 |
+      parallel --will-cite -k -0 -n1 jsonlint -q
