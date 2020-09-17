@@ -1,0 +1,16 @@
+{
+"name": {
+	"en-US": "requested",
+	"de-DE": "angefordert"
+},
+"description": {
+	"en-US": "Actor requested an object/access/information",
+	"de-DE": "Akteur hat ein/en Objekt/Zugang/Informationen angefordert"
+},
+"exactMatch": [
+	"https://activitystrea.ms/registry/verbs/",
+	"https://registry.tincanapi.com/#uri/verb/136"
+],
+"relatedMatch": [
+]
+}

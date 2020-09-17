@@ -1,0 +1,16 @@
+{
+"name": {
+	"en-US": "sent",
+	"de-DE": "gesendet"
+},
+"description": {
+	"en-US": "Actor sent a message to a person/group",
+	"de-DE": "Akteur hat eine Nachricht zu einer Person/Gruppe gesendet"
+},
+"exactMatch": [
+	"https://activitystrea.ms/registry/verbs/",
+	"https://registry.tincanapi.com/#uri/verb/146"
+],
+"relatedMatch": [
+]
+}

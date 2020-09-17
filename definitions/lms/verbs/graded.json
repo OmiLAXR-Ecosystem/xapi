@@ -1,0 +1,15 @@
+{
+"name": {
+	"en-US": "graded",
+	"de-DE": "benotet"
+},
+"description": {
+	"en-US": "Actor rated an object/person",
+	"de-DE": "Akteur hat ein/e Objekt/Person benotet"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+	"https://registry.tincanapi.com/#uri/verb/306"
+]
+}

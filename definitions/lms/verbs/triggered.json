@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "triggered",
+	"de-DE": "ausgelöst"
+},
+"description": {
+	"en-US": "Actor triggered a process",
+	"de-DE": "Akteur hat einen Prozess ausgelöst"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

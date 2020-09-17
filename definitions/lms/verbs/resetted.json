@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "resetted",
+	"de-DE": "zurückgesetzt"
+},
+"description": {
+	"en-US": "Actor resetted an object",
+	"de-DE": "Akteur hat ein Objekt zurückgesetzt"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

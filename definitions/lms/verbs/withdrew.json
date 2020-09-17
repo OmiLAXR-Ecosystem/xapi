@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "withdrew",
+	"de-DE": "zog zurück"
+},
+"description": {
+	"en-US": "Actor removed the assignment of an object/task/activity to someone",
+	"de-DE": "Akteur hat die Zuteilung eines/r Objektes/Aufgabe/Aktivität zurückgezogen"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

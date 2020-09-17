@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "exported",
+	"de-DE": "exportiert"
+},
+"description": {
+	"en-US": "Actor exported an object/data",
+	"de-DE": "Akteur hat ein Objekt/Daten exportiert"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

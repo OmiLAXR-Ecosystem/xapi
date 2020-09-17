@@ -1,0 +1,15 @@
+{
+"name": {
+	"en-US": "reviewed",
+	"de-DE": "geprüft"
+},
+"description": {
+	"en-US": "Actor reviewed an object",
+	"de-DE": "Akteur hat ein Objekt geprüft"
+},
+"exactMatch": [
+	"https://registry.tincanapi.com/#uri/verb/247"
+],
+"relatedMatch": [
+]
+}

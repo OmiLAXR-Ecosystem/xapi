@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "succeeded",
+	"de-DE": "gelang"
+},
+"description": {
+	"en-US": "Actor succeeded an activity",
+	"de-DE": "Akteur ist eine Aktivität gelungen"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

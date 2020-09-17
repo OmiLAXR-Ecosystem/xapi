@@ -1,0 +1,14 @@
+{
+"name": {
+	"en-US": "unlocked",
+	"de-DE": "freigegeben"
+},
+"description": {
+	"en-US": "Actor unlocked an object",
+	"de-DE": "Akteur hat ein Objekt freigegeben"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+]
+}

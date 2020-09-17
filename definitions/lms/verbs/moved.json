@@ -1,0 +1,17 @@
+{
+"name": {
+	"en-US": "moved",
+	"de-DE": "bewegt"
+},
+"description": {
+	"en-US": "Actor moved an object/person from one group/area to another",
+	"de-DE": "Akteuer hat ein/e Objekt/Person von einer Gruppe/Region in eine andere bewegt"
+},
+"exactMatch": [
+],
+"relatedMatch": [
+	"https://registry.tincanapi.com/#uri/verb/83",
+	"https://activitystrea.ms/registry/verbs/",
+	"https://registry.tincanapi.com/#uri/verb/133"
+]
+}

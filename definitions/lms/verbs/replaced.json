@@ -1,0 +1,16 @@
+{
+"name": {
+	"en-US": "replaced",
+	"de-DE": "ersetzt"
+},
+"description": {
+	"en-US": "Actor replaced an object/person",
+	"de-DE": "Akteur hat ein/e Objekt/Person ersetzt"
+},
+"exactMatch": [
+	"https://activitystrea.ms/registry/verbs/",
+	"https://registry.tincanapi.com/#uri/verb/135"
+],
+"relatedMatch": [
+]
+}

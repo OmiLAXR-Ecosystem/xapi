@@ -1,0 +1,15 @@
+{
+"name": {
+	"en-US": "failed",
+	"de-DE": "scheiterte"
+},
+"description": {
+	"en-US": "Actor failed an activity (quiz attempt, upload, log in)",
+	"de-DE": "Akteur scheiterte an einer Aktivität (Quizversuch, Upload, Einloggen)"
+},
+"exactMatch": [
+	"https://registry.tincanapi.com/#uri/verb/20"
+],
+"relatedMatch": [
+]
+}

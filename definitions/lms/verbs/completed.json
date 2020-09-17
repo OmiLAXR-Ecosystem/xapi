@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en-US": "completed",
+        "de-DE": "fertiggestellt"
+    },
+    "description": {
+        "en-US": "Actor completed an activity/task",
+        "de-DE": "Akteur hat eine Aktivität/Aufgabe fertiggestellt"
+    },
+    "exactMatch": [   
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/98"
+
+    ],
+    "relatedMatch": [
+    ]
+}

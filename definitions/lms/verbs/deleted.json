@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en-US": "deleted",
+        "de-DE": "gelöscht"
+    },
+    "description": {
+        "en-US": "Actor deleted an object",
+        "de-DE": "Akteur hat ein Objekt gelöscht"
+    },
+    "exactMatch": [
+      "https://activitystrea.ms/registry/verbs/",
+      "https://registry.tincanapi.com/#uri/verb/103"
+    ],
+    "relatedMatch": [
+    ]
+}
