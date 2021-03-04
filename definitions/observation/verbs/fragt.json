@@ -13,9 +13,9 @@
                     "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt Interesse, Stolz oder Freude"],
                     "result":{
                         "score":{
-                          "raw": Number(5),
-                          "min": Number(1),
-                          "max": Number(5)
+                          "raw": NUMBER(5),
+                          "min": NUMBER(1),
+                          "max": NUMBER(5)
                         }
                     }
                 }
@@ -28,9 +28,9 @@
                     "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt Interesse, Stolz oder Freude"],
                     "result":{
                         "score":{
-                          "raw": Number(5),
-                          "min": Number(1),
-                          "max": Number(5)
+                          "raw": NUMBER(5),
+                          "min": NUMBER(1),
+                          "max": NUMBER(5)
                         }
                     }
                 },
@@ -38,9 +38,9 @@
                     "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"],
                     "result":{
                         "score":{
-                          "raw": Number(5),
-                          "min": Number(1),
-                          "max": Number(5)
+                          "raw": NUMBER(5),
+                          "min": NUMBER(1),
+                          "max": NUMBER(5)
                         }
                     }
                 }
