@@ -4,5 +4,47 @@
     },
     "description": {
         "de-DE": "Ein Akteur fragt etwas"
-    }
+    },
+    "choices": [
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nach Aufgaben Details"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt Interesse, Stolz oder Freude"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt Interesse, Stolz oder Freude"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }
