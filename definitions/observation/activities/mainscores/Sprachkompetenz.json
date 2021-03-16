@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "Sprachkompetenz"
+    },
+    "description": {
+        "de-DE": "Mainscore (5/5) wenn ein Akteuer Sprachkompetenz zeigt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

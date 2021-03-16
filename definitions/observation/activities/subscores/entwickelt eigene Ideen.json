@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "entwickelt eigene Ideen"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Ideen entwickelt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

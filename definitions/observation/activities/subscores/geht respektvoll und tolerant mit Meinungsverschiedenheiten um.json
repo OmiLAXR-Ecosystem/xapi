@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "geht respektvoll und tolerant mit Meinungsverschiedenheiten um"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer respektvoll und tolerant mit Meinungsverschiedenheiten umgeht"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "kann auch komplexe Sachverhalte ausdrücken und/oder verstehen"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer auch komplexe Sachverhalte ausdrücken und/oder verstehen kann"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

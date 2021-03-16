@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "bleibt in schwierigen/unangenehmen Situationen gelassen und ruhig"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer in schwierigen/unangenehmen Situationen gelassen und ruhig bleibt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

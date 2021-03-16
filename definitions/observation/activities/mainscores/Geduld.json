@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "Geduld"
+    },
+    "description": {
+        "de-DE": "Mainscore (5/5) wenn ein Akteuer Geduld zeigt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

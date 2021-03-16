@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "kann auch schwierige feinmotorische Handlungen ausführen"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer auch schwierige feinmotorische Handlungen ausführen kann"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

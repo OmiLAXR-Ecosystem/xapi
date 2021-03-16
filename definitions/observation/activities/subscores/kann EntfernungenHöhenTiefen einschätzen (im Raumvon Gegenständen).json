@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "kann Entfernungen/Höhen/Tiefen einschätzen (im Raum/von Gegenständen)"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Entfernungen/Höhen/Tiefen einschätzen kann (im Raum/von Gegenständen)"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}
