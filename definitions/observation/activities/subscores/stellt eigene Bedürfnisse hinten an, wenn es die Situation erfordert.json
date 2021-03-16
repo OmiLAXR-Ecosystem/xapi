@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Bedürfnisse hinten anstellt, wenn es die Situation erfordert"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

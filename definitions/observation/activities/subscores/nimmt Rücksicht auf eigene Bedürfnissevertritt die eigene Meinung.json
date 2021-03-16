@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein AkteuerRücksicht auf eigene Bedürfnisse  nimmt/die eigene Meinung vertritt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

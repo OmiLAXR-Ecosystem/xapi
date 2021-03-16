@@ -1,0 +1,35 @@
+{
+    "name": {
+        "de-DE": "beschäftigt"
+    },
+    "description": {
+        "de-DE": "Ein Akteur beschäftigt sich mit etwas"
+    },
+    "choices": [
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich mit anderen Dingen"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
+                    "result":{
+                        "score":{
+                          "raw": 2,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
+                    "result":{
+                        "score":{
+                          "raw": 2,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

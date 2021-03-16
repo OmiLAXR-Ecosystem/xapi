@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer geeignete Mittel einsetzt/geeignete Handlungen ausführt, um das Ziel zu erreichen"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

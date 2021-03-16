@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "wird immer wieder von sich aus aktiv"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer immer wieder von sich aus aktiv wird"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

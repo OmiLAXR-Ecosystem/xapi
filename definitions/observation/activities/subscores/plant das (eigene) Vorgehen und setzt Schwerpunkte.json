@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "plant das (eigene) Vorgehen und setzt Schwerpunkte"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer das (eigene) Vorgehen plant und Schwerpunkte setzt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

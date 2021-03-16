@@ -1,0 +1,45 @@
+{
+    "name": {
+        "de-DE": "erzählt"
+    },
+    "description": {
+        "de-DE": "Ein Akteur erzählt etwas verbal"
+    },
+    "choices": [
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine Idee"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/entwickelt eigene Ideen"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

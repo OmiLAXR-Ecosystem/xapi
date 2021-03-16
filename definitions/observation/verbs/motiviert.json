@@ -4,5 +4,107 @@
     },
     "description": {
         "de-DE": "Ein Akteur motiviert jemanden"
-    }
+    },
+    "choices": [
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich selbst"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/bleibt in schwierigenunangenehmen Situationen gelassen und ruhig"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"],
+            "rules" : [
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
+                    "result":{
+                        "score":{
+                          "raw": 5,
+                          "min": 1,
+                          "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }

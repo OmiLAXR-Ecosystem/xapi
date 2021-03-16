@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "artikuliert eigene Gedanken klar und verständlich"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Gedanken klar und verständlich artikuliert"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

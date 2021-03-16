@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "erarbeitet ein klares Bild der Ausgangssituation/Problemstellung"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer erarbeitet ein klares Bild der Ausgangssituation/Problemstellung"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}

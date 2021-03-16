@@ -1,0 +1,14 @@
+{
+    "name": {
+        "de-DE": "führt Bewegungen präzise/genau aus"
+    },
+    "description": {
+        "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Bewegungen präzisegenau ausführt"
+    },
+    "result":{
+        "score":{
+          "min": 1,
+          "max": 5
+        }
+    }
+}
