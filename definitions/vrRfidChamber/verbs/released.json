@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "released"
+    },
+    "description": {
+        "en-US": "An actor has released the object."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/304"
+    ]
+
+}

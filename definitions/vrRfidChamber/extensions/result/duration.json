@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "duration"
+    },
+    "description": {
+        "en-US": "Value representing a length of time required to complete the experiment."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/extension/288"
+    ]
+}

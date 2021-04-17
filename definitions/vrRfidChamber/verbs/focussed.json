@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "focused"
+    },
+    "description": {
+        "en-US": "An actor has focused on the RFID tag."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/278",
+		"http://id.tincanapi.com/verb/focused"
+    ]
+}

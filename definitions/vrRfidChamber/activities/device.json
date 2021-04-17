@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "device "
+    },
+    "description": {
+        "en-US": "Represents the RFID chamber."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/60"
+    ]
+}

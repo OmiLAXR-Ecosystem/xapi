@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "opened"
+    },
+    "description": {
+        "en-US": "An actor has opened the object."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/126"
+    ]
+}

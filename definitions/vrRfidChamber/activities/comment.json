@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "comment"
+    },
+    "description": {
+        "en-US": "Some kind of written text to explain an action"
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/59"
+    ]
+}

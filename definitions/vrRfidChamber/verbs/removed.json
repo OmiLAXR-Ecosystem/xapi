@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "removed"
+    },
+    "description": {
+        "en-US": "An actor has removed an object from the target."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/286"
+    ]
+
+}

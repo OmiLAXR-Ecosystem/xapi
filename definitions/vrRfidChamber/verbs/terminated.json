@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "terminated"
+    },
+    "description": {
+        "en-US": "An actor has terminated the operation."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/153"
+    ]
+
+}

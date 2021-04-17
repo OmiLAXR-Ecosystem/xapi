@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "screen"
+    },
+    "description": {
+        "en-US": "The screen showing the virtual lab and can be clicked or touched on for interaction with the game."
+    }
+}

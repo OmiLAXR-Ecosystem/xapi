@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "session"
+    },
+    "description": {
+        "en-US": "A session is one execution of the lab from entering the lab to exiting it."
+    }
+}

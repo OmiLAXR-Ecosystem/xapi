@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "experimentmode"
+    },
+    "description": {
+        "en-US": "The experimentmode in which the experiment is carried. Can be energy measurement or reading range measurement"
+    }
+}

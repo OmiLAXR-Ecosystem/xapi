@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "start time"
+    },
+    "description": {
+        "en-US": "The time when the experiment began. This is captured from the system time of the local machine."
+    }
+}

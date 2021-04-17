@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "interacted"
+    },
+    "description": {
+        "en-US": "An actor has interacted with the object."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/118"
+    ]
+
+}

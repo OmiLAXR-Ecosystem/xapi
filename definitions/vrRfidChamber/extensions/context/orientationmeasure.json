@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "orientationmeasure"
+    },
+    "description": {
+        "en-US": "In this case the best possible orientation of the RFID tag is measured."
+    }
+}

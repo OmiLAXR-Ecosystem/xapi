@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "closed"
+    },
+    "description": {
+        "en-US": "An actor closed an the door of the RFID chamber."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/97",
+        "http://activitystrea.ms/schema/1.0/close"
+    ]
+
+}

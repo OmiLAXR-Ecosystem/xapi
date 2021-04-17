@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "viewed"
+    },
+    "description": {
+        "en-US": "An actor has viewed the object details"
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/292"
+    ]
+
+}

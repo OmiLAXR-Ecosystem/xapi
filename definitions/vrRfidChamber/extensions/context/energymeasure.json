@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "energymeasure"
+    },
+    "description": {
+        "en-US": "In this case the energy of RFID tag is measured."
+    }
+}

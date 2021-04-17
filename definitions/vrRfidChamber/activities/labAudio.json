@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "lab audio"
+    },
+    "description": {
+        "en-US": "Some audio content to feel the rela atmosphere of the lab. This can be switched on or off"
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/56"
+    ]
+}

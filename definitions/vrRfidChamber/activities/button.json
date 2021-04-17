@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "button"
+    },
+    "description": {
+        "en-US": "Something an actor can press, which then triggers an action in the lab."
+    }
+}
