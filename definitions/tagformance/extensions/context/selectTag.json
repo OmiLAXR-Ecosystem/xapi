@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "select tag dropdown"
+    },
+    "description": {
+        "en-US": "The RFID tag selected for measurement."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "reading head"
+    },
+    "description": {
+        "en-US": "The head that is selected to read the TID."
+    }
+}

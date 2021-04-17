@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "empty"
+    },
+    "description": {
+        "en-US": "Boolean value which is true when something is empty."
+    }
+}

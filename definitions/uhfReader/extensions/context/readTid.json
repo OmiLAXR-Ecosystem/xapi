@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "read Tid"
+    },
+    "description": {
+        "en-US": "The selected element to read for the transponder."
+    }
+}

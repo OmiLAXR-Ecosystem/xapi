@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "transmitted power"
+    },
+    "description": {
+        "en-US": "The Y-axis unit in dBm for measurement."
+    }
+}

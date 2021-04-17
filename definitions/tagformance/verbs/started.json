@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "started"
+    },
+    "description": {
+        "en-US": "An actor has started the measurements."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/149"
+    ]
+}

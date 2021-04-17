@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "checkBox"
+    },
+    "description": {
+        "en-US": "A box which can be checked to select an already generated graph. Then it can be deleted using the cross button."
+    }
+}

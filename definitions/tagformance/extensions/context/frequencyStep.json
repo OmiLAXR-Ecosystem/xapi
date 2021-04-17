@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "frequency step"
+    },
+    "description": {
+        "en-US": "An actor selects a frequency step for the measurement of the graph."
+    }
+}

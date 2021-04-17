@@ -1,0 +1,8 @@
+{
+  "name": {
+    "en-US": "transponder"
+  },
+  "description": {
+    "en-US": "Represents the transpnder to the physical reader."
+  }
+}

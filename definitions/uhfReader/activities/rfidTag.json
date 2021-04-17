@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "rfidTag"
+    },
+    "description": {
+        "en-US": "Represent the RFID tag. You can drag it as per your requirements"
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/74"
+    ]
+}

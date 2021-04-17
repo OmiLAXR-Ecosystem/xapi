@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "stop frequency"
+    },
+    "description": {
+        "en-US": "The selected frequency to stop the measurement."
+    }
+}

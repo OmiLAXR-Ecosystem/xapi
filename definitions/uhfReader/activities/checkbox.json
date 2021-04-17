@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "checkbox"
+    },
+    "description": {
+        "en-US": "A box which can be checked or unchecked. For example in this case Read TID should be selected."
+    }
+}

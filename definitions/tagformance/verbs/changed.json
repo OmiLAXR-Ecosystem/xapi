@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "selected"
+    },
+    "description": {
+        "en-US": "An actor changed a value of an ui element."
+    }
+}

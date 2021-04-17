@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "Log In"
+    },
+    "description": {
+        "en-US": "An actor logged in to the portal."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/284"
+    ]
+}

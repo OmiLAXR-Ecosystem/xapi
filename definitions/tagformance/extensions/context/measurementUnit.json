@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "measurement unit dropdown"
+    },
+    "description": {
+        "en-US": "An actor selects a unit in the Y-axis of the graph that is measured."
+    }
+}

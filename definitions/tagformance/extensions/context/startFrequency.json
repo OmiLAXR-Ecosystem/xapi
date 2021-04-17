@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "start frequency"
+    },
+    "description": {
+        "en-US": "The selected frequency to start the measurement."
+    }
+}

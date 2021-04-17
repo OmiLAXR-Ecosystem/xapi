@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "commented"
+    },
+    "description": {
+        "en-US": "An actor has written down the his/her thought."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/28"
+    ]
+}

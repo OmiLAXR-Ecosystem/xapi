@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "power step"
+    },
+    "description": {
+        "en-US": "The power step selected for the measurement."
+    }
+}

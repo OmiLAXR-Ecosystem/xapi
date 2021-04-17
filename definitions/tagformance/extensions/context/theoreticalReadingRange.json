@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "theoretical reading range"
+    },
+    "description": {
+        "en-US": "The Y-axis unit in the graph for measuring the reading range of transponder."
+    }
+}

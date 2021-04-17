@@ -1,0 +1,8 @@
+{
+  "name": {
+    "en-US": "evaluation type"
+  },
+  "description": {
+    "en-US": "An evaluation can have a type. For example a transponder can be evaluated externally using google by copying the id and pasting it externally."
+  }
+}

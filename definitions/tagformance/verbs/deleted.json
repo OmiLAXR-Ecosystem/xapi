@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "deleted"
+    },
+    "description": {
+        "en-US": "An actor has deleted a digital artefact from the software."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/103"
+    ]
+}

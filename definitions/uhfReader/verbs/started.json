@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "started"
+    },
+    "description": {
+        "en-US": "An actor started an activity or process."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/149"
+    ]
+}

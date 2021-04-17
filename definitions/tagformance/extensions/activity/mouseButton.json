@@ -1,0 +1,8 @@
+{
+  "name": {
+    "en-US": "mouse button"
+  },
+  "description": {
+    "en-US": "Name of the mouse button the actor has used (e.g. 'right', 'left')."
+  }
+}

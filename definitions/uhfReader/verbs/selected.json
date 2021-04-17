@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "selected"
+    },
+    "description": {
+        "en-US": "An actor selects an activity mode or experiment mode from menu."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/448"
+    ]
+}

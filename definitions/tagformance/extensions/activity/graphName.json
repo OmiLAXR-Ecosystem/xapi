@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "graphName"
+    },
+    "description": {
+        "en-US": "An actor has authored the name of the graph or entered the username."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/92"
+    ]
+}

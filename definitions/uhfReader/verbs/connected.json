@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "connected"
+    },
+    "description": {
+        "en-US": "An actor connected an device (e.g. transponder) to the physical reader."
+    }
+}

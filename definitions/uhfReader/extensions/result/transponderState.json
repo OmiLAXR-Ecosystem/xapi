@@ -1,0 +1,8 @@
+{
+  "name": {
+    "en-US": "transponderState"
+  },
+  "description": {
+    "en-US": "State of the transpnder to the physical reader."
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "graph"
+    },
+    "description": {
+        "en-US": "A graph that is generated after clicking on Start Sweep button. This can be interactible."
+    }
+}

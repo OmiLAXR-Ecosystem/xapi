@@ -1,0 +1,8 @@
+{
+  "name": {
+    "en-US": "ui element value"
+  },
+  "description": {
+    "en-US": "A value of an ui element (checkbox, dropdown, etc.)."
+  }
+}

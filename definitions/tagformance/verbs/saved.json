@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "saved"
+    },
+    "description": {
+        "en-US": "An actor has saved a digital artefact from the software."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/142"
+    ]
+}

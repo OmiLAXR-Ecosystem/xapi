@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "Log Out"
+    },
+    "description": {
+        "en-US": "An actor logged out of the portal."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/398"
+    ]
+}

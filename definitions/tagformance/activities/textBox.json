@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "commentBox"
+    },
+    "description": {
+        "en-US": "A textbox, where the actor can fill text."
+    }
+}
