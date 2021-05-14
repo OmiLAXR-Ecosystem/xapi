@@ -4,8 +4,8 @@
         "de-DE": "teilte"
     },
     "description": {
-        "en-US": "A player or group shared an object with another player or a group of players.",
-        "de-DE": "Ein Spieler oder eine Gruppe teitle eine Gegenstand mit einem anderen Spieler oder einer Gruppe."
+        "en-US": "An actor shared an object with another actor or a group of actors.",
+        "de-DE": "Ein Akteur teitle eine Gegenstand mit einem anderen Acteur oder einer Gruppe."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/147",

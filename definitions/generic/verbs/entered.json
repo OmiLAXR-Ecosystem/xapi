@@ -4,7 +4,7 @@
         "de-DE": "gab ein"
     },
     "description": {
-        "en-US": "A player or group gave some input.",
-        "de-DE": "Ein Spieler oder eine Gruppe gab eine Eingabe."
+        "en-US": "An actor gave some input.",
+        "de-DE": "Ein Akteur gab eine Eingabe."
     }
 }

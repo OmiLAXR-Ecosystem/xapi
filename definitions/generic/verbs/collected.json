@@ -4,7 +4,7 @@
         "de-DE": "sammelte"
     },
     "description": {
-        "en-US": "A player or group collected some item.",
-        "de-DE": "Ein Spieler oder eine Gruppe sammelte einen Gegenstand ein."
+        "en-US": "An actor collected some item.",
+        "de-DE": "Ein Akteur sammelte einen Gegenstand ein."
     }
 }

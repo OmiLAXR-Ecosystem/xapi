@@ -4,7 +4,7 @@
         "de-DE": "bewegte"
     },
     "description": {
-        "en-US": "A player or group moved itself or some object in the game world.",
-        "de-DE": "Ein Spieler oder eine Gruppe bewegte sich oder einen Gegenstand in der Spielwelt."
+        "en-US": "An actor moved itself or some object in the game world.",
+        "de-DE": "Ein Akteur bewegte sich oder einen Gegenstand in der Spielwelt."
     }
 }

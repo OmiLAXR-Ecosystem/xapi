@@ -4,8 +4,8 @@
         "de-DE": "lies zurück"
     },
     "description": {
-        "en-US": "A player or group left behind some object.",
-        "de-DE": "Ein Spieler oder eine Gruppe lies einen Gegenstand zurück."
+        "en-US": "An actor left behind some object.",
+        "de-DE": "Ein Akteur lies einen Gegenstand zurück."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/121",

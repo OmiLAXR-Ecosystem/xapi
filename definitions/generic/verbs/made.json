@@ -4,7 +4,7 @@
         "de-DE": "fällte"
     },
     "description": {
-        "en-US": "A player or group made a decision.",
-        "de-DE": "Ein Spieler oder eine Gruppe fällte eine Entscheidung."
+        "en-US": "An actor made a decision.",
+        "de-DE": "Ein Akteur fällte eine Entscheidung."
     }
 }

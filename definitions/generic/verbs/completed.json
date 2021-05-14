@@ -4,8 +4,8 @@
         "de-DE": "schloss ab"
     },
     "description": {
-        "en-US": "A player or group completed some task, goal or level.",
-        "de-DE": "Ein Spieler oder eine Gruppe schloss eine Aufgabe, ein Ziel oder ein Level ab."
+        "en-US": "An actor completed some task, goal or level.",
+        "de-DE": "Ein Akteur schloss eine Aufgabe, ein Ziel oder ein Level ab."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/98",

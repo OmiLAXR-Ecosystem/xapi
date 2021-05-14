@@ -4,7 +4,7 @@
         "de-DE": "ordnete"
     },
     "description": {
-        "en-US": "A player or group brought some objects into order.",
-        "de-DE": "Ein Spieler oder eine Gruppe ordnete ein Anzahl an Gegenständen."
+        "en-US": "An actor brought some objects into order.",
+        "de-DE": "Ein Akteur ordnete ein Anzahl an Gegenständen."
     }
 }

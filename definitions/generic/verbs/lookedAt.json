@@ -4,7 +4,7 @@
         "de-DE": "schaute auf"
     },
     "description": {
-        "en-US": "A player looked at a specific object. Only use if you can determine that the player really looked at something, thriough eye-tracking for example.",
-        "de-DE": "Ein Spieler schaute auf eine spezifische Sache. Sollte nur genutzt werden wenn sichergestellt werden kann, dass der Spieler sich die Sache auch wirklich angeschaut hat. Mit Eyetracking kann das zum Beispiel gemacht werden."
+        "en-US": "A actor looked at a specific object. Only use if you can determine that the actor really looked at something, thriough eye-tracking for example.",
+        "de-DE": "Ein Acteur schaute auf eine spezifische Sache. Sollte nur genutzt werden wenn sichergestellt werden kann, dass der Spieler sich die Sache auch wirklich angeschaut hat. Mit Eyetracking kann das zum Beispiel gemacht werden."
     }
 }

@@ -4,7 +4,7 @@
         "de-DE": "nahm Auswahl zurück"
     },
     "description": {
-        "en-US": "A player or group deselected a option.",
-        "de-DE": "Ein Spieler oder eine Gruppe nahm die Auswahl einer Option zurück."
+        "en-US": "An actor deselected a option.",
+        "de-DE": "Ein Akteur nahm die Auswahl einer Option zurück."
     }
 }

@@ -4,7 +4,7 @@
         "de-DE": "drückte Knopf"
     },
     "description": {
-        "en-US": "A player or gorup pressed a specific button. Only use if the press of specific buttons should be tracked. Use the specific button as activity then. Otherwise use press as verb and button as activity.",
-        "de-DE": "Ein Spieler oder eine Gruppe drückte einen bestimmten Knopf. Sollte nur genutzt werden, wenn das Drücken eines bestimmten Knopfes aufgezeichnet werden soll. Nutze dann den speziellen Knopf als Aktivität der Aussage. Andernfalls nutze drückte als Verb und Knopf als Aktivität."
+        "en-US": "A actor or gorup pressed a specific button. Only use if the press of specific buttons should be tracked. Use the specific button as activity then. Otherwise use press as verb and button as activity.",
+        "de-DE": "Ein Akteur drückte einen bestimmten Knopf. Sollte nur genutzt werden, wenn das Drücken eines bestimmten Knopfes aufgezeichnet werden soll. Nutze dann den speziellen Knopf als Aktivität der Aussage. Andernfalls nutze drückte als Verb und Knopf als Aktivität."
     }
 }

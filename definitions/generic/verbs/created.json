@@ -4,8 +4,8 @@
         "de-DE": "erstellte"
     },
     "description": {
-        "en-US": "A player or group created something.",
-        "de-DE": "Ein Spieler oder eine Gruppe erstellte etwas."
+        "en-US": "An actor created something.",
+        "de-DE": "Ein Akteur erstellte etwas."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/102",

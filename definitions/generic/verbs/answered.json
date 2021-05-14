@@ -4,8 +4,8 @@
         "de-DE": "beantwortete"
     },
     "description": {
-        "en-US": "A player or group answered some question.",
-        "de-DE": "Ein Spieler oder eine Gruppe beantwortete eine Frage."
+        "en-US": "An actor answered some question.",
+        "de-DE": "Ein Akteur beantwortete eine Frage."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/21",

@@ -4,8 +4,8 @@
         "de-DE": "scheiterte"
     },
     "description": {
-        "en-US": "A player or group failed some task.",
-        "de-DE": "Ein Spieler oder eine Gruppe scheiterte an einer Aufgabe."
+        "en-US": "An actor failed some task.",
+        "de-DE": "Ein Akteur scheiterte an einer Aufgabe."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/20",
