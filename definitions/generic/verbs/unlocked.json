@@ -4,7 +4,7 @@
         "de-DE": "schaltete frei"
     },
     "description": {
-        "en-US": "A player or group unlocked some game related option or item.",
-        "de-DE": "Ein Spieler oder eine Gruppe schaltete eine spielrelevante Option oder einen Gegenstand frei."
+        "en-US": "A player or group unlocked some option or item.",
+        "de-DE": "Ein Spieler oder eine Gruppe schaltete eine Option oder einen Gegenstand frei."
     }
 }

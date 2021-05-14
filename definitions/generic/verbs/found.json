@@ -4,8 +4,8 @@
         "de-DE": "fand"
     },
     "description": {
-        "en-US": "A player or group found some game related item.",
-        "de-DE": "Ein Spieler oder eine Gruppe fand einen für das Spiel relevanten Gegenstand."
+        "en-US": "A player or group found some item.",
+        "de-DE": "Ein Spieler oder eine Gruppe fand einen Gegenstand."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/110",

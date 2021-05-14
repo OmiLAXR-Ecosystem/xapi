@@ -4,8 +4,8 @@
         "de-DE": "schloss"
     },
     "description": {
-        "en-US": "A player or group closed something ingame. Could for example be the settings.",
-        "de-DE": "Ein Spieler oder eine Gruppe schloss etwas im Spiel. Könnten zum Beispiel die Einstellungen sein."
+        "en-US": "A player or group closed something. Could for example be the settings.",
+        "de-DE": "Ein Spieler oder eine Gruppe schloss etwas. Könnten zum Beispiel die Einstellungen sein."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/97",

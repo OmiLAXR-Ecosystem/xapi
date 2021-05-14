@@ -4,8 +4,8 @@
         "de-DE": "malte"
     },
     "description": {
-        "en-US": "A player or group drew something inside the game.",
-        "de-DE": "Ein Spieler oder eine Gruppe malte etwas in einem Spiel."
+        "en-US": "A player or group drew something.",
+        "de-DE": "Ein Spieler oder eine Gruppe malte etwas."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/308",

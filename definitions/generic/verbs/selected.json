@@ -4,8 +4,8 @@
         "de-DE": "wählte aus"
     },
     "description": {
-        "en-US": "A player or group selected some game related option. This could be an answer or a level for example.",
-        "de-DE": "Ein Spieler oder eine Gruppe wählte eine für das Spiel relevante option. Dies könnte eine Antwort auf eine Frage oder auch ein Level sein."
+        "en-US": "A player or group selected some option. This could be an answer or a level for example.",
+        "de-DE": "Ein Spieler oder eine Gruppe wählte eine Option. Dies könnte eine Antwort auf eine Frage oder auch ein Level sein."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/448",

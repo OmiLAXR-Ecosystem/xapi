@@ -4,8 +4,8 @@
         "de-DE": "speicherte"
     },
     "description": {
-        "en-US": "A player or group saved their progress in a game session.",
-        "de-DE": "Ein Spieler oder eine Gruppe speicherte ihren Spielfortschritt in einer Spielinstanz ab."
+        "en-US": "A player or group saved their progress.",
+        "de-DE": "Ein Spieler oder eine Gruppe speicherte ihren Fortschritt."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/142",

@@ -4,7 +4,7 @@
         "de-DE": "fällte"
     },
     "description": {
-        "en-US": "A player or group made a decision relevant for the game state.",
-        "de-DE": "Ein Spieler oder eine Gruppe fällte eine spielrelevante Entscheidung."
+        "en-US": "A player or group made a decision.",
+        "de-DE": "Ein Spieler oder eine Gruppe fällte eine Entscheidung."
     }
 }
