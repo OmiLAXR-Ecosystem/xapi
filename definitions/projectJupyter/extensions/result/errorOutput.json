@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Error Output",
+    "de-DE": "Error Output"
+  },
+  "description": {
+    "en-US": "Directly refers to the textual output a Jupyter Notebook Code-Cell generates if an error occurs during the execution of the cell.",
+    "de-DE": "Bezieht sich auf den Text Rückgabewert, den eine Jupyter Notebook Zelle generiert wenn ein Fehler während der Ausführung der Zelle auftritt."
+  }
+}

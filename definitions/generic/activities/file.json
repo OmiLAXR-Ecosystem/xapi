@@ -1,0 +1,15 @@
+{
+    "name": {
+        "en-US": "File",
+        "de-DE": "Datei"
+    },
+    "description": {
+        "en-US": "A collection of in most cases connected data on a disk.",
+        "de-DE": "Ein Bestand von meist zusammenhängenden Daten auf einem Speichermedium"
+    },
+    "exactMatch": [
+        "http://activitystrea.ms/schema/1.0/file",
+        "https://registry.tincanapi.com/#uri/activityType/62"
+    ]
+}
+
