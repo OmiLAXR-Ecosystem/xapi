@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Forum",
+        "de-DE": "Forum"
+    },
+    "description": {
+        "en-US": "A forum for discussion.",
+        "de-DE": "Ein Forum für Diskussionen."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

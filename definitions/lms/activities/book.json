@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Book",
+        "de-DE": "Buch"
+    },
+    "description": {
+        "en-US": "A book, containing multiple texts and images, structured as chapters.",
+        "de-DE": "Ein Buch welches Texte und Bilder in einzelnen Kapiteln darstellt."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [
+        "http://id.tincanapi.com/activitytype/book"
+    ]
+}

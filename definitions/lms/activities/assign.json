@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Assignment",
+        "de-DE": "Aufgabe"
+    },
+    "description": {
+        "en-US": "An assignment object. Provides the students with a task description and further needed materials and allows to upload a submission.",
+        "de-DE": "Eine Aufgabe. Gibt eine Aufgabenstellung vor und weiteres benötigtes Material und ermöglicht das Hochladen einer Abgabe."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [
+        "http://id.tincanapi.com/activitytype/school-assignment"
+    ]
+}

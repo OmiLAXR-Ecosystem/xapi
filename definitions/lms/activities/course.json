@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Course",
+        "de-DE": "Kurs"
+    },
+    "description": {
+        "en-US": "A course within an LMS. Contains learning materials and activities",
+        "de-DE": "Ein Kurs in einem LMS. Enthält Lernmaterialien und -aktivitäten"
+    },
+    "exactMatch": [   
+        "http://adlnet.gov/expapi/activities/course"
+    ],
+    "relatedMatch": [ ]
+}

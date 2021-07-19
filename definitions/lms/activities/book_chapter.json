@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Book Chapter",
+        "de-DE": "Buchkapitel"
+    },
+    "description": {
+        "en-US": "A chapter of a book.",
+        "de-DE": "Ein Kapitel in einem Buch."
+    },
+    "exactMatch": [
+        "http://id.tincanapi.com/activitytype/chapter"
+    ],
+    "relatedMatch": [ ]
+}

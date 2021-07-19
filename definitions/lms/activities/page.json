@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Page",
+        "de-DE": "Seite"
+    },
+    "description": {
+        "en-US": "A page within a course displaying custom content like text, images, videos and more.",
+        "de-DE": "Eine Seite im Kurs, die verschiedene Inhalte wie Text, Bilder, Videos und andere darstellt."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [
+        "http://activitystrea.ms/schema/1.0/page"
+    ]
+}

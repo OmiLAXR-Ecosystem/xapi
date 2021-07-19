@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "LMS",
+        "de-DE": "LMS"
+    },
+    "description": {
+        "en-US": "A Learning Management System (LMS)",
+        "de-DE": "Ein Lernmanagementsystem (LMS)"
+    },
+    "exactMatch": [   
+        "http://id.tincanapi.com/activitytype/lms"
+    ],
+    "relatedMatch": [ ]
+}
