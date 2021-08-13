@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "tags",
+    "de-DE": "Etikett"
+  },
+  "description": {
+    "en-US": "A list of words used to describe or groupe Activities.",
+    "de-DE": "Eine Liste mit von Wörtern mit denen eine Activiy beschrieben wird order mit denen mehrere Activities gruppiert werden können."
+  }
+}
