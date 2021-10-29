@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "eye",
+    "de-DE": "Auge"
+  },
+  "description": {
+    "en-US": "Actors physical (left or right) eye.",
+    "de-DE": "Physikalische (linke oder rechte) Auge vom Akteur."
+  }
+}

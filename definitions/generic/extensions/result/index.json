@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "index",
+        "de-DE": "Index"
+    },
+    "description": {
+        "en-US": "It is a number to indicies something. Can only be an integer.",
+        "de-DE": "Das ist eine Zahl für das Indexieren von etwas. Kann nur ein Integer sein."
+    }
+}

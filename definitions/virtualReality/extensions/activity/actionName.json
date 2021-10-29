@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "action name",
+        "de-DE": "Aktionsname"
+    },
+    "description": {
+        "en-US": "It is the name of an action.",
+        "de-DE": "Es ist der Name einer Aktion."
+    }
+}

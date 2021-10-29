@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "pressed",
+        "de-DE": "drückte"
+    },
+    "description": {
+        "en-US": "An actor has pressed a button.",
+        "de-DE": "Der Akteur drückte eine Taste."
+    }
+}

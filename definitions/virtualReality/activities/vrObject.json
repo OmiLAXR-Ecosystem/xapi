@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "VR object",
+        "de-DE": "VR Objekt"
+    },
+    "description": {
+        "en-US": "A virtual object in a VR environment.",
+        "de-DE": "Ein virtuelles Objekt in einer VR Umgebung."
+    }
+}

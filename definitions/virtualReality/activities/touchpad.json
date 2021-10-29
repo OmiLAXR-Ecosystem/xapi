@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "controller touchpad",
+        "de-DE": "Controller Touchpad"
+    },
+    "description": {
+        "en-US": "A VR controller touchpad the actor can use.",
+        "de-DE": "Ein VR Controller Touchpad, das die Akteurin benutzen kann."
+    }
+}

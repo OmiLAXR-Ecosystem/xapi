@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "used",
+        "de-DE": "verwendete"
+    },
+    "description": {
+        "en-US": "An actor has used part of her body.",
+        "de-DE": "Eine Akteurin verwendete ihren Körperteil."
+    }
+}

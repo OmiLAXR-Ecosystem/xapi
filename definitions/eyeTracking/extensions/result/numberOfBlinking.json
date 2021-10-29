@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number of blinking",
+        "de-DE": "Zwinker Anzahl"
+    },
+    "description": {
+        "en-US": "The number of actors eye blinking. Has to be an integer.",
+        "de-DE": "Die Anzahl an Zwinker, die die Akteurin tätigt. Muss ein Integer sein."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "hand",
+        "de-DE": "Hand"
+    },
+    "description": {
+        "en-US": "Actors physical (left or right) hand.",
+        "de-DE": "Physikalische (linke oder rechte) Hand vom Akteur."
+    }
+}

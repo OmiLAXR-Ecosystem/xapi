@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Time Span",
+        "de-DE": "Zeitspanne"
+    },
+    "description": {
+        "en-US": "A time span depending on context.",
+        "de-DE": "Eine bestimmte Zeitspanne abhängig vom Kontext."
+    }
+}

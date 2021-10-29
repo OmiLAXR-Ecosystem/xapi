@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "paused",
+        "de-DE": "pausierte"
+    },
+    "description": {
+        "en-US": "An actor paused an activity in a game session.",
+        "de-DE": "Ein Akteur pausierte eine Aktivität in einer Spiel Instanz."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/47",
+        "http://id.tincanapi.com/verb/paused"
+    ]
+}

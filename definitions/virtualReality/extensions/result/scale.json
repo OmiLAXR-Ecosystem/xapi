@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "scale",
+        "de-DE": "Skalierung"
+    },
+    "description": {
+        "en-US": "Scale in scene.",
+        "de-DE": "Skalierung in der Szene."
+    }
+}

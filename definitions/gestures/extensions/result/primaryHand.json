@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "primary hand",
+        "de-DE": "Primärhand"
+    },
+    "description": {
+        "en-US": "Setting, which hand is currently the primary hand.",
+        "de-DE": "Einstellung, welche Hand die Primärhand ist."
+    }
+}

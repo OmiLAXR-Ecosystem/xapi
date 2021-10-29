@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "pointable object",
+        "de-DE": "ein markierbares Objekt"
+    },
+    "description": {
+        "en-US": "A VR object which can be pointed with a controller laser.",
+        "de-DE": "Ein VR Objekt, welches mit einem Laser vom Controller markiert werden kann."
+    }
+}
