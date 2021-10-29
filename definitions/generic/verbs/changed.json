@@ -4,7 +4,7 @@
         "de-DE": "veränderte"
     },
     "description": {
-        "en-US": "An actor changed something ingame. This could be the level, some settings or something ingame related.",
-        "de-DE": "Ein Akteur veränderte etwas im Spiel. Dies könnte das Level sein, die Einstellungen oder etwas im Spiel selbst."
+        "en-US": "An actor changed something. This could be the level or some settings.",
+        "de-DE": "Ein Akteur veränderte etwas. Dies könnte das Level sein oder die Einstellungen."
     }
 }

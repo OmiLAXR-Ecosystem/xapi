@@ -4,7 +4,7 @@
         "de-DE": "plünderte"
     },
     "description": {
-        "en-US": "A player or group found some item and collected it.",
-        "de-DE": "Ein Spieler oder eine Gruppe fand einen Gegenstand und sammelte ihn ein."
+        "en-US": "An actor found some item and collected it.",
+        "de-DE": "Ein Akteur fand einen Gegenstand und sammelte ihn ein."
     }
 }
