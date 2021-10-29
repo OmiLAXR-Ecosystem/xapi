@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Error message",
+    "de-DE": "Fehlermeldung" 
+  },
+  "description": {
+    "en-US": "A string describing an error. Used to provide the runtimeerror that might occur during the execution of ta JupyterLab notebook cell.",
+    "de-DE": "Die beschreibung eines Fehlers. Wird verwended um z.b. Laufzeitfehler während des Ausführens einer JupyterLab Notebook Zelle anzugeben."
+  }
+}
