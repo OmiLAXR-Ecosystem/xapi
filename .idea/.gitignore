@@ -3,9 +3,3 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-# IDEs
-.idea
-.vs
-.vscode
-# Other
-.DS_Store
