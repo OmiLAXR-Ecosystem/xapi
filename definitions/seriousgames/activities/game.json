@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "game",
+        "de-DE": "Spiel"
+    },
+    "description": {
+        "en-US": "Represents a game or competition of any kind.",
+        "de-DE": "Repräsentiert jede Art von Spiel."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/activityType/63",
+        "http://activitystrea.ms/schema/1.0/game"
+    ]
+}

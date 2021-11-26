@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "loaded",
+        "de-DE": "lud"
+    },
+    "description": {
+        "en-US": "An actor loaded something in the game (a level or menu for example).",
+        "de-DE": "Ein Akteur hat etwas im Spiel geladen. Dies kann zum Beispiel ein Menü oder Level sein."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/38"
+    ]
+}

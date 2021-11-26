@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "logged In",
+        "de-DE": "loggte sich ein"
+    },
+    "description": {
+        "en-US": "A player logged into a session.",
+        "de-DE": "Ein Spieler loggte sich in eine Spiel Instanz ein."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/284",
+        "https://brindlewaye.com/xAPITerms/verbs/loggedin/"
+    ]
+}

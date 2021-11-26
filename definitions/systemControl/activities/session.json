@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "session",
+        "de-DE": "Spiel Instanz"
+    },
+    "description": {
+        "en-US": "A session is one execution of a game from booting the game to exiting it.",
+        "de-DE": "Eine Spiel Instanz ist ein Durchlauf eines Spiels vom Initalisieren des Spiels bis zum Beenden."
+    }
+}

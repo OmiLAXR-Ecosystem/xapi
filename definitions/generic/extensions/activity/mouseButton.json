@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "mouse button",
+        "de-DE": "Maus Taste"
+    },
+    "description": {
+        "en-US": "The button of a mouse.",
+        "de-DE": "Die Taste einer Maus."
+    }
+}

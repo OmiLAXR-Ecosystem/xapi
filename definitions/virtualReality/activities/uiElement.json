@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "VR user interface element",
+        "de-DE": "VR Benutzerflächenelement"
+    },
+    "description": {
+        "en-US": "An UI element in VR the user can interact with (e.g. Panel, Button, Slider).",
+        "de-DE": "Ein Benutzerflächenelement mit dem der Benutzer interagieren kann (z.B. Panel, Button, Slider)."
+    }
+}

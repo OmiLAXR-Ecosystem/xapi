@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "pointable object",
+        "de-DE": "ein markierbares Objekt"
+    },
+    "description": {
+        "en-US": "An object which can be pointed and highlighted with for example a laser starting from the controller.",
+        "de-DE": "Ein Objekt, welches z.B. mit einem Laser vom Controller markiert werden kann."
+    }
+}

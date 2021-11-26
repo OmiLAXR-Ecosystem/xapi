@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "color",
+        "de-DE": "Color"
+    },
+    "description": {
+        "en-US": "The color of an object.",
+        "de-DE": "Das Farbe eines Objekts."
+    }
+}

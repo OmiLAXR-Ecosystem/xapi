@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "position",
+        "de-DE": "Position"
+    },
+    "description": {
+        "en-US": "Position in scene.",
+        "de-DE": "Position in der Szene."
+    }
+}

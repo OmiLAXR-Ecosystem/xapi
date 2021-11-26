@@ -4,7 +4,7 @@
         "de-DE": "Position"
     },
     "description": {
-        "en-US": "The position of an object in the game. Can be in X and Y coordinates.",
-        "de-DE": "Die Position eines Objektes im Spiel. Können X- und Y-Koordinaten sein."
+        "en-US": "The position of an object in the game. Can be in X, Y and Z coordinates.",
+        "de-DE": "Die Position eines Objektes im Spiel. Können X-, Y- und Z-Koordinaten sein."
     }
 }

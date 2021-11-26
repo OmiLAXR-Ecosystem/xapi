@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "touched",
+        "de-DE": "berührte"
+    },
+    "description": {
+        "en-US": "An actor has touched a virtual object in VR environment.",
+        "de-DE": "Eine Akteurin hat ein virtuelles Objekt berührt."
+    }
+}

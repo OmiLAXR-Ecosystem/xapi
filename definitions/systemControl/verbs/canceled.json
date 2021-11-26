@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "canceled",
+        "de-DE": "brach ab"
+    },
+    "description": {
+        "en-US": "An actor ended a session, game or level without completing it.",
+        "de-DE": "Ein Akteur brach eine Spiel Instanz, ein Spiel oder ein Level ab ohne es zu vollenden."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/96",
+        "https://activitystrea.ms/schema/1.0/cancel"
+    ]
+}

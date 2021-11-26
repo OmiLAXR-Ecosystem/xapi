@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "controller button",
+        "de-DE": "Controller Taste"
+    },
+    "description": {
+        "en-US": "A controller button or gamepad button the actor can use. On–off controls that switch between different system states.",
+        "de-DE": "Eine Taste des Controllers oder des Gamepads, die die Akteurin benutzen kann. Die Betätigung der Taste führt zu einer Änderung des Systemstatus."
+    }
+}

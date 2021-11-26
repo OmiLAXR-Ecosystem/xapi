@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "moved",
+        "de-DE": "bewegte"
+    },
+    "description": {
+        "en-US": "An actor has changed a virtual object's position in VR environment.",
+        "de-DE": "Eine Akteurin hat die Position eines virtuellen Objekts verändert."
+    }
+}

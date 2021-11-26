@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "System control activity name",
+    "de-DE": "System Control Activity Name"
+  },
+  "description": {
+    "en-US": "Name of a system control activity. Must be a string.",
+    "de-DE": "Namen von einer Aktivität von des Systemkontrollers. Muss ein String sein."
+  }
+}

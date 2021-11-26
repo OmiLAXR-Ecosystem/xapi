@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "value",
+        "de-DE": "Wert"
+    },
+    "description": {
+        "en-US": "It is a value of an element.",
+        "de-DE": "Das ist eine Wert eines Elements."
+    }
+}

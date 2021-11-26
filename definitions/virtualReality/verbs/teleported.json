@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "teleported",
+        "de-DE": "teleportierte"
+    },
+    "description": {
+        "en-US": "An actor has changed her own position in VR environment by teleport.",
+        "de-DE": "Eine Akteurin hat die eigene Position in der VR Umgebung durch Teleportation verändert."
+    }
+}

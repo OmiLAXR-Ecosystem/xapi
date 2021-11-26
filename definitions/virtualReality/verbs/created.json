@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "created",
+        "de-DE": "erstellte"
+    },
+    "description": {
+        "en-US": "An actor has created a virtual object in the VR environment.",
+        "de-DE": "Eine Akteurin hat ein virtuelles Objekt in der VR Umgebung erstellt."
+    }
+}

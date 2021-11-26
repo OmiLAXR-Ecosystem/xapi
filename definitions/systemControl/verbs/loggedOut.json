@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "logged out",
+        "de-DE": "loggte sich aus"
+    },
+    "description": {
+        "en-US": "A player logged out of a session.",
+        "de-DE": "Ein Spieler loggte sich aus einer Spiel Instanz aus."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/398",
+        "https://brindlewaye.com/xAPITerms/verbs/loggedout/"
+    ]
+}

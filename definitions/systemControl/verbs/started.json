@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "started",
+        "de-DE": "startete"
+    },
+    "description": {
+        "en-US": "A player started an activity in a game session. This could be the game itself, a level or a stage for example.",
+        "de-DE": "Ein Spieler startete eine Aktivität in einer Spielinstanz. Dies könnte zum Beispiel ein Spiel selber sein, ein Level oder ein Spielabschnitt."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/149",
+        "https://activitystrea.ms/schema/1.0/start"
+    ]
+}

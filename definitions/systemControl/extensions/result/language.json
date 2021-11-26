@@ -1,0 +1,10 @@
+{
+    "name": {
+      "en-US": "language",
+      "de-DE": "Sprache"
+    },
+    "description": {
+      "en-US": "Language of the system.",
+      "de-DE": "Sprache des Systems."
+    }
+  }

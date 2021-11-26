@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "keyboard button",
+        "de-DE": "Tastatur Taste"
+    },
+    "description": {
+        "en-US": "The button of the keyboard.",
+        "de-DE": "Eine Taste der Tastatur."
+    }
+}

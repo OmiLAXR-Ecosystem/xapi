@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "hand",
+        "de-DE": "Hand"
+    },
+    "description": {
+        "en-US": "Hand which is currently active.",
+        "de-DE": "Die Hand, die gerade verwendet wird."
+    }
+}

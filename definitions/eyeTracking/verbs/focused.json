@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "focused",
+        "de-DE": "fokussierte"
+    },
+    "description": {
+        "en-US": "An actor focused an object with her eyes. The term focused describes a fixation, which is longer than a normal fixation with more than 500 milliseconds. Compare fixated",
+        "de-DE": "Eine Aktuerin fokussierte ein Objekt mit ihren Augen. Die Fixation hat länger als 500 Millisekunden gedauert (Unterscheidung zur Fixation)."
+    }
+}

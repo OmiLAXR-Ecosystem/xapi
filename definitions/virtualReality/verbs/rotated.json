@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "rotated",
+        "de-DE": "rotierte"
+    },
+    "description": {
+        "en-US": "An actor has changed a virtual object's rotation in VR environment.",
+        "de-DE": "Ein Akteur hat die Rotation eines virtuellen Objekts verändert."
+    }
+}

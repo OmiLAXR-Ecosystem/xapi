@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "mouse position",
+        "de-DE": "Maus Position"
+    },
+    "description": {
+        "en-US": "The position of the mouse.",
+        "de-DE": "Die Position der Maus."
+    }
+}
