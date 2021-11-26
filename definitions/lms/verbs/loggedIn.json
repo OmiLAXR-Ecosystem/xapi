@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "logged in",
-	"de-DE": "angemeldet"
+	"de-DE": "meldet sich an"
 },
 "description": {
 	"en-US": "Actor logged in (as him-/herself)",
