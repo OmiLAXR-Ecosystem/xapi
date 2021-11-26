@@ -1,10 +1,10 @@
 {
     "name": {
-        "en-US": "position",
-        "de-DE": "Position"
+        "en-US": "rotation",
+        "de-DE": "Rotation"
     },
     "description": {
-        "en-US": "Position in scene.",
-        "de-DE": "Position in der Szene."
+        "en-US": "Rotation in scene.",
+        "de-DE": "Rotation in der Szene."
     }
 }
