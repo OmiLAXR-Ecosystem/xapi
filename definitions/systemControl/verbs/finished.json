@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A player finished an activity in a game session. This could be the game itself, a level or stage for example.",
-        "de-DE": "Ein Spieler schloss eine Activität in einer Spiel Instanz ab. Dies könnte zum Beispiel ein Spiel selber sein, ein Level oder ein Spielabschnitt."
+        "de-DE": "Ein Spieler schloss eine Aktivität in einer Spielinstanz ab. Dies könnte zum Beispiel ein Spiel, ein Level oder ein Spielabschnitt sein."
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/98"
