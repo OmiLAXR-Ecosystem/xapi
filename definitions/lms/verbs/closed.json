@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor closed an object (forum post)",
-        "de-DE": "Akteur hat ein Objekt (Forumeintrag) geschlossen"
+        "de-DE": "Agierende hat ein Objekt (Forumeintrag) geschlossen"
     },
     "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",

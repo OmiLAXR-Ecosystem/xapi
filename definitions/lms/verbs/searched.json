@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor searched for something",
-	"de-DE": "Akteur hat nach etwas gesucht"
+	"de-DE": "Agierende hat nach etwas gesucht"
 },
 "exactMatch": [
 	"https://activitystrea.ms/registry/verbs/",

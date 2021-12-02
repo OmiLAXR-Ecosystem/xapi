@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor deleted an object",
-        "de-DE": "Akteur hat ein Objekt gelöscht"
+        "de-DE": "Agierende hat ein Objekt gelöscht"
     },
     "exactMatch": [
       "https://activitystrea.ms/registry/verbs/",

@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A course resource as a single file (e.g. PDF).",
-        "de-DE": "Eine Kursressource als einzelne Datei (z. B. PDF)."
+        "de-DE": "Eine Kursressource als einzelne Datei (z.B. PDF)."
     },
     "exactMatch": [
         "http://id.tincanapi.com/activitytype/resource"

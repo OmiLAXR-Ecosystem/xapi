@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor reviewed an object",
-	"de-DE": "Akteur hat ein Objekt geprüft"
+	"de-DE": "Agierende hat ein Objekt geprüft"
 },
 "exactMatch": [
 	"https://registry.tincanapi.com/#uri/verb/247"

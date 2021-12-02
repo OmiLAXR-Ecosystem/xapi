@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor approved an object (in Moodle \"learning plan\")",
-        "de-DE": "Akteur genehmigte ein Objekt (in Moodle \"Lernplan\")"
+        "de-DE": "Agierende genehmigte ein Objekt (in Moodle \"Lernplan\")"
     },
     "exactMatch": [   
         "https://activitystrea.ms/registry/verbs/",

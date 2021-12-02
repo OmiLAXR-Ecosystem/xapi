@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor requested an object/access/information",
-	"de-DE": "Akteur hat ein/en Objekt/Zugang/Informationen angefordert"
+	"de-DE": "Agierende hat ein/en Objekt/Zugang/Informationen angefordert"
 },
 "exactMatch": [
 	"https://activitystrea.ms/registry/verbs/",

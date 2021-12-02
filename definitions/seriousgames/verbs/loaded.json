@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor loaded something in the game (a level or menu for example).",
-        "de-DE": "Ein Akteur lud etwas im Spiel. Dies kann zum Beispiel ein Meü oder Level sein"
+        "de-DE": "Ein Agierender lud etwas im Spiel. Dies kann zum Beispiel ein Meü oder Level sein"
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/38"

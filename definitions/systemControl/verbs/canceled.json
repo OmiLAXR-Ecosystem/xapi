@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor ended a session, game or level without completing it.",
-        "de-DE": "Ein Akteur brach eine Spiel Instanz, ein Spiel oder ein Level ab ohne es zu vollenden."
+        "de-DE": "Ein Agierender brach eine Spiel Instanz, ein Spiel oder ein Level ab ohne es zu vollenden."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/96",

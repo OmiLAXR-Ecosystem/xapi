@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor sent a message to a person/group",
-	"de-DE": "Akteur hat eine Nachricht zu einer Person/Gruppe gesendet"
+	"de-DE": "Agierende hat eine Nachricht zu einer Person/Gruppe gesendet"
 },
 "exactMatch": [
 	"https://activitystrea.ms/registry/verbs/",

@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor logged out",
-	"de-DE": "Akteur hat sich abgemeldet"
+	"de-DE": "Agierende hat sich abgemeldet"
 },
 "exactMatch": [
 	"https://registry.tincanapi.com/#uri/verb/398",

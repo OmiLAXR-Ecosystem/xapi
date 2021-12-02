@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor completed an activity/task",
-        "de-DE": "Akteur hat eine Aktivität/Aufgabe fertiggestellt"
+        "de-DE": "Agierende hat eine Aktivität/Aufgabe fertiggestellt"
     },
     "exactMatch": [   
         "https://activitystrea.ms/registry/verbs/",

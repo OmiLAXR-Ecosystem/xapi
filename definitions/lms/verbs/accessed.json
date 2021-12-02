@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor accessed/viewed a page, file, video, ...",
-        "de-DE": "Akteur hat (auf) eine Seite, eine Datei, ein Video, ... zugegriffen/angesehen"
+        "de-DE": "Agierende hat (auf) eine Seite, eine Datei, ein Video, ... zugegriffen/angesehen"
     },
     "exactMatch": [   
         "https://activitystrea.ms/registry/verbs/", 

@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Indicates that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment.",
-        "de-DE": "Signalisiert, dass ein Akteur ein Objekt akzeptiert hat. Zum Beispiel: Eine Person akzeptiert eine Auszeichnung oder eine Aufgabe."
+        "de-DE": "Signalisiert, dass ein Agierender ein Objekt akzeptiert hat. Zum Beispiel: Eine Person akzeptiert eine Auszeichnung oder eine Aufgabe."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/80",
