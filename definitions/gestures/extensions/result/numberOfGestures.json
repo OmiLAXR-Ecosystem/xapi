@@ -5,6 +5,6 @@
     },
     "description": {
         "en-US": "The number of actors gestures. Has to be an integer.",
-        "de-DE": "Die Anzahl an Gesten, die die Akteurin tätigt. Muss ein Integer sein."
+        "de-DE": "Die Anzahl an Gesten, die der Agierende tätigt. Muss ganzzahlig sein."
     }
 }

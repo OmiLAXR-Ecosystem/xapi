@@ -5,6 +5,6 @@
     },
     "description": {
         "en-US": "An actor has nodded with her head. Could be collected by computation of headset movement or a webcam or by hand annotation.",
-        "de-DE": "Eine Akteurin nickte mit ihrem Kopf. Könnte zum Beispiel erkannt worden sein, indem Headset Daten ausgewertet wurden, eine Erkennung in einem Video geschehen ist oder durch eine händische Annotation."
+        "de-DE": "Ein Agierender nickte mit dem Kopf. Könnte zum Beispiel erkannt worden sein, indem Headset Daten ausgewertet wurden, eine Erkennung in einem Video geschehen ist oder durch eine händische Annotation."
     }
 }
