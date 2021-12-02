@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "remote system",
-        "de-DE": "entferntes System"
+        "de-DE": "Fernsystem"
     },
     "description": {
         "en-US": "A system interacting with the game which is not running on the same machine as the game.",
-        "de-DE": "Ein System welches mit dem Spiel interagiert aber nicht auf der selben Maschine wie das Spiel läuft."
+        "de-DE": "Ein System, welches mit dem Spiel interagiert aber nicht auf der selben Maschine wie das Spiel läuft."
     }
 }

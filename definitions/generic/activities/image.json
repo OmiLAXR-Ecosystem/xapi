@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An image of something ingame. Can be an interactible.",
-        "de-DE": "Ein Bild von etwas im Spiel. Mit einem Bild könnte interagiert werden."
+        "de-DE": "Ein Bild von etwas im Spiel. Mit dem Bild könnte interagiert werden."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/activityType/65",

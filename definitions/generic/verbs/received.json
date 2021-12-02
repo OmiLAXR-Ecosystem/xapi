@@ -4,8 +4,8 @@
         "de-DE": "erhielt"
     },
     "description": {
-        "en-US": "A player or group received for example an item or help.",
-        "de-DE": "Ein Spieler oder eine Gruppe erhielt zum Beispiel einen Gegenstand oder Hilfe."
+        "en-US": "A player or group received an item or help for example.",
+        "de-DE": "Ein Spieler oder eine Gruppe erhielt einen Gegenstand oder Hilfe zum Beispiel."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/131",

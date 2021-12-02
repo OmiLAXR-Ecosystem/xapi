@@ -4,7 +4,7 @@
         "de-DE": "Menü"
     },
     "description": {
-        "en-US": "A start menu or ingame menu for settings for example.",
-        "de-DE": "Ein Startmenü oder ein Menü im Spiel für Einstellungen zum Beispiel."
+        "en-US": "A start menu or ingame menu (e.g settings menu)",
+        "de-DE": "Ein Startmenü oder ein Menü im Spiel (z.B. Einstellungsmenü)"
     }
 }

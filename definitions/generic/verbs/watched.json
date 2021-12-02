@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A player or group watched a video. Only use if you can assure the players really watched the video, use eye-tracking for example.",
-        "de-DE": "Ein Spieler oder eine Gruppe schaute ein Video. Sollte nur genutzt werden wenn sichergestellt werden kann, dass das Video wirklich geschaut wurde. Eyetracking könnte dafür zum Beispiel benutzt werden."
+        "de-DE": "Ein Spieler oder eine Gruppe schaute ein Video. Sollte nur genutzt werden wenn sichergestellt werden kann, dass das Video wirklich geschaut wurde, beispielsweise durch Eye-Tracking."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/50",
