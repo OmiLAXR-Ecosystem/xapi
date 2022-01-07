@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "generated"
+    "en-US": "generated",
+    "de-DE": "generiert"
   },
   "description": {
-    "en-US": "An actor has generated a digital artefact from the software."
+    "en-US": "An actor has generated a digital artefact from the software.",
+    "de-DE": "Ein Agierender hat ein digitales Artefakt mit der Software generiert."
   }
 }

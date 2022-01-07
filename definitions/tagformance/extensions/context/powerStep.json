@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "power step"
+        "en-US": "power step",
+        "de-DE": "Signalstufe"
     },
     "description": {
-        "en-US": "The power step selected for the measurement."
+        "en-US": "The power step selected for the measurement.",
+        "de-DE": "Die für das Experiment ausgewählte Signalstufe."
     }
 }

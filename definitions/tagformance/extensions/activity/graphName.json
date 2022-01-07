@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "graphName"
+        "en-US": "graphName",
+        "de-DE": "Graph Name"
     },
     "description": {
-        "en-US": "An actor has authored the name of the graph or entered the username."
+        "en-US": "An actor has authored the name of the graph or entered the username.",
+        "de-DE": "Ein Agierender hat einen Graphen benannt oder den Nutzernamen eingegeben."
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/92"

@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "Log In"
+        "en-US": "Log In",
+        "de-DE": "eingeloggt"
     },
     "description": {
-        "en-US": "An actor logged in to the portal."
+        "en-US": "An actor logged in to the portal.",
+        "de-DE": "Ein Agierender loggte sich in das Portal ein."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/284"

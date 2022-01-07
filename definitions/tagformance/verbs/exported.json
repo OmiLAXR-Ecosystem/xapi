@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-us": "exported"
+    "en-us": "exported",
+    "de-DE": "exportiert"
   },
   "description": {
-    "en-us": "An actor has exported a digital artefact from the software."
+    "en-us": "An actor has exported a digital artefact from the software.",
+    "de-DE": "Ein Agierender hat ein digitales Artefakt aus der Software exportiert."
   }
 }

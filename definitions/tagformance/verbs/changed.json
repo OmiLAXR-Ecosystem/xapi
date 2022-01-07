@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "selected"
+        "en-US": "selected",
+        "de-DE": "ausgewählt"
     },
     "description": {
-        "en-US": "An actor changed a value of an ui element."
+        "en-US": "An actor changed a value of an ui element.",
+        "de-DE": "Ein Agierender änderte den Wert eines UI Elements"
     }
 }

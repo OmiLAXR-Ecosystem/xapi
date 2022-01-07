@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "zoomed in"
+        "en-US": "zoomed in",
+        "de-DE": "reingezoomt"
     },
     "description": {
-        "en-US": "An actor zoomed into the visual element like the graph generated."
+        "en-US": "An actor zoomed into the visual element like the graph generated.",
+        "de-DE": "Ein Agierender zoomte in ein visuelles Element (z.B. Graph) rein."
     }
 }

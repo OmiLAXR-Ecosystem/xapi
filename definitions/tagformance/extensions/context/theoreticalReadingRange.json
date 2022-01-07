@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "theoretical reading range"
+        "en-US": "theoretical reading range",
+        "de-DE": "Theoretischer Wertebereich "
     },
     "description": {
-        "en-US": "The Y-axis unit in the graph for measuring the reading range of transponder."
+        "en-US": "The Y-axis unit in the graph for measuring the reading range of transponder.",
+        "de-DE": "Die Einheit der Y-Achse im Graphen zur Messung des Wertebereichs vom Transponder."
     }
 }

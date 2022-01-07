@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "orientation measure"
+        "en-US": "orientation measure",
+        "de-DE": "Orientierungsmessung"
     },
     "description": {
-        "en-US": "This is an experiment mode as per lab instruction."
+        "en-US": "This is an experiment mode as per lab instruction.",
+        "de-DE": "Dies ist ein Versuchsmodus entsprechend der Laboranweisungen"
     }
 }

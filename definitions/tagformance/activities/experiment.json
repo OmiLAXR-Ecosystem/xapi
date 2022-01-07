@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "experiment"
+        "en-US": "experiment",
+        "de-DE": "Experiment"
     },
     "description": {
-        "en-US": "A scientific procedure, especially in a laboratory, to determine something."
+        "en-US": "A scientific procedure, especially in a laboratory, to determine something.",
+        "de-DE": "Eine wissenschaftlicher Versuch, insbesondere in einem Labor, um etwas herauszufinden  "
     }
 }

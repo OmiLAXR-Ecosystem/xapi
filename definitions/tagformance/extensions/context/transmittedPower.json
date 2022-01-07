@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "transmitted power"
+        "en-US": "transmitted power",
+        "de-DE": "Übertragungskraft"
     },
     "description": {
-        "en-US": "The Y-axis unit in dBm for measurement."
+        "en-US": "The Y-axis unit in dBm for measurement.",
+        "de-DE": "Die Einheit der Y-axis in dBm  zur Messung."
     }
 }

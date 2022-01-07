@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "zoomed out"
+        "en-US": "zoomed out",
+        "de-DE": "herausgezoomt"
     },
     "description": {
-        "en-US": "An actor zoomed out of a visual element like the graph generated."
+        "en-US": "An actor zoomed out of a visual element like the graph generated.",
+        "de-DE": "Ein Agierender zoomte aus einem visuellen Element (z.B. Graph) heraus."
     }
 }

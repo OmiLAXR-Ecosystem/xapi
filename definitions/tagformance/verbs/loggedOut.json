@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "Log Out"
+        "en-US": "Log Out",
+        "de-DE": "ausgeloggt"
     },
     "description": {
-        "en-US": "An actor logged out of the portal."
+        "en-US": "An actor logged out of the portal.",
+        "de-DE": "Ein Agierender loggte sich aus dem Portal aus."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/398"

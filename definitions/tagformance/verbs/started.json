@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "started"
+        "en-US": "started",
+        "de-DE": "began"
     },
     "description": {
-        "en-US": "An actor has started the measurements."
+        "en-US": "An actor has started the measurements.",
+        "de-DE": "Ein Agierender began die Messung."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/149"
