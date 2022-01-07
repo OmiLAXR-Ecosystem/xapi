@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-us": "Select"
+        "en-us": "Select",
+        "de-DE": "Auswahl"
     },
     "description": {
-        "en-us": "Some kind of selection is represented by this. It is given by user."
+        "en-us": "Some kind of selection is represented by this. It is given by user.",
+        "de-DE": "Eine Auswahl wird hiermit repräsentiert. Wird vom Agierenden getätigt."
     }
 }

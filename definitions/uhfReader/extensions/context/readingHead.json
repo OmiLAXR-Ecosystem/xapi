@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "reading head"
+        "en-US": "reading head",
+        "de-DE": "Lesekopf"
     },
     "description": {
-        "en-US": "The head that is selected to read the TID."
+        "en-US": "The head that is selected to read the TID.",
+        "de-DE": "Der ausgewählte Kopf zum Lesen vom TID"
     }
 }

@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "clicked"
+        "en-US": "clicked",
+        "de-DE": "geklickt"
     },
     "description": {
-        "en-US": "An actor clicked on something on the UHF Reader software."
+        "en-US": "An actor clicked on something on the UHF Reader software.",
+        "de-DE": "Ein Agierender klickte auf etwas in der UHF Reader Software"
     }
 }

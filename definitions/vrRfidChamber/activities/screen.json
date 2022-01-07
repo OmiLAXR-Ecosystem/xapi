@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "screen"
+        "en-US": "screen",
+        "de-DE": "Bildschirm"
     },
     "description": {
-        "en-US": "The screen showing the virtual lab and can be clicked or touched on for interaction with the game."
+        "en-US": "The screen showing the virtual lab and can be clicked or touched on for interaction with the game.",
+        "de-DE": "Der Bildschirm zeigt das virtuelle Labor. Es kann mit ihm über Touch oder Klicken interagiert werden"
     }
 }

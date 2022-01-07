@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "failure"
+        "en-US": "failure",
+        "de-DE": "gescheitert"
     },
     "description": {
-        "en-US": "The experiment is a failure."
+        "en-US": "The experiment is a failure.",
+        "de-DE": "Das Experiment ist gescheitert."
     }
 }

@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "tid copied"
+        "en-US": "tid copied",
+        "de-DE": "tid kopiert"
     },
     "description": {
-        "en-US": "An actor copied the TID from the screen. Then the actor can paste it in google to research on the transponder."
+        "en-US": "An actor copied the TID from the screen. Then the actor can paste it in google to research on the transponder.",
+        "de-DE": "Ein Agierender kopierte die TID vom Bildschirm und fügte sie bei Google zum Recherchieren des Transponders ein."
     }
 }

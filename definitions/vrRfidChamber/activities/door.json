@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "door"
+        "en-US": "door",
+        "de-DE": "Tür"
     },
     "description": {
-        "en-US": "An actor opened or closed the door"
+        "en-US": "An actor opened or closed the door",
+        "de-DE": "Ein Agierender öffnet oder schließt die Tür"
     }
 }

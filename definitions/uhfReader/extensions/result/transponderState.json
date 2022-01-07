@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "transponderState"
+    "en-US": "transponderState",
+    "de-DE": "Transponderzustand"
   },
   "description": {
-    "en-US": "State of the transpnder to the physical reader."
+    "en-US": "State of the transponder to the physical reader.",
+    "de-DE": "Zustand des Transponders zum physischen Leser."
   }
 }

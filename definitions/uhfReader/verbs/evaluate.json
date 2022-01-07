@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "evaluate"
+    "en-US": "evaluate",
+    "de-DE": "evaluieren"
   },
   "description": {
-    "en-US": "A user evaluates a target (e.g. transponder)."
+    "en-US": "A user evaluates a target (e.g. transponder).",
+    "de-DE": "Agierender evaluiert ein Ziel (z.B. Transponder)."
   }
 }

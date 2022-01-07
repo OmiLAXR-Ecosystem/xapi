@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "read Tid"
+        "en-US": "read Tid",
+        "de-DE": "lese Tid"
     },
     "description": {
-        "en-US": "The selected element to read for the transponder."
+        "en-US": "The selected element to read for the transponder.",
+        "de-DE": "Das ausgewählte Element zum Lesen für den Transponder."
     }
 }

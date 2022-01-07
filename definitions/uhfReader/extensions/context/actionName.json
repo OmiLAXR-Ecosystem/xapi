@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "action name"
+    "en-US": "action name",
+    "de-DE": "Aktionsname"
   },
   "description": {
-    "en-US": "Name of an UI element action, which the user interacted with. For example the read value checkbox has the name 'readValue'."
+    "en-US": "Name of an UI element action, which the user interacted with. For example the read value checkbox has the name 'readValue'.",
+    "de-DE": "Name einer UI Element Aktion mit der vom User interagiert wurde."
   }
 }

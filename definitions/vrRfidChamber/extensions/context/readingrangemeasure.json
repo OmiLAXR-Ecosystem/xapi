@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "readingrangemeasure"
+        "en-US": "readingrangemeasure",
+        "de-DE": "Leseweitenmessung"
     },
     "description": {
-        "en-US": "In this case the reading range of transponder is measured."
+        "en-US": "In this case the reading range of transponder is measured.",
+        "de-DE": "In diesem Fall wird die Leseweite des Transponders gemessen."
     }
 }
