@@ -5,6 +5,6 @@
   },
   "description": {
     "en-US": "Representation of a object directly before the statement occurred. 'Start Value' should be used with the 'End Value' extension to provide information about the actual change of the object. Can be used with 'edited' or 'changed' verbs.",
-    "de-DE": "Representation von einem Object bevor das Statement auftrat. 'Startwert' sollte mit der Extension 'Endwert' benutzt werden um Information über die Änderung eines Objektes darzulegen. Kann mit den verben 'editierte' und 'veränderte' benutzt werden."
+    "de-DE": "Repräsentation von einem Objekt bevor das Statement auftrat. 'Startwert' sollte mit der Extension 'Endwert' benutzt werden um Information über die Änderung eines Objektes darzulegen. Kann zum Beispiel mit den Verben 'editierte' und 'veränderte' benutzt werden."
   }
 }

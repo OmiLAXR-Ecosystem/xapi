@@ -5,6 +5,6 @@
     },
     "description": {
         "en-US": "Indicates, that an actor run some programming context. Typically a Jupyter Notebook Code Cell.",
-        "de-DE": "Signalisiert, dass ein Akteur einen programmier kontext ausführte. Typischerweise eine Jupyter Notebook Code Zelle."
+        "de-DE": "Signalisiert, dass ein Akteur ein Programmierkonstrukt ausführte. Typischerweise eine Jupyter Notebook Codezelle."
     }
 }

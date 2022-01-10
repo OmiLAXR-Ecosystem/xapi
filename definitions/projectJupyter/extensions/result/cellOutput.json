@@ -5,6 +5,6 @@
   },
   "description": {
     "en-US": "A string representing the cell outputs of a JupyterLab cell. Outputs can contain a.o. execution results or display data.",
-    "de-DE": "Ein String der die Ausgabe einer JupyterLab Zelle beschreibt. Ausgaben können u.a. Ausführungsergebnise oder anzeigedaten enthalten."
+    "de-DE": "Ein String der die Ausgabe einer JupyterLab-Zelle beschreibt. Ausgaben können u.a. Ausführungsergebnisse oder Anzeigedaten enthalten."
   }
 }

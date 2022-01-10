@@ -5,6 +5,6 @@
     },
     "description": {
         "en-US": "Refers to the copy-and-paste action performed by an actor. E.g. An actor pasted a text into a textbox",
-        "de-DE": "Dieses Verb bezieht sich auf die kopier-und-einfüge operation eines Users. Z.B. Ein User fügte den (vorher kopierten) text in ein Textfeld ein."
+        "de-DE": "Dieses Verb bezieht sich auf die kopier-und-einfüge Operation eines Akteurs. Z.B. ein Akteur fügte den (vorher kopierten) Text in ein Textfeld ein."
     }
 }

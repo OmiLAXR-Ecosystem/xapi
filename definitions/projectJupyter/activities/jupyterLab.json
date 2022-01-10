@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A web-based user interface for Project Jupyter. See https://jupyterlab.readthedocs.io",
-        "de-DE": "Ein Web basiertes Benutzerinterface für Project Jupyter. Mehr informationen hier: https://jupyterlab.readthedocs.io"
+        "de-DE": "Ein webbasiertes Benutzerinterface für Project Jupyter. Mehr informationen hier: https://jupyterlab.readthedocs.io"
     }
 }
 
