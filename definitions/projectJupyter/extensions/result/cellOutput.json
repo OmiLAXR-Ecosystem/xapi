@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Cell Output",
+    "de-DE": "Zellenausgabe" 
+  },
+  "description": {
+    "en-US": "A string representing the cell outputs of a JupyterLab cell. Outputs can contain a.o. execution results or display data.",
+    "de-DE": "Ein String der die Ausgabe einer JupyterLab-Zelle beschreibt. Ausgaben können u.a. Ausführungsergebnisse oder Anzeigedaten enthalten."
+  }
+}

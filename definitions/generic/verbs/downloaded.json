@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "downloaded",
+        "de-DE": "downloadete"
+    },
+    "description": {
+        "en-US": "A user used a local device to download data from a different distant disk.",
+        "de-DE": "Ein Benutzer nutze ein lokales Gerät um Daten von einem entfernten Speichermedium zu laden."
+    },
+    "exactMatch": [
+        "http://id.tincanapi.com/verb/downloaded",
+        "https://registry.tincanapi.com/#uri/verb/475"
+    ]
+}

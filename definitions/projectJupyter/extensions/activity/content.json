@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "content",
+    "de-DE": "Inhalt"
+  },
+  "description": {
+    "en-US": "The content of an Activity. In case of a file, it is the file content, in case of a Notebook cell the content is the code/text inside a notebook cell.",
+    "de-DE": "Der Inhalt einer Aktivität. Im Falle einer Datei ist der Inhalt der Dateiinhalt, im Falle einer Notebookzelle ist der Inhalt der Programmcode oder Text innerhalb einer Zelle."
+  }
+}

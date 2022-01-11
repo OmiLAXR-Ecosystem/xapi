@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Hyperlink",
+        "de-DE": "Hyperlink"
+    },
+    "description": {
+        "en-US": "A reference to data that the user can follow. Links can either point to a whole document (e.g. website) or to a specific element within a document.",
+        "de-DE": "Ein Querverweis auf ein elektronischces Dokument, welches dem Benutzer ermöglicht zu dem Dokument (z.B. einer Website) oder zu einem bestimmten Abschnitt in dem Dokument zu springen."
+    },
+    "exactMatch": [
+        "http://adlnet.gov/expapi/activities/link",
+        "https://registry.tincanapi.com/#uri/activityType/11"
+    ]
+}

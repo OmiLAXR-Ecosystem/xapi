@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "Markdown Cell",
+        "de-DE": "Markdownzelle"
+    },
+    "description": {
+        "en-US": "A Jupyter Notebook Cell of type 'markdown cell'. Markdonw Cells store markdown formatted text. The text is meant to be read by a user.",
+        "de-DE": "Eine Jupyter Notebook Zelle mit dem Typ 'markdown cell'. Markdownzellen enthalten Markdown formatierten Text. Der Text einer Markdownzelle ist bestimmt um von einem Benutzer gelesen zu werden."
+    }
+}
+

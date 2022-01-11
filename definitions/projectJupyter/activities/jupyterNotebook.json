@@ -1,0 +1,11 @@
+{
+    "name": {
+        "en-US": "Jupyter Notebook Document",
+        "de-DE": "Jupyter Notebook Dokument"
+    },
+    "description": {
+        "en-US": "This activity refers to Jupyter Notebook Document (the document type), in contrast to the Jupyter Notebook (a document editor). Notebook documents are json-files ending in '.ipynb'. ",
+        "de-DE": "Diese Aktivität bezieht sich auf das Jupyter Notebook Dokument (den Dateityp), im Gegensatz zu dem Jupyter Notebook (einem Dateieditor). Dokumente eines Notebooks sind json-files mit einer '.ipynb' endung."
+    }
+}
+

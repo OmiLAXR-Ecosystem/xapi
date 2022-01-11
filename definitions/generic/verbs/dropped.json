@@ -4,7 +4,7 @@
         "de-DE": "ließ fallen"
     },
     "description": {
-        "en-US": "A player dropped some draggable into a specific area.",
-        "de-DE": "Ein Spieler ließ einen ziehbaren Gegenstand in ein spezielles Feld fallen."
+        "en-US": "A actor dropped some draggable into a specific area.",
+        "de-DE": "Ein Acteur ließ einen ziehbaren Gegenstand in ein spezielles Feld fallen."
     }
 }

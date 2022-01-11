@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "file path",
+    "de-DE": "Dateipfad"
+  },
+  "description": {
+    "en-US": "A relative or absolute file path of a file. Can be used to provide the filepath for a file-activity.",
+    "de-DE": "Ein relativer oder absoluter Dateipfad. Kann genutzt werden um den Dateipfad eine Dateiaktivität anzugeben."
+  }
+}
