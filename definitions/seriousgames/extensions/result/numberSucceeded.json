@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number succeeded",
+        "de-DE": "Anzahl geschafft"
+    },
+    "description": {
+        "en-US": "The number of instances in which the user was able to complete a level successfully.",
+        "de-DE": "Die Anzahl der Male, in denen der Nutzende es geschafft hat, ein Level erfolgreich abzuschließen."
+    }
+}

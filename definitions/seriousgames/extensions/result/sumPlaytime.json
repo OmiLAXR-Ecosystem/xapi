@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "sum playtime",
+        "de-DE": "Summe Spielzeit"
+    },
+    "description": {
+        "en-US": "The sum of the playtime that has been spent in a gamemode or level.",
+        "de-DE": "Die Summe der Spielzeit, die in einem Spielmodus oder Level verbracht wurde."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number omission-errors",
+        "de-DE": "Anzahl Omissionsfehler"
+    },
+    "description": {
+        "en-US": "The number of instances in which the player failed to mark a correct solution as correct.",
+        "de-DE": "Die Anzahl der Male, in denen der Spielende es versäumt hat, eine korrekte Lösung als richtig zu markieren."
+    }
+}
