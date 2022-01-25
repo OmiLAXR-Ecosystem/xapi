@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number completed",
+        "de-DE": "Anzahl beendet"
+    },
+    "description": {
+        "en-US": "The number attempts that have been completed, either by winning or loosing.",
+        "de-DE": "Die Anzahl der Versuche, die beendet wurden, sowohl durch Gewinnen als auch Verlieren."
+    }
+}
