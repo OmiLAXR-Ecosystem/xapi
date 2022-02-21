@@ -1,8 +1,8 @@
 {
     "name": {
-        "en-us": "Select"
+        "en-US": "Select"
     },
     "description": {
-        "en-us": "Some kind of selection is represented by this. It is given by user."
+        "en-US": "Some kind of selection is represented by this. It is given by user."
     }
 }
