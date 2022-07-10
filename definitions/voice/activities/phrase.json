@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "teleport point",
+        "de-DE": "Teleport Punkt"
+    },
+    "description": {
+        "en-US": "A fixed teleport point in VR environment.",
+        "de-DE": "Ein fester Teleport Punkt in der VR Umgebung."
+    }
+}

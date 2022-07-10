@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "mumbled",
+        "de-DE": "nuschelte"
+    },
+    "description": {
+        "en-US": "An actor has mumbled something, which was not recognizable.",
+        "de-DE": "Eine Akteurin hat etwas genuschelt, was nicht näher beschrieben werden kann."
+    }
+}

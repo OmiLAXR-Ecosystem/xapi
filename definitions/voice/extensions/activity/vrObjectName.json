@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "VR object name",
+        "de-DE": "VR Objekt Name"
+    },
+    "description": {
+        "en-US": "Name of a VR object. Must be a string.",
+        "de-DE": "Namen vom VR Objekt. Muss ein String sein."
+    }
+}
