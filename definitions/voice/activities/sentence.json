@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "sentence",
+        "de-DE": "Satz"
+    },
+    "description": {
+        "en-US": "A sentence is a group of words.",
+        "de-DE": "Ein Satz besteht aus einer Gruppe von Wörtern."
+    }
+}

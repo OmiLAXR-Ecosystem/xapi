@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "action name",
+        "de-DE": "Aktionsname"
+    },
+    "description": {
+        "en-US": "It is the name of an action, which could be triggert, e.g. by using a verbal keyword.",
+        "de-DE": "Es ist der Name einer Aktion, die zum Beispiel durch ein verbales Schlüsselwort ausgelöst werden kann."
+    }
+}
