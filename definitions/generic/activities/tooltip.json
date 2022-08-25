@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "tooltip",
+        "de-DE": "Tooltip"
+    },
+    "description": {
+        "en-US": "A tooltip is a little pop-up, which gives some information about a certain element.",
+        "de-DE": "Ein Tooltip ist ein kleines Pop-up-Fenster in Anwendungsprogrammen oder Webseiten. Es zeigt eine Beschreibung zu einem Element der grafischen Benutzungsoberfläche"
+    },
+    "exactMatch": [
+
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "profilename",
+    "de-DE": "Profilname"
+  },
+  "description": {
+    "en-US": "Name of the currently loaded JupyterLab profile (within a JupyterHub).",
+    "de-DE": "Name des aktuell geladenen JupyterLab-Profils (in einem JupyterHub)."
+  }
+}

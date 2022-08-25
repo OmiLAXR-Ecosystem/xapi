@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "kernel name",
+    "de-DE": "Kernelname"
+  },
+  "description": {
+    "en-US": "The name of a Jupyter Kernels. E.g. 'Python 3.7'. A list of kernels is available at https://github.com/jupyter/jupyter/wiki/Jupyter-kernels.",
+    "de-DE": "Der Name eines Jupyter Kernels. Z.b. 'Python 3.7. Eine Liste mit Kerneln ist unter https://github.com/jupyter/jupyter/wiki/Jupyter-kernels einsehbar."
+  }
+}

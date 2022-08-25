@@ -4,8 +4,8 @@
         "de-DE": "gewann"
     },
     "description": {
-        "en-US": "A player or group won a game.",
-        "de-DE": "Ein Spieler oder eine Gruppe gewann ein Spiel."
+        "en-US": "An actor won a game.",
+        "de-DE": "Ein Akteur gewann ein Spiel."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/162",

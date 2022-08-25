@@ -4,8 +4,8 @@
         "de-DE": "benutzte"
     },
     "description": {
-        "en-US": "A player or group used some game related item.",
-        "de-DE": "Ein Spieler oder eine Gruppe benutze einen spielrelevanten Gegenstand."
+        "en-US": "An actor used some item.",
+        "de-DE": "Ein Akteur benutze einen Gegenstand."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/161",

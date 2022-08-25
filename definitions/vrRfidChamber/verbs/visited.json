@@ -1,8 +1,8 @@
 {
     "name": {
-        "en-us": "visited"
+        "en-US": "visited"
     },
     "description": {
-        "en-us": "An actor has visited the virtual lab."
+        "en-US": "An actor has visited the virtual lab."
     }
 }

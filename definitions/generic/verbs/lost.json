@@ -4,8 +4,8 @@
         "de-DE": "verlor"
     },
     "description": {
-        "en-US": "A player or group lost the game.",
-        "de-DE": "Ein Spieler oder eine Gruppe verlor das Spiel."
+        "en-US": "An actor lost the game.",
+        "de-DE": "Ein Akteur verlor das Spiel."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/124",

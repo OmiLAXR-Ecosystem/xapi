@@ -4,7 +4,7 @@
         "de-DE": "klappte ein"
     },
     "description": {
-        "en-US": "A player or group collapsed a menu for example.",
-        "de-DE": "Ein Spieler oder eine Gruppe klappte ein Menü ein zum Beispiel."
+        "en-US": "An actor collapsed something, a menu for example.",
+        "de-DE": "Ein Akteur klappte etwas ein, ein Menü zum Beispiel ein."
     }
 }

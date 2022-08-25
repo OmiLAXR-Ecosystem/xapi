@@ -4,7 +4,7 @@
         "de-DE": "synchronisierte"
     },
     "description": {
-        "en-US": "An actor synchronized game data with an LMS for example.",
-        "de-DE": "Ein Agierender synchronisierte Spieldaten mit einem LMS zum Beispiel."
+        "en-US": "An actor synchronized data with an LMS for example, which means, that two objects/processes/devices synchronized between A and B or with something.",
+        "de-DE": "Ein Akteur synchronisierte zum Beispiel Daten mit einem LMS, d.h. zwei Objekte/Vorgänge/Geräte wurden auf einen Stand gebracht."
     }
 }

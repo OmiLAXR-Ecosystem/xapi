@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commanded",
+        "de-DE": "befahl"
+    },
+    "description": {
+        "en-US": "An actor has commanded with his or her voice, which was recorded with speech recognition or annotated by hand.",
+        "de-DE": "Eine Akteurin hat ein verbales Kommando gegeben, das von der Spracherkennung oder durch händische Bearbeitung von Daten erfasst wurde."
+    }
+}

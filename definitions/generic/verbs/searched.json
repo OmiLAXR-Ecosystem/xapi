@@ -4,8 +4,8 @@
         "de-DE": "suchte"
     },
     "description": {
-        "en-US": "A player or group searched for an game related item or searched a game location.",
-        "de-DE": "Ein Spieler oder ein Gruppe suchte nach einem spielrelevanten Gegenstand oder zum Beispiel auch einen Spielort ab."
+        "en-US": "An actor searched for an item or searched a location.",
+        "de-DE": "Ein Acteur oder ein Gruppe suchte nach einem Gegenstand oder zum Beispiel auch einen Ort ab."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/144",

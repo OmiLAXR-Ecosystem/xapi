@@ -4,7 +4,7 @@
         "de-DE": "erreichte"
     },
     "description": {
-        "en-US": "A player or group achieved some game related goal or score.",
-        "de-DE": "Ein Spieler oder eine Gruppe erreichte ein spielrelevantes Ziel oder Ergebnis."
+        "en-US": "An actor achieved some goal or score.",
+        "de-DE": "Ein Akteur erreichte ein Ziel oder ein Ergebnis."
     }
 }

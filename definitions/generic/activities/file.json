@@ -1,0 +1,15 @@
+{
+    "name": {
+        "en-US": "File",
+        "de-DE": "Datei"
+    },
+    "description": {
+        "en-US": "A collection of in - most cases - connected data on a disk which is stored together under a particular name.",
+        "de-DE": "Eine Sammlung von meist zusammenhängenden Daten auf einem Speichermedium die zusammen unter einem bestimmten Namen gespeichert werden."
+    },
+    "exactMatch": [
+        "http://activitystrea.ms/schema/1.0/file",
+        "https://registry.tincanapi.com/#uri/activityType/62"
+    ]
+}
+

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "edited",
+        "de-DE": "editierte"
+    },
+    "description": {
+        "en-US": "An actor edited an object, for example their account profile. 'edited' has a strong connection to text-based input, e.g. a user edited the title. If the user uses preset values, for example realized by a dropdown menu, choose 'changed'. Also in most non-text-based input e.g. changing a color, 'changed' is the matching verb",
+        "de-DE": "Ein Acteur editierte ein Object, zum Beispiel ihren Account.'editierte' hat eine startke Verbindung zu text-basiertem Input. Z.B. Ein Benutzer editierte den Titel. Wenn dem Benutzer eine Auswahl benutzt, wie bei einem Dropdown Menü, sollte 'geändert' benutzt werden. Darüberhinaus ist in den meisten nicht-text-basierten Input, z.B. beim Ändern einer Farbe, 'änderte' das passende Verb"
+    },
+    "exactMatch": [
+        "http://curatr3.com/define/verb/edited",
+        "https://registry.tincanapi.com/#uri/verb/354"
+    ]
+}

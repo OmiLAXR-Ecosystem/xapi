@@ -4,7 +4,7 @@
         "de-DE": "schaltete um"
     },
     "description": {
-        "en-US": "A player or group toggled some switch.",
-        "de-DE": "Ein Spieler oder eine Gruppe schaltete einen Schalter um."
+        "en-US": "An actor toggled some switch.",
+        "de-DE": "Ein Akteur schaltete einen Schalter um."
     }
 }

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "fixation duration",
+        "de-DE": "Fixationsdauer"
+    },
+    "description": {
+        "en-US": "The fixation duration is the measure how long the actor spend looking at a particular location.",
+        "de-DE": "Die Fixationsdauer beschreibt die Zeit, die ein Akteur oder eine Akteurin den Blick auf einem bestimmten Ort hat verweilen lassen."
+    }
+}

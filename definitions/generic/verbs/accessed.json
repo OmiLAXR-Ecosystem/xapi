@@ -1,0 +1,18 @@
+{
+    "name": {
+        "en-US": "accessed",
+        "de-DE": "zugegriffen"
+    },
+    "description": {
+        "en-US": "Actor accessed/viewed a page, file, video, ...",
+        "de-DE": "Akteur hat (auf) eine Seite, eine Datei, ein Video, ... zugegriffen/angesehen"
+    },
+    "exactMatch": [   
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/accessed",
+        "https://activitystrea.ms/registry/verbs/", 
+        "https://registry.tincanapi.com/#uri/verb/81"
+    ],
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/292"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "asked",
+        "de-DE": "fragte"
+    },
+    "description": {
+        "en-US": "An actor asked something.",
+        "de-DE": "Eine Akteurin hat etwas gefragt."
+    }
+}

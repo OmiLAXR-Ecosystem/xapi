@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number started",
+        "de-DE": "Anzahl Gestarted"
+    },
+    "description": {
+        "en-US": "The number of levels that have been started in a gamemode.",
+        "de-DE": "Die Anzahl der Level, die in einem Spielmodus gestartet wurden."
+    }
+}

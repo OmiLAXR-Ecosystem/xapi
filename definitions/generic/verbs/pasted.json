@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "pasted",
+        "de-DE": "eingefügt"
+    },
+    "description": {
+        "en-US": "Refers to the copy-and-paste action performed by an actor. E.g. An actor pasted a text into a textbox",
+        "de-DE": "Dieses Verb bezieht sich auf die kopier-und-einfüge Operation eines Akteurs. Z.B. ein Akteur fügte den (vorher kopierten) Text in ein Textfeld ein."
+    }
+}

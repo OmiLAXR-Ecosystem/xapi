@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A player started an activity in a game session. This could be the game itself, a level or a stage for example.",
-        "de-DE": "Ein Spieler startete eine Activität in einer Spiel Instanz. Dies könnte zum Beispiel ein Spiel selber sein, ein Level oder ein Spielabschnitt."
+        "de-DE": "Ein Spieler startete eine Aktivität in einer Spiel Instanz. Dies könnte zum Beispiel ein Spiel selber sein, ein Level oder ein Spielabschnitt."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/149",

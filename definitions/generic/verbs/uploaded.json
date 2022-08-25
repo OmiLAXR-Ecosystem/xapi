@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "uploaded",
+        "de-DE": "lud hoch"
+    },
+    "description": {
+        "en-US": "A user or group used some local device to uploaded data onto a different distant disk.",
+        "de-DE": "Ein Benutzer oder eine Gruppe nutze ein lokales Gerät um daten auf ein entferntes Speichermedium zu laden."
+    }
+}
