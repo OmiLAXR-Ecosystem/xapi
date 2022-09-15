@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "copied",
+        "de-DE": "kopierte"
+    },
+    "description": {
+        "en-US": "Refers for example to a copy-and-paste action performed by an actor. E.g. An actor copied text to paste it into the adress bar of a browser.",
+        "de-DE": "Dieses Verb bezieht sich zum Beispiel auf die kopier-und-einfüge Operation einer Person. Z.B. eine Person hat einen Text kopiert, um ihn anschließend in die Adresszeile eines Browsers einzufügen."
+    }
+}
