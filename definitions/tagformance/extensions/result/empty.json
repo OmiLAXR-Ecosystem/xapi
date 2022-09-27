@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "empty"
+        "en-US": "empty",
+        "de-DE": "leer"
     },
     "description": {
-        "en-US": "Boolean value which is true when something is empty."
+        "en-US": "Boolean value which is true when something is empty.",
+        "de-DE": "Ein bool-Wert der Wahr ist, wenn etwas leer ist"
     }
 }

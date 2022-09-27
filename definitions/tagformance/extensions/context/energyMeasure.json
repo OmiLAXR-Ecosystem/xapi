@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "energy measure"
+        "en-US": "energy measure",
+        "de-DE": "Energiemessung"
     },
     "description": {
-        "en-US": "Energy Measure is an experiment mode as per the lab instruction."
+        "en-US": "Energy Measure is an experiment mode as per the lab instruction.",
+        "de-DE": "Energiemessung ist ein Versuchsmodus entsprechend der Laboranweisungen"
     }
 }

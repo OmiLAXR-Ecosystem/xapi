@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "mouse button"
+    "en-US": "mouse button",
+    "de-DE": "Maustaste"
   },
   "description": {
-    "en-US": "Name of the mouse button the actor has used (e.g. 'right', 'left')."
+    "en-US": "Name of the mouse button the actor has used (e.g. 'right', 'left').",
+    "de-DE": "Maustaste die der Agierende benutzt hat (z.B. 'links', 'rechts')."
   }
 }

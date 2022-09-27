@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "stop frequency"
+        "en-US": "stop frequency",
+        "de-DE": "Halte-Frequenz"
     },
     "description": {
-        "en-US": "The selected frequency to stop the measurement."
+        "en-US": "The selected frequency to stop the measurement.",
+        "de-DE": "Die ausgewählte Frequenz zum Anhalten der Messung."
     }
 }

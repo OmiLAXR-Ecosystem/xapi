@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor assigned an object/task/activity to someone",
-        "de-DE": "Akteur wurde ein/e Objekt/Aufgabe/Aktivität zugeteilt"
+        "de-DE": "Agierende wurde ein/e Objekt/Aufgabe/Aktivität zugeteilt"
     },
     "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",

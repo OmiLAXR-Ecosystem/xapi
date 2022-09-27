@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "commented"
+        "en-US": "commented",
+        "de-DE": " kommentiert"
     },
     "description": {
-        "en-US": "An actor has written down the his/her thought."
+        "en-US": "An actor has written down the his/her thought.",
+        "de-DE": "Ein Agierender hat seine/ihre Gedanken aufgeschrieben."
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/28"

@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor added an object/person to a collection",
-        "de-DE": "Akteur hat eine/n Person/Gegenstand zu einer Sammlung hinzugefügt"
+        "de-DE": "Agierende hat eine/n Person/Gegenstand zu einer Sammlung hinzugefügt"
     },
     "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",

@@ -4,8 +4,8 @@
 	"de-DE": "scheiterte"
 },
 "description": {
-	"en-US": "Actor failed an activity (quiz attempt, upload, log in)",
-	"de-DE": "Akteur scheiterte an einer Aktivität (Quizversuch, Upload, Einloggen)"
+	"en-US": "Actor failed an activity (e.g. quiz attempt, upload, log in)",
+	"de-DE": "Agierende scheiterte an einer Aktivität (z.B. Quizversuch, Upload, Einloggen)"
 },
 "exactMatch": [
 	"https://registry.tincanapi.com/#uri/verb/20"

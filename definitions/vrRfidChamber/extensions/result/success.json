@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "success"
+        "en-US": "success",
+        "de-DE": "Erfolg"
     },
     "description": {
-        "en-US": "Experiment is successful."
+        "en-US": "Experiment is successful.",
+        "de-DE": "Experiment war erfolgreich."
     }
 }

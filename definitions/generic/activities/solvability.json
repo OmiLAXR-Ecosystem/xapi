@@ -4,7 +4,7 @@
         "de-DE": "Lösbarkeit"
     },
     "description": {
-        "en-US": "The status of if a task can be completed in the current gamestate.",
-        "de-DE": "Der Zustand ob die aktuelle Aufgabe noch gelöst werden kann mit dem aktuelle Spielzustand."
+        "en-US": "The status whether a task can be completed in the current gamestate.",
+        "de-DE": "Der Zustand, ob die aktuelle Aufgabe gelöst werden kann mit dem aktuellen Spielzustand."
     }
 }

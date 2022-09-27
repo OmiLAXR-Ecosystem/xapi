@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "frequency step"
+        "en-US": "frequency step",
+        "de-DE": "Frequenzschritt"
     },
     "description": {
-        "en-US": "An actor selects a frequency step for the measurement of the graph."
+        "en-US": "An actor selects a frequency step for the measurement of the graph.",
+        "de-DE": "Ein Agierender wählt den Frequenzschritt der Messung im Graphen"
     }
 }

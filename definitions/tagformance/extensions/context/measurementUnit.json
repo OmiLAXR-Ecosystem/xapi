@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "measurement unit dropdown"
+        "en-US": "measurement unit dropdown",
+        "de-DE": "Messeinheiten Auswahlmenü"
     },
     "description": {
-        "en-US": "An actor selects a unit in the Y-axis of the graph that is measured."
+        "en-US": "An actor selects a unit in the Y-axis of the graph that is measured.",
+        "de-DE": "Ein Agierender wählt die zu messende Einheit der Y-Achse des Graphens"
     }
 }

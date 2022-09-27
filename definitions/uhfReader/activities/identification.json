@@ -1,8 +1,10 @@
 {
   "name": {
-    "en-US": "identification"
+    "en-US": "identification",
+    "de-DE": "Identifikation"
   },
   "description": {
-    "en-US": "A progress to identify "
+    "en-US": "A progress to identify.",
+    "de-DE": "Ein Prozess zum Identifizieren."
   }
 }

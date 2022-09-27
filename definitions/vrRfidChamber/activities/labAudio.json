@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "lab audio"
+        "en-US": "lab audio",
+        "de-DE": "Labor Audio"
     },
     "description": {
-        "en-US": "Some audio content to feel the rela atmosphere of the lab. This can be switched on or off"
+        "en-US": "Some audio content to feel the real atmosphere of the lab. This can be switched on or off",
+        "de-DE": "Audioinhalte für eine realistische Atmosphäre im Labor. Kann ausgestellt werden."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/activityType/56"

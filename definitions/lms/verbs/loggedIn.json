@@ -4,8 +4,8 @@
 	"de-DE": "meldet sich an"
 },
 "description": {
-	"en-US": "Actor logged in (as him-/herself)",
-	"de-DE": "Akteur hat sich angemeldet (als er/sie selbst)"
+	"en-US": "Actor logged in (as themself)",
+	"de-DE": "Agierende hat sich angemeldet (als sich selbst)"
 },
 "exactMatch": [
 	"https://registry.tincanapi.com/#uri/verb/284",

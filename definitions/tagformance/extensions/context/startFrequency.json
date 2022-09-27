@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "start frequency"
+        "en-US": "start frequency",
+        "de-DE": "Anfangs-Frequenz"
     },
     "description": {
-        "en-US": "The selected frequency to start the measurement."
+        "en-US": "The selected frequency to start the measurement.",
+        "de-DE": "Die ausgewählte Frequenz zum Anfangen der Messung."
     }
 }

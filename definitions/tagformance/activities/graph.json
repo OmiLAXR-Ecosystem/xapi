@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "graph"
+        "en-US": "graph",
+        "de-DE": "Graph"
     },
     "description": {
-        "en-US": "A graph that is generated after clicking on Start Sweep button. This can be interactible."
+        "en-US": "A graph that is generated after clicking on Start Sweep button. This can be interactible.",
+        "de-DE": "Ein Graph der generiert wird nachdem auf den Start Sweep Button gedrückt wurde. Dies kann Interaktiv sein."
     }
 }

@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "session"
+        "en-US": "session",
+        "de-DE": "Sitzung"
     },
     "description": {
-        "en-US": "A session is one execution of the lab from entering the lab to exiting it."
+        "en-US": "A session is one execution of the lab from entering the lab to exiting it.",
+        "de-DE": "Eine Sitzung ist ein Durchlauf des Labors vom Eintreten bis zum Verlassen."
     }
 }

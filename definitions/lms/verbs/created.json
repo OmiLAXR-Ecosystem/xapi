@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor created an object",
-        "de-DE": "Akteur hat ein Objekt erstellt"
+        "de-DE": "Agierende hat ein Objekt erstellt"
     },
     "exactMatch": [
       "https://activitystrea.ms/registry/verbs/",

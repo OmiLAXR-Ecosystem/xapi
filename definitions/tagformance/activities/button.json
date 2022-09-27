@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "button"
+        "en-US": "button",
+        "de-DE": "Button"
     },
     "description": {
-        "en-US": "A button the actor can interact with."
+        "en-US": "A button the actor can interact with.",
+        "de-DE": "Ein Knopf mit dem der Agierende interagieren kann."
     }
 }

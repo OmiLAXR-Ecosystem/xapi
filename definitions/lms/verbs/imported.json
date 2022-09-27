@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor imported an object/data",
-	"de-DE": "Akteur hat ein Objekt/Daten importiert"
+	"de-DE": "Agierende hat ein Objekt/Daten importiert"
 },
 "exactMatch": [
 	"https://registry.tincanapi.com/#uri/verb/23"

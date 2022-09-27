@@ -4,7 +4,7 @@
         "de-DE": "Eye-Tracking System"
     },
     "description": {
-        "en-US": "A system to track the eyes of a player and use the gathered data in some way.",
-        "de-DE": "Ein system um die Augenbewegungen des Spielers aufzuzeichnen und diese Daten in einer Form zu nutzen."
+        "en-US": "A system to track the gazes of a player and use the gathered data in some way.",
+        "de-DE": "Ein System um die Augenbewegungen des Spielers aufzuzeichnen und diese Daten in einer Form zu nutzen."
     }
 }

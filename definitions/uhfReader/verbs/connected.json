@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "connected"
+        "en-US": "connected",
+        "de-DE": "verbunden"
     },
     "description": {
-        "en-US": "An actor connected an device (e.g. transponder) to the physical reader."
+        "en-US": "An actor connected an device (e.g. transponder) to the physical reader.",
+        "de-DE": "Ein Agierender hat ein Gerät (z.B. Transponder) mit dem physikalischen Leser verbunden."
     }
 }

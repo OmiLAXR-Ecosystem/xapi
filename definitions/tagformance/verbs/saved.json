@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "saved"
+        "en-US": "saved",
+        "de-DE": "gespeichert"
     },
     "description": {
-        "en-US": "An actor has saved a digital artefact from the software."
+        "en-US": "An actor has saved a digital artefact from the software.",
+        "de-DE": "Ein Agierender hat ein digitales Artefakt aus der Software gespeichert."
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/142"

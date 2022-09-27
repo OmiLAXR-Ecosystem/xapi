@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "reader image"
+        "en-US": "reader_image",
+        "de-DE": "Leserbild"
     },
     "description": {
-        "en-US": "A image of the reader is generated which is interactible. The reading head is selected in the image."
+        "en-US": "An image of the reader is generated which is interactible. The reading head is selected in the image.",
+        "de-DE": "Das generierte Bild eines Lesesensors, mit dem interagiert werden. Der Lesekopf ist im Bild ausgewählt."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/activityType/65"

@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "mouse"
+        "en-US": "mouse",
+        "de-DE": "Maus"
     },
     "description": {
-        "en-US": "A mouse used to click on buttons or drag items in the lab."
+        "en-US": "A mouse used to click on buttons or drag items in the lab.",
+        "de-DE": "Eine Maus wird zum Klicken von Buttons oder Ziehen von Items im Labor verwendet."
     }
 }

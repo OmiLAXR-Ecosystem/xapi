@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "orientationmeasure"
+        "en-US": "orientationmeasure",
+        "de-DE": "Orientierungsmessung"
     },
     "description": {
-        "en-US": "In this case the best possible orientation of the RFID tag is measured."
+        "en-US": "In this case the best possible orientation of the RFID tag is measured.",
+        "de-DE": "In diesem Fall wird die bestmögliche Orientierung des RFID-Tags gemessen."
     }
 }

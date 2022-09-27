@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "checkBox"
+        "en-US": "checkBox",
+        "de-DE": "Checkbox"
     },
     "description": {
-        "en-US": "A box which can be checked to select an already generated graph. Then it can be deleted using the cross button."
+        "en-US": "A box which can be checked to select an already generated graph. Then it can be deleted using the cross button.",
+        "de-DE": "Ein Kästchen mit dem ein bereits generierter Graph ausgewählt werden kann. Anschließend kann es mit dem Kreuz Button gelöscht werden "
     }
 }

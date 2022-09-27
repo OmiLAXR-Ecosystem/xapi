@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "select tag dropdown"
+        "en-US": "select tag dropdown",
+        "de-DE": "Tag-Auswahlmenü"
     },
     "description": {
-        "en-US": "The RFID tag selected for measurement."
+        "en-US": "The RFID tag selected for measurement.",
+        "de-DE": "Der zur Messung ausgewählte RFID tag"
     }
 }

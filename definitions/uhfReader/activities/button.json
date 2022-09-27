@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "button"
+        "en-US": "button",
+        "de-DE": "Button"
     },
     "description": {
-        "en-US": "A field which can be click to fire an action. For example the 'start button'."
+        "en-US": "A field which can be click to fire an action. For example the 'start button'.",
+        "de-DE": "Ein Knopf, der gedrückt werden kann um eine Aktion zu starten (z.B. 'Start-Button')."
     }
 }

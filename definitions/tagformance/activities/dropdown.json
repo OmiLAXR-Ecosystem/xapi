@@ -1,9 +1,11 @@
 {
   "name": {
-    "en-US": "dropdown"
+    "en-US": "dropdown",
+    "de-DE": "Aufklappmenü"
   },
   "description": {
-    "en-US": "An actor selects an option through a dropdown menu."
+    "en-US": "An actor selects an option through a dropdown menu.",
+    "de-DE": "Ein Agierender wählt eine Auswahl aus einem Aufklappmenü aus."
   }
 }
 

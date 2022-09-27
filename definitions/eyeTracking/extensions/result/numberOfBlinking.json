@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "number of blinking",
-        "de-DE": "Zwinker Anzahl"
+        "de-DE": "Anzahl an Blinzler"
     },
     "description": {
         "en-US": "The number of actors eye blinking within a focus sequence. Has to be an integer.",
-        "de-DE": "Die Anzahl an Zwinker, die die Akteurin während einer Fokus Sequence getätigt hat. Muss ein Integer sein."
+        "de-DE": "Die Anzahl an Blinzler, die der Agierende während einer Fokus Sequenz getätigt hat. Muss ganzzahlig sein."
     }
 }

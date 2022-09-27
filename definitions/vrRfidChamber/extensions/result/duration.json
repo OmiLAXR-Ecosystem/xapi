@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "duration"
+        "en-US": "duration",
+        "de-DE": "Dauer"
     },
     "description": {
-        "en-US": "Value representing a length of time required to complete the experiment."
+        "en-US": "Value representing a length of time required to complete the experiment.",
+        "de-DE": "Wert der die Zeitspanne bis zur Durchführung des Experiments angibt."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/extension/288"

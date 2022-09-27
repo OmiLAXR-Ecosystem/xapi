@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor replaced an object/person",
-	"de-DE": "Akteur hat ein/e Objekt/Person ersetzt"
+	"de-DE": "Agierende hat ein/e Objekt/Person ersetzt"
 },
 "exactMatch": [
 	"https://activitystrea.ms/registry/verbs/",

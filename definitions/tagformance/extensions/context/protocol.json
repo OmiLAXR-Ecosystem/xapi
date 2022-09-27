@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "protocol"
+        "en-US": "protocol",
+        "de-DE": "Protokol"
     },
     "description": {
-        "en-US": "The protocol used is ISO 18000-6c Query."
+        "en-US": "The protocol used is ISO 18000-6c Query.",
+        "de-DE": "Das verwendete Protokol ist 'ISO 18000-6c Query'."
     }
 }

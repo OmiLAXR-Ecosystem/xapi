@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "keyboard"
+        "en-US": "keyboard",
+        "de-DE": "Tastatur"
     },
     "description": {
-        "en-US": "A keyboard used to input text or interact with the lab and enter values as per the actor's wish."
+        "en-US": "A keyboard used to input text or interact with the lab and enter values as per the actor's wish.",
+        "de-DE": "Eine Tastatur wird für Texteingaben oder Interaktionen mit dem Labor verwendet und kann Werte entsprechend dem Wunsch des Agierenden eingeben."
     }
 }

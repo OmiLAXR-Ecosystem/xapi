@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "commentBox"
+        "en-US": "commentBox",
+        "de-DE": "Kommentarfeld"
     },
     "description": {
-        "en-US": "A textbox, where the actor can fill text."
+        "en-US": "A textbox, where the actor can fill text.",
+        "de-DE": "Eine Kommentarfeld, welches der Agierende mit Text füllen kann."
     }
 }

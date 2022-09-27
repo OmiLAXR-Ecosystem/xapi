@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "The overall thing to be achieved in the game.",
-        "de-DE": "Das Übergreifende Ziel des Spiels."
+        "de-DE": "Das übergreifende Ziel des Spiels."
     },
     "exactMatch": [
         "http://id.tincanapi.com/activitytype/goal",

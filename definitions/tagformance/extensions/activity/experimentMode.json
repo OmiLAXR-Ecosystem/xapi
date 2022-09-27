@@ -1,8 +1,10 @@
 {
-  "name": {
-    "en-US": "experiment mode"
-  },
-  "description": {
-    "en-US": "An experiment mode can be for example 'Energy Measurement' or 'Orientation Measurement'"
-  }
+    "name": {
+      "en-US": "experiment mode",
+      "de-DE": "Versuchsmodus"
+    },
+    "description": {
+      "en-US": "An experiment mode can be for example 'Energy Measurement' or 'Orientation Measurement'",
+      "de-DE": "Ein Versuchsmodus kann beispielsweise 'Energie Messung' oder 'Orientierungs Messung' sein."
+    }
 }

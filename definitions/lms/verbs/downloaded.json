@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor downloaded an object (e. g. a PDF file)",
-        "de-DE": "Akteur hat ein Objekt (z. B. eine PDF Datei) heruntergeladen"
+        "de-DE": "Agierende hat ein Objekt (z.B. eine PDF Datei) heruntergeladen"
     },
     "exactMatch": [
       "https://registry.tincanapi.com/#uri/verb/475"

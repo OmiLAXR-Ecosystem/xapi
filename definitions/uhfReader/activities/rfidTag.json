@@ -1,9 +1,11 @@
 {
     "name": {
-        "en-US": "rfidTag"
+        "en-US": "rfidTag",
+        "de-DE": "RFID-Tag"
     },
     "description": {
-        "en-US": "Represent the RFID tag. You can drag it as per your requirements"
+        "en-US": "Represent the RFID tag. You can drag it as per your requirements",
+        "de-DE": "Repräsentiert den RFID-Tag. Er kann entsprechend den Anforderungen bewegt werden."
     },
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/activityType/74"
