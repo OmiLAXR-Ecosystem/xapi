@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "learning unit",
+        "de-DE": "Lerneinheit"
+    },
+    "description": {
+        "en-US": "A VR learning unit where a specific topic is taught.",
+        "de-DE": "Eine VR Lerneinheit, in der ein bestimmtes Thema beigebracht wird."
+    }
+}
