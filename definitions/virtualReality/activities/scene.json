@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "scene",
+    "de-DE": "Szenario"
+  },
+  "description": {
+    "en-US": "A VR learning scenario, which consists of multiple learning units.",
+    "de-DE": "Ein VR Lernszenario, welches aus mehreren Lerneinheiten besteht."
+  }
+}

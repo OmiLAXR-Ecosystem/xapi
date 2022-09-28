@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "scene name",
+    "de-DE": "Szenario Name"
+  },
+  "description": {
+    "en-US": "Name of a VR scene. Must be a string.",
+    "de-DE": "Namen einer VR Szene. Muss ein String sein."
+  }
+}
