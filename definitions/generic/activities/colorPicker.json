@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "color picker",
+    "de-DE": "Farbwähler"
+  },
+  "description": {
+    "en-US": "A widget which allows users to select a color.",
+    "de-DE": "Ein Widget welches es dem Nutzer erlaubt eine Farbe auszuwählen."
+  }
+}
