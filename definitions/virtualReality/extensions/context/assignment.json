@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "assignment",
+        "de-DE": "Aufgabe"
+    },
+    "description": {
+        "en-US": "A VR assignment for a specific topic.",
+        "de-DE": "Eine VR Aufgabe für eine bestimmte Aufgabe."
+    }
+}
