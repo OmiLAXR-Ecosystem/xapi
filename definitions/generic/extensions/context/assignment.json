@@ -4,7 +4,7 @@
         "de-DE": "Aufgabe"
     },
     "description": {
-        "en-US": "An assignment for a specific topic.",
-        "de-DE": "Eine Aufgabe für eine bestimmtes Thema."
+        "en-US": "An assignment for a specific topic or a defined learning goal.",
+        "de-DE": "Eine Aufgabe für ein bestimmtes Thema oder ein definiertes Lernziel."
     }
 }

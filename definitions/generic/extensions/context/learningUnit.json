@@ -4,7 +4,7 @@
         "de-DE": "Lerneinheit"
     },
     "description": {
-        "en-US": "A learning unit, where a specific topic is taught with a set of assignments.",
-        "de-DE": "Eine Lerneinheit, in der ein bestimmtes Thema mit Hilfe von Aufgaben beigebracht wird."
+        "en-US": "A learning unit, where a specific topic is taught or a specific learning goal should be achieved with a set of assignments.",
+        "de-DE": "Eine Lerneinheit, in der ein bestimmtes Thema beigebracht wird oder ein bestimmtes Lernziel mit Hilfe von Aufgaben erreacht werden soll."
     }
 }
