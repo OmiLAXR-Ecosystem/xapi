@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "learning unit",
+        "de-DE": "Lerneinheit"
+    },
+    "description": {
+        "en-US": "A learning unit, where a specific topic is taught with a set of assignments.",
+        "de-DE": "Eine Lerneinheit, in der ein bestimmtes Thema mit Hilfe von Aufgaben beigebracht wird."
+    }
+}

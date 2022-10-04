@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "assignment",
+        "de-DE": "Aufgabe"
+    },
+    "description": {
+        "en-US": "An assignment for a specific topic.",
+        "de-DE": "Eine Aufgabe für eine bestimmtes Thema."
+    }
+}

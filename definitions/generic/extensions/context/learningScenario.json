@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "learning scenario",
+        "de-DE": "Lernszenario"
+    },
+    "description": {
+        "en-US": "A learning scenario, which can consist of multiple learning units.",
+        "de-DE": "Ein Lernszenario, welches aus mehreren Lerneinheiten bestehen kann."
+    }
+}
