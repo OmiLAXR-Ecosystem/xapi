@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "task",
+    "de-DE": "Aufgabenschritt"
+  },
+  "description": {
+    "en-US": "A task of an assignment or learning unit.",
+    "de-DE": "Eine Aufgabenschritt einer Lerneinheit oder Aufgabe."
+  }
+}
