@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "assignment",
+        "de-DE": "Aufgabe"
+    },
+    "description": {
+        "en-US": "An assignment for a specific topic or a defined learning goal.",
+        "de-DE": "Eine Aufgabe für ein bestimmtes Thema oder ein definiertes Lernziel."
+    }
+}
