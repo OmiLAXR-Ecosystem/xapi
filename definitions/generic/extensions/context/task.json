@@ -5,6 +5,6 @@
   },
   "description": {
     "en-US": "A task of an assignment or learning unit.",
-    "de-DE": "Eine Aufgabenschritt einer Lerneinheit oder Aufgabe."
+    "de-DE": "Eine Aufgabe in einer Lerneinheit oder eine Teilaufgabe, die einer mehrteiligen Aufgabe zugeordnet sein kann."
   }
 }
