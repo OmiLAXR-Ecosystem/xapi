@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "gamemode",
+        "de-DE": "Spielmodus"
+    },
+    "description": {
+        "en-US": "The gamemode in which a game is played (e.g. competitive or cooperative).",
+        "de-DE": "Der Spielmodus in dem ein Spiel gespielt wird (z.B. kompetetiv oder kooperativ)."
+    }
+}

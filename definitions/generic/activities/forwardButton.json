@@ -4,7 +4,7 @@
         "de-DE": "Weiter Knopf"
     },
     "description": {
-        "en-US": "A button to go forward on a page or a screen.",
-        "de-DE": "Ein Knopf um auf einer Seite oder dem Bildschirm weiter zu gehen."
+        "en-US": "A button to go forward on a page or a screen (navigation).",
+        "de-DE": "Ein Knopf um auf einer Seite oder dem Bildschirm weiterzugehen (Navigation)."
     }
 }

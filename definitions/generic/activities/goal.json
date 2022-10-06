@@ -4,8 +4,8 @@
         "de-DE": "Ziel"
     },
     "description": {
-        "en-US": "The overall thing to be achieved in the game.",
-        "de-DE": "Das Übergreifende Ziel des Spiels."
+        "en-US": "A goal is something that the actor wants to achieve, the purpose of doing a task or group of tasks. It can have subtasks and subgoals.",
+        "de-DE": "Ein Ziel ist etwas, das eine Person erreichen möchte, der Zweck der Durchführung einer Aufgabe oder einer Gruppe von Aufgaben. Es kann Unteraufgaben und Unterziele haben."
     },
     "exactMatch": [
         "http://id.tincanapi.com/activitytype/goal",

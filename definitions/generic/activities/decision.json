@@ -4,7 +4,7 @@
         "de-DE": "Entscheidung"
     },
     "description": {
-        "en-US": "A decision to be made which is relevant for the game outcome.",
-        "de-DE": "Eine Entscheidung die getroffen werden muss und welche den Spielausgang beieinflusst."
+        "en-US": "A decision to be made which is relevant for the game/process/scenario/situation outcome.",
+        "de-DE": "Eine Entscheidung die getroffen werden muss und welche den Spielausgang/den Prozess/das Szenario/die Situation beieinflusst."
     }
 }

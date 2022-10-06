@@ -4,8 +4,8 @@
         "de-DE": "Gruppe"
     },
     "description": {
-        "en-US": "A group of players playing a game together.",
-        "de-DE": "Eine Gruppe von Spielern welche zusammen ein Spiel spielen."
+        "en-US": "Represents a grouping of objects or persons in which member objects can join or leave.",
+        "de-DE": "Stellt eine Gruppierung von Objekten oder Personen dar, in der die Mitgliedsobjekte der Gruppe beitreten oder sie verlassen können."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/activityType/64",

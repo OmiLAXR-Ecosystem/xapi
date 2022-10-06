@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor shared an object with another actor or a group of actors.",
-        "de-DE": "Ein Akteur teitle eine Gegenstand mit einem anderen Acteur oder einer Gruppe."
+        "de-DE": "Ein Agierender teilte eine Gegenstand mit einer anderen Preson oder einer Gruppe."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/147",

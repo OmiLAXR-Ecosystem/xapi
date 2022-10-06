@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor drew something.",
-        "de-DE": "Ein Akteur malte etwas."
+        "de-DE": "Ein Agierender malte etwas."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/308",

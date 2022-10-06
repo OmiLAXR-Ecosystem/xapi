@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "toggled",
-        "de-DE": "schaltete um"
+        "de-DE": "betätigte"
     },
     "description": {
         "en-US": "An actor toggled some switch.",
-        "de-DE": "Ein Akteur schaltete einen Schalter um."
+        "de-DE": "Ein Agierender betätigte einen Schalter."
     }
 }
