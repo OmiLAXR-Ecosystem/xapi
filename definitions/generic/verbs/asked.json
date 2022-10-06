@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor asked a question. Could also asked for help or advice.",
-        "de-DE": "Ein Akteur stellte eine Frage. Es kann auch nach Hilfe oder Ratschlag gefragt werden."
+        "de-DE": "Ein Agierender stellte eine Frage. Es kann auch nach Hilfe oder Ratschlag gefragt werden."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/37",
