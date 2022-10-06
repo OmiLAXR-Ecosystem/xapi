@@ -4,7 +4,7 @@
         "de-DE": "Hilfe"
     },
     "description": {
-        "en-US": "Something a player can ask for to find the solution to a task.",
-        "de-DE": "Etwas wonach der Spieler fragen kann um eine Lösung für eine Aufgabe zu finden."
+        "en-US": "Something an actor can ask for to find the solution to a task.",
+        "de-DE": "Etwas wonach eine Person fragen kann um eine Lösung für eine Aufgabe zu finden."
     }
 }

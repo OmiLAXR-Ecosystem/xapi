@@ -4,7 +4,7 @@
         "de-DE": "Wort"
     },
     "description": {
-        "en-US": "A word shown on the screen, with which for example can be interacted with in some way.",
-        "de-DE": "Ein Wort welches auf dem Bildschirm angezeigt wird und mit dem man zum Beispiel interagieren kann."
+        "en-US": "A word shown on the screen that eventually can be interacted with in some way.",
+        "de-DE": "Ein Wort, welches auf dem Bildschirm angezeigt wird und mit dem eventuell interagiert werden kann."
     }
 }

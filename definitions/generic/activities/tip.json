@@ -4,7 +4,7 @@
         "de-DE": "Tipp"
     },
     "description": {
-        "en-US": "A tip to overcome some ingame task.",
-        "de-DE": "Ein Tipp um eine Aufgabe im Spiel zu lösen."
+        "en-US": "A tip on how to solve a task.",
+        "de-DE": "Ein Tipp um eine Aufgabe zu lösen."
     }
 }
