@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "teleport area",
+        "de-DE": "Teleportbereich"
+    },
+    "description": {
+        "en-US": "A teleport area in VR environment.",
+        "de-DE": "Ein Teleportbereich in der VR Umgebung."
+    }
+}
