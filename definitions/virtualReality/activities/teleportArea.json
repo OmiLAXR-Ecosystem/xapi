@@ -4,7 +4,7 @@
         "de-DE": "Teleportbereich"
     },
     "description": {
-        "en-US": "A teleport area in VR environment.",
-        "de-DE": "Ein Teleportbereich in der VR Umgebung."
+        "en-US": "A highlighted area, which is a teleportation destination. So the actor or something could be teleported to the specific location.",
+        "de-DE": "Ein hervorgehobener Bereich, der ein Teleportationsziel ist. Der Agierende oder etwas anderes kann durch Interaktion an den spezifischen Ort teleportiert werden."
     }
 }
