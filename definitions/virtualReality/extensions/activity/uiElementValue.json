@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "VR user interface element value",
+    "de-DE": "VR Benutzerflächenelementwert"
+  },
+  "description": {
+    "en-US": "A value of an ui element (e.g. Panel, Button, Slider).",
+    "de-DE": "Der Wert eines Benutzerflächenelement mit dem der Benutzer interagieren kann (z.B. Panel, Button, Slider)."
+  }
+}
