@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "VR user interface element type",
+    "de-DE": "VR Benutzeroberflächenelementtyp"
+  },
+  "description": {
+    "en-US": "Describes the type of the interactive interface element. Could specify the element or the category of the element depending on the needs, e.g. categories: input controls, navigation or informational components or containers vs direct element: button, checkbox, dropdown, breadcrumb, tooltip… and so on.",
+    "de-DE": "Der Typ des interaktiven Elements einer Benutzeroberfläche. Kann zum Beispiel die Kategorie oder den Elementtyp enthalten. Kategorien sind zum Beispiel, ob es sich um eine Eingabesteuerung, ein Navigations- oder Informationselement oder um einen Container handelt. Während eine Elementbeschreibung auf der Ebene sein kann: Button, Checkbox, Dropdown Auswahl, Brotkrumennavigation, Tooltip… usw "
+  }
+}
