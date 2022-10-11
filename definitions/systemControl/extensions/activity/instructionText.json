@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "instruction text",
+    "de-DE": "Anweisungstext"
+  },
+  "description": {
+    "en-US": "Represents the text of any kind of instruction provided by the system.",
+    "de-DE": "Repräsentiert den Text von einer Anweisung, die vom System erteilt wird."
+  }
+}
