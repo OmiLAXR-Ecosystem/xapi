@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "closed",
+    "de-DE": "schließt"
+  },
+  "description": {
+    "en-US": "Within this contexed indicates the verb closed, that the actor closed one or both eyes. Depending on the duration it can be distinguished between blinking - the  involuntary act of shutting and opening the eyelid (takes from 100 ms to 400 ms). Voluntary winks take longer.",
+    "de-DE": "In diesem Kontext meint schließen, den Schluss und die Öffnung des Augenlids. Blinzeln kann als unbewusstes Schließen ausgewertet werden und dauert von 100 bis 400ms. Bewusste Bewegungen des Augenlids, zum Beispiel um zu Winkern brauchen länger."
+  }
+}
