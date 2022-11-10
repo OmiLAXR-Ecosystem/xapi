@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "VR user interface element min value",
+    "de-DE": "Min. Wert eines VR Benutzerflächenelements"
+  },
+  "description": {
+    "en-US": "The min. value of an ui element, could be input controls e.g. buttons, slider, navigational e.g. breadcrumbs or a navigation panel, or informational elements e.g. message panel. The Value could include the selected value, but could also contain information about the range. So that a phrase such as >21 out of 42< indicates that the slider, which ranges from 1 to 42 was changed to the value 21. {value; min; max}: {21, 1,42}.",
+    "de-DE": "Der min. Wert eines interaktiven Benutzerflächenelements mit dem der Benutzer interagieren kann, bei dem es sich zum Beispiel um eine Eingabesteuerung, wie Buttons oder Slider, eine Navigation, z.B. mit Brotkrumen-Elementen oder Navigationstafel, oder eine Informationsanzeige hadelt, z.B. eine Messagebox. Der Wert kann den ausgewählten Wert enthalten, aber auch Informationen über den Bereich. So bedeutet ein Satz wie >21 von 42<, dass der Schieberegler, der von 1 bis 42 reicht, auf den Wert 21 geändert wurde. {Wert; min; max}: {21, 1,42}."
+  }
+}
