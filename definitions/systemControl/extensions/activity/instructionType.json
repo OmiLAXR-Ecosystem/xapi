@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "instruction type",
+    "de-DE": "Typ der Anweisung"
+  },
+  "description": {
+    "en-US": "Represents the type of an instruction provided by the system. It can be e.g. a text, or audio.",
+    "de-DE": "Repräsentiert den Inhalt einer Anweisung, die vom System erteilt wird. Es kann zum Beispiel Text oder Audio sein."
+  }
+}

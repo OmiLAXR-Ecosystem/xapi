@@ -4,7 +4,7 @@
     "de-DE": "Anweisung"
   },
   "description": {
-    "en-US": "Represents any kind of instruction provided by the system.",
-    "de-DE": "Repräsentiert jede Art von Anweisung, die vom System erteilt wird."
+    "en-US": "Represents an instruction provided by the system.",
+    "de-DE": "Repräsentiert eine Anweisung, die vom System erteilt wird."
   }
 }
