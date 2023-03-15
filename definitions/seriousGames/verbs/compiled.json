@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "compiled",
+    "de-DE": "kompilierte"
+  },
+  "description": {
+    "en-US": "A code written by the player was executed.",
+    "de-DE": "Ein vom Spielenden geschriebener Code wurde ausgeführt."
+  }
+}

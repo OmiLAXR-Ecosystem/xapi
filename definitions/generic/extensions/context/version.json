@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "version",
+    "de-DE": "Version"
+  },
+  "description": {
+    "en-US": "The version of the application instance. It should follow the semantic versioning principle of 'MAJOR.MINOR.PATCH'.",
+    "de-DE": "Die Version der Applikationsinstanz. Es sollte dem Prinzip der semantischen Versionierung folgen 'MAJOR.MINOR.PATCH'."
+  }
+}
