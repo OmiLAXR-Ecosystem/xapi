@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "selected",
+        "de-DE": "Ausgewählt"
+    },
+    "description": {
+        "en-US": "Coach selected Student to perform activity",
+        "de-DE": "Coach hat Schüler ausgewählt, um eine Aktivität auszuführen"
+    }
+}

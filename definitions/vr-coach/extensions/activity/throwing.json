@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "throwing",
+        "de-DE": "Werfen"
+    },
+    "description": {
+        "en-US": "Student is throwing an object",
+        "de-DE": "Schüler wirft einen Gegenstand"
+    }
+}

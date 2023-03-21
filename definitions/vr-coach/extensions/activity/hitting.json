@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "hitting",
+        "de-DE": "Schlagen"
+    },
+    "description": {
+        "en-US": "Student is hitting another student.",
+        "de-DE": "Schüler schlägt einen anderen Schüler."
+    }
+}

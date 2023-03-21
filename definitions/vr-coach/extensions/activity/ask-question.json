@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "ask question",
+        "de-DE": "Frage stellen"
+    },
+    "description": {
+        "en-US": "Student asks a question",
+        "de-DE": "Schüler stellt eine Frage"
+    }
+}

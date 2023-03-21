@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Student",
+        "de-DE": "Student"
+    },
+    "description": {
+        "en-US": "Selected Student",
+        "de-DE": "Ausgewählter Student"
+    }
+}

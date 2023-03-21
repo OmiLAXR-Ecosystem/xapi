@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Behavior",
+        "de-DE": "Verhalten"
+    },
+    "description": {
+        "en-US": "Behaiviour of a selected student",
+        "de-DE": "Verhalten des gewählten Schülers"
+    }
+}
