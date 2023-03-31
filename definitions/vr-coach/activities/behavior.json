@@ -4,7 +4,7 @@
         "de-DE": "Verhalten"
     },
     "description": {
-        "en-US": "Behavior of an object, e.g. a selected student",
-        "de-DE": "Verhalten eines Objektes, z.B. des gewählten Schülers/der gewählten Schülerin"
+        "en-US": "Behavior of an object, e.g. a selected Agent",
+        "de-DE": "Verhalten eines Objektes, z.B. des gewählten Agent*in"
     }
 }

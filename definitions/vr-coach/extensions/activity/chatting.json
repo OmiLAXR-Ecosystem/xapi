@@ -4,7 +4,7 @@
         "de-DE": "plaudern"
     },
     "description": {
-        "en-US": "Student is chatting with another student",
-        "de-DE": "Schüler plaudert mit einem anderen Schüler"
+        "en-US": "Agent is chatting with another Agent",
+        "de-DE": "Agent*in plaudert mit einem anderen Agent"
     }
 }

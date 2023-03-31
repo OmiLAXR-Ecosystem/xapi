@@ -4,7 +4,7 @@
         "de-DE": "Schlagen"
     },
     "description": {
-        "en-US": "Student is hitting another student.",
-        "de-DE": "Schüler schlägt einen anderen Schüler."
+        "en-US": "Agent is hitting another Agent.",
+        "de-DE": "Agent*in schlägt einen anderen Agent."
     }
 }

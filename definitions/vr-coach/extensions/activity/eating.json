@@ -4,7 +4,7 @@
         "de-DE": "Essen"
     },
     "description": {
-        "en-US": "Student is eating",
-        "de-DE": "Schüler isst"
+        "en-US": "Agent is eating",
+        "de-DE": "Agent*in isst"
     }
 }
