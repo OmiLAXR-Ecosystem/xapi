@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Workshop",
+        "de-DE": "Gegenseitige Beurteilung"
+    },
+    "description": {
+        "en-US": "A Workshop, also Peer Assessment, object is a multiple step task. Students submit assignments via file or text and grade the submission of others based on a review sheet provided by the lecturer.",
+        "de-DE": "Die Gegenseitige Beurteilung erlaubt Lernenden eine Abgabe zu tätigen und die anderer anhand eines von den Lehrenden bereitgestellten Bewertungsbogen zu bewerten."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
