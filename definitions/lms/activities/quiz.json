@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Quiz",
+        "de-DE": "Test"
+    },
+    "description": {
+        "en-US": "A quiz object. Contains one or more questions that can be answered by a student.",
+        "de-DE": "Ein Test-Objekt. Kann eine oder mehr Fragen enthalten, die von Studierenden beantwortet werden können."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
