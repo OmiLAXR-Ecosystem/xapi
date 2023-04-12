@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "condition",
+    "de-DE": "Bedingung"
+  },
+  "description": {
+    "en-US": "A condition, which, for example, checks if something was interacted with.",
+    "de-DE": "Eine Bedingung, die zum Beispiel überprüft ob mit etwas interagiert wurde."
+  }
+}
