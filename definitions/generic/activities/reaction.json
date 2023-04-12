@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "reaction",
+    "de-DE": "Reaktion"
+  },
+  "description": {
+    "en-US": "A reaction, for example a sound notifying an person.",
+    "de-DE": "Eine Reaktion, die zum Beispiel eine Person benachrichtig."
+  }
+}
