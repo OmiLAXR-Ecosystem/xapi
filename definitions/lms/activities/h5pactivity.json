@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Interactive Content (H5P)",
+        "de-DE": "Interaktiver Inhalt (H5P)"
+    },
+    "description": {
+        "en-US": "H5P is an abbreviation for HTML5 Package - interactive content such as presentations, videos and other multimedia, questions, quizzes, games and more. The H5P activity enables H5P to be uploaded and added to a course.",
+        "de-DE": "H5P ist eine Abkürzung für HTML5 Package - interaktive Inhalte wie Präsentationen, Videos und andere multimediale Inhalte, Fragen, Tests, Spiele und mehr. Mit der H5P-Aktivität kann H5P hochgeladen und einem Kurs hinzugefügt werden."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
