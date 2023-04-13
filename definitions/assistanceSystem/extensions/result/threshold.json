@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "threshold",
+    "de-DE": "Schwelle"
+  },
+  "description": {
+    "en-US": "A predetermined limit that triggers a specified action or event, when reached or exceeded.",
+    "de-DE": "Eine vorbestimmte Schwelle, die bei Erreichen oder Überschreiten eine bestimmte Aktion oder ein bestimmtes Ereignis auslöst."
+  }
+}
