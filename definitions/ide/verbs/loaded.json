@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "loaded",
+        "de-DE": "lud"
+    },
+    "description": {
+        "en-US": "An actor loaded something in the IDE (an asset for example).",
+        "de-DE": "Ein Akteur lud etwas in der IDE (ein Asset zum Beispiel)."
+    },
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/38"
+    ]
+}

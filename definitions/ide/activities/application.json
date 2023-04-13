@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Application",
+        "de-DE": "Applikation"
+    },
+    "description": {
+        "en-US": "An application is a specialized software program designed for a specific purpose.",
+        "de-DE": "Eine Applikation ist eine spezielle Softwareanwendung, die für einen bestimmten Zweck entwickelt wurde."
+    }
+}

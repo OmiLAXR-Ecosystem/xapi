@@ -4,7 +4,7 @@
     "de-DE": "klickte"
   },
   "description": {
-    "en-US": "A developer has clicked a button.",
-    "de-DE": "Ein/e Entwickler/in klickte einen Knopf."
+    "en-US": "An actor has clicked a button.",
+    "de-DE": "Ein Akteur klickte einen Knopf."
   }
 }

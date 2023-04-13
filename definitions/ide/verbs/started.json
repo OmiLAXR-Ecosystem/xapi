@@ -4,8 +4,8 @@
         "de-DE": "startete"
     },
     "description": {
-        "en-US": "A developer started a plugin or application.",
-        "de-DE": "Ein/e Entwickler/in startete ein Plugin oder eine Applikation."
+        "en-US": "An actor started a plugin or application.",
+        "de-DE": "Ein Akteur startete ein Plugin oder eine Applikation."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/149",
