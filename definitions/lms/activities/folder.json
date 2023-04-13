@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Folder",
+        "de-DE": "Verzeichnis"
+    },
+    "description": {
+        "en-US": "A collection of files.",
+        "de-DE": "Eine Sammlung verschiedener Dateien."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
