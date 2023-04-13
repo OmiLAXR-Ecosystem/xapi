@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "button",
+    "de-DE": "Knopf"
+  },
+  "description": {
+    "en-US": "Something an actor can press, which then triggers an action in the IDE.",
+    "de-DE": "Etwas was ein Akteur drücken kann, was dann eine Aktion in der IDE hervorruft."
+  }
+}

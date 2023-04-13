@@ -1,0 +1,12 @@
+{
+  "name": {
+    "en-US": "asset bytes",
+    "de-DE": "Asset Bytes"
+  },
+  "description": {
+    "en-US": "File size in bytes of a Library, template, configuration or multimedia file.",
+    "de-DE": "Dateigröße in Bytes einer Bibliothek, Vorlage, Konfigurations- oder Multimediadatei."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}
