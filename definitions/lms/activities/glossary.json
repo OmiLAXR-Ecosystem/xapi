@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Glossary",
+        "de-DE": "lossar"
+    },
+    "description": {
+        "en-US": "A collection of definitions, resources and information.",
+        "de-DE": "Eine Sammlung verschiedener Defnitionen, Ressourcen und Informationen."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
