@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "PDF-Annotation",
+        "de-DE": "PDF-Annotation"
+    },
+    "description": {
+        "en-US": "Plugin for collaborative markup on PDF documents.",
+        "de-DE": "Plugin zum kollaborativem Markieren von PDF Dokumenten."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
