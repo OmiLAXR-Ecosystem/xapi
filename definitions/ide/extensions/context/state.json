@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "state of IDE",
+    "de-DE": "Status der IDE"
+  },
+  "description": {
+    "en-US": "Representing the state of the IDE like 'loading', 'starting', ...",
+    "de-DE": "Repräsentiert den Status der IDE, wie zum Beispiel 'laden', 'starten', ..."
+  }
+}
