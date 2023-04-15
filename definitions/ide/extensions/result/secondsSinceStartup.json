@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "seconds since startup",
+    "de-DE": "Sekunden seit Start"
+  },
+  "description": {
+    "en-US": "Seconds past after startup. Must be a float value, where 1.0 is one second.",
+    "de-DE": "Sekunden, die seit dem Start vergangen sind. Ist ein float, wobei 1.0 eine Sekunde ist."
+  }
+}
