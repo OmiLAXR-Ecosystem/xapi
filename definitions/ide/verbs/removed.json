@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "removed",
+    "de-DE": "entfernte"
+  },
+  "description": {
+    "en-US": "An actor has removed a component or asset.",
+    "de-DE": "Ein Akteur entfernte eine Komponente oder Asset."
+  }
+}

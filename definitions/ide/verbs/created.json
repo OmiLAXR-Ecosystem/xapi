@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "created",
+    "de-DE": "erstellte"
+  },
+  "description": {
+    "en-US": "An actor has created a component or asset.",
+    "de-DE": "Ein Akteur erstellte eine Komponente oder Asset."
+  }
+}

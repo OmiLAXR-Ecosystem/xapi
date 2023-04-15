@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "component",
+    "de-DE": "Komponente"
+  },
+  "description": {
+    "en-US": "A component is a container with functionality for the IDE or application.",
+    "de-DE": "Eine Komponente ist ein Halter für Functionalität der IDE oder Applikation."
+  }
+}

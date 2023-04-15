@@ -1,7 +1,7 @@
 {
   "name": {
-    "en-US": "button",
-    "de-DE": "Knopf"
+    "en-US": "control element",
+    "de-DE": "Kontrollelement"
   },
   "description": {
     "en-US": "Something an actor can press, which then triggers an action in the IDE.",

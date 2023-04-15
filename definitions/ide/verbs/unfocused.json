@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "unfocused",
+    "de-DE": "entfokussierte"
+  },
+  "description": {
+    "en-US": "An actor has unfocused a control element or window.",
+    "de-DE": "Ein Akteur entfokussierte ein Kontrollelement oder ein Fenster."
+  }
+}
