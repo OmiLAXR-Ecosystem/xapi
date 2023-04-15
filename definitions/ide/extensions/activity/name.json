@@ -6,7 +6,5 @@
   "description": {
     "en-US": "Name of activity target. Must be a string.",
     "de-DE": "Name der Zielaktivität. Muss ein String sein."
-  },
-  "exactMatch": [],
-  "relatedMatch": []
+  }
 }

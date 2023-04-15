@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "maximized",
+    "de-DE": "maximiert"
+  },
+  "description": {
+    "en-US": "True, if the target window is maximized.",
+    "de-DE": "Wahr, wenn das Fenster maximiert ist."
+  }
+}
