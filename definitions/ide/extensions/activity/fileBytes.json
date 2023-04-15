@@ -1,7 +1,7 @@
 {
   "name": {
-    "en-US": "asset bytes",
-    "de-DE": "Asset Bytes"
+    "en-US": "file bytes",
+    "de-DE": "File Bytes"
   },
   "description": {
     "en-US": "File size in bytes of a Library, template, configuration or multimedia file.",
