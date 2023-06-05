@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Audio",
+        "de-DE": "Audio"
+    },
+    "description": {
+        "en-US": "An audio, played by an audio player.",
+        "de-DE": "Eine Tonaufzeichnung, welche von einem geeingeten Wiedergabegerät abgespielt wird."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

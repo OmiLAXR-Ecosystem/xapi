@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Video",
+        "de-DE": "Video"
+    },
+    "description": {
+        "en-US": "A video, played by a video player.",
+        "de-DE": "Ein Video, welches von einem geeingeten Wiedergabegerät abgespielt wird."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
