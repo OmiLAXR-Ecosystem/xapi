@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "resumed",
+        "de-DE": "fortgesetzt"
+    },
+    "description": {
+        "en-US": "An actor continued playing a media element.",
+        "de-DE": "Ein Aktuer setzte die Wiedergabe eines Medienelements fort."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

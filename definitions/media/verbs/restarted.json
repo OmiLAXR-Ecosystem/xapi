@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "restarted",
+        "de-DE": "neu gestartete"
+    },
+    "description": {
+        "en-US": "An actor restarted playing a media element after finishing it.",
+        "de-DE": "Ein Aktuer startete die Wiedergabe eines Medienelements erneut, nachdem diese zuvor beendet wurde."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

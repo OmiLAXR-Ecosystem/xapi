@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "started",
+        "de-DE": "startete"
+    },
+    "description": {
+        "en-US": "An actor started playing a media element.",
+        "de-DE": "Ein Aktuer startete die Wiedergabe eines Medienelements."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

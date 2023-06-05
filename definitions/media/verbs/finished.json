@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "finished",
+        "de-DE": "beendete"
+    },
+    "description": {
+        "en-US": "An actor reached the end of a media element and its playing was stopped by the player itself.",
+        "de-DE": "Ein Aktuer erreichte das Ende eines Medienelements und der Player beendete die Wiedergabe."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

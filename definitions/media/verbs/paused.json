@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "paused",
+        "de-DE": "pausierte"
+    },
+    "description": {
+        "en-US": "An actor paused a playing media element.",
+        "de-DE": "Ein Aktuer pausierte die Wiedergabe eines Medienelements."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

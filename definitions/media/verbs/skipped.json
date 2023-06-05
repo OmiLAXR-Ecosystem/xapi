@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "skipped",
+        "de-DE": "übersprang"
+    },
+    "description": {
+        "en-US": "An actor skipped a part of the media element either forward or backward. LEGACY! Use seeked instead.",
+        "de-DE": "Ein Aktuer übersprang einen Teil eines Medienelements. Entweder einen vorausligenden Teil oder durch einen Sprung zurück, einen zurückliegenden. VERALTET! Nutze stattdessen sprang (seeked)."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/seeked"
+    ]
+}
