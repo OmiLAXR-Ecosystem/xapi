@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Idling",
+        "de-DE": "inaktiv"
+    },
+    "description": {
+        "en-US": "Agent is idling",
+        "de-DE": "Agent*in ist inaktiv"
+    }
+}
