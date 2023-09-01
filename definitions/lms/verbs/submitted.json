@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "submitted",
+        "de-DE": "gab ab"
+    },
+    "description": {
+        "en-US": "Actor submitted a quiz, assignment, ...",
+        "de-DE": "Akteur hat ein Quiz, eine Abgabe, ... abgegeben."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+    }
