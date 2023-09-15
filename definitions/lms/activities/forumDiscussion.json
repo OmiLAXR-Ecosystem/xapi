@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Diskussion",
+        "de-DE": "Diskussion"
+    },
+    "description": {
+        "en-US": "A single discussion/thread within a forum.",
+        "de-DE": "Eine einzelne Diskussion in einem Forum."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
