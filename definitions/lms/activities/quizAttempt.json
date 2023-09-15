@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Quiz Attempt",
+        "de-DE": "Testversuch"
+    },
+    "description": {
+        "en-US": "A singel attempt of a quiz. Contains attempts of the questions used in the quiz, this attempt relates to.",
+        "de-DE": "Ein einzelner Versuch einer Quizbearbeitung. Enthält Versuche von Fragen, die in dem Quiz verwendet werden, zu dem dieser Versuch gehört."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
