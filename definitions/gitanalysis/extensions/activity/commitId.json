@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "commit id"
+    },
+    "description": {
+        "en-US": "The identifier of a commit, given as a hash. Can be used to find a certain commit in the repository."
+    }
+}

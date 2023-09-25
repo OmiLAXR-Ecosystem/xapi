@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "opened"
+    },
+    "description": {
+        "en-US": "An actor opened an issue or a merge request."
+    }
+}

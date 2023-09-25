@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "pipeline trigger"
+    },
+    "description": {
+        "en-US": "The reason a CI/CD pipeline was triggered."
+    }
+}

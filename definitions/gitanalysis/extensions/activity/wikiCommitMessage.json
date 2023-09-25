@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "wiki page commit message"
+    },
+    "description": {
+        "en-US": "The commit message of the commit, which is responsible for changes on a wiki page (including creation and deletion)."
+    }
+}

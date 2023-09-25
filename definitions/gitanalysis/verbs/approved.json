@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "approved"
+    },
+    "description": {
+        "en-US": "An actor approved a merge request."
+    }
+}

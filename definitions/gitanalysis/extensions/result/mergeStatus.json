@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "merge status"
+    },
+    "description": {
+        "en-US": "The status of a merge (unapproved/approved/ready to merge)."
+    }
+}

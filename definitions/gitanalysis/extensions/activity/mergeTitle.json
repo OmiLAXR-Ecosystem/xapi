@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "merge title"
+    },
+    "description": {
+        "en-US": "The title of a merge request."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "issue assignees"
+    },
+    "description": {
+        "en-US": "A list of people assigned to the issue."
+    }
+}

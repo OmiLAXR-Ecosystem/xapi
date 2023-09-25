@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "commented on"
+    },
+    "description": {
+        "en-US": "An actor wrote a comment on a commit/issue/merge request"
+    }
+}

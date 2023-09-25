@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "merge reviewers"
+    },
+    "description": {
+        "en-US": "A list of people set to review a merge request."
+    }
+}

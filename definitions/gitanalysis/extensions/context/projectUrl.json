@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "project url"
+    },
+    "description": {
+        "en-US": "The url of the project the activity was received from."
+    }
+}
