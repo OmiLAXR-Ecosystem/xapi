@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "pushed"
+    },
+    "description": {
+        "en-US": "An actor pushed a number of changes to the repository."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "unapproved"
+    },
+    "description": {
+        "en-US": "An actor unapproved a merge request."
+    }
+}

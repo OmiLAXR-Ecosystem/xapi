@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "commit message"
+    },
+    "description": {
+        "en-US": "The message describing the commit."
+    }
+}

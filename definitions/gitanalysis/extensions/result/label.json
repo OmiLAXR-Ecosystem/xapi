@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "label"
+    },
+    "description": {
+        "en-US": "A label that can be given to issues and merge requests."
+    }
+}

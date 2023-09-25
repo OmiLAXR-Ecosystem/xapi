@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "merged"
+    },
+    "description": {
+        "en-US": "An actor merged a branch to another branch during a merge request."
+    }
+}

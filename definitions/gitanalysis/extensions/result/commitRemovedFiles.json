@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "removed files"
+    },
+    "description": {
+        "en-US": "The names of the files, which were removed in a commit."
+    }
+}

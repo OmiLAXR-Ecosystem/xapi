@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "issue changes"
+    },
+    "description": {
+        "en-US": "A list of changes made when an issue was updated. Contains old and new value for each change."
+    }
+}

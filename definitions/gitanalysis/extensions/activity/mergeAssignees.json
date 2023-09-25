@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "merge assignees"
+    },
+    "description": {
+        "en-US": "A list of people assigned to a merge request."
+    }
+}

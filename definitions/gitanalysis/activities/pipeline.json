@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "Pipeline"
+    },
+    "description": {
+        "en-US": "A CI/CD pipeline, that was triggered in a GitLab repository."
+    }
+}

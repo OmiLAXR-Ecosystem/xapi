@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "reopened"
+    },
+    "description": {
+        "en-US": "An actor opened an issue or a merge request, which were previously closed."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "added files"
+    },
+    "description": {
+        "en-US": "The names of the files, which were added in a commit."
+    }
+}

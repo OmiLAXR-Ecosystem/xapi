@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "commit"
+    },
+    "description": {
+        "en-US": "A commit made by a user, which contains changes to code."
+    }
+}

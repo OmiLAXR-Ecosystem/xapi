@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "changes"
+    },
+    "description": {
+        "en-US": "A collection of commits that are pushed to the repository."
+    }
+}

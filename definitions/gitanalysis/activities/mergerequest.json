@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "Merge request"
+    },
+    "description": {
+        "en-US": "A request made by an actor to merge content of one branch to another."
+    }
+}

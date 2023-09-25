@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "issue due date"
+    },
+    "description": {
+        "en-US": "The date the issue is or was due."
+    }
+}

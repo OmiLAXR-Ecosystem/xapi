@@ -1,0 +1,8 @@
+{
+    "name": {
+        "en-US": "triggered"
+    },
+    "description": {
+        "en-US": "An actor triggered a pipeline with an activity."
+    }
+}
