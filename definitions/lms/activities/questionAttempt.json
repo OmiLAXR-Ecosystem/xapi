@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Question attempt",
+        "de-DE": "Fragenversuch"
+    },
+    "description": {
+        "en-US": "A singel attempt of a question. Object definition should contain concrete question and the user's response.",
+        "de-DE": "Ein einzelner Versuch einer Fragenbearbeitung. Objektdefinition sollte die konkrete Fragestellung und die Antwort des Bearbeitenden enthalten."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
