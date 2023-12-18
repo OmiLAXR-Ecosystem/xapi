@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Feedback",
+        "de-DE": "Feedback"
+    },
+    "description": {
+        "en-US": "An activity to create surveys, questionnairs or polls with.",
+        "de-DE": "Eine Aktivität mit der Umfragen oder Fragebögen erstellt werden können."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

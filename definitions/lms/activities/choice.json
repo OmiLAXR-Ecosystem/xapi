@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Choice",
+        "de-DE": "Abstimmung"
+    },
+    "description": {
+        "en-US": "An activity to present course participants a list of pre-defined answers to choose from.",
+        "de-DE": "Aktivität um Kursteilnehmenden eine Liste vorgegebener Antwortmöglichkeiten zur Abstimmung zu stellen."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Lesson",
+        "de-DE": "Lektion"
+    },
+    "description": {
+        "en-US": "A collection of pages and links to guide course participants through a topic.",
+        "de-DE": "Eine Sammlung von Seiten und Verlinkungen die Kursteilnehmende durch ein Thema führt."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

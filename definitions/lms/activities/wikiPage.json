@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Wiki Page",
+        "de-DE": "Wiki Seite"
+    },
+    "description": {
+        "en-US": "A single page within a wiki.",
+        "de-DE": "Eine einzelne Seite in einem Wiki."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Quiz Attempt Review",
+        "de-DE": "Testversuch Überprüfung"
+    },
+    "description": {
+        "en-US": "Interface to review a (graded) quiz attempt. Might contain feedback to given answers and the sample solution.",
+        "de-DE": "Ansicht zur Überprüfung eines (bewerteten) Testversuchs. Kann Feedback zu gegebenen Antworten sowie eine Beispiellösung enthalten."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

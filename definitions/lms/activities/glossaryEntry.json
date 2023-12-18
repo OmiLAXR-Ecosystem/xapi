@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Glossary Entry",
+        "de-DE": "Glossareintrag"
+    },
+    "description": {
+        "en-US": "A single entry within a glossary (e.g. a definition, resource or information).",
+        "de-DE": "Ein einzelner Eintrag in einem Glossar (z. B. eine Definition, Ressource oder Information)."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

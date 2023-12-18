@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Question Category",
+        "de-DE": "Fragenkategorie"
+    },
+    "description": {
+        "en-US": "A category groupinng different questions e.g. by topic or course.",
+        "de-DE": "Eine Kategorie, welche Fragen z. B. anhand eines Themas oder Kurses gruppiert."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

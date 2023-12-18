@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Forum Post",
+        "de-DE": "Forumsbeitrag"
+    },
+    "description": {
+        "en-US": "A single post within a forum's discussion.",
+        "de-DE": "Eine einzelner Beitrag in einer Forumsdiskussion."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
