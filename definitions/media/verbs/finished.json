@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "An actor reached the end of a media element and its playing was stopped by the player itself.",
-        "de-DE": "Ein Aktuer erreichte das Ende eines Medienelements und der Player beendete die Wiedergabe."
+        "de-DE": "Ein Akteur erreichte das Ende eines Medienelements und der Player beendete die Wiedergabe."
     },
     "exactMatch": [ ],
     "relatedMatch": [ ]
