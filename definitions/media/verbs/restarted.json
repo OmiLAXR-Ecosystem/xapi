@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "restarted",
-        "de-DE": "neu gestartete"
+        "de-DE": "startete neu"
     },
     "description": {
         "en-US": "An actor restarted playing a media element after finishing it.",
