@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "answered",
+        "de-DE": "beantwortete"
+    },
+    "description": {
+        "en-US": "An Actor gave an answer to a question.",
+        "de-DE": "Ein Akteur hat eine Antwort auf eine Frage gegeben."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
