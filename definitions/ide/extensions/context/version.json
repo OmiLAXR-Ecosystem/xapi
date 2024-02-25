@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "version of IDE",
+    "de-DE": "Version der IDE"
+  },
+  "description": {
+    "en-US": "The version of the IDE. It should follow the semantic versioning principle of 'MAJOR.MINOR.PATCH'.",
+    "de-DE": "Die Version der IDE. Es sollte dem Prinzip der semantischen Versionierung folgen 'MAJOR.MINOR.PATCH'."
+  }
+}

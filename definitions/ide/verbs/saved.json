@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "saved",
+    "de-DE": "speicherte"
+  },
+  "description": {
+    "en-US": "An actor saved something in the IDE (an asset for example).",
+    "de-DE": "Ein Akteur speicherte etwas in der IDE (ein Asset zum Beispiel)."
+  }
+}

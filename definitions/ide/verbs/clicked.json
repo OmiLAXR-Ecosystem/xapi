@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "clicked",
+    "de-DE": "klickte"
+  },
+  "description": {
+    "en-US": "An actor has clicked a button.",
+    "de-DE": "Ein Akteur klickte einen Knopf."
+  }
+}

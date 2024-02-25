@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "changed",
+    "de-DE": "änderte"
+  },
+  "description": {
+    "en-US": "An actor changed something in the IDE (an asset for example).",
+    "de-DE": "Ein Akteur änderte etwas in der IDE (ein Asset zum Beispiel)."
+  }
+}

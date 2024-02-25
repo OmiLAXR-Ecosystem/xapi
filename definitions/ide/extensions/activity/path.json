@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "path",
+    "de-DE": "Path"
+  },
+  "description": {
+    "en-US": "Path of activity target. Must be a string.",
+    "de-DE": "Path der Zielaktivität. Muss ein String sein."
+  }
+}

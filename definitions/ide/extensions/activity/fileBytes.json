@@ -1,0 +1,12 @@
+{
+  "name": {
+    "en-US": "file bytes",
+    "de-DE": "File Bytes"
+  },
+  "description": {
+    "en-US": "File size in bytes of a Library, template, configuration or multimedia file.",
+    "de-DE": "Dateigröße in Bytes einer Bibliothek, Vorlage, Konfigurations- oder Multimediadatei."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "closed",
+    "de-DE": "schloss"
+  },
+  "description": {
+    "en-US": "Actor closed a application, asset, video, ...",
+    "de-DE": "Akteur hat eine Applikation, ein Asset, ein Video, ... geschlossen."
+  }
+}

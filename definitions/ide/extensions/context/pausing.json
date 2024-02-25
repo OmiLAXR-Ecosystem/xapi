@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "pausing",
+    "de-DE": "pausiert"
+  },
+  "description": {
+    "en-US": "The IDE is pausing.",
+    "de-DE": "Die IDE ist pausiert."
+  }
+}

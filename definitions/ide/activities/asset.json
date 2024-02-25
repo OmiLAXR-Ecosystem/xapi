@@ -1,0 +1,12 @@
+{
+  "name": {
+    "en-US": "asset",
+    "de-DE": "Asset"
+  },
+  "description": {
+    "en-US": "Libraries, templates, configuration or multimedia files such as source code, images, videos.",
+    "de-DE": "Bibliotheken, Vorlagen, Konfigurations- oder Multimediadateien, wie zum Bespiel Quellcode, Bilder, Videos."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

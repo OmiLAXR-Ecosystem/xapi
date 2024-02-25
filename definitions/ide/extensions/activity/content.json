@@ -1,0 +1,12 @@
+{
+  "name": {
+    "en-US": "content",
+    "de-DE": "Inhalt"
+  },
+  "description": {
+    "en-US": "Content of a target activity. Must be a string.",
+    "de-DE": "Inhalt der Zielaktivität. Muss ein String sein."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

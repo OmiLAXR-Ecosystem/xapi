@@ -1,0 +1,12 @@
+﻿{
+  "name": {
+    "en-US": "type",
+    "de-DE": "Type"
+  },
+  "description": {
+    "en-US": "Type of a target activity. Must be a string.",
+    "de-DE": "Typ der Zielaktivität. Muss ein String sein."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

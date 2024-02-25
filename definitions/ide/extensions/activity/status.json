@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "state",
+    "de-DE": "Status"
+  },
+  "description": {
+    "en-US": "Representing the state of the target activity like 'loading', 'starting', ...",
+    "de-DE": "Repräsentiert den Status der Zielaktivität, wie zum Beispiel 'laden', 'starten', ..."
+  }
+}

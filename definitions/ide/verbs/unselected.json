@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "unselected",
+    "de-DE": "entselektierte"
+  },
+  "description": {
+    "en-US": "An actor has unselected a control element or window.",
+    "de-DE": "Ein Akteur entselektierte ein Kontrollelement oder ein Fenster."
+  }
+}
