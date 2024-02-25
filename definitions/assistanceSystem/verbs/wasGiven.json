@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "was given",
+    "de-DE": "wurde gegeben"
+  },
+  "description": {
+    "en-US": "Indicates that the actor was given something. For instance, a person can be given a letter",
+    "de-DE": "Signalisiert, dass einem Agierendem etwas gegeben wurde. Zum Beispiel: Einer Person wurde ein Brief gegeben."
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "actual time",
+    "de-DE": "tatsächliche Zeit"
+  },
+  "description": {
+    "en-US": "The time where an event actually happened.",
+    "de-DE": "Die Zeit, zu der ein Ereignis tatsächlich stattfand."
+  }
+}
