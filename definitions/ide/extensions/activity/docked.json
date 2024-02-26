@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "docked",
+    "de-DE": "angedockt"
+  },
+  "description": {
+    "en-US": "True, if the target window is docked.",
+    "de-DE": "Wahr, wenn das Fenster angedockt ist."
+  }
+}

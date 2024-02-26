@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "rect",
+    "de-DE": "Rechteck"
+  },
+  "description": {
+    "en-US": "Rectangle of activity target. Must be a string with coordinates of '(x,y,width,height)'.",
+    "de-DE": "Rechteck der Zielaktivität. Muss ein String mit Koordinaten sein '(x,y,Breite,Höhe)'."
+  }
+}

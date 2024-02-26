@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "license of IDE",
+    "de-DE": "License der IDE"
+  },
+  "description": {
+    "en-US": "The license of the IDE.",
+    "de-DE": "Die Lizens der IDE."
+  }
+}
