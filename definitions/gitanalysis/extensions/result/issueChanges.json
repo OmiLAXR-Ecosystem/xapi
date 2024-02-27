@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "issue changes"
+        "en-US": "issue changes",
+        "de-DE": "Issue-Änderungen"
     },
     "description": {
-        "en-US": "A list of changes made when an issue was updated. Contains old and new value for each change."
+        "en-US": "A list of changes made when an issue was updated. Contains old and new value for each change.",
+        "de-DE": "Eine Liste der Änderungen, wenn ein Issue verändert wurde. Beinhaltet die alten und neuen Werte."
     }
 }

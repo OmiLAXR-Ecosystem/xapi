@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "Pipeline"
+        "en-US": "Pipeline",
+        "de-DE": "Pipeline"
     },
     "description": {
-        "en-US": "A CI/CD pipeline, that was triggered in a GitLab repository."
+        "en-US": "A CI/CD pipeline, that was triggered in a GitLab repository.",
+        "de-DE": "Eine CI/CD pipeline, die in einem GitLab repository ausgelöst wurde."
     }
 }

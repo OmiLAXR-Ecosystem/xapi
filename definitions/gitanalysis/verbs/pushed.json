@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "pushed"
+        "en-US": "pushed",
+        "de-DE": "pushte"
     },
     "description": {
-        "en-US": "An actor pushed a number of changes to the repository."
+        "en-US": "An actor pushed a number of changes to the repository.",
+        "de-DE": "Ein Akteur pushte Veränderungen ins Repository."
     }
 }

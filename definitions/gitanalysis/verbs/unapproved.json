@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "unapproved"
+        "en-US": "unapproved",
+        "de-DE": "hob Genehmigung auf"
     },
     "description": {
-        "en-US": "An actor unapproved a merge request."
+        "en-US": "An actor unapproved a merge request.",
+        "de-DE": "Ein Akteur hob die Genehmigung für eine Merge-Anfrage auf."
     }
 }

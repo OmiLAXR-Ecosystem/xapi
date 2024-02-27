@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "issue name"
+        "en-US": "issue name",
+        "de-DE": "Issuename"
     },
     "description": {
-        "en-US": "The name of the issue."
+        "en-US": "The name of the issue.",
+        "de-DE": "Der Name des Issues."
     }
 }

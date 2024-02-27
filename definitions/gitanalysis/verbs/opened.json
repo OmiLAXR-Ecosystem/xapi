@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "opened"
+        "en-US": "opened",
+        "de-DE": "öffnete"
     },
     "description": {
-        "en-US": "An actor opened an issue or a merge request."
+        "en-US": "An actor opened an issue or a merge request.",
+        "de-DE": "Ein Akteur öffnete ein Issue oder eine Merge-Anfrage."
     }
 }

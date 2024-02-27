@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "issue assignees"
+        "en-US": "issue assignees",
+        "de-DE": "Issuebearbeiter"
     },
     "description": {
-        "en-US": "A list of people assigned to the issue."
+        "en-US": "A list of people assigned to the issue.",
+        "de-DE": "Eine Liste zuständiger Personen, denen ein Issue zugewiesen wurde."
     }
 }

@@ -1,8 +1,10 @@
 {
     "name": {
-        "en-US": "issue due date"
+        "en-US": "issue due date",
+        "de-DE": "Issue-Fälligkeitsdatum"
     },
     "description": {
-        "en-US": "The date the issue is or was due."
+        "en-US": "The date the issue is or was due.",
+        "de-DE": "Das Datum an dem ein Issue fällig ist oder war."
     }
 }
