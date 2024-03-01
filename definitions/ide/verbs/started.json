@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "started",
+        "de-DE": "startete"
+    },
+    "description": {
+        "en-US": "An actor started a plugin or application.",
+        "de-DE": "Ein Akteur startete ein Plugin oder eine Applikation."
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/149",
+        "https://activitystrea.ms/schema/1.0/start"
+    ]
+}

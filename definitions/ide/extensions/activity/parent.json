@@ -1,0 +1,12 @@
+﻿{
+  "name": {
+    "en-US": "parent",
+    "de-DE": "Elternteil"
+  },
+  "description": {
+    "en-US": "Parent of activity target. Must be a string.",
+    "de-DE": "Elternteil der Zielaktivität. Muss ein String sein."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

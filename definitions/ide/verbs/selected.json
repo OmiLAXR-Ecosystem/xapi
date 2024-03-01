@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "selected",
+    "de-DE": "selektierte"
+  },
+  "description": {
+    "en-US": "An actor has selected a control element or window.",
+    "de-DE": "Ein Akteur selektierte ein Kontrollelement oder ein Fenster."
+  }
+}

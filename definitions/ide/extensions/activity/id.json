@@ -1,0 +1,12 @@
+﻿{
+  "name": {
+    "en-US": "id",
+    "de-DE": "ID"
+  },
+  "description": {
+    "en-US": "ID of activity target. Must be a string.",
+    "de-DE": "ID der Zielaktivität. Muss ein String sein."
+  },
+  "exactMatch": [],
+  "relatedMatch": []
+}

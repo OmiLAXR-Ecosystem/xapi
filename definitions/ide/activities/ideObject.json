@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "IDE object",
+    "de-DE": "IDE Objekt"
+  },
+  "description": {
+    "en-US": "An object of the IDE, which is not a component or asset, but has no other concrete purpose.",
+    "de-DE": "Ein Objekt der IDE, welches keine Komponente und kein Asset ist, aber keinen anderen speziellen Zweck kann."
+  }
+}

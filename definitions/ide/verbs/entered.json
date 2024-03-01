@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "entered",
+    "de-DE": "betrat"
+  },
+  "description": {
+    "en-US": "An actor has entered a window with the mouse.",
+    "de-DE": "Ein Akteur betrat ein Fenster mit der Maus."
+  }
+}

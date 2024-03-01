@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "opened",
+    "de-DE": "öffnete"
+  },
+  "description": {
+    "en-US": "Actor accessed/viewed a application, asset, video, ...",
+    "de-DE": "Akteur hat eine Applikation, ein Asset, ein Video, ... geöffnet."
+  }
+}

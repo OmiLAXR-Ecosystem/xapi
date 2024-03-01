@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "running",
+    "de-DE": "läuft"
+  },
+  "description": {
+    "en-US": "The IDE is running.",
+    "de-DE": "Die IDE läuft."
+  }
+}

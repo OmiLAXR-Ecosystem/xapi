@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "mouse position",
+    "de-DE": "Maus Position"
+  },
+  "description": {
+    "en-US": "Mouse position of the screen. Must be a string with coordinates of '(x,y)'.",
+    "de-DE": "Maus Position auf dem Bildschirm. Muss ein String mit Koordinaten sein '(x,y)'."
+  }
+}

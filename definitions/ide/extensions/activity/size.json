@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "size",
+    "de-DE": "Größe"
+  },
+  "description": {
+    "en-US": "Size of activity target (e.g. window size). Must be a string with coordinates of '(width,height)'.",
+    "de-DE": "Größe der Zielaktivität (z.B. Fenstergröße). Muss ein String mit Koordinaten sein '(Breite,Höhe)'."
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Integrated Development Environment",
+        "de-DE": "Integrierte Entwicklungsumgebung"
+    },
+    "description": {
+        "en-US": "A software tool that helps programmers write and develop code by providing a variety of useful features in one application.",
+        "de-DE": "Eine Software, die Programmierern bei der Entwicklung und dem Schreiben von Code hilft, indem sie eine Vielzahl nützlicher Funktionen in einer Anwendung bereitstellt."
+    }
+}

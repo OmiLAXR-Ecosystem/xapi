@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "hint",
+    "de-DE": "Hinweis"
+  },
+  "description": {
+    "en-US": "A hint, for example, giving information about a forgotten functionality.",
+    "de-DE": "Ein Hinweis, der zum Beispiel Informationen zu einer vergessenen Fuktionalität liefert"
+  }
+}

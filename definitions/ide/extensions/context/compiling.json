@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "compiling",
+    "de-DE": "kompiliert"
+  },
+  "description": {
+    "en-US": "The IDE is compiling.",
+    "de-DE": "Die IDE kompiliert."
+  }
+}
