@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "issue assignees",
-        "de-DE": "Issuebearbeiter"
+        "de-DE": "Ticketbearbeiter"
     },
     "description": {
         "en-US": "A list of people assigned to the issue.",
-        "de-DE": "Eine Liste zuständiger Personen, denen ein Issue zugewiesen wurde."
+        "de-DE": "Eine Liste zuständiger Personen, denen ein Ticket zugewiesen wurde."
     }
 }

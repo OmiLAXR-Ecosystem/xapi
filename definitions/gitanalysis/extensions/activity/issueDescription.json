@@ -1,10 +1,10 @@
 {
     "name": {
         "en-US": "issue description",
-        "de-DE": "Issuebeschreibung"
+        "de-DE": "Ticketbeschreibung"
     },
     "description": {
         "en-US": "A description of the issue.",
-        "de-DE": "Eine Beschreibung des Issues."
+        "de-DE": "Eine Beschreibung des Tickets."
     }
 }
