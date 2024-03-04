@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commit message",
+        "de-DE": "Commitnachricht"
+    },
+    "description": {
+        "en-US": "The message describing the commit.",
+        "de-DE": "Eine Nachricht, die den Inhalt eines Commits beschreibt."
+    }
+}

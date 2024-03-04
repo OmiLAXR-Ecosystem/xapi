@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "merge status",
+        "de-DE": "Merge-Status"
+    },
+    "description": {
+        "en-US": "The status of a merge (unapproved/approved/ready to merge).",
+        "de-DE": "Der Status einer Merge-Anfrage (abgelehnt, zugestimmt, bereit zum Zusammenführen)."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "comment content",
+        "de-DE": "Kommentarinhalt"
+    },
+    "description": {
+        "en-US": "The content of a comment (text, link, picture, etc.).",
+        "de-DE": "Der Inhalt eines Kommentares."
+    }
+}

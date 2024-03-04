@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "added files",
+        "de-DE": "Hinzugefügte Dateien"
+    },
+    "description": {
+        "en-US": "The names of the files, which were added in a commit.",
+        "de-DE": "Die Namen der Dateien, die im Commit hinzugefügt wurden."
+    }
+}

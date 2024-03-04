@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wiki page title",
+        "de-DE": "Wikiseitentitel"
+    },
+    "description": {
+        "en-US": "The title of a wiki page.",
+        "de-DE": "Der Titel einer Wikiseite."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "pipeline trigger",
+        "de-DE": "Pipeline-Auslöser"
+    },
+    "description": {
+        "en-US": "The reason a CI/CD pipeline was triggered.",
+        "de-DE": "Der Grund, der die Ausführung der CI/CD-Pipeline ausgelöst hat."
+    }
+}

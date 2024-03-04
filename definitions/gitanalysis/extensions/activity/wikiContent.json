@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wiki page content",
+        "de-DE": "Wikiseiteninhalt"
+    },
+    "description": {
+        "en-US": "The content of a wiki page.",
+        "de-DE": "Der Inhalt einer Wikiseite."
+    }
+}

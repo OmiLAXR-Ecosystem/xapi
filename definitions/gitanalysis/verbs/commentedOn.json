@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commented on",
+        "de-DE": "kommentierte"
+    },
+    "description": {
+        "en-US": "An actor wrote a comment on a commit/issue/merge request",
+        "de-DE": "Ein Akteur schrieb einen Kommentar zu einem Commit, Ticket oder einer Merge-Anfrage."
+    }
+}

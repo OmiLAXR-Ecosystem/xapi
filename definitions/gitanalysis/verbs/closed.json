@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "closed",
+        "de-DE": "schloss"
+    },
+    "description": {
+        "en-US": "An actor closed an issue or a merge request.",
+        "de-DE": "Ein Akteur schloss ein Ticket oder eine Merge-Anfrage."
+    }
+}

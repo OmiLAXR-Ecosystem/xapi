@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "tag name",
+        "de-DE": "Tag-Name"
+    },
+    "description": {
+        "en-US": "The name of the tag.",
+        "de-DE": "Der Name des Tags."
+    }
+}

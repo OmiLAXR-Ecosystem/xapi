@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "issue name",
+        "de-DE": "Ticketname"
+    },
+    "description": {
+        "en-US": "The name of the issue.",
+        "de-DE": "Der Name des Tickets."
+    }
+}

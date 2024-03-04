@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commits count of push",
+        "de-DE": "Anzahl Commits im Push"
+    },
+    "description": {
+        "en-US": "The number of commits contained in a push.",
+        "de-DE": "Die Anzahl der Commits in einem Push."
+    }
+}

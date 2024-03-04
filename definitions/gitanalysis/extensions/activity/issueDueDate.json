@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "issue due date",
+        "de-DE": "Ticket-Fälligkeitsdatum"
+    },
+    "description": {
+        "en-US": "The date the issue is or was due.",
+        "de-DE": "Das Datum an dem ein Ticket fällig ist oder war."
+    }
+}

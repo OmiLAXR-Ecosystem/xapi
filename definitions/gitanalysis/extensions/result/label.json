@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "label",
+        "de-DE": "Label"
+    },
+    "description": {
+        "en-US": "A label that can be given to issues and merge requests.",
+        "de-DE": "Ein Label, das Issues und Merge-Anfragen zugewiesen werden kann."
+    }
+}
