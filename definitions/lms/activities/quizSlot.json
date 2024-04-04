@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Quiz Slot",
+        "de-DE": "Testslot"
+    },
+    "description": {
+        "en-US": "The position within a quiz, a question is placed in. Represented by an integer.",
+        "de-DE": "Die Position in einem Test, in die eine Frage eingesetzt wird. Dargestellt als Ganzzahl."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
