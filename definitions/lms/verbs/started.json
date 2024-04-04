@@ -5,7 +5,7 @@
 },
 "description": {
 	"en-US": "Actor started an activity",
-	"de-DE": "Akteur hat eine Aktvität gestartet"
+	"de-DE": "Akteur hat eine Aktivität gestartet"
 },
 "exactMatch": [
 	"https://activitystrea.ms/registry/verbs/",
