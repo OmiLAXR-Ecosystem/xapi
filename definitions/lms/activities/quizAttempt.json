@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "A single attempt of a quiz. Contains attempts of the questions used in the quiz, this attempt relates to.",
-        "de-DE": "Ein einzelner Versuch einer Quizbearbeitung. Enthält Versuche von Fragen, die in dem Quiz verwendet werden, zu dem dieser Versuch gehört."
+        "de-DE": "Ein einzelner Versuch einer Testbearbeitung. Enthält Versuche von Fragen, die in dem Test verwendet werden, zu dem dieser Versuch gehört."
     },
     "exactMatch": [ ],
     "relatedMatch": [ ]
