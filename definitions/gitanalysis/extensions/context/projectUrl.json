@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "project url",
+        "de-DE": "Projektadresse"
+    },
+    "description": {
+        "en-US": "The url of the project the activity was received from.",
+        "de-DE": "Die URL des Projektes, von dem die Aktivität empfangen wurde."
+    }
+}

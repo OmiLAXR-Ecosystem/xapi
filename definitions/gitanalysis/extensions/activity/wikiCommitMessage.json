@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wiki page commit message",
+        "de-DE": "Wikiseiten-Commit-Nachricht"
+    },
+    "description": {
+        "en-US": "The commit message of the commit, which is responsible for changes on a wiki page (including creation and deletion).",
+        "de-DE": "Die Beschreibung eines Commits, der Änderungen an der Wikiseite des Repositories beinhaltet (einschließlich Erzeugung und Löschung."
+    }
+}

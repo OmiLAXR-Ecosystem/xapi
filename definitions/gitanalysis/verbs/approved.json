@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "approved",
+        "de-DE": "genehmigte"
+    },
+    "description": {
+        "en-US": "An actor approved a merge request.",
+        "de-DE": "Ein Akteur genehmigte eine Merge-Anfrage."
+    }
+}

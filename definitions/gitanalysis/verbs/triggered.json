@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "triggered",
+        "de-DE": "löste aus"
+    },
+    "description": {
+        "en-US": "An actor triggered a pipeline with an activity.",
+        "de-DE": "Ein Akteur löste durch eine Aktivität die Ausführung einer Pipeline aus."
+    }
+}

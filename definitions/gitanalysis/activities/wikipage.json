@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wiki page",
+        "de-DE": "Wikiseite"
+    },
+    "description": {
+        "en-US": "A wiki page in a repository.",
+        "de-DE": "Eine Wikiseite in einem Repository."
+    }
+}

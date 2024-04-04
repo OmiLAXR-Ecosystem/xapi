@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "comment url",
+        "de-DE": "Kommentaradresse"
+    },
+    "description": {
+        "en-US": "The link to the comment.",
+        "de-DE": "Der Link zum Kommentar."
+    }
+}

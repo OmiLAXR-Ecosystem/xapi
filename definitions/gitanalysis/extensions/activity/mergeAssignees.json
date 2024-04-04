@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "merge assignees",
+        "de-DE": "Merge-Zuständige"
+    },
+    "description": {
+        "en-US": "A list of people assigned to a merge request.",
+        "de-DE": "Eine Liste zuständiger Personen, denen eine Merge-Anfrage zugewiesen wurde."
+    }
+}

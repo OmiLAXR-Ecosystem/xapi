@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commits contained in push",
+        "de-DE": "Commits im Push"
+    },
+    "description": {
+        "en-US": "A list of identifiers for the commits, which are part of the push. Each ID points to a different commit, which have their own statements.",
+        "de-DE": "Eine Liste der Commit-IDs der Commits, die im Push enthalten sind. Jede ID verweist auf einen anderen Commit, die in eigenen Statements zu finden sind."
+    }
+}

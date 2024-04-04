@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "issue",
+        "de-DE": "Ticket"
+    },
+    "description": {
+        "en-US": "An issue used on GitLab.",
+        "de-DE": "Ein Ticket auf GitLab."
+    }
+}

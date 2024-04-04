@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "updated",
+        "de-DE": "aktualisierte"
+    },
+    "description": {
+        "en-US": "An actor updated an issue, a merge request or a wiki page.",
+        "de-DE": "Ein Akteur aktualisierte ein Ticket, eine Merge-Anfrage oder eine Wikiseite."
+    }
+}

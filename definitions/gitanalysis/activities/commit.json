@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commit",
+        "de-DE": "Commit"
+    },
+    "description": {
+        "en-US": "A commit made by a user, which contains changes to the content of the repository.",
+        "de-DE": "Ein von einem User hinzugefügter Commit, der Änderungen am Inhalt des Repositories beinhaltet."
+    }
+}

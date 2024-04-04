@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wrote",
+        "de-DE": "schrieb"
+    },
+    "description": {
+        "en-US": "An actor wrote a wiki page.",
+        "de-DE": "Ein Akteur schrieb eine Wikiseite."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "issue weight",
+        "de-DE": "Ticket-Gewichtung"
+    },
+    "description": {
+        "en-US": "The weight of the issue.",
+        "de-DE": "Die Gewichtung des Tickets."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "deleted",
+        "de-DE": "löschte"
+    },
+    "description": {
+        "en-US": "An actor deleted an issue, a tag or a wiki page.",
+        "de-DE": "Ein Akteur löschte ein Ticket, ein Tag oder eine Wikiseite."
+    }
+}

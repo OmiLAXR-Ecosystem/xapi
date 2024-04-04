@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "created",
+        "de-DE": "erstellte"
+    },
+    "description": {
+        "en-US": "An actor created an object (e.g. commits or wiki pages).",
+        "de-DE": "Ein Akteur erstellte ein Objekt (z. B. Commit oder Wikiseite)."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "merged",
+        "de-DE": "führte zusammen"
+    },
+    "description": {
+        "en-US": "An actor merged a branch to another branch during a merge request.",
+        "de-DE": "Ein Akteur führte in einer Merge-Anfrage einen Branch mit einem anderen zusammen."
+    }
+}

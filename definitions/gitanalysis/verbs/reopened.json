@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "reopened",
+        "de-DE": "wiedereröffnete"
+    },
+    "description": {
+        "en-US": "An actor opened an issue or a merge request, which were previously closed.",
+        "de-DE": "Ein Akteur öffnete ein Ticket oder eine Merge-Anfrage, die zuvor bereits geschlossen waren."
+    }
+}
