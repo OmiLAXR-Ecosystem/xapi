@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "MR object name",
+        "de-DE": "MR Objekt Name"
+    },
+    "description": {
+        "en-US": "Name of a MR object. Must be a string.",
+        "de-DE": "Namen vom MR Objekt. Muss ein String sein."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/vrObject"
+    ]
+}

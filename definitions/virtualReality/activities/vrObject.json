@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A virtual object in a VR environment.",
         "de-DE": "Ein virtuelles Objekt in einer VR Umgebung."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/mixedReality/activities/mrObject"
+    ]
 }
