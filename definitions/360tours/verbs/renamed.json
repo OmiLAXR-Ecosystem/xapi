@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "renamend",
+        "de-DE": "benannte um"
+    },
+    "description": {
+        "en-US": "An actor changed the name of something.",
+        "de-DE": "Ein Akteur hat etwas umbenannt."
+    }
+}

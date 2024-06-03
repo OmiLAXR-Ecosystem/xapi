@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "tour id",
+        "de-DE": "Tour-ID"
+    },
+    "description": {
+        "en-US": "Unique identifier for a specific tour.",
+        "de-DE": "Eindeutige Kennung für eine bestimmte Tour."
+    }
+}

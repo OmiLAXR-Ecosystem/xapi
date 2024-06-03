@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "user id",
+        "de-DE": "Benutzer-ID"
+    },
+    "description": {
+        "en-US": "Unique identifier for a specific user.",
+        "de-DE": "Eindeutige Kennung für einen bestimmten Benutzer."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "exported",
+        "de-DE": "exportierte"
+    },
+    "description": {
+        "en-US": "An actor sent data or content to an external destination.",
+        "de-DE": "Ein Akteur exportierte etwas."
+    }
+}

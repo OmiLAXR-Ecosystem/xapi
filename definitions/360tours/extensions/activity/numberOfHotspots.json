@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number of hotspots",
+        "de-DE": "Hotspots Anzahl" 
+    },
+    "description": {
+        "en-US": "The total number of interactive hotspots within a 360° image or video.",
+        "de-DE": "Die Gesamtzahl der interaktiven Hotspots innerhalb eines 360°-Bildes oder -Videos."
+    }
+}
