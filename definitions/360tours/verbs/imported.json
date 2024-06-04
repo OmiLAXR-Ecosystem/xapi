@@ -4,7 +4,7 @@
         "de-DE": "importierte"
     },
     "description": {
-        "en-US": "An actor brought in data or content from an external source.",
-        "de-DE": "Ein Akteur importierte etwas."
+        "en-US": "An actor imported data or content from an external source.",
+        "de-DE": "Ein Akteur importierte ewas aus einer externen Ressource."
     }
 }

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "user account",
+        "de-DE": "Nutzeraccount"
+    },
+    "description": {
+        "en-US": "A personal profile for accessing a service or platform.",
+        "de-DE": "Ein persönliches Profil für den Zugriff auf einen Dienst oder eine Plattform."
+    }
+}

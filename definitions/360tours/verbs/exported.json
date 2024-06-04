@@ -4,7 +4,7 @@
         "de-DE": "exportierte"
     },
     "description": {
-        "en-US": "An actor sent data or content to an external destination.",
-        "de-DE": "Ein Akteur exportierte etwas."
+        "en-US": "An actor exported data or content to an external destination.",
+        "de-DE": "Ein Akteur exportierte etwas zu einer externen Ressource."
     }
 }
