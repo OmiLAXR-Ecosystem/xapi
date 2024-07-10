@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en-US": "accessed",
+        "de-DE": "zugegriffen"
+    },
+    "description": {
+        "en-US": "Actor accessed/viewed a schema, his or her consent, ...",
+        "de-DE": "Akteur hat (auf) ein Schema, den eigenen Consent, ... zugegriffen/angesehen."
+    },
+    "exactMatch": [
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/81"
+    ],
+    "relatedMatch": [
+        "https://registry.tincanapi.com/#uri/verb/292"
+    ]
+}

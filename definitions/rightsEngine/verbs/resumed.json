@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "resumed",
+        "de-DE": "setzte fort"
+    },
+    "description": {
+        "en-US": "Actor resumed a previously paused consent for a schema. Consequently, the data collection is resumed with the preserved consent settings.",
+        "de-DE": "Akteur setzte einen zuvor pausierten Consent für ein Schema fort. In Folge ist die Datensammlung für das Schema mit den beibehaltenen Consent Einstellungen wiederaufgenommen."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

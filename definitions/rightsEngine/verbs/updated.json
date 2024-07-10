@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "updated",
+        "de-DE": "aktualisierte"
+    },
+    "description": {
+        "en-US": "Actor updated his or her consent for a schema.",
+        "de-DE": "Akteur aktualisierte den eigenen Consent für ein Schema."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

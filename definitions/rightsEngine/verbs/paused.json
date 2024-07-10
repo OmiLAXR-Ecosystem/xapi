@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "paused",
+        "de-DE": "pausierte"
+    },
+    "description": {
+        "en-US": "Actor paused his or her consent for a schema. Consequently, the data collection for the related schema is paused but the consent settings will be kept. Data collection can be resumed by resuming the consent.",
+        "de-DE": "Akteur pausierte den eigenen Consent für ein Schema. In Folge ist die Datensammlung für das Schema pausiert, die Consent Einstellungen bleiben aber erhalten. Die Datensammlung kann fortgesetzt werden, wenn der Consent fortgesetzt wird."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

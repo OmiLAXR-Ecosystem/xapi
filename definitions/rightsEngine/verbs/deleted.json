@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "deleted",
+        "de-DE": "löschte"
+    },
+    "description": {
+        "en-US": "Actor deleted a schema, his or her consent, ...",
+        "de-DE": "Akteur hat ein Schema, den eigenen Consent, ... gelöscht."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}
