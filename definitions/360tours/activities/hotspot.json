@@ -4,7 +4,7 @@
         "de-DE": "Hotspot"
     },
     "description": {
-        "en-US": "Interactive area within a 360° image or video that triggers an action or displays additional information.",
-        "de-DE": "Interaktiver Bereich innerhalb eines 360°-Bildes oder -Videos, der eine Aktion auslöst oder zusätzliche Informationen anzeigt."
+        "en-US": "Interactive area within a 360° mediapage that triggers an action or displays additional information.",
+        "de-DE": "Interaktiver Bereich innerhalb einer 360° Medienseite, der eine Aktion auslöst oder zusätzliche Informationen anzeigt."
     }
 }

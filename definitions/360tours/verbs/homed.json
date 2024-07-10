@@ -4,7 +4,7 @@
         "de-DE": "als Einstiegspunkt festgelegt"
     },
     "description": {
-        "en-US": "An actor set something as the new entry point.",
-        "de-DE": "Ein Akteur hat etwas als neuen Einstiegspunkt festgelegt."
+        "en-US": "An actor set a mediapage as the new entry point.",
+        "de-DE": "Ein Akteur hat eine Medienseite als neuen Einstiegspunkt festgelegt."
     }
 }

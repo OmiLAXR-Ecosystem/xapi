@@ -4,7 +4,7 @@
         "de-DE": "Hotspot Typ" 
     },
     "description": {
-        "en-US": "The type of interactive hotspot within a 360° image or video.",
-        "de-DE": "Die Art eines interaktiven Hotspots innerhalb eines 360°-Bildes oder -Videos."
+        "en-US": "The type of interactive hotspot within a 360° tour.",
+        "de-DE": "Die Art eines interaktiven Hotspots innerhalb einer 360° Tour."
     }
 }
