@@ -4,8 +4,8 @@
         "de-DE": "aktualisierte"
     },
     "description": {
-        "en-US": "Actor updated his or her consent for a schema.",
-        "de-DE": "Akteur aktualisierte den eigenen Consent für ein Schema."
+        "en-US": "Actor updated his or her consent for a schema or a schema itself.",
+        "de-DE": "Akteur aktualisierte den eigenen Consent für ein Schema oder ein Schema selbst."
     },
     "exactMatch": [
     ],
