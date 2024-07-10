@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Consent",
+        "de-DE": "Consent"
+    },
+    "description": {
+        "en-US": "A JSON-based representation of a user's consent for the collection of single data logs and analyses. Always linked to exactly one schema.",
+        "de-DE": "Eine JSON-basierte Repräsentation der Zustimmung eines Users zur Sammlung einzelner Datenpunkte und Analysen. Immer mit genau einem Schema verknüpft."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
