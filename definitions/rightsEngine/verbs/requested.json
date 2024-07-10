@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor requested something. E.g. the Rights Engine itself could request initial consent for a schema.",
-        "de-DE": "Akteur fragte etwas an. Bsp: Die Rights Engine fragt initialen Consent für ein Schema an."
+        "de-DE": "Akteur fragte etwas an. Bsp.: Die Rights Engine fragt initialen Consent für ein Schema an."
     },
     "exactMatch": [
     ],
