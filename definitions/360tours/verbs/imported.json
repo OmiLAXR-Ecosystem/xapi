@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "imported",
+        "de-DE": "importierte"
+    },
+    "description": {
+        "en-US": "An actor imported a 360° tour from an external destination.",
+        "de-DE": "Ein Akteur importierte eine 360° Tour von einer externen Ressource."
+    }
+}
