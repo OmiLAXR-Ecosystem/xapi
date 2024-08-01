@@ -3,7 +3,7 @@ stages:
 
 jsonlint:
   stage: linting
-  image: pipelinecomponents/jsonlint:latest
+  image: pipelinecomponents/jsonlint:0.19.4
   script:
     - |
       find . -not -path './.git/*' -name '*.json' -type f -print0 |
