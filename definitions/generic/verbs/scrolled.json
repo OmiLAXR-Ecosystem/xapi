@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "scrolled",
+    "de-DE": "skrollte"
+  },
+  "description": {
+    "en-US": "An actor has scrolled on a trackpad or mouse wheel.",
+    "de-DE": "Der Agierende skrollte auf einem Trackpad or Mausrad."
+  }
+}
