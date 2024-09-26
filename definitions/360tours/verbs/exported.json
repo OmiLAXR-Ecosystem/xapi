@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "exported",
+        "de-DE": "exportierte"
+    },
+    "description": {
+        "en-US": "An actor exported a 360° tour to an external destination.",
+        "de-DE": "Ein Akteur exportierte eine 360° Tour zu einer externen Ressource."
+    }
+}

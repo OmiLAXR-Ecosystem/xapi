@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "360° virtual tour",  
+        "de-DE": "360° Virtuelle Tour" 
+    },
+    "description": {
+        "en-US": "An interactive tour comprised of 360° images and videos. A tour may also include media pages and hotspots.", 
+        "de-DE": "Eine interaktive Tour bestehend aus 360° Bildern und Videos. Eine Tour kann zusätzlich Medienseiten und Hotspots enthalten."
+    }
+  }

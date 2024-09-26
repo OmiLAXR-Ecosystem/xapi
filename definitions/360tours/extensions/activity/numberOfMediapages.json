@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "number of mediapages",
+        "de-DE": "Medienseiten Anzahl"
+    },
+    "description": {
+        "en-US": "The total number of media pages associated with a 360° tour.",
+        "de-DE": "Die Gesamtzahl der Medienseiten, die mit einer 360° Tour verknüpft sind."
+    }
+}

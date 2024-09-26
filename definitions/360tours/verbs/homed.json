@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "homed",
+        "de-DE": "als Einstiegspunkt festgelegt"
+    },
+    "description": {
+        "en-US": "An actor set a mediapage as the new entry point.",
+        "de-DE": "Ein Akteur hat eine Medienseite als neuen Einstiegspunkt festgelegt."
+    }
+}

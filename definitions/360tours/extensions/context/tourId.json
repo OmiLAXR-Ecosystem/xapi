@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "tour id",
+        "de-DE": "Tour-ID"
+    },
+    "description": {
+        "en-US": "Unique identifier of a 360° tour.",
+        "de-DE": "Eindeutige Kennung einer 360° Tour."
+    }
+}
