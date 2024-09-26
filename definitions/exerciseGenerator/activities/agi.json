@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "AGI",
+        "de-DE": "AGI"
+    },
+    "description": {
+        "en-US": "The \"AusgabenGeneratorInfrastruktur\", developed at the Learning Technologies Research Group at RWTH Aachen, serving as a provider for different exercise generators.",
+        "de-DE": "Die AufgabenGeneratorInfrastruktur, die am Lehr- und Forschungsgebiet Lerntechnologien an der RWTH Aachen entwickelt wird und verschiedene Aufgabengeneratoren bereitstellt."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

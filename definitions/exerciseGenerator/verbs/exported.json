@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "exported",
+        "de-DE": "exportierte"
+    },
+    "description": {
+        "en-US": "Actor exported an exercise, e.g. as a PDF, image, ...",
+        "de-DE": "Akteur hat eine Aufgabe exportiert, z. B. als PDF, Bild, ..."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
