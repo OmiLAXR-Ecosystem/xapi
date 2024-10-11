@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "focused",
+    "de-DE": "fokussierte"
+  },
+  "description": {
+    "en-US": "An actor has focused a control element or window.",
+    "de-DE": "Ein Akteur fokussierte ein Kontrollelement oder ein Fenster."
+  }
+}
