@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Frames Per Seconds",
+    "de-DE": "Bilder pro Sekunde"
+  },
+  "description": {
+    "en-US": "Amount of frames per seconds at captured moment.",
+    "de-DE": "Die Anzahl an Bildern pro Sekunde zum aufgenommenen Zeitpunkt."
+  }
+}
