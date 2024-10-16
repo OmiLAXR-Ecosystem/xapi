@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "generated",
+        "de-DE": "generierte"
+    },
+    "description": {
+        "en-US": "Actor used the exercise generator to generate a new exercise..",
+        "de-DE": "Akteur nutzte den Aufgabengenerator um eine neue Aufgabe generieren zu lassen."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Generator",
+        "de-DE": "Generator"
+    },
+    "description": {
+        "en-US": "An exercise generator.",
+        "de-DE": "Ein Aufgabengenerator."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
