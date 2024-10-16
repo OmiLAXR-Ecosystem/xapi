@@ -4,7 +4,7 @@
     "de-DE": "entfokussierte"
   },
   "description": {
-    "en-US": "An actor has unfocused a control element or window.",
-    "de-DE": "Ein Akteur entfokussierte ein Kontrollelement oder ein Fenster."
+    "en-US": "The user changes a component, so that it's unfocused. The user selects another component to receive input from the user by an event such as a mouse button click or keypress.",
+    "de-DE": "Der Nutzende verändert ein Element einer grafischen Benutzeroberflächen, sodass es im nicht im Fokus ist, sodass es keine (zum Beispiel) Tastatureingaben oder Mausevents aufnimmt."
   }
 }
