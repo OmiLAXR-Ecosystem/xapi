@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Frames per Second",
+    "de-DE": "Bilder pro Sekunde"
+  },
+  "description": {
+    "en-US": "The framerate is the amount of frames (images) per seconds, which was generated at captured moment in the recorded period of time.",
+    "de-DE": "Die Bildfrequenz ist die Anzahl an Einzelbildern pro Sekunde, die zum aufgenommenen Zeitpunkt bzw. während der aufgenommenen Zeitspanne vorgelegen hat."
+  }
+}
