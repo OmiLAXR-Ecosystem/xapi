@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Rights Engine",
+        "de-DE": "Rights Engine"
+    },
+    "description": {
+        "en-US": "A Rights Engine managing consent to provider schemas.",
+        "de-DE": "Eine Rights Engine, welche Zustimmungen zu Provider Schemas verwaltet."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
