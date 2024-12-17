@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Provider",
+        "de-DE": "Provider"
+    },
+    "description": {
+        "en-US": "A provider collecting data as xAPI statements and sending these statements to a Rights Engine. A provider may have multiple associated contexts and schema versions.",
+        "de-DE": "Ein Provider, welcher Daten als xAPI Statements sammelt und an eine Rights Engine sendet. Ein Provider kann mehrere zugeordnete Kontexte sowie Schemaversionen haben."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

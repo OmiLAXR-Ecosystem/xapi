@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Cross Provider Schema Version",
+        "de-DE": "Providerübergreifende Schema Version"
+    },
+    "description": {
+        "en-US": "A version of a cross provider schema defines the intended, combined data collection and analyses across multiple (at least two) single providers. Different versions of a cross-provider schema can differ in terms of the providers, provider contexts, verbs, objects, analyses or translations and descriptions they contain.",
+        "de-DE": "Ein Version eines providerübergreifenden Schemas listet die intendierte, kombinierte Datensammlung und die Analysen für mehrere (mindestens zwei) Provider auf. Verschiedene Versionen eines providerübergreifenden Schemas können sich in Bezug auf die enthaltenen Provider, Provider-Kontexte, Verben, Objekte, Analysen oder Übersetzungen und Beschreibungen unterscheiden."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
