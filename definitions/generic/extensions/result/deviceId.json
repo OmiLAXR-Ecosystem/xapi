@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "device ID",
+    "de-DE": "Geräte-ID"
+  },
+  "description": {
+    "en-US": "A unique identifier for the device used, such as a serial number or MAC address.",
+    "de-DE": "Eine eindeutige Kennung für das Gerät, das verwendet wurde, wie eine Seriennummer oder MAC-Adresse."
+  }
+}

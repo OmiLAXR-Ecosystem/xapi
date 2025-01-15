@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "camera Y offset",
+    "de-DE": "Kamera Y Versatz"
+  },
+  "description": {
+    "en-US": "The vertical distance of the camera position relative to the floor. This value represents the camera's Y-axis position in the 3D space, such as the height at which the camera is positioned. The floor should be initalized to zero.",
+    "de-DE": "Der vertikale Versatz der Kameraposition relativ zum Boden. Dieser Wert gibt die Y-Achsen-Position der Kamera im 3D-Raum, z. B. die Höhe, in der sich die Kamera befindet. Der Boden sollte auf Null initalisiert werden."
+  }
+}
