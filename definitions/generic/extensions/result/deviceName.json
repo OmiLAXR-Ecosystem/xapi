@@ -4,7 +4,7 @@
     "de-DE": "Gerätename"
   },
   "description": {
-    "en-US": "The name of the device used for the activity, such as 'Oculus Quest 2' or 'iPad Pro'.",
-    "de-DE": "Der Name des Geräts, das für die Aktivität verwendet wurde, z. B. 'Oculus Quest 2' oder 'iPad Pro'."
+    "en-US": "The name of the device that is used, such as 'Oculus Quest 2' or 'iPad Pro'.",
+    "de-DE": "Der Name des Geräts, das verwendet wurde, z. B. 'Oculus Quest 2' oder 'iPad Pro'."
   }
 }
