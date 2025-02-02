@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "hid",
+        "de-DE": "blendete aus"
+    },
+    "description": {
+        "en-US": "Actor hid an object",
+        "de-DE": "Akteur hat ein Objekt ausgeblendet"
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}
