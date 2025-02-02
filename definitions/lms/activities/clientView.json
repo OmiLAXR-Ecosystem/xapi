@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Client View",
+        "de-DE": "Client Ansicht"
+    },
+    "description": {
+        "en-US": "The client's view on the LMS, usually a tab in a browser.",
+        "de-DE": "Die Ansicht eines Clients auf das LMS, meist ein Tab in einem Browser."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
