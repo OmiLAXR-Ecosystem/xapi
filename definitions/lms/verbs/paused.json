@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "paused",
+        "de-DE": "pausierte"
+    },
+    "description": {
+        "en-US": "Actor paused an activity",
+        "de-DE": "Akteur pausierte eine Aktivität"
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}
