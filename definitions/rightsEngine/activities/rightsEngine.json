@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Rights Engine",
+        "de-DE": "Rights Engine"
+    },
+    "description": {
+        "en-US": "A Rights Engine managing consent to provider schemas and providing functionalities for data disclosure and data removal.",
+        "de-DE": "Eine Rights Engine, welche Zustimmungen zu Provider Schemas verwaltet sowie Funktionalitäten für Datenauskünfte und Datenlöschung bereitstellt."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}

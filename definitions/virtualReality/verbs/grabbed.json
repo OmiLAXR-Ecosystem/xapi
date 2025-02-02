@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "grabbed",
+    "de-DE": "gegriffen"
+  },
+  "description": {
+    "en-US": "The actor grabbed an object in a virtual reality environment. This action involves interacting with a virtual object using hand tracking, controllers, or other input methods, providing context about the actor's interactions within the VR experience.",
+    "de-DE": "Der Akteur griff ein Objekt in einer virtuellen Realität. Diese Aktion beinhaltet die Interaktion des Akteurs mit einem virtuellen Objekt mithilfe von Handtracking, Controllern oder anderen Eingabemethoden und bietet Kontext zu den Interaktionen des Akteurs innerhalb der VR-Erfahrung."
+  }
+}

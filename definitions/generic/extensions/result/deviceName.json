@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "device name",
+    "de-DE": "Gerätename"
+  },
+  "description": {
+    "en-US": "The name of the device that is used, such as 'Oculus Quest 2' or 'iPad Pro'.",
+    "de-DE": "Der Name des Geräts, das verwendet wurde, z. B. 'Oculus Quest 2' oder 'iPad Pro'."
+  }
+}

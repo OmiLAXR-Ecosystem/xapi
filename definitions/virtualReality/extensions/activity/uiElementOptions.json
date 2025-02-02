@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "VR user interface element options",
+    "de-DE": "VR Benutzeroberflächen Optionen"
+  },
+  "description": {
+    "en-US": "Describes the available list of options of the interactive interface element (e.g. Dropdown). Can be a string array.",
+    "de-DE": "Die Liste der verfügbaren Optionen des interaktiven Elements einer Benutzeroberfläche (z.B. Dropdown). Kann ein String Array sein."
+  }
+}

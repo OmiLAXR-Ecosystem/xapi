@@ -5,7 +5,7 @@
     },
     "description": {
         "en-US": "Actor accessed/viewed a schema, his or her consent, ...",
-        "de-DE": "Akteur hat (auf) ein Schema, den eigenen Consent, ... zugegriffen/angesehen."
+        "de-DE": "Akteur hat (auf) ein Schema, die eigenen Zustimmungen, ... zugegriffen/angesehen."
     },
     "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",

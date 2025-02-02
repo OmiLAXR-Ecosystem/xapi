@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "scroll value",
+        "de-DE": "Skrollwert"
+    },
+    "description": {
+        "en-US": "The scroll value of a trackpad or mouse wheel.",
+        "de-DE": "Die Skrollwert vom Trackpad oder Mausrad."
+    }
+}

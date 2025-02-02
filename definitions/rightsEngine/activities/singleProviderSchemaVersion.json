@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Single Provider Schema Version",
+        "de-DE": "Einzel-Provider Schema Version"
+    },
+    "description": {
+        "en-US": "A version of a single provider schema defines the intended data collection and analyses for a single provider, a single platform. Different versions of a schema for the same provider can differ in terms of the verbs, objects, analyses or translations and descriptions they contain.",
+        "de-DE": "Ein Version eines Einzel-Provider Schema listet die intendierte Datensammlung und die Analysen für einen einzelnen Provider, eine einzelne Plattform, auf. Verschiedene Versionen eines Schemas für einen Provider können sich in Bezug auf die enthaltenen Verben, Objekte, Analysen oder Übersetzungen und Beschreibungen unterscheiden."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
