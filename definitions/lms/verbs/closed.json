@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "closed",
-        "de-DE": "schloß"
+        "de-DE": "schloss"
     },
     "description": {
         "en-US": "Actor closed an object (i.e. forum thread)",
