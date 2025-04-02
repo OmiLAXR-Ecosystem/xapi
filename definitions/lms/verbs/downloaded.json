@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "downloaded",
-        "de-DE": "heruntergeladen"
+        "de-DE": "lud herunter"
     },
     "description": {
         "en-US": "Actor downloaded an object (e. g. a PDF file)",

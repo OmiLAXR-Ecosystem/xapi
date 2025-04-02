@@ -1,13 +1,13 @@
 {
     "name": {
         "en-US": "approved",
-        "de-DE": "genehmigt"
+        "de-DE": "genehmigte"
     },
     "description": {
         "en-US": "Actor approved an object (in Moodle \"learning plan\")",
         "de-DE": "Akteur genehmigte ein Objekt (in Moodle \"Lernplan\")"
     },
-    "exactMatch": [   
+    "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/86"
     ],

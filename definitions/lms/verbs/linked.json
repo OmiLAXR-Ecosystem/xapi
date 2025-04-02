@@ -1,14 +1,14 @@
 {
-"name": {
-	"en-US": "linked",
-	"de-DE": "verknüpft"
-},
-"description": {
-	"en-US": "Actor linked an object/person to an object",
-	"de-DE": "Akteur hat ein/e Objekt/Person mit einem Objekt verknüpft"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+	"name": {
+		"en-US": "linked",
+		"de-DE": "verknüpfte"
+	},
+	"description": {
+		"en-US": "Actor linked an object/person to an object",
+		"de-DE": "Akteur hat ein/e Objekt/Person mit einem Objekt verknüpft"
+	},
+	"exactMatch": [
+	],
+	"relatedMatch": [
+	]
 }

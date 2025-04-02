@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "Duration",
+        "de-DE": "Dauer"
+    },
+    "description": {
+        "en-US": "The duration of the media element in seconds.",
+        "de-DE": "Die Dauer/Länge des Medienelements in Sekunden."
+    }
+}

@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "resetted",
-	"de-DE": "zurückgesetzt"
+	"de-DE": "setzte zurück"
 },
 "description": {
 	"en-US": "Actor resetted an object",

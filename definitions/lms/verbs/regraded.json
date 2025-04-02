@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "regraded",
-        "de-DE": "neu benotet"
+        "de-DE": "benotete neu"
     },
     "description": {
         "en-US": "Actor changed the grading of an object/person.",

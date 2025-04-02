@@ -1,13 +1,13 @@
 {
     "name": {
         "en-US": "blocked",
-        "de-DE": "gesperrt"
+        "de-DE": "sperrte"
     },
     "description": {
         "en-US": "Actor blocked a person",
         "de-DE": "Akteur hat eine Person gesperrt"
     },
-    "exactMatch": [   
+    "exactMatch": [
     ],
     "relatedMatch": [
     ]

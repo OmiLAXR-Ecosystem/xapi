@@ -1,13 +1,13 @@
 {
     "name": {
         "en-US": "cancelled",
-        "de-DE": "abgesagt"
+        "de-DE": "sagte ab"
     },
     "description": {
         "en-US": "Actor cancelled an activity, a meetin",
         "de-DE": "Akteur hat eine Aktivität, ein Meeting abgesagt"
     },
-    "exactMatch": [   
+    "exactMatch": [
     ],
     "relatedMatch": [
     ]

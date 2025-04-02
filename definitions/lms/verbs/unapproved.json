@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "unapproved",
-	"de-DE": "nicht genehmigt"
+	"de-DE": "genehmigte nicht"
 },
 "description": {
 	"en-US": "Actor unapproved an object (in Moodle \"learning plan\")",

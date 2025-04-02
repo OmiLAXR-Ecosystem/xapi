@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "added",
-        "de-DE": "hinzugefügt"
+        "de-DE": "fügte hinzu"
     },
     "description": {
         "en-US": "Actor added an object/person to a collection",

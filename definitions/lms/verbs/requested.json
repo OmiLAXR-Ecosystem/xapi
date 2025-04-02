@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "requested",
-	"de-DE": "angefordert"
+	"de-DE": "forderte an"
 },
 "description": {
 	"en-US": "Actor requested an object/access/information",

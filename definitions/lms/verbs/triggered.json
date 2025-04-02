@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "triggered",
-	"de-DE": "ausgelöst"
+	"de-DE": "löste aus"
 },
 "description": {
 	"en-US": "Actor triggered a process",

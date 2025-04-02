@@ -1,7 +1,7 @@
 {
 "name": {
 	"en-US": "sent",
-	"de-DE": "gesendet"
+	"de-DE": "sendete"
 },
 "description": {
 	"en-US": "Actor sent a message to a person/group",

@@ -1,14 +1,14 @@
 {
-"name": {
-	"en-US": "locked",
-	"de-DE": "gesperrt"
-},
-"description": {
-	"en-US": "Actor locked an object",
-	"de-DE": "Akteur hat ein Objekt gesperrt"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+	"name": {
+		"en-US": "locked",
+		"de-DE": "sperrte"
+	},
+	"description": {
+		"en-US": "Actor locked an object",
+		"de-DE": "Akteur hat ein Objekt gesperrt"
+	},
+	"exactMatch": [
+	],
+	"relatedMatch": [
+	]
 }

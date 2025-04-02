@@ -1,7 +1,7 @@
 {
     "name": {
         "en-US": "assigned",
-        "de-DE": "zugeteilt"
+        "de-DE": "teilte zu"
     },
     "description": {
         "en-US": "Actor assigned an object/task/activity to someone",
