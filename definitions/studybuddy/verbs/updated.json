@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "updated",
+        "de-DE": "aktualisierte"
+    },
+    "description": {
+        "en-US": "Actor updated an object",
+        "de-DE": "Akteur hat ein Objekt aktualisiert"
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "clicked",
+        "de-DE": "klickte"
+    },
+    "description": {
+        "en-US": "Actor clicked a link, button, ...",
+        "de-DE": "Akteur klickte auf/an einen Link, Button, ..."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

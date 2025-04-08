@@ -1,0 +1,18 @@
+{
+	"name": {
+		"en-US": "logged out from",
+		"de-DE": "meldete sich ab von"
+	},
+	"description": {
+		"en-US": "Actor logged out from a system",
+		"de-DE": "Akteur hat sich von einem System abgemeldet"
+	},
+	"exactMatch": [
+		"https://registry.tincanapi.com/#uri/verb/398",
+		"https://brindlewaye.com/xAPITerms/verbs/loggedout/"
+	],
+	"relatedMatch": [
+		"https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedOut",
+		"https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedOut"
+	]
+}

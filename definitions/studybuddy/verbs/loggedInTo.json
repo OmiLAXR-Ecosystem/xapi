@@ -1,0 +1,18 @@
+{
+	"name": {
+		"en-US": "logged in to",
+		"de-DE": "meldete sich an in"
+	},
+	"description": {
+		"en-US": "Actor logged in to a system",
+		"de-DE": "Akteur hat sich in einem System angemeldet"
+	},
+	"exactMatch": [
+		"https://registry.tincanapi.com/#uri/verb/284",
+		"https://brindlewaye.com/xAPITerms/verbs/loggedin/"
+	],
+	"relatedMatch": [
+		"https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedIn",
+		"https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedIn"
+	]
+}
