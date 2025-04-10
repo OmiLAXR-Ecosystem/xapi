@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Study Plan",
+        "de-DE": "Studienverlaufsplan"
+    },
+    "description": {
+        "en-US": "An actor's study plan.",
+        "de-DE": "Der Studienverlaufsplan eines Akteurs."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

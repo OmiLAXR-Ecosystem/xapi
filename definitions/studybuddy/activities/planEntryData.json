@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Plan Entry Data",
+        "de-DE": "Plan-Eintragsdaten"
+    },
+    "description": {
+        "en-US": "The entry data of a study plan, including module positions, placeholder replacements, ...",
+        "de-DE": "Die Eintragsdaten eines Studienverlaufsplans. Diese enthalten die Modulpositionierungen, Platzhalterersetzungen, ..."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

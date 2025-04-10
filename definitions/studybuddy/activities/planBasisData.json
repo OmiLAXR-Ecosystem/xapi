@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Plan Basis Data",
+        "de-DE": "Plan-Basisdaten"
+    },
+    "description": {
+        "en-US": "Basis data about a study plan, including the start term, a custom name, ...",
+        "de-DE": "Basisdaten eines Studienverlaufsplans. Diese enthalten den Start-Term, einen selbstgesetzten Namen, ..."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

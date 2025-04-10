@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "Plan Generation",
+        "de-DE": "Plangenerierung"
+    },
+    "description": {
+        "en-US": "The automated generation of a study plan.",
+        "de-DE": "Die automatisierte Generierung eines Studienverlaufsplans."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

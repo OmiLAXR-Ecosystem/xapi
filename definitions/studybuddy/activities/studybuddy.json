@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "StudyBuddy",
+        "de-DE": "StudyBuddy"
+    },
+    "description": {
+        "en-US": "The interactive study planning tool.",
+        "de-DE": "Der interaktive Studienverlaufsplaner."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}

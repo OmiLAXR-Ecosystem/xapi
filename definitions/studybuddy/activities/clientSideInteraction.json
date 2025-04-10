@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en-US": "Client Side Interaction",
+        "de-DE": "Clientseitige Interaktion"
+    },
+    "description": {
+        "en-US": "Interactions of a user within an LMS client (like a browser tab), e.g., key strokes, mouse movements or clicks, touches.",
+        "de-DE": "Nutzerinterationen in einem LMS Client (wie einem Browsertab), z. B. Tastatureingaben, Mausbewegungen oder Klicks, Toucheingaben."
+    },
+    "exactMatch": [ ],
+    "relatedMatch": [ ]
+}
