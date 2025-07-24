@@ -4,7 +4,7 @@
         "de-DE": "löste"
     },
     "description": {
-        "en-US": "The actor has released a controller button.",
-        "de-DE": "Eine Akteurin löste einen Controller Taste."
+        "en-US": "The actor has released, for example, a controller button or a virtual object.",
+        "de-DE": "Eine Akteurin löste z.B. eine Controller Taste oder ein virtuelles Objekt."
     }
 }
