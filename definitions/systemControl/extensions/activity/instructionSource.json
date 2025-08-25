@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "instruction source",
+    "de-DE": "Quelle der Anweisung"
+  },
+  "description": {
+    "en-US": "Represents the source of an instruction provided by the system, e.g. the responsible controller, human intervention etc.",
+    "de-DE": "Repräsentiert die Quelle einer Anweisung, die vom System erteilt wird, z.B. die zuständige Kontrollinstanz, menschlicher Eingriff, etc."
+  }
+}
