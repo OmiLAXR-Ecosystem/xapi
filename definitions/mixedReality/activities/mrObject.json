@@ -1,0 +1,13 @@
+{
+    "name": {
+        "en-US": "MR object",
+        "de-DE": "MR Objekt"
+    },
+    "description": {
+        "en-US": "A virtual object in a MR environment.",
+        "de-DE": "Ein virtuelles Objekt in einer MR Umgebung."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/vrObject"
+    ]
+}

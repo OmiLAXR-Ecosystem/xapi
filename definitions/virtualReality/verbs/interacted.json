@@ -6,5 +6,8 @@
   "description": {
     "en-US": "An actor interacted with the VR object in the VR environment.",
     "de-DE": "Eine Akteurin interagierte einem VR Objekt in der VR Umgebung."
-  }
+  },
+  "exactMatch": [
+    "https://xapi.elearn.rwth-aachen.de/definitions/mixedReality/verbs/interacted"
+  ]
 }
