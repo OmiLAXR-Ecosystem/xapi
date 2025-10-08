@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "area",
+        "de-DE": "Bereich"
+    },
+    "description": {
+        "en-US": "A defined spatial area within the virtual environment.",
+        "de-DE": "Ein definierter Bereich innerhalb der virtuellen Umgebung."
+    }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "heart rate", "de-DE": "Herzfrequenz" },
+  "description": {
+    "en-US": "Instantaneous heart rate (beats per minute).",
+    "de-DE": "Momentane Herzfrequenz (Schläge pro Minute)."
+  }
+}

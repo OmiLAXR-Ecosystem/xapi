@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "Target Velocity (deg/s)", "de-DE": "Zielgeschwindigkeit (Grad/s)" },
+  "description": {
+    "en-US": "Mean angular velocity of the pursued target, in degrees per second, over the same segment.",
+    "de-DE": "Mittlere angulare Geschwindigkeit des verfolgten Ziels in Grad pro Sekunde über denselben Zeitraum."
+  }
+}

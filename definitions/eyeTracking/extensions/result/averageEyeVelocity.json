@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "Average Eye Velocity (deg/s)", "de-DE": "Mittlere Blickgeschwindigkeit (Grad/s)" },
+  "description": {
+    "en-US": "Mean angular eye velocity, in degrees per second, over the pursuit segment.",
+    "de-DE": "Mittlere angulare Blickgeschwindigkeit in Grad pro Sekunde über die Pursuit-Phase."
+  }
+}

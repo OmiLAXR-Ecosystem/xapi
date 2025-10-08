@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "method", "de-DE": "Methode" },
+  "description": {
+    "en-US": "Estimation method or algorithm used (e.g., BPM→IBI approximation, RR-based HRV).",
+    "de-DE": "Verwendete Schätzmethode bzw. Algorithmus (z. B. BPM→IBI-Approximation, RR-basiertes HRV)."
+  }
+}

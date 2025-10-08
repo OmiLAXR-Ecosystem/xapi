@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "heart rate variability", "de-DE": "Herzfrequenzvariabilität" },
+  "description": {
+    "en-US": "Heart rate variability (e.g., time- or frequency-domain indices).",
+    "de-DE": "Herzfrequenzvariabilität (z. B. Zeit- oder Frequenzkennwerte)."
+  }
+}

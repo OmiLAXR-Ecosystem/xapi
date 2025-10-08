@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "mean heart rate (bpm)", "de-DE": "mittlere Herzfrequenz (bpm)" },
+  "description": {
+    "en-US": "Arithmetic mean of heart rate over the analysis window (bpm).",
+    "de-DE": "Arithmetischer Mittelwert der Herzfrequenz über das Analysefenster (bpm)."
+  }
+}

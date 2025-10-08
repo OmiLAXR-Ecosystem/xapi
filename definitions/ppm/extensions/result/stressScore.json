@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "stress score", "de-DE": "Stress-Score" },
+  "description": {
+    "en-US": "Normalized stress score (recommended range 0..1).",
+    "de-DE": "Normalisierter Stress-Score (empfohlener Bereich 0..1)."
+  }
+}

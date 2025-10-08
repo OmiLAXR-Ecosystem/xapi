@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "pupil", "de-DE": "Pupille" },
+  "description": {
+    "en-US": "Pupil size and related ocular measures.",
+    "de-DE": "Pupillengröße und zugehörige okulare Messwerte."
+  }
+}

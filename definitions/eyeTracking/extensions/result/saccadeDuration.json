@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "saccade duration",
+    "de-DE": "Sakkadendauer"
+  },
+  "description": {
+    "en-US": "The saccade duration is the measure of time taken for a saccade, representing the rapid eye movement between two fixation points. Described in ISO 8601.",
+    "de-DE": "Die Sakkadendauer beschreibt die Zeit, die für eine Sakkade benötigt wird, die die schnelle Augenbewegung zwischen zwei Fixationspunkten darstellt. Beschrieben in ISO 8601."
+  }
+}

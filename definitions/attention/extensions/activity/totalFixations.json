@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Total Fixations",
+    "de-DE": "Fixationen gesamt"
+  },
+  "description": {
+    "en-US": "The total number of fixation events detected during a defined time period, scene, or interaction. Fixations represent moments where the gaze remains relatively stable on a specific location or object, often used to infer attention or focus.",
+    "de-DE": "Die Gesamtanzahl der Fixationen, die während eines definierten Zeitraums, einer Szene oder Interaktion erkannt wurden. Fixationen bezeichnen Momente, in denen der Blick relativ stabil auf einer bestimmten Position oder einem Objekt verweilt, und dienen häufig als Indikator für Aufmerksamkeit oder Fokus."
+  }
+}

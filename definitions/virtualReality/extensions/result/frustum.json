@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Frustum",
+    "de-DE": "Frustum"
+  },
+  "description": {
+    "en-US": "A compact camera frustum summary with near/far clip distances (in meters) and horizontal/vertical fields of view (in degrees, full angles). Typically derived from a mono camera or per-eye projection; for asymmetric frusta this represents a symmetric summary. Ranges: zNear ≥ 0, zFar > zNear, fovX/fovY ∈ [0°, 180°].",
+    "de-DE": "Eine kompakte Zusammenfassung des Kamerafrustums mit Near-/Far-Clipping-Distanzen (in Metern) sowie horizontalem/vertikalem Sichtfeld (in Grad, Vollwinkel). Wird üblicherweise aus einer Mono-Kamera oder pro Auge aus der Projektion abgeleitet; bei asymmetrischen Frusta handelt es sich um eine symmetrische Zusammenfassung. Wertebereiche: zNear ≥ 0, zFar > zNear, fovX/fovY ∈ [0°, 180°]."
+  }
+}

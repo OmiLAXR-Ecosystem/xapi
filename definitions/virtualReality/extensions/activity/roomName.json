@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "room name",
+        "de-DE": "Raumname"
+    },
+    "description": {
+        "en-US": "Human-readable name of the room at the time of the event.",
+        "de-DE": "Menschenlesbarer Name des Raums zum Zeitpunkt des Ereignisses."
+    }
+}

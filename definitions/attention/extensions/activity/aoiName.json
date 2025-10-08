@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Name of an Area of Interest",
+    "de-DE": "Name eines Interessensbereich"
+  },
+  "description": {
+    "en-US": "Rhe name of a specific Area of Interest (AOI) associated with an activity, used to categorize or label focused regions during an eye-tracking session.",
+    "de-DE": "Der Name eines spezifischen Interessensbereichs (AOI) beschreibt, der mit einer Aktivität verbunden ist, um fokussierte Bereiche während einer Blickverfolgungssitzung zu kategorisieren oder zu kennzeichnen."
+  }
+}

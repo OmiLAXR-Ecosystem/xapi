@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "respiration", "de-DE": "Atmung" },
+  "description": {
+    "en-US": "Respiration rate or breathing pattern measures.",
+    "de-DE": "Atemfrequenz bzw. Atmungsmuster."
+  }
+}
