@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "updated", "de-DE": "aktualisiert" },
+  "description": {
+    "en-US": "An updated value of a psycho-physiological measure is available.",
+    "de-DE": "Ein aktualisierter Wert einer psychophysiologischen Messgröße liegt vor."
+  }
+}

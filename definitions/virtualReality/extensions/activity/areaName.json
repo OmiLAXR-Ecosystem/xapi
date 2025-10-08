@@ -1,0 +1,10 @@
+{
+    "name": { 
+        "en-US": "area name", 
+        "de-DE": "Bereichsname" 
+    },
+    "description": {
+        "en-US": "Human-readable name of the area or room at the time of the event.",
+        "de-DE": "Menschenlesbarer Name des Bereichs oder Raums zum Zeitpunkt des Ereignisses."
+    }
+}

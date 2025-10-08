@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "electrodermal activity", "de-DE": "Elektrodermale Aktivität" },
+  "description": {
+    "en-US": "Electrodermal activity (skin conductance).",
+    "de-DE": "Elektrodermale Aktivität (Hautleitfähigkeit)."
+  }
+}

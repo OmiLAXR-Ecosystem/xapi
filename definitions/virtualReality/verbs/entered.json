@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "entered",
+        "de-DE": "betreten"
+    },
+    "description": {
+        "en-US": "An actor has entered an area or room.",
+        "de-DE": "Eine Akteurin hat einen Bereich oder Raum betreten."
+    }
+}

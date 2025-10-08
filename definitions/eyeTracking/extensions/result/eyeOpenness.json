@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Eye Openness",
+    "de-DE": "Augenöffnung"
+  },
+  "description": {
+    "en-US": "A normalized value in the range 0.0–1.0 indicating how open the eye is at the event time. 1.0 = fully open, 0.0 = fully closed (blink). In Meta XR this can be derived from face expression weights (e.g., EyesClosedL/R) as openness = 1 − closed.",
+    "de-DE": "Ein normalisierter Wert im Bereich 0,0–1,0, der angibt, wie weit das Auge zum Ereigniszeitpunkt geöffnet ist. 1,0 = vollständig geöffnet, 0,0 = vollständig geschlossen (Blinzeln). In Meta XR kann dies aus Face-Expression-Werten (z. B. EyesClosedL/R) abgeleitet werden: Öffnung = 1 − geschlossen."
+  }
+}

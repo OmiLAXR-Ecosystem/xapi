@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "exited",
+        "de-DE": "verlassen"
+    },
+    "description": {
+        "en-US": "An actor has exited an area or room.",
+        "de-DE": "Eine Akteurin hat einen Bereich oder Raum verlassen."
+    }
+}
