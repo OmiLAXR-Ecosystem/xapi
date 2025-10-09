@@ -4,7 +4,7 @@
     "de-DE": "Gewichte"
   },
   "description": {
-    "en-US": "",
-    "de-DE": ""
+    "en-US": "Normalized numeric values representing the activation strength of individual facial expressions or Action Units (AUs). Each weight ranges from 0.0 to 1.0 and indicates how strongly a specific facial muscle movement is expressed at a given time.",
+    "de-DE": "Normalisierte numerische Werte, die die Aktivierungsstärke einzelner Gesichtsausdrücke oder Action Units (AUs) darstellen. Jeder Gewichtungswert liegt zwischen 0,0 und 1,0 und gibt an, wie stark eine bestimmte Gesichtsbewegung zu einem Zeitpunkt ausgeprägt ist."
   }
 }

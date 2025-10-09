@@ -1,5 +1,8 @@
 ﻿{
-  "name": { "en-US": "Pursuit Start", "de-DE": "Pursuit-Beginn" },
+  "name": {
+    "en-US": "Pursuit Start",
+    "de-DE": "Pursuit-Beginn"
+  },
   "description": {
     "en-US": "ISO 8601 timestamp marking when the pursuit segment began.",
     "de-DE": "ISO-8601-Zeitstempel, der den Beginn der Pursuit-Phase markiert."
