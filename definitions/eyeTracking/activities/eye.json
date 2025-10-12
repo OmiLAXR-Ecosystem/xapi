@@ -6,8 +6,5 @@
   "description": {
     "en-US": "Organ of the visual system. Actors physical (left or right) eye.",
     "de-DE": "Sinnesorgan zur Wahrnehmung von Lichtreizen, in diesem Kontext das physikalisches Auge des Agierenden (links oder rechts)."
-  },
-  "exactMatch": [
-        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/activity/eye"
-    ]
+  }
 }

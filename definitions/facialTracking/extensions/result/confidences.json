@@ -1,7 +1,7 @@
 ﻿{
   "name": {
-    "en-US": "Detection Confidence",
-    "de-DE": "Erkennungszuversicht"
+    "en-US": "Detection Confidences",
+    "de-DE": "Erkennungszuversichten"
   },
   "description": {
     "en-US": "The system’s estimated confidence in the correctness of the detected emotion. This is not the same as intensity and reflects detection reliability.",

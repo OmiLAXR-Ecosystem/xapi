@@ -4,7 +4,7 @@
     "de-DE": "Gesicht"
   },
   "description": {
-    "en-US": "",
-    "de-DE": ""
+    "en-US": "Represents the tracked facial region of the actor, including expression, muscle movement, and other facial features captured by the XR face tracking system. The face serves as the source of Action Unit and emotion data used for analysis.",
+    "de-DE": "Repräsentiert den erfassten Gesichtsbereich der Akteurin, einschließlich Ausdruck, Muskelbewegung und weiterer durch das XR-Gesichtstracking erfasster Merkmale. Das Gesicht dient als Quelle der Action-Unit- und Emotionsdaten für die Analyse."
   }
 }
