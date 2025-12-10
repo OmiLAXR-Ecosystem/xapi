@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "end gaze coordinates",
+    "de-DE": "End-Blickkoordinaten"
+  },
+  "description": {
+    "en-US": "The X, Y, and optionally Z coordinates marking the final point where an actor's gaze concludes, allowing analysis of gaze path endpoints and spatial distribution in eye-tracking studies.",
+    "de-DE": "Die X-, Y- und optional Z-Koordinaten, die den Endpunkt anzeigen, an dem der Blick eines Akteurs oder einer Akteurin endet, und die eine Analyse der Endpunkte des Blickverlaufs sowie der räumlichen Verteilung in Blickverfolgungsstudien ermöglichen."
+  }
+}

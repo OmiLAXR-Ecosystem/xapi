@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Presses during current hover",
+    "de-DE": "Betätigungen während des aktuellen Hovers"
+  },
+  "description": {
+    "en-US": "The number of times the UI element was pressed while it was being hovered over during the current interaction session.",
+    "de-DE": "Die Anzahl der Betätigungen des UI-Elements während es im aktuellen Interaktionszeitraum gehovt wurde."
+  }
+}

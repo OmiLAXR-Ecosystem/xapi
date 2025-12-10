@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Pupil Diameter",
+    "de-DE": "Pupillendurchmesser"
+  },
+  "description": {
+    "en-US": "The measurement of the pupil's diameter at the time of sampling, expressed in millimeters.",
+    "de-DE": "Die Messung des Pupillendurchmessers zum Zeitpunkt der Abtastung, angegeben in Millimetern."
+  }
+}

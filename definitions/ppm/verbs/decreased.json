@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "decreased", "de-DE": "gesunken" },
+  "description": {
+    "en-US": "The measure decreased compared to the previous value.",
+    "de-DE": "Die Messgröße ist im Vergleich zum vorherigen Wert gesunken."
+  }
+}

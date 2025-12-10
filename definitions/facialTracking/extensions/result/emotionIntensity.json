@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "Emotion Intensity",
+    "de-DE": "Emotionsintensität"
+  },
+  "description": {
+    "en-US": "A continuous value representing the estimated strength or salience of the emotion. Typically normalized between 0.0 and 1.0.",
+    "de-DE": "Ein kontinuierlicher Wert, der die geschätzte Stärke oder Auffälligkeit der Emotion angibt. Normalerweise zwischen 0,0 und 1,0 normalisiert."
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "room",
+        "de-DE": "Raum"
+    },
+    "description": {
+        "en-US": "A room or enclosed space in the virtual environment.",
+        "de-DE": "Ein Raum oder geschlossener Bereich in der virtuellen Umgebung."
+    }
+}

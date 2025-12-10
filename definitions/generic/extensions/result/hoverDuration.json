@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Hover duration",
+    "de-DE": "Hover-Dauer"
+  },
+  "description": {
+    "en-US": "The time in seconds the pointer or input source has been hovering over the UI element.",
+    "de-DE": "Die Zeit in Sekunden, in der sich der Zeiger oder die Eingabequelle über dem UI-Element befand."
+  }
+}

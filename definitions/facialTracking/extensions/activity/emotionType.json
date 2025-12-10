@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "Emotion Type",
+    "de-DE": "Emotionstyp"
+  },
+  "description": {
+    "en-US": "The categorical label of the detected or expressed emotion, e.g., smile, sadness, anger. Typically derived from facial expressions or Action Unit activation patterns.",
+    "de-DE": "Die kategorische Bezeichnung der erkannten oder gezeigten Emotion, z.B. Lächeln, Traurigkeit, Wut. Wird typischerweise aus Gesichtsausdrücken oder Aktivierungsmustern von Action Units abgeleitet."
+  }
+}

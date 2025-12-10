@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Eye Height",
+    "de-DE": "Augenhöhe"
+  },
+  "description": {
+    "en-US": "Vertical distance from floor to the user's eye level, in meters. Use in result.extensions when measured at event time; use in context.extensions when provided as a calibration/profile value.",
+    "de-DE": "Vertikaler Abstand vom Boden zur Augenhöhe in Metern. In result.extensions verwenden, wenn zum Ereigniszeitpunkt gemessen; in context.extensions, wenn als Kalibrier-/Profilwert vorgegeben."
+  }
+}

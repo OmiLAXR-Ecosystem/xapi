@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Total number of presses",
+    "de-DE": "Gesamtanzahl der Betätigungen"
+  },
+  "description": {
+    "en-US": "The total number of times the UI element was pressed since the component was initialized.",
+    "de-DE": "Die Gesamtanzahl an Betätigungen des UI-Elements seit der Initialisierung der Komponente."
+  }
+}

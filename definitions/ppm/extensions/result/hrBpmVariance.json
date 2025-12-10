@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "heart rate variance (bpm²)", "de-DE": "Varianz der Herzfrequenz (bpm²)" },
+  "description": {
+    "en-US": "Unbiased sample variance of heart rate over the analysis window (bpm²).",
+    "de-DE": "Unverzerrte Stichprobenvarianz der Herzfrequenz über das Analysefenster (bpm²)."
+  }
+}

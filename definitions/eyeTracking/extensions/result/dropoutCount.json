@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "Dropout Count",
+    "de-DE": "Anzahl Aussetzer"
+  },
+  "description": {
+    "en-US": "Number of frames within the pursuit segment where tracking quality fell below threshold or data was masked (e.g., blink).",
+    "de-DE": "Anzahl der Frames innerhalb der Pursuit-Phase, in denen die Trackingqualität unter den Schwellenwert fiel oder Daten maskiert wurden (z. B. Blinzeln)."
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "name": { "en-US": "min heart rate (bpm)", "de-DE": "minimale Herzfrequenz (bpm)" },
+  "description": {
+    "en-US": "Minimum heart rate observed within the analysis window (bpm).",
+    "de-DE": "Minimale Herzfrequenz im Analysefenster (bpm)."
+  }
+}

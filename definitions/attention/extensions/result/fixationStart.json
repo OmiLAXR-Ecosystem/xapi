@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "fixation start time",
+    "de-DE": "Beginn der Fixation"
+  },
+  "description": {
+    "en-US": "The point in time when the actor started fixating on a specific area of interest. Expressed in ISO 8601 date-time format.",
+    "de-DE": "Der Zeitpunkt, zu dem der Akteur oder die Akteurin begonnen hat, eine bestimmte Region oder ein Objekt mit dem Blick zu fixieren. Angegeben im ISO-8601-Datum-Zeit-Format."
+  }
+}

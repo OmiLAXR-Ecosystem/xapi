@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en-US": "Eye",
+    "de-DE": "Auge"
+  },
+  "description": {
+    "en-US": "Indicates which eye the measure refers to: left, right, or both.",
+    "de-DE": "Gibt an, auf welches Auge sich die Messung bezieht: links, rechts oder beide."
+  }
+}

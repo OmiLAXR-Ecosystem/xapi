@@ -1,0 +1,10 @@
+﻿{
+  "name": {
+    "en-US": "expressed",
+    "de-DE": "zeigte"
+  },
+  "description": {
+    "en-US": "The actor expressed an emotion based on facial Action Unit activity.",
+    "de-DE": "Die Akteurin zeigte eine Emotion, basierend auf der Aktivität ihrer Gesichtsmuskulatur (Action Units)."
+  }
+}
