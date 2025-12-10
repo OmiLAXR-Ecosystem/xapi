@@ -1,10 +1,10 @@
 {
 "name": {
-	"en-US": "resetted",
+	"en-US": "reset",
 	"de-DE": "setzte zurück"
 },
 "description": {
-	"en-US": "Actor resetted an object",
+	"en-US": "Actor reset an object",
 	"de-DE": "Akteur hat ein Objekt zurückgesetzt"
 },
 "exactMatch": [
