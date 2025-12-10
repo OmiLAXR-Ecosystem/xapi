@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "cleared",
+        "de-DE": "leerte"
+    },
+    "description": {
+        "en-US": "Actor cleared a part of an object's content or the content completely. The affected object still exists, it was not deleted. E.g., a given grade was removed (not just set to 0) from a submission or a Grade Item.",
+        "de-DE": "Akteur leerte/entfernte den Inhalt eines Objekts in Teilen oder gänzlich. Das betroffene Objekt existiert weiter, es wurde nicht gelöscht. Z. B.: Die Note einer Abgabe oder eines Bewertungselements wurde entfernt (nicht auf 0 gesetzt)."
+    },
+    "exactMatch": [
+    ],
+    "relatedMatch": [
+    ]
+}
