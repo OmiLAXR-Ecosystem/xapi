@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "drinking",
+        "de-DE": "Trinken"
+    },
+    "description": {
+        "en-US": "Agent is drinking",
+        "de-DE": "Agent*in trinkt"
+    }
+}

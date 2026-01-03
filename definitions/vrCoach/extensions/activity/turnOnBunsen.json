@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "start noisy flame",
+        "de-DE": "Bunsen brenner anschalten"
+    },
+    "description": {
+        "en-US": "Agents start the noisy flame",
+        "de-DE": "Agent*in schalten den Bunsen brenner an"
+    }
+}

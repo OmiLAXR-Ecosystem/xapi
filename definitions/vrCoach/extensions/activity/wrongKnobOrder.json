@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "wrong Bunsen knob order",
+        "de-DE": "Falsche Reihenfolge der Bunsenknöpfe"
+    },
+    "description": {
+        "en-US": "Agent used the Bunsen burner knobs in the wrong order",
+        "de-DE": "Agent*in hat die Bunsenknöpfe in der falschen Reihenfolge benutzt"
+    }
+}

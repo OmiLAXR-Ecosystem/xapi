@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "raise arm",
+        "de-DE": "Aufzeigen"
+    },
+    "description": {
+        "en-US": "Agent is raising their arm",
+        "de-DE": "Agent*in zeigt auf"
+    }
+}

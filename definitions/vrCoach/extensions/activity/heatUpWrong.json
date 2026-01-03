@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "heat up substance wrong",
+        "de-DE": "Substanz falsch erhitzen"
+    },
+    "description": {
+        "en-US": "Agent heats up a substance wrong.",
+        "de-DE": "Agent*in erhitzt eine Substanz falsch."
+    }
+}

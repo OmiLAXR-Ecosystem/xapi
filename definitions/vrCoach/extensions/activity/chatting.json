@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "chatting",
+        "de-DE": "plaudern"
+    },
+    "description": {
+        "en-US": "Agent is chatting with another Agent",
+        "de-DE": "Agent*in plaudert mit einem anderen Agent"
+    }
+}

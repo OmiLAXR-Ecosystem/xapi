@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "turn off the bunsen burner",
+        "de-DE": "Bunsen brenner ausschalten"
+    },
+    "description": {
+        "en-US": "Agents should turn off the bunsen burner",
+        "de-DE": "Agent*in sollen den Bunsen brenner ausschalten"
+    }
+}

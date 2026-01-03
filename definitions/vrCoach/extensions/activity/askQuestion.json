@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "ask question",
+        "de-DE": "Frage stellen"
+    },
+    "description": {
+        "en-US": "Agent asks a question",
+        "de-DE": "Agent*in stellt eine Frage"
+    }
+}

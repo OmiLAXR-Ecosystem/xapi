@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "triggers",
+        "de-DE": "löst aus"
+    },
+    "description": {
+        "en-US": "Coach selected Agent to perform activity",
+        "de-DE": "Coach hat Agent*in ausgewählt, um eine Aktivität auszuführen"
+    }
+}

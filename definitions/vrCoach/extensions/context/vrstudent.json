@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "VR-sturdent",
+        "de-DE": "Vr-student"
+    },
+    "description": {
+        "en-US": "The selected virtual Student",
+        "de-DE": "Ausgewählter virtueller Student*in"
+    }
+}
