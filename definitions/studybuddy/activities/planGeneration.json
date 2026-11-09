@@ -7,8 +7,6 @@
         "en-US": "The automated generation of a study plan.",
         "de-DE": "Die automatisierte Generierung eines Studienverlaufsplans."
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

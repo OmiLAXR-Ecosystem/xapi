@@ -7,8 +7,6 @@
         "en-US": "Actor updated an object",
         "de-DE": "Akteur hat ein Objekt aktualisiert"
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

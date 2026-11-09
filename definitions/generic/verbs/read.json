@@ -4,7 +4,7 @@
         "de-DE": "las"
     },
     "description": {
-        "en-US": "A actor read some text. Only use if it can be assured that the text is read.",
+        "en-US": "An actor read some text. Only use if it can be assured that the text is read.",
         "de-DE": "Ein Acteur las einen Text. Sollte nur genutzt werden wenn sichergestellt werden kann, dass der Text auch wirklich gelesen wurde."
     },
     "exactMatch": [

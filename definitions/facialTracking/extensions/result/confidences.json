@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "Detection Confidences",
-    "de-DE": "Erkennungszuversichten"
-  },
-  "description": {
-    "en-US": "The system’s estimated confidence in the correctness of the detected emotion. This is not the same as intensity and reflects detection reliability.",
-    "de-DE": "Die vom System geschätzte Zuversicht in die Korrektheit der erkannten Emotion. Dies ist nicht mit der Intensität gleichzusetzen, sondern beschreibt die Verlässlichkeit der Erkennung."
-  }
+{
+    "name": {
+        "en-US": "Detection Confidences",
+        "de-DE": "Erkennungszuversichten"
+    },
+    "description": {
+        "en-US": "The system’s estimated confidence in the correctness of the detected emotion. This is not the same as intensity and reflects detection reliability.",
+        "de-DE": "Die vom System geschätzte Zuversicht in die Korrektheit der erkannten Emotion. Dies ist nicht mit der Intensität gleichzusetzen, sondern beschreibt die Verlässlichkeit der Erkennung."
+    }
 }

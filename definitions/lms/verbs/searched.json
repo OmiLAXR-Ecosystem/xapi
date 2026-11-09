@@ -1,16 +1,15 @@
 {
-"name": {
-	"en-US": "searched",
-	"de-DE": "suchte"
-},
-"description": {
-	"en-US": "Actor searched for something",
-	"de-DE": "Akteur hat nach etwas gesucht"
-},
-"exactMatch": [
-	"https://activitystrea.ms/registry/verbs/",
-	"https://registry.tincanapi.com/#uri/verb/144"
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "searched",
+        "de-DE": "suchte"
+    },
+    "description": {
+        "en-US": "Actor searched for something",
+        "de-DE": "Akteur hat nach etwas gesucht"
+    },
+    "exactMatch": [
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/144"
+    ],
+    "relatedMatch": []
 }

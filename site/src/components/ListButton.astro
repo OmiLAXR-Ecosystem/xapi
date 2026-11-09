@@ -1,0 +1,14 @@
+---
+// Star toggle for the list. scripts/list.ts wires every [data-list-toggle].
+import T from "./T.astro";
+
+interface Props {
+  id: string;
+  label?: boolean;
+}
+const { id, label = false } = Astro.props;
+---
+<button type="button" class:list={["star", { "star-label": label }]} data-list-toggle={id} aria-pressed="false">
+  <span class="star-icon" aria-hidden="true"></span>
+  {label ? <span class="star-text"><span class="when-off"><T k="addToList" /></span><span class="when-on"><T k="inList" /></span></span> : <span class="sr-only"><T k="addToList" /></span>}
+</button>

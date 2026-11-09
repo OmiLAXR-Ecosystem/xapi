@@ -7,6 +7,6 @@
         "en-US": "A single question that can be used in quizzes.",
         "de-DE": "Eine einzelne Frage, die in Quizzen genutzt werden kann."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

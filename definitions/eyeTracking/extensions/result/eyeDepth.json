@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "Eye Depth",
-    "de-DE": "Augentiefe"
-  },
-  "description": {
-    "en-US": "The forward offset from the neck pivot (or head anchor) to the eye center along the local Z-axis, expressed in meters. Used by neck/head models to approximate head pose and to determine the gaze ray origin for XR applications.",
-    "de-DE": "Der Vorwärtsversatz von der Nacken- bzw. Kopf-Drehachse zum Augenmittelpunkt entlang der lokalen Z-Achse, angegeben in Metern. Wird in Nacken-/Kopfmodellen genutzt, um die Kopfpose zu approximieren und den Ursprung des Blickstrahls in XR-Anwendungen zu bestimmen."
-  }
+    "name": {
+        "en-US": "Eye Depth",
+        "de-DE": "Augentiefe"
+    },
+    "description": {
+        "en-US": "The forward offset from the neck pivot (or head anchor) to the eye center along the local Z-axis, expressed in meters. Used by neck/head models to approximate head pose and to determine the gaze ray origin for XR applications.",
+        "de-DE": "Der Vorwärtsversatz von der Nacken- bzw. Kopf-Drehachse zum Augenmittelpunkt entlang der lokalen Z-Achse, angegeben in Metern. Wird in Nacken-/Kopfmodellen genutzt, um die Kopfpose zu approximieren und den Ursprung des Blickstrahls in XR-Anwendungen zu bestimmen."
+    }
 }

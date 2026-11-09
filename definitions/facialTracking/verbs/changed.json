@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "changed",
-    "de-DE": "veränderte"
-  },
-  "description": {
-    "en-US": "The actor changed the face.",
-    "de-DE": "Die Akteurin veränderte die Gesichtsstruktur."
-  }
+{
+    "name": {
+        "en-US": "changed",
+        "de-DE": "veränderte"
+    },
+    "description": {
+        "en-US": "The actor changed the face.",
+        "de-DE": "Die Akteurin veränderte die Gesichtsstruktur."
+    }
 }

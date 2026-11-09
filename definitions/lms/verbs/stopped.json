@@ -1,14 +1,12 @@
 {
-"name": {
-	"en-US": "stopped",
-	"de-DE": "stoppte"
-},
-"description": {
-	"en-US": "Actor stopped an activity/process",
-	"de-DE": "Akteur hat eine/n Aktivität/Prozess gestoppt"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "stopped",
+        "de-DE": "stoppte"
+    },
+    "description": {
+        "en-US": "Actor stopped an activity/process",
+        "de-DE": "Akteur hat eine/n Aktivität/Prozess gestoppt"
+    },
+    "exactMatch": [],
+    "relatedMatch": []
 }

@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "updating",
-    "de-DE": "aktualisiert"
-  },
-  "description": {
-    "en-US": "The IDE is updating.",
-    "de-DE": "Die IDE aktualisiert."
-  }
+{
+    "name": {
+        "en-US": "updating",
+        "de-DE": "aktualisiert"
+    },
+    "description": {
+        "en-US": "The IDE is updating.",
+        "de-DE": "Die IDE aktualisiert."
+    }
 }

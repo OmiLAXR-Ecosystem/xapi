@@ -4,9 +4,9 @@
         "de-DE": "Testversuch Zusammenfassung"
     },
     "description": {
-        "en-US": "Overview of a quz attempt. Allows to see which questions are answered and which are not or only partially.",
+        "en-US": "Overview of a quiz attempt. Allows to see which questions are answered and which are not or only partially.",
         "de-DE": "Übersicht eines Testversuchs. Erlaubt die Einsicht, für welche Aufgaben eine Antwort gegeben ist und für welche nicht oder nur teilweise."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

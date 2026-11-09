@@ -4,7 +4,7 @@
         "de-DE": "zeigte"
     },
     "description": {
-        "en-US": "An actor has pointed on an VR object.",
+        "en-US": "An actor has pointed at a VR object.",
         "de-DE": "Eine Akteurin zeigte auf ein VR Objekt."
     }
 }

@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "instruction",
-    "de-DE": "Anweisung"
-  },
-  "description": {
-    "en-US": "Represents an instruction provided by the system.",
-    "de-DE": "Repräsentiert eine Anweisung, die vom System erteilt wird."
-  }
+    "name": {
+        "en-US": "instruction",
+        "de-DE": "Anweisung"
+    },
+    "description": {
+        "en-US": "Represents an instruction provided by the system.",
+        "de-DE": "Repräsentiert eine Anweisung, die vom System erteilt wird."
+    }
 }

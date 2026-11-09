@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "window (s)", "de-DE": "Fenster (s)" },
-  "description": {
-    "en-US": "Length of the analysis window in seconds used to compute statistics.",
-    "de-DE": "Länge des Analysefensters in Sekunden, das zur Berechnung der Statistiken verwendet wird."
-  }
+{
+    "name": {
+        "en-US": "window (s)",
+        "de-DE": "Fenster (s)"
+    },
+    "description": {
+        "en-US": "Length of the analysis window in seconds used to compute statistics.",
+        "de-DE": "Länge des Analysefensters in Sekunden, das zur Berechnung der Statistiken verwendet wird."
+    }
 }

@@ -8,8 +8,7 @@
         "de-DE": "Akteur hat ein Objekt (z. B. eine PDF Datei) heruntergeladen"
     },
     "exactMatch": [
-      "https://registry.tincanapi.com/#uri/verb/475"
+        "https://registry.tincanapi.com/#uri/verb/475"
     ],
-    "relatedMatch": [
-    ]
+    "relatedMatch": []
 }

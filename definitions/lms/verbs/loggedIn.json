@@ -1,17 +1,17 @@
 {
-	"name": {
-		"en-US": "logged in",
-		"de-DE": "meldete sich an"
-	},
-	"description": {
-		"en-US": "Actor logged in (as him-/herself)",
-		"de-DE": "Akteur hat sich angemeldet (als er/sie selbst)"
-	},
-	"exactMatch": [
-		"https://registry.tincanapi.com/#uri/verb/284",
-		"https://brindlewaye.com/xAPITerms/verbs/loggedin/"
-	],
-	"relatedMatch": [
-		"https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedIn"
-	]
+    "name": {
+        "en-US": "logged in",
+        "de-DE": "meldete sich an"
+    },
+    "description": {
+        "en-US": "Actor logged in (as him-/herself)",
+        "de-DE": "Akteur hat sich angemeldet (als er/sie selbst)"
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/284",
+        "https://brindlewaye.com/xAPITerms/verbs/loggedin/"
+    ],
+    "relatedMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedIn"
+    ]
 }

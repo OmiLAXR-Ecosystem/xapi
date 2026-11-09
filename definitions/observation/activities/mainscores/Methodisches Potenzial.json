@@ -5,10 +5,10 @@
     "description": {
         "de-DE": "Mainscore (5/5) wenn ein Akteuer Methodisches Potenzial zeigt"
     },
-    "result":{
-        "score":{
-          "min": 1,
-          "max": 5
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
         }
     }
 }

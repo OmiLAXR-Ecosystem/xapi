@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "Pursuit Onset Latency (ms)",
-    "de-DE": "Pursuit-Onset-Latenz (ms)"
-  },
-  "description": {
-    "en-US": "Time in milliseconds from target motion onset to the onset of smooth pursuit.",
-    "de-DE": "Zeit in Millisekunden vom Beginn der Zielbewegung bis zum Einsetzen der glatten Blickfolge."
-  }
+{
+    "name": {
+        "en-US": "Pursuit Onset Latency (ms)",
+        "de-DE": "Pursuit-Onset-Latenz (ms)"
+    },
+    "description": {
+        "en-US": "Time in milliseconds from target motion onset to the onset of smooth pursuit.",
+        "de-DE": "Zeit in Millisekunden vom Beginn der Zielbewegung bis zum Einsetzen der glatten Blickfolge."
+    }
 }

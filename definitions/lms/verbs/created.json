@@ -8,9 +8,8 @@
         "de-DE": "Akteur hat ein Objekt erstellt"
     },
     "exactMatch": [
-      "https://activitystrea.ms/registry/verbs/",
-      "https://registry.tincanapi.com/#uri/verb/102"
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/102"
     ],
-    "relatedMatch": [
-    ]
+    "relatedMatch": []
 }

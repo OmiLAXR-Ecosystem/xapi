@@ -8,9 +8,8 @@
         "de-DE": "Akteur hat ein Objekt gelöscht"
     },
     "exactMatch": [
-      "https://activitystrea.ms/registry/verbs/",
-      "https://registry.tincanapi.com/#uri/verb/103"
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/103"
     ],
-    "relatedMatch": [
-    ]
+    "relatedMatch": []
 }

@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "delta", "de-DE": "Delta" },
-  "description": {
-    "en-US": "Signed change compared to the previous value.",
-    "de-DE": "Signierte Änderung gegenüber dem vorherigen Wert."
-  }
+{
+    "name": {
+        "en-US": "delta",
+        "de-DE": "Delta"
+    },
+    "description": {
+        "en-US": "Signed change compared to the previous value.",
+        "de-DE": "Signierte Änderung gegenüber dem vorherigen Wert."
+    }
 }

@@ -1,16 +1,15 @@
 {
-"name": {
-	"en-US": "removed",
-	"de-DE": "entfernte"
-},
-"description": {
-	"en-US": "Actor removed an object/person from a collection",
-	"de-DE": "Akteur hat ein/e Objekt/Person von einer Sammlung entfernt"
-},
-"exactMatch": [
-	"https://activitystrea.ms/registry/verbs/",
-	"https://registry.tincanapi.com/#uri/verb/133"
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "removed",
+        "de-DE": "entfernte"
+    },
+    "description": {
+        "en-US": "Actor removed an object/person from a collection",
+        "de-DE": "Akteur hat ein/e Objekt/Person von einer Sammlung entfernt"
+    },
+    "exactMatch": [
+        "https://activitystrea.ms/registry/verbs/",
+        "https://registry.tincanapi.com/#uri/verb/133"
+    ],
+    "relatedMatch": []
 }

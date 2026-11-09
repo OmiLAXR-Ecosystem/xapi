@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "Pursuit Mean Confidence",
-    "de-DE": "Pursuit Mittlere Konfidenz"
-  },
-  "description": {
-    "en-US": "Average tracking confidence [0.0;1.0] across the pursuit segment.",
-    "de-DE": "Durchschnittliche Tracking-Konfidenz [0,0;1,0] über die Pursuit-Phase."
-  }
+{
+    "name": {
+        "en-US": "Pursuit Mean Confidence",
+        "de-DE": "Pursuit Mittlere Konfidenz"
+    },
+    "description": {
+        "en-US": "Average tracking confidence [0.0;1.0] across the pursuit segment.",
+        "de-DE": "Durchschnittliche Tracking-Konfidenz [0,0;1,0] über die Pursuit-Phase."
+    }
 }

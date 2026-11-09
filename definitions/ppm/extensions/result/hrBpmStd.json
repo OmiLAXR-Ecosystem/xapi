@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "heart rate std. dev. (bpm)", "de-DE": "Standardabweichung der Herzfrequenz (bpm)" },
-  "description": {
-    "en-US": "Standard deviation of heart rate over the analysis window (bpm).",
-    "de-DE": "Standardabweichung der Herzfrequenz über das Analysefenster (bpm)."
-  }
+{
+    "name": {
+        "en-US": "heart rate std. dev. (bpm)",
+        "de-DE": "Standardabweichung der Herzfrequenz (bpm)"
+    },
+    "description": {
+        "en-US": "Standard deviation of heart rate over the analysis window (bpm).",
+        "de-DE": "Standardabweichung der Herzfrequenz über das Analysefenster (bpm)."
+    }
 }

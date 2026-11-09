@@ -7,8 +7,6 @@
         "en-US": "Actor re-created an object. E.g., a submission was previously deleted and a new one uploaded.",
         "de-DE": "Akteur hat ein Objekt erneut erstellt. Bsp.: Zuvor wurde eine Abgabe gelöscht und nun eine neue angelegt."
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

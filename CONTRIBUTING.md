@@ -1,24 +1,148 @@
-# Implementierungsansatz
-Die Implementierung besteht entsprechend der Trennung von Darstellung und Daten aus zwei Komponenten: Ersteres ist die Datenbasis und kann als “lebendes Objekt” betrachtet werden, die zweite Komponente stellt die Darstellungsschicht dar. 
-## Ein Repository für Definitionen
-Ein gemeinsames Vokabular in einem Repository anzulegen und zu pflegen bringt viele Vorteile mit sich, die in der Software-Entwicklung schon lange zum Standard gehören. Git ist etabliertes, verteiltes, Open-Source Versionskontrollsystem. Einen zentralen Aspekt stellt hier sicher die inhärente Versionierung dar, die Weiterentwicklungen und Fortschritte sichtbar macht, aber auch den Zugriff auf vergangene Versionen ermöglicht. So könnte, im Sinne und als Erweiterung der Idee der Trusted Learning Analytics eine Extension im Statement den Commit enthalten, auf den sich das Verb bezieht, so dass Meta-Information auch deutlich später zuverlässig und unverändert zugreifbar ist, aber dennoch Weiterentwicklungen stattfinden können, durch den beibehaltenen Identifier die Bijektion und damit problemlose Auswertbarkeit in aggregierten Datensätzen nicht gefährdet ist.
-Ein ausgeklügeltes Rechtemanagement, wie es alle fortgeschrittenen Implementationen von git mitbringen, stellt darüber hinaus eine sichere und zuverlässige Arbeit mit dem System sicher und ermöglicht dennoch die Verteilung der Verantwortung für den Erfolg auf viele Schultern. Aktive Entwickler, die zur kontinuierlichen Weiterentwicklung des Projektes beitragen wollen, können neue semantische Kontexte in Branches entwickeln und diese nach Fertigstellung in den Master-Branch mergen, One-Time-Stakeholder, die einen speziellen Kontext z.B. für ein Forschungsprojekt oder die Entwicklung eines neuen Produktes benötigen, können das Repository forken und im Anschluss über einen Pull-Request die Aufnahme ins Repository anstoßen. Bei vielen Mitwirkenden kann so schnell und unkompliziert eine Erweiterung stattfinden.
-Natürlich kommt ein solches System nicht ohne Regeln aus. Diese sollten von der Community getragen und entwickelt werden, als Diskussionsgrundlage wird folgendes vorgeschlagen:
-Kontexte werden dem Sinn nach in Ordnern angelegt. Jeder Ordner enthält eine weitere Ebene von Unterordnern entsprechend der Funktionalität des Vokabulars in xAPI: verbs, activities, extensions
-Kontexte sollen semantische Eindeutigkeit herbeiführen, aber auch nicht übermäßig spezifisch werden 
-Definitionen werden als Dateien im JSON-Format abgelegt
-Es wird dringend angeraten, die Objekte mit Meta-Informationen anzureichern. Auch wenn die Spezifikation die Attribute gegebenenfalls nicht vorsieht, soll diese Meta-Information in der Darstellungsschicht gerendert werden können
-Laut Spezifikation erforderliche Attribute müssen implementiert werden
-Die Nutzung von LanguageMaps zur Implementation von Mehrsprachigkeit wird ausdrücklich begrüßt. Als gemeinsamer Nenner und generischer Fall-Back sind englischen Bezeichner obligatorisch
-Um die künftige Aggregation auch mit bereits erfassten Daten zu vereinfachen, ist erstrebenswert, entsprechend der in der xAPI-Profile-Definition vorgeschlagenen Syntax bereits vorhandene, ähnliche oder gleiche Definitionen an anderer Stelle zu referenzieren
-Das Repository soll neben den Definitionsdateien Informationen enthalten, die über den Sinn und Zweck des Repositories aufklären, den Mitwirkungsprozess mehrsprachig transparent darlegen und die o.g. Regeln zum Umgang mit dem Repository erläutern, jeweils im Markdown-Format. Einzige weitere Datei ist eine Konfigurationsdatei, die für das Zusammenspiel mit den übrigen Komponenten erforderlich ist.
-## Die Darstellungsschicht
-Die Darstellungsschicht ist im Gegensatz zum Datenrepository kein essentieller Bestandteil dieses Vorschlags. An der Darstellungsschicht wird ebenfalls aktiv gearbeitet, ebenfalls in einem Git-Repository und Mitwirkung ist gerne gesehen, allerdings handelt es sich hier nicht um einen kontinuierlichen Prozess mit Rolling-Release-Strategie, sondern verfolgt den Plan nach Fertigstellung als Referenzimplementation zu dienen und allenfalls bei Bedarf nach neuen Features noch einmal weiterentwickelt zu werden.
-Die Darstellungsschicht soll der angenehmen Handhabung der Daten aus dem o.g. Repository dienen. Sie wird aktuell im Frontend als Single-Page-Application (SPA) auf React-Basis arbeiten. Im Backend stellt sie eine Rest-API zur Verfügung. Stellt ein Browser eine gewöhnliche HTTP-Anfrage, wird die SPA ausgeliefert, fordert die SPA Objekte an, erhält sie den vollen Umfang aus der Registry mit allen Meta-Daten, auf andere Requests antwortet der Server mit JSON-Objekten nach Spezifikation. So wird zum einen sichergestellt, dass eine maschinelle Auswertbarkeit möglich ist, dennoch jeder Interessierte, der sich mit einem Datensatz auseinandersetzt, vollen Zugriff auf die Metadaten erhält. Zudem kann diese Schnittstelle genutzt werden, um eine unmittelbare Anbindung an das Repository zu erhalten: Durch Continuous Integration werden Änderungen am Master-Branch im Repository unmittelbar an das Frontend weitergegeben.
-Die Darstellungsschicht soll Nutzern zunächst ermöglichen den Definitionsbestand zu durchsuchen, zu filtern und zu sortieren, darüber hinaus werden im Laufe der Zeit Komfortfunktionalitäten wie Lesezeichen, die Drag-and-Drop-Zusammenstellung eigener “Wunschlisten” und variable Ansichten für verschiedene Zielgruppen folgen. Zudem soll es möglich sein, Veränderungen der Definitionen über das Interface nachzuvollziehen und gegebenenfalls auf spezifische Versionen zuzugreifen.
-## Zusammenspiel, Erweiterbarkeit, Prozesse
-Durch den geplanten Ansatz der Continuous Integration ist eine saubere Trennung von Daten und Anwendung umsetzbar und ohne Gefährdung der Integrität eigener Server möglich. Es ermöglicht die Entwicklung weiterer Anwendung mit unmittelbarem Zugriff auf die Definitionen ohne Exposition von Datenbankschnittstellen und kann, hinreichende Akzeptanz in der Community vorausgesetzt, aktiv das Open Data-Prinzip vorantreiben.
-Gegenwärtig ist geplant, allen Mitgliedern der Forschungscommunity, die nachweislich an einer öffentlichen Forschungseinrichtung mit Bezug zur E-Learning- oder Learning-Analytics-Forschung arbeiten, die gleichen Maintainer-Rechte im Daten-Repository zu gewähren wie den Autoren dieses Beitrags. Es soll explizit keine zentrale Governance erfolgen, so dass diese ebenfalls weitere Maintainer hinzufügen können. Einzelentwickler oder Stakeholder mit kommerziellem Interesse erhalten auf Anfrage von den Maintainern Developer-Rechte. Damit können sie ihre Erweiterungen in eigenen Branches einpflegen, die dann nach Abschluss von den Maintainern in den Master-Branch integriert werden.
-## Profile
-Die Arbeit mit xAPI-Profilen wurde in diesem Beitrag nur am Rande behandelt und geht über die Grundlagenarbeit der Definition der Semantik einzelner Elemente deutlich hinaus. Profile erfordern klare Definitionen und stellen konkrete Anwendungszwecke dar, die nicht deckungsgleich mit den hier vorgestellten Kontexten sind. So könnte ein Profil “Serious Games on Multitouch-Tabletops” auf Definitionen aus den Bereichen Serious Games, Touchinteraktion und Kollaboration zurückgreifen, ohne sie vollständig abzubilden. Zudem definieren Profile Regeln, z.B. für Kombinationen aus Verben und Extensions in Statements oder geben Interaktionsschemata zur Validierung vor.
-Derzeit ist ein “xAPI Profile Server” im Auftrag der ADL nach Spezifikationen des DoD in Entwicklung durch zwei amerikanische Consulting-Unternehmen, MakingBetter und Veracity Technology Consultants, der für September 2020 angekündigt ist. Gemäß dem technischen Bericht, der das Anforderungsprofil darstellt, sollte das hier vorgestellte Projekt in keinem Widerspruch dazu stehen. Die angekündigte Lösung wird nach Veröffentlichung einer gründlichen Prüfung unterzogen und die Darstellungsschicht dieses Projektes um eine Profile-Konfigurationskomponente erweitert. Gesetzt dem Fall der Vereinbarkeit mit dem Open Science-Gedanken können diese Profile dann entweder im ADL-Server abgelegt oder ggf. in einem dritten, noch zu planenden Repository abgelegt werden.
+# Contributing
+
+Thanks for helping to extend the registry. This guide covers how definitions
+are stored, the conventions for writing them, and how to submit a change.
+
+Deutsche Fassung: [CONTRIBUTING.de.md](CONTRIBUTING.de.md). The background and
+original concept of the registry are described in [docs/concept.md](docs/concept.md)
+(German).
+
+## Repository layout
+
+Every definition is a JSON file:
+
+```
+definitions/<context>/verbs/<name>.json
+definitions/<context>/activities/<name>.json
+definitions/<context>/extensions/{activity,context,result}/<name>.json
+```
+
+- A **context** groups definitions by subject, e.g. `lms`, `eyeTracking` or
+  `generic`. Check the existing contexts before creating a new one, and put
+  definitions that fit any subject into `generic`.
+- Extensions go into the subfolder that matches where they are used in a
+  statement: `activity` (`object.definition.extensions`), `context`
+  (`context.extensions`) or `result` (`result.extensions`).
+
+## The file path is the IRI
+
+The IRI of a definition is built from its path below `definitions/`, without
+`.json`:
+
+```
+definitions/generic/verbs/opened.json
+→ https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/opened
+```
+
+Once a definition is merged, statements in the wild use its IRI. Therefore:
+
+- **Do not rename, move or delete merged files.** Fix the text inside the file
+  instead.
+- If a rename is unavoidable, it is a breaking change. Add the old IRI to
+  `exactMatch` in the moved file, so statements using the old IRI can still be
+  mapped, and mark the entry in the CHANGELOG with **BREAKING**.
+- Choose the file name carefully, it cannot be fixed later.
+
+## File format
+
+```json
+{
+    "name": {
+        "en-US": "opened",
+        "de-DE": "öffnete"
+    },
+    "description": {
+        "en-US": "An actor opened something, for example the settings.",
+        "de-DE": "Ein Akteur öffnete etwas, zum Beispiel die Einstellungen."
+    },
+    "exactMatch": [
+        "http://activitystrea.ms/schema/1.0/open"
+    ]
+}
+```
+
+| Field | Required | Content |
+|---|---|---|
+| `name` | yes | Language map with a short label |
+| `description` | yes | Language map with one or more full sentences |
+| `exactMatch` | no | IRIs of definitions elsewhere that mean exactly the same |
+| `relatedMatch` | no | IRIs of definitions elsewhere that are similar |
+
+- `en-US` is mandatory in `name` and `description`; it is the fallback for all
+  other languages. `de-DE` is strongly encouraged. Further languages are welcome.
+- Before creating a definition, search the registry and other registries (e.g.
+  [ADL](http://adlnet.gov/expapi/verbs/), [Activity Streams](http://activitystrea.ms/schema/1.0/),
+  [registry.tincanapi.com](https://registry.tincanapi.com)). Reuse an existing
+  definition if it fits; otherwise reference similar ones in `exactMatch` or
+  `relatedMatch`.
+- Copy match IRIs exactly as their registry defines them, including `http` or
+  `https`. Do not use the URL of a registry's overview page.
+- Leave out `exactMatch` and `relatedMatch` instead of using empty lists.
+
+### Formatting
+
+Files are UTF-8 without BOM, with LF line endings, 4-space indentation and a
+trailing newline. `make format` applies this to all files, `make check-format`
+only checks.
+
+## Naming and writing conventions
+
+### File names
+
+- lowerCamelCase, ASCII letters and digits only: `zoomedIn.json`,
+  `numberOfPlayers.json`. No spaces, umlauts, hyphens or underscores.
+- Verbs in the past tense: `opened`, `loggedIn`, `shook` (not `open`, `shaked`).
+- Activities and extensions as nouns: `controllerButton`, `pupilDiameter`.
+- Contexts follow the same rule: `virtualWorld`, `eyeTracking`.
+
+### English (`en-US`)
+
+- **Names** are lowercase unless they contain a proper noun or abbreviation:
+  `zoomed in`, `heart rate`, `IDE object`, `VR object`. Verbs in the past tense.
+- **Descriptions** are full sentences ending with a period.
+  - Verbs start with "An actor …" in the past tense: "An actor zoomed into a
+    visual part of the game."
+  - Activities start with "A …"/"An …": "A button to start a video."
+  - Extensions describe the value and, where relevant, its type and unit: "The
+    number of players in the game. Must be an integer."
+- Put the unit of a measured value into the name in parentheses: `tracking
+  error (deg)`, `window (s)`.
+- Write "e.g." and "i.e." with periods; use "a UI element", "a URL" (not "an").
+
+### German (`de-DE`)
+
+- **Names**: Verbs in the simple past (Präteritum), separable verbs split:
+  `öffnete`, `schloss ab`, `meldete sich an`. Nouns capitalized.
+- **Descriptions** are full sentences ending with a period. Verbs start with
+  "Ein Akteur …" in the simple past: "Ein Akteur vergrößerte einen sichtbaren
+  Teil des Spiels."
+- Use "Akteur" for the actor of a statement.
+- Hyphenate compounds with abbreviations or English words: `VR-Objekt`,
+  `Controller-Taste`, `HTML-Link`.
+- Use "z. B." and a decimal comma: "zwischen 0,0 und 1,0".
+
+## Submitting a change
+
+1. Create a branch from `main` (or fork the repository).
+2. Add or edit definition files. Keep one topic per pull request.
+3. Run `make format` and `make check`. `make check` builds the website, which
+   validates every definition file.
+4. Add an entry to `CHANGELOG.md` under `[Unreleased]`, using the sections of
+   [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) (**Added**,
+   **Changed**, **Fixed**, **Removed**). Mark renames and deletions with
+   **BREAKING**.
+5. Open a pull request against `main`. The website build runs on every pull
+   request that touches `definitions/`.
+
+## Running the website locally
+
+The website in `site/` needs the Node version from `site/.nvmrc`. With
+[nvm](https://github.com/nvm-sh/nvm), run `nvm use` inside `site/` first.
+
+```bash
+make install   # npm ci
+make dev       # http://localhost:4321/xapi
+make build     # writes site/dist, fails on invalid definitions
+```
+
+Run `make` to list all targets.

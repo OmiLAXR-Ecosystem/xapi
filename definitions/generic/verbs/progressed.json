@@ -4,7 +4,7 @@
         "de-DE": "erzielte Fortschritt"
     },
     "description": {
-        "en-US": "An actor progressed in some game related way(achieved something or completed something).",
+        "en-US": "An actor progressed in some game related way (achieved something or completed something).",
         "de-DE": "Ein Akteur erzielte in einer Form einen Fortschritt im Spiel(erreichte oder vollendete etwas)."
     },
     "exactMatch": [

@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "hovered",
-    "de-DE": "schwebte über"
-  },
-  "description": {
-    "en-US": "An actor hovered over a user interface element, area, or object — for example using a mouse, pointer, gaze, or controller.",
-    "de-DE": "Ein Akteur schwebte mit Maus, Zeiger, Blick oder Controller über ein Benutzeroberflächenelement, einen Bereich oder ein Objekt."
-  }
+{
+    "name": {
+        "en-US": "hovered",
+        "de-DE": "schwebte über"
+    },
+    "description": {
+        "en-US": "An actor hovered over a user interface element, area, or object — for example using a mouse, pointer, gaze, or controller.",
+        "de-DE": "Ein Akteur schwebte mit Maus, Zeiger, Blick oder Controller über ein Benutzeroberflächenelement, einen Bereich oder ein Objekt."
+    }
 }

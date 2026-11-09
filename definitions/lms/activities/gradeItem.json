@@ -7,6 +7,6 @@
         "en-US": "Single item that represents the grading of a single activity within a course. Can be used for grade or point calculation for the whole course.",
         "de-DE": "Einzelnes Element das die Bewertung einer einzelnen Aktivität in einem Kurs repräsentiert. Kann für die Berechnung einer Note oder Punktzahl für den gesamten Kurs genutzt werden."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

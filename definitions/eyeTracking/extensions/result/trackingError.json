@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "Tracking Error (deg)",
-    "de-DE": "Verfolgungsfehler (Grad)"
-  },
-  "description": {
-    "en-US": "Mean angular difference, in degrees, between the gaze direction and the line of sight to the moving target during the pursuit segment. Lower is better.",
-    "de-DE": "Mittlere Winkeldifferenz in Grad zwischen Blickrichtung und Sichtlinie zum bewegten Ziel während der Pursuit-Phase. Niedriger ist besser."
-  }
+{
+    "name": {
+        "en-US": "Tracking Error (deg)",
+        "de-DE": "Verfolgungsfehler (Grad)"
+    },
+    "description": {
+        "en-US": "Mean angular difference, in degrees, between the gaze direction and the line of sight to the moving target during the pursuit segment. Lower is better.",
+        "de-DE": "Mittlere Winkeldifferenz in Grad zwischen Blickrichtung und Sichtlinie zum bewegten Ziel während der Pursuit-Phase. Niedriger ist besser."
+    }
 }

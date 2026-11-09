@@ -7,7 +7,7 @@
         "en-US": "An actor seeked to a part of the media element either forward or backward.",
         "de-DE": "Ein Akteur sprang zu einem Teil eines Medienelements. Entweder einen vorausligenden Teil oder durch einen Sprung zurück, einen zurückliegenden."
     },
-    "exactMatch": [ ],
+    "exactMatch": [],
     "relatedMatch": [
         "https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/skipped"
     ]

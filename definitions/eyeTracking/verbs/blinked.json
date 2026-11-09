@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "blinked",
-    "de-DE": "blinzelte"
-  },
-  "description": {
-    "en-US": "An actor closed and reopened their eyes briefly, a blink event often recorded in eye-tracking to analyze patterns in gaze interruption and eye behavior.",
-    "de-DE": "Eine Akteurin schloss und öffnete kurzzeitig die Augen, ein Blinzelereignis, das häufig in der Blickverfolgung aufgezeichnet wird, um Muster in der Unterbrechung des Blicks und im Augenverhalten zu analysieren."
-  }
+    "name": {
+        "en-US": "blinked",
+        "de-DE": "blinzelte"
+    },
+    "description": {
+        "en-US": "An actor closed and reopened their eyes briefly, a blink event often recorded in eye-tracking to analyze patterns in gaze interruption and eye behavior.",
+        "de-DE": "Eine Akteurin schloss und öffnete kurzzeitig die Augen, ein Blinzelereignis, das häufig in der Blickverfolgung aufgezeichnet wird, um Muster in der Unterbrechung des Blicks und im Augenverhalten zu analysieren."
+    }
 }

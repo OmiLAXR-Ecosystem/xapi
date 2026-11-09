@@ -7,6 +7,6 @@
         "en-US": "An actor started playing a media element.",
         "de-DE": "Ein Akteur startete die Wiedergabe eines Medienelements."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

@@ -3,6 +3,6 @@
         "en-US": "button"
     },
     "description": {
-        "en-US": "A field which can be click to fire an action. For example the 'start button'."
+        "en-US": "A field which can be clicked to fire an action. For example the 'start button'."
     }
 }

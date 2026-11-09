@@ -1,14 +1,12 @@
 {
-"name": {
-	"en-US": "unlinked",
-	"de-DE": "trennte"
-},
-"description": {
-	"en-US": "Actor unlinked an object/person from an object",
-	"de-DE": "Akteur hat ein/e Objekt/Person von einem Objekt getrennt"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "unlinked",
+        "de-DE": "trennte"
+    },
+    "description": {
+        "en-US": "Actor unlinked an object/person from an object",
+        "de-DE": "Akteur hat ein/e Objekt/Person von einem Objekt getrennt"
+    },
+    "exactMatch": [],
+    "relatedMatch": []
 }

@@ -4,7 +4,7 @@
         "de-DE": "Hand"
     },
     "description": {
-        "en-US": "Actors physical (left or right) hand.",
+        "en-US": "Actor's physical (left or right) hand.",
         "de-DE": "Physikalische (linke oder rechte) Hand vom Akteur."
     }
 }

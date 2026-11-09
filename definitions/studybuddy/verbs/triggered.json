@@ -1,15 +1,14 @@
 {
-	"name": {
-		"en-US": "triggered",
-		"de-DE": "löste aus"
-	},
-	"description": {
-		"en-US": "Actor triggered a process",
-		"de-DE": "Akteur hat einen Prozess ausgelöst"
-	},
-	"exactMatch": [
-	],
-	"relatedMatch": [
-		"https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/triggered"
-	]
+    "name": {
+        "en-US": "triggered",
+        "de-DE": "löste aus"
+    },
+    "description": {
+        "en-US": "Actor triggered a process",
+        "de-DE": "Akteur hat einen Prozess ausgelöst"
+    },
+    "exactMatch": [],
+    "relatedMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/triggered"
+    ]
 }

@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "max heart rate (bpm)", "de-DE": "maximale Herzfrequenz (bpm)" },
-  "description": {
-    "en-US": "Maximum heart rate observed within the analysis window (bpm).",
-    "de-DE": "Maximale Herzfrequenz im Analysefenster (bpm)."
-  }
+{
+    "name": {
+        "en-US": "max heart rate (bpm)",
+        "de-DE": "maximale Herzfrequenz (bpm)"
+    },
+    "description": {
+        "en-US": "Maximum heart rate observed within the analysis window (bpm).",
+        "de-DE": "Maximale Herzfrequenz im Analysefenster (bpm)."
+    }
 }

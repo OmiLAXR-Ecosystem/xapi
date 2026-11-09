@@ -1,0 +1,101 @@
+---
+import Base from "../layouts/Base.astro";
+import { REGISTRY_URL, REPO_URL } from "../lib/definitions";
+import { href } from "../lib/url";
+---
+<Base title="About">
+  <article class="prose">
+    <div class="l-en">
+      <h1>About the registry</h1>
+      <p>
+        We at the Learning Technologies Research Group believe in xAPI as data format and are strong advocates of Open
+        Source and Open Science. This registry is an open, reliable source for xAPI definitions, maintained and expanded by
+        the scientific community.
+      </p>
+      <p>
+        All definitions live as JSON files in the <a href={REPO_URL}>definitions repository</a>. This site is built from
+        it on every change. The file path is part of the IRI:
+        <code>{REGISTRY_URL}definitions/&lt;context&gt;/&lt;type&gt;/&lt;name&gt;</code>. Renaming or moving a file
+        therefore changes the IRI and breaks existing statements.
+      </p>
+
+      <h2>Rules for definitions</h2>
+      <ul>
+        <li>Contexts are folders. Each one contains subfolders for the xAPI vocabulary: <code>verbs</code>, <code>activities</code>, <code>extensions</code>.</li>
+        <li>Contexts should provide semantic clarity, but not become overly specific.</li>
+        <li>Definitions are JSON files with at least <code>name</code> and <code>description</code> as language maps.</li>
+        <li>English (<code>en-US</code>) is the common denominator and fallback. Further languages are welcome.</li>
+        <li>Reference existing, similar or identical definitions elsewhere with <code>exactMatch</code>, <code>closeMatch</code> or <code>relatedMatch</code>, following the xAPI profile syntax.</li>
+        <li>Enriching definitions with further meta information is encouraged; this site shows every field.</li>
+      </ul>
+
+      <h2>Contributing</h2>
+      <p>
+        Fork the <a href={REPO_URL}>repository</a>, add or change definition files and open a pull request. See
+        <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}>CONTRIBUTING.md</a> for the conventions and
+        <a href={`${REPO_URL}/blob/main/docs/concept.md`}>docs/concept.md</a> (German) for the background of the project.
+      </p>
+
+      <h2>For machines</h2>
+      <ul>
+        <li>Every definition: <a href={href("definitions/generic/activities/file.json")}>definitions/&lt;id&gt;.json</a></li>
+        <li>All definitions: <a href={href("definitions.json")}>definitions.json</a></li>
+      </ul>
+
+      <h2>Acknowledgement</h2>
+      <p>
+        The development of this initiative was partially funded by the Federal Ministry of Education and Research (BMBF) in
+        the joint project Open Digital Lab 4 you (grant no. 16DHB2114).
+      </p>
+    </div>
+
+    <div class="l-de">
+      <h1>Über die Registry</h1>
+      <p>
+        Wir von der Learning Technologies Research Group glauben an xAPI als Datenformat und sind starke Befürworter von
+        Open Source und Open Science. Diese Registry ist eine offene, zuverlässige Quelle für xAPI-Definitionen, die
+        gemeinsam von der wissenschaftlichen Community gepflegt und erweitert wird.
+      </p>
+      <p>
+        Alle Definitionen liegen als JSON-Dateien im <a href={REPO_URL}>Definitions-Repository</a>. Diese Seite wird bei
+        jeder Änderung daraus gebaut. Der Dateipfad ist Teil der IRI:
+        <code>{REGISTRY_URL}definitions/&lt;kontext&gt;/&lt;typ&gt;/&lt;name&gt;</code>. Wer eine Datei umbenennt oder
+        verschiebt, ändert also die IRI, und bestehende Statements passen nicht mehr.
+      </p>
+
+      <h2>Regeln für Definitionen</h2>
+      <ul>
+        <li>Kontexte sind Ordner. Jeder enthält Unterordner für das xAPI-Vokabular: <code>verbs</code>, <code>activities</code>, <code>extensions</code>.</li>
+        <li>Kontexte sollen semantische Eindeutigkeit herstellen, aber nicht übermäßig spezifisch werden.</li>
+        <li>Definitionen sind JSON-Dateien mit mindestens <code>name</code> und <code>description</code> als Language Map.</li>
+        <li>Englisch (<code>en-US</code>) ist der gemeinsame Nenner und Fallback. Weitere Sprachen sind willkommen.</li>
+        <li>Vorhandene, ähnliche oder gleiche Definitionen an anderer Stelle werden mit <code>exactMatch</code>, <code>closeMatch</code> oder <code>relatedMatch</code> referenziert, wie in der xAPI-Profile-Syntax vorgesehen.</li>
+        <li>Weitere Meta-Informationen sind erwünscht; diese Seite zeigt jedes Feld an.</li>
+      </ul>
+
+      <h2>Mitwirken</h2>
+      <p>
+        Das <a href={REPO_URL}>Repository</a> forken, Definitionsdateien hinzufügen oder ändern und einen Pull Request
+        öffnen. Die Konventionen beschreibt die <a href={`${REPO_URL}/blob/main/CONTRIBUTING.de.md`}>CONTRIBUTING.de.md</a>,
+        den Hintergrund des Projekts <a href={`${REPO_URL}/blob/main/docs/concept.md`}>docs/concept.md</a>.
+      </p>
+
+      <h2>Für Maschinen</h2>
+      <ul>
+        <li>Jede Definition: <a href={href("definitions/generic/activities/file.json")}>definitions/&lt;id&gt;.json</a></li>
+        <li>Alle Definitionen: <a href={href("definitions.json")}>definitions.json</a></li>
+      </ul>
+
+      <h2>Danksagung</h2>
+      <p>
+        Wir danken dem Bundesministerium für Bildung und Forschung für die Förderung im Projekt Open Digital Lab 4 you
+        (Fördernr. 16DHB2114).
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  /* The language blocks are divs, not inline spans. */
+  :global(:root[data-lang="de"]) .l-de { display: block; }
+</style>

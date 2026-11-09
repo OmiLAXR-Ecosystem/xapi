@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "HRV RMSSD (ms)", "de-DE": "HRV RMSSD (ms)" },
-  "description": {
-    "en-US": "Root mean square of successive differences between NN intervals, in milliseconds.",
-    "de-DE": "Quadratisches Mittel der aufeinanderfolgenden Differenzen der NN-Intervalle, in Millisekunden."
-  }
+{
+    "name": {
+        "en-US": "HRV RMSSD (ms)",
+        "de-DE": "HRV RMSSD (ms)"
+    },
+    "description": {
+        "en-US": "Root mean square of successive differences between NN intervals, in milliseconds.",
+        "de-DE": "Quadratisches Mittel der aufeinanderfolgenden Differenzen der NN-Intervalle, in Millisekunden."
+    }
 }
