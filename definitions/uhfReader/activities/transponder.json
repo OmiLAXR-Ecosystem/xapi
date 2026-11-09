@@ -3,6 +3,6 @@
         "en-US": "transponder"
     },
     "description": {
-        "en-US": "Represents the transpnder to the physical reader."
+        "en-US": "Represents the transponder to the physical reader."
     }
 }

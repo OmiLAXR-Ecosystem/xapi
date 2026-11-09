@@ -4,7 +4,7 @@
         "de-DE": "Interessensbereich"
     },
     "description": {
-        "en-US": "Defined region on a screen or in a visual scene that are specified for focused analysis in eye-tracking studies, used to determine where visual attention is directed.",
+        "en-US": "Defined region on a screen or in a visual scene that is specified for focused analysis in eye-tracking studies, used to determine where visual attention is directed.",
         "de-DE": "Definierter Bereich auf einem Bildschirm oder in einer visuellen Szene, die für eine gezielte Analyse in Blickverfolgungsstudien festgelegt sind und zur Bestimmung der visuellen Aufmerksamkeitsrichtung dienen."
     }
 }

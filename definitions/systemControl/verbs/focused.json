@@ -4,7 +4,7 @@
         "de-DE": "fokussierte"
     },
     "description": {
-        "en-US": "The user changes a component, so that it's focussed. The user selects the component to receive input from the user by an event such as a mouse button click or keypress.",
+        "en-US": "The user changes a component, so that it's focused. The user selects the component to receive input from the user by an event such as a mouse button click or keypress.",
         "de-DE": "Der Nutzende verändert ein Element einer grafischen Benutzeroberflächen, sodass es im Fokus ist und zum Beispiel Tastatureingaben oder Mausevents aufnimmt."
     }
 }

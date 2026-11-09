@@ -4,7 +4,7 @@
         "de-DE": "Knopf Typ"
     },
     "description": {
-        "en-US": "The type of button which was pressed. Has to be String.",
+        "en-US": "The type of button which was pressed. Has to be a string.",
         "de-DE": "Der Typ des Knopfes der gedrückt wurde. Muss ein String sein."
     }
 }

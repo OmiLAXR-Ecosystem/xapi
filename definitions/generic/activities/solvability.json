@@ -4,7 +4,7 @@
         "de-DE": "Lösbarkeit"
     },
     "description": {
-        "en-US": "The status wether a task can be completed in the current state.",
+        "en-US": "The status whether a task can be completed in the current state.",
         "de-DE": "Der Zustand, ob die aktuelle Aufgabe noch gelöst werden kann mit dem aktuelle Systemzustand."
     }
 }

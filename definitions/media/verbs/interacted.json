@@ -4,7 +4,7 @@
         "de-DE": "interagierte"
     },
     "description": {
-        "en-US": "An actor interacted with a media element. This might have changed the elements volume or playback rate.",
+        "en-US": "An actor interacted with a media element. This might have changed the element's volume or playback rate.",
         "de-DE": "Ein Akteur interagierte mit einem Medienelement. Das kann z. B. die Anpassung der Lautstärke oder Wiedergabegeschwindigkeit bedeuten."
     },
     "exactMatch": [],

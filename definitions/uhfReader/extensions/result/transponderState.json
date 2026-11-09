@@ -3,6 +3,6 @@
         "en-US": "transponderState"
     },
     "description": {
-        "en-US": "State of the transpnder to the physical reader."
+        "en-US": "State of the transponder to the physical reader."
     }
 }

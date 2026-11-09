@@ -4,7 +4,7 @@
         "de-DE": "Fortschritt"
     },
     "description": {
-        "en-US": "The progess a player or group achieved in the game or level. 1.0 Progress would mean the game or level was completed in every aspect. Has to be a double between 0 and 1.",
+        "en-US": "The progress a player or group achieved in the game or level. 1.0 Progress would mean the game or level was completed in every aspect. Has to be a double between 0 and 1.",
         "de-DE": "Der Fortschritt welchen ein Spieler oder eine Gruppe erreichte in einem Level oder Spiel. 1.0 Fortschritt hieße das Spiel oder level wurde vollständig abgeschlossen. Muss ein double zwischen 0 und 1 sein."
     }
 }

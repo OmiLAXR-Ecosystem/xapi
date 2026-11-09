@@ -4,7 +4,7 @@
         "de-DE": "Position"
     },
     "description": {
-        "en-US": "An number or other identifier (e.g. 'top', 'bottom') to identify the position of an element inside a colletion such as an list of elements.",
+        "en-US": "A number or other identifier (e.g. 'top', 'bottom') to identify the position of an element inside a collection such as a list of elements.",
         "de-DE": "Eine Nummer oder ein anderer Kennzeichnung einer Position eines Elementes einer Sammlung wie zum Beispliel einer Liste von Elementen."
     }
 }

@@ -4,7 +4,7 @@
         "de-DE": "Dreieck"
     },
     "description": {
-        "en-US": "Sequence of vertices with it's index, color and position.",
+        "en-US": "Sequence of vertices with its index, color and position.",
         "de-DE": "Sequenz von Knotenpunkten mit dessen Index, Farbe und Position."
     }
 }

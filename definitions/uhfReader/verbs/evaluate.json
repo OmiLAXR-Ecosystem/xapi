@@ -1,8 +1,8 @@
 {
     "name": {
-        "en-US": "evaluate"
+        "en-US": "evaluated"
     },
     "description": {
-        "en-US": "A user evaluates a target (e.g. transponder)."
+        "en-US": "A user evaluated a target (e.g. transponder)."
     }
 }

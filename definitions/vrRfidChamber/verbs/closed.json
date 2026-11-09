@@ -3,7 +3,7 @@
         "en-US": "closed"
     },
     "description": {
-        "en-US": "An actor closed an the door of the RFID chamber."
+        "en-US": "An actor closed the door of the RFID chamber."
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/97",

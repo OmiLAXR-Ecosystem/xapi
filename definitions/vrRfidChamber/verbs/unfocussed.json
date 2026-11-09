@@ -3,7 +3,7 @@
         "en-US": "unfocused"
     },
     "description": {
-        "en-US": "An actor unforcused the object"
+        "en-US": "An actor unfocused the object"
     },
     "exactMatch": [
         "https://registry.tincanapi.com/#uri/verb/277"

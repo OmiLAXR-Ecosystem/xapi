@@ -4,7 +4,7 @@
         "de-DE": "Bild"
     },
     "description": {
-        "en-US": "Represents a graphical image. Can be an interactible, for example objects of this type may contain an additional fullImage property whose value is an Activity Streams Media Link to a \"full-sized\" representation of the image.",
+        "en-US": "Represents a graphical image. Can be an interactable, for example objects of this type may contain an additional fullImage property whose value is an Activity Streams Media Link to a \"full-sized\" representation of the image.",
         "de-DE": "Ein grafisches Bild. Es kann sich um ein interaktives Objekt handeln, z. B. können Objekte dieses Typs eine zusätzliche Vollbild-Eigenschaft enthalten, deren Wert zu einer größeren Darstellung des Bildes führt."
     },
     "exactMatch": [

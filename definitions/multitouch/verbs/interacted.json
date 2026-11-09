@@ -4,7 +4,7 @@
         "de-DE": "interagierte"
     },
     "description": {
-        "en-US": "An actor interacted with the game or an game object.",
+        "en-US": "An actor interacted with the game or a game object.",
         "de-DE": "Ein Akteur interagierte mit dem Spiel oder einem Objekt im Spiel."
     }
 }

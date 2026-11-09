@@ -4,7 +4,7 @@
         "de-DE": "führte aus"
     },
     "description": {
-        "en-US": "Indicates, that an actor executed some programming context. Typically a Jupyter Notebook Code Cell.",
+        "en-US": "Indicates that an actor executed some programming construct. Typically a Jupyter Notebook Code Cell.",
         "de-DE": "Signalisiert, dass ein Akteur ein Programmierkonstrukt ausführte. Typischerweise eine Jupyter Notebook Codezelle."
     }
 }
