@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "difference",
-    "de-DE": "Unterschied"
-  },
-  "description": {
-    "en-US": "The difference between two objects, behaviors or persons.",
-    "de-DE": "Der Unterschied zwischen Objekten, Verhaltensweisen oder Personen."
-  }
+{
+    "name": {
+        "en-US": "difference",
+        "de-DE": "Unterschied"
+    },
+    "description": {
+        "en-US": "The difference between two objects, behaviors or persons.",
+        "de-DE": "Der Unterschied zwischen Objekten, Verhaltensweisen oder Personen."
+    }
 }

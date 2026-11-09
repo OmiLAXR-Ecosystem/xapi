@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "measured", "de-DE": "gemessen" },
-  "description": {
-    "en-US": "A psycho-physiological measure has been measured.",
-    "de-DE": "Eine psychophysiologische Messgröße wurde gemessen."
-  }
+{
+    "name": {
+        "en-US": "measured",
+        "de-DE": "gemessen"
+    },
+    "description": {
+        "en-US": "A psycho-physiological measure has been measured.",
+        "de-DE": "Eine psychophysiologische Messgröße wurde gemessen."
+    }
 }

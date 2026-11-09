@@ -7,6 +7,6 @@
         "en-US": "A cross provider schema defines the intended, combined data collection and analyses across multiple (at least two) single providers.",
         "de-DE": "Ein Providerübergreifendes Schema listet die intendierte, kombinierte Datensammlung und die Analysen für mehrere (mindestens zwei) Provider auf."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

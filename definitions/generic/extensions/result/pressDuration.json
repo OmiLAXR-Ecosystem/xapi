@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "Press duration",
-    "de-DE": "Dauer der Betätigung"
-  },
-  "description": {
-    "en-US": "The time in seconds the UI element has been actively pressed by the input source.",
-    "de-DE": "Die Zeit in Sekunden, während der das UI-Element aktiv durch die Eingabequelle gedrückt wurde."
-  }
+    "name": {
+        "en-US": "Press duration",
+        "de-DE": "Dauer der Betätigung"
+    },
+    "description": {
+        "en-US": "The time in seconds the UI element has been actively pressed by the input source.",
+        "de-DE": "Die Zeit in Sekunden, während der das UI-Element aktiv durch die Eingabequelle gedrückt wurde."
+    }
 }

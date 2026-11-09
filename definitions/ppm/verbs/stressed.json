@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "stressed", "de-DE": "gestresst" },
-  "description": {
-    "en-US": "The actor has entered a high-stress state according to the estimator.",
-    "de-DE": "Die Akteurin ist gemäß dem Schätzer in einen Hochstress-Zustand gewechselt."
-  }
+{
+    "name": {
+        "en-US": "stressed",
+        "de-DE": "gestresst"
+    },
+    "description": {
+        "en-US": "The actor has entered a high-stress state according to the estimator.",
+        "de-DE": "Die Akteurin ist gemäß dem Schätzer in einen Hochstress-Zustand gewechselt."
+    }
 }

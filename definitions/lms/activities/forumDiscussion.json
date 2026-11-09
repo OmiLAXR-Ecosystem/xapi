@@ -7,6 +7,6 @@
         "en-US": "A single discussion/thread within a forum.",
         "de-DE": "Eine einzelne Diskussion in einem Forum."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "searched",
-    "de-DE": "searched"
-  },
-  "description": {
-    "en-US": "An actor has searched in a search field.",
-    "de-DE": "Ein Akteur suchte in einem Suchfeld."
-  }
+{
+    "name": {
+        "en-US": "searched",
+        "de-DE": "searched"
+    },
+    "description": {
+        "en-US": "An actor has searched in a search field.",
+        "de-DE": "Ein Akteur suchte in einem Suchfeld."
+    }
 }

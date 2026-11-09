@@ -1,14 +1,12 @@
 {
-"name": {
-	"en-US": "restored",
-	"de-DE": "stellte wieder her"
-},
-"description": {
-	"en-US": "Actor restored a previous version of an object",
-	"de-DE": "Akteur hat eine vorherige Version eines Objektes wiederhergestellt"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "restored",
+        "de-DE": "stellte wieder her"
+    },
+    "description": {
+        "en-US": "Actor restored a previous version of an object",
+        "de-DE": "Akteur hat eine vorherige Version eines Objektes wiederhergestellt"
+    },
+    "exactMatch": [],
+    "relatedMatch": []
 }

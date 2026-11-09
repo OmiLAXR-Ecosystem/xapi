@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "stress", "de-DE": "Stress" },
-  "description": {
-    "en-US": "The actor’s physiological stress state.",
-    "de-DE": "Der physiologische Stresszustand der Akteurin."
-  }
+{
+    "name": {
+        "en-US": "stress",
+        "de-DE": "Stress"
+    },
+    "description": {
+        "en-US": "The actor’s physiological stress state.",
+        "de-DE": "Der physiologische Stresszustand der Akteurin."
+    }
 }

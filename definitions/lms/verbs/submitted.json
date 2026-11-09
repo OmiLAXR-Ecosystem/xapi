@@ -7,8 +7,6 @@
         "en-US": "Actor submitted a quiz, assignment, ...",
         "de-DE": "Akteur hat ein Quiz, eine Abgabe, ... abgegeben."
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
-    }
+    "exactMatch": [],
+    "relatedMatch": []
+}

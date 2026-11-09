@@ -7,130 +7,158 @@
     },
     "choices": [
         {
-            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material ab"],
-            "rules" : [
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material ab"
+            ],
+            "rules": [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }
             ]
         },
         {
-            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Schere ab"],
-            "rules" : [
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Schere ab"
+            ],
+            "rules": [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }

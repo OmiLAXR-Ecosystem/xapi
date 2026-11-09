@@ -1,7 +1,10 @@
-﻿{
-  "name": { "en-US": "arousal", "de-DE": "Arousal" },
-  "description": {
-    "en-US": "The actor’s general arousal level.",
-    "de-DE": "Das allgemeine Erregungsniveau (Arousal) der Akteurin."
-  }
+{
+    "name": {
+        "en-US": "arousal",
+        "de-DE": "Arousal"
+    },
+    "description": {
+        "en-US": "The actor’s general arousal level.",
+        "de-DE": "Das allgemeine Erregungsniveau (Arousal) der Akteurin."
+    }
 }

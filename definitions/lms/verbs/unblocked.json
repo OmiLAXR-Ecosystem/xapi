@@ -1,14 +1,12 @@
 {
-"name": {
-	"en-US": "unblocked",
-	"de-DE": "entblockte"
-},
-"description": {
-	"en-US": "Actor unblocked a blocked person",
-	"de-DE": "Akteur hat eine blockierte Person entblockt"
-},
-"exactMatch": [
-],
-"relatedMatch": [
-]
+    "name": {
+        "en-US": "unblocked",
+        "de-DE": "entblockte"
+    },
+    "description": {
+        "en-US": "Actor unblocked a blocked person",
+        "de-DE": "Akteur hat eine blockierte Person entblockt"
+    },
+    "exactMatch": [],
+    "relatedMatch": []
 }

@@ -7,6 +7,6 @@
         "en-US": "Actor changed the grading of an object/person.",
         "de-DE": "Akteur hat ein/e Objekt/Person neu benotet. Eine bestehende Bewertung wurde geändert."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
-    }
+    "exactMatch": [],
+    "relatedMatch": []
+}

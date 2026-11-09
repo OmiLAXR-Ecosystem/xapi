@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "Saccade Amplitude",
-    "de-DE": "Sakkadenamplitude"
-  },
-  "description": {
-    "en-US": "The angular distance of a saccade, measured in degrees, representing the magnitude of eye movement between two fixation points in eye-tracking studies.",
-    "de-DE": "Die Winkelentfernung einer Sakkade, gemessen in Grad, die die Größe der Augenbewegung zwischen zwei Fixationspunkten in Blickverfolgungsstudien darstellt."
-  }
+    "name": {
+        "en-US": "Saccade Amplitude",
+        "de-DE": "Sakkadenamplitude"
+    },
+    "description": {
+        "en-US": "The angular distance of a saccade, measured in degrees, representing the magnitude of eye movement between two fixation points in eye-tracking studies.",
+        "de-DE": "Die Winkelentfernung einer Sakkade, gemessen in Grad, die die Größe der Augenbewegung zwischen zwei Fixationspunkten in Blickverfolgungsstudien darstellt."
+    }
 }

@@ -7,8 +7,6 @@
         "en-US": "Actor resumed a previously paused activity",
         "de-DE": "Akteur nahm eine zuvor pausierte Aktivität wieder auf"
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

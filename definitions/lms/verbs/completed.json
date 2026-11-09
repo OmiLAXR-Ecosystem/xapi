@@ -10,8 +10,6 @@
     "exactMatch": [
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/98"
-
     ],
-    "relatedMatch": [
-    ]
+    "relatedMatch": []
 }

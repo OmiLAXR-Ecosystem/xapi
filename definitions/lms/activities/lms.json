@@ -7,8 +7,8 @@
         "en-US": "A Learning Management System (LMS)",
         "de-DE": "Ein Lernmanagementsystem (LMS)"
     },
-    "exactMatch": [   
+    "exactMatch": [
         "http://id.tincanapi.com/activitytype/lms"
     ],
-    "relatedMatch": [ ]
+    "relatedMatch": []
 }

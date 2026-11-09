@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "Pupil Confidence",
-    "de-DE": "Pupillen-Confidence"
-  },
-  "description": {
-    "en-US": "Confidence score [0.0;1.0] reflecting the system's certainty in the pupil measurement at the sample time.",
-    "de-DE": "Confidence-Wert [0,0;1,0], der die Sicherheit des Systems bei der Pupillenmessung zum Abtastzeitpunkt widerspiegelt."
-  }
+{
+    "name": {
+        "en-US": "Pupil Confidence",
+        "de-DE": "Pupillen-Confidence"
+    },
+    "description": {
+        "en-US": "Confidence score [0.0;1.0] reflecting the system's certainty in the pupil measurement at the sample time.",
+        "de-DE": "Confidence-Wert [0,0;1,0], der die Sicherheit des Systems bei der Pupillenmessung zum Abtastzeitpunkt widerspiegelt."
+    }
 }

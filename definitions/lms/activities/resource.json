@@ -10,5 +10,5 @@
     "exactMatch": [
         "http://id.tincanapi.com/activitytype/resource"
     ],
-    "relatedMatch": [ ]
+    "relatedMatch": []
 }

@@ -7,6 +7,6 @@
         "en-US": "A single attempt of a question.",
         "de-DE": "Ein einzelner Versuch einer Fragenbearbeitung."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

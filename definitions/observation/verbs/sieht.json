@@ -5,46 +5,56 @@
     "description": {
         "de-DE": "Ein Akteur sieht etwas"
     },
-        "choices": [
-            {
-                "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es sich genauer an"],
-                "rules" : [
-                    {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"],
-                        "result":{
-                            "score":{
-                              "raw": 5,
-                              "min": 1,
-                              "max": 5
-                            }
+    "choices": [
+        {
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es sich genauer an"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
                         }
                     }
-                ]
-            },
-            {
-                "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus dem Fenster"],
-                "rules" : [
-                    {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
-                        "result":{
-                            "score":{
-                              "raw": 2,
-                              "min": 1,
-                              "max": 5
-                            }
-                        }
-                    },
-                    {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
-                        "result":{
-                            "score":{
-                              "raw": 2,
-                              "min": 1,
-                              "max": 5
-                            }
+                }
+            ]
+        },
+        {
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus dem Fenster"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
-                ]
-            }
-        ]
-    }
+                },
+                {
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

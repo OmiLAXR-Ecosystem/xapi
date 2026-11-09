@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "type",
-    "de-DE": "Type"
-  },
-  "description": {
-    "en-US": "The type of an object, behavior, or person.",
-    "de-DE": "Der Typ eines Objekts, einer Verhaltensweise oder einer Person."
-  }
+{
+    "name": {
+        "en-US": "type",
+        "de-DE": "Type"
+    },
+    "description": {
+        "en-US": "The type of an object, behavior, or person.",
+        "de-DE": "Der Typ eines Objekts, einer Verhaltensweise oder einer Person."
+    }
 }

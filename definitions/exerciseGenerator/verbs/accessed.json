@@ -7,6 +7,6 @@
         "en-US": "Actor accessed/viewed the generator, an existing exercise, ... ",
         "de-DE": "Akteur hat auf den Generator, eine existierende Aufgabe, ... zugegriffen."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

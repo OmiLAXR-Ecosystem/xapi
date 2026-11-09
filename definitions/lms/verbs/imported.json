@@ -1,14 +1,14 @@
 {
-	"name": {
-		"en-US": "imported",
-		"de-DE": "importierte"
-	},
-	"description": {
-		"en-US": "Actor imported an object/data",
-		"de-DE": "Akteur hat ein Objekt/Daten importiert"
-	},
-	"exactMatch": [
-		"https://registry.tincanapi.com/#uri/verb/23"
-	],
-	"relatedMatch": []
+    "name": {
+        "en-US": "imported",
+        "de-DE": "importierte"
+    },
+    "description": {
+        "en-US": "Actor imported an object/data",
+        "de-DE": "Akteur hat ein Objekt/Daten importiert"
+    },
+    "exactMatch": [
+        "https://registry.tincanapi.com/#uri/verb/23"
+    ],
+    "relatedMatch": []
 }

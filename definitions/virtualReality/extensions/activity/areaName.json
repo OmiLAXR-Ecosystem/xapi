@@ -1,7 +1,7 @@
 {
-    "name": { 
-        "en-US": "area name", 
-        "de-DE": "Bereichsname" 
+    "name": {
+        "en-US": "area name",
+        "de-DE": "Bereichsname"
     },
     "description": {
         "en-US": "Human-readable name of the area or room at the time of the event.",

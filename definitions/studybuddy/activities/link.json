@@ -7,8 +7,6 @@
         "en-US": "A simple HTML link, leading to another website or resource.",
         "de-DE": "Ein einfacher HTML Link, der auf eine andere Webseite oder Ressource verweist."
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

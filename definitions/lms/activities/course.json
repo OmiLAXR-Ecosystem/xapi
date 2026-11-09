@@ -7,8 +7,8 @@
         "en-US": "A course within an LMS. Contains learning materials and activities",
         "de-DE": "Ein Kurs in einem LMS. Enthält Lernmaterialien und -aktivitäten"
     },
-    "exactMatch": [   
+    "exactMatch": [
         "http://adlnet.gov/expapi/activities/course"
     ],
-    "relatedMatch": [ ]
+    "relatedMatch": []
 }

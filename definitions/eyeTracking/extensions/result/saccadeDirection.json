@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "micro saccade direction",
-    "de-DE": "Mikrosakkadenrichtung"
-  },
-  "description": {
-    "en-US": "The direction of a micro saccade, represented as an angle or vector, indicating the orientation of minor involuntary eye movements during fixation.",
-    "de-DE": "Die Richtung einer Mikrosakkade, dargestellt als Winkel oder Vektor, die die Orientierung kleiner unwillkürlicher Augenbewegungen während der Fixation anzeigt."
-  }
+    "name": {
+        "en-US": "micro saccade direction",
+        "de-DE": "Mikrosakkadenrichtung"
+    },
+    "description": {
+        "en-US": "The direction of a micro saccade, represented as an angle or vector, indicating the orientation of minor involuntary eye movements during fixation.",
+        "de-DE": "Die Richtung einer Mikrosakkade, dargestellt als Winkel oder Vektor, die die Orientierung kleiner unwillkürlicher Augenbewegungen während der Fixation anzeigt."
+    }
 }

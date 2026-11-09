@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "debug mode",
-    "de-DE": "Debug Modus"
-  },
-  "description": {
-    "en-US": "Is true if IDE is in debug mode. Boolean value.",
-    "de-DE": "Ist wahr, wenn die IDE im Debug Modus ist. Boolscher Wert."
-  }
+{
+    "name": {
+        "en-US": "debug mode",
+        "de-DE": "Debug Modus"
+    },
+    "description": {
+        "en-US": "Is true if IDE is in debug mode. Boolean value.",
+        "de-DE": "Ist wahr, wenn die IDE im Debug Modus ist. Boolscher Wert."
+    }
 }

@@ -1,10 +1,10 @@
-﻿{
-  "name": {
-    "en-US": "identifier",
-    "de-DE": "Identifikator"
-  },
-  "description": {
-    "en-US": "The identifier of an object, behavior, or person.",
-    "de-DE": "Der Identifikator eines Objekts, einer Verhaltensweise oder einer Person."
-  }
+{
+    "name": {
+        "en-US": "identifier",
+        "de-DE": "Identifikator"
+    },
+    "description": {
+        "en-US": "The identifier of an object, behavior, or person.",
+        "de-DE": "Der Identifikator eines Objekts, einer Verhaltensweise oder einer Person."
+    }
 }

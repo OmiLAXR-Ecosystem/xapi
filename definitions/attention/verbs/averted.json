@@ -1,10 +1,10 @@
 {
-  "name": {
-    "en-US": "averted",
-    "de-DE": "wandte ab"
-  },
-  "description": {
-    "en-US": "An actor has averted from a certain direction or away from an entity.",
-    "de-DE": "Eine Akteurin wandte sich von einer bestimmten Richtung oder von einer Entität ab."
-  }
+    "name": {
+        "en-US": "averted",
+        "de-DE": "wandte ab"
+    },
+    "description": {
+        "en-US": "An actor has averted from a certain direction or away from an entity.",
+        "de-DE": "Eine Akteurin wandte sich von einer bestimmten Richtung oder von einer Entität ab."
+    }
 }

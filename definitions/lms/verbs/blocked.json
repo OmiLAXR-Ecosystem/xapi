@@ -7,8 +7,6 @@
         "en-US": "Actor blocked a person",
         "de-DE": "Akteur hat eine Person gesperrt"
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

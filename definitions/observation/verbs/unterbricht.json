@@ -7,70 +7,86 @@
     },
     "choices": [
         {
-            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"],
-            "rules" : [
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"
+            ],
+            "rules": [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }
             ]
         },
         {
-        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung"],
-            "rules" : [
+            "exactMatch": [
+                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung"
+            ],
+            "rules": [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"],
-                    "result":{
-                        "score":{
-                          "raw": 1,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
-                    "result":{
-                        "score":{
-                          "raw": 2,
-                          "min": 1,
-                          "max": 5
+                    "exactMatch": [
+                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }

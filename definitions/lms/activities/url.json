@@ -7,6 +7,6 @@
         "en-US": "An URL object, linking to another website or web resource.",
         "de-DE": "Ein Link, der auf eine andere Webseite oder Webressource weiterleitet."
     },
-    "exactMatch": [ ],
-    "relatedMatch": [ ]
+    "exactMatch": [],
+    "relatedMatch": []
 }

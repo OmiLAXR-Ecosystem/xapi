@@ -7,8 +7,6 @@
         "en-US": "The entry data of a study plan, including module positions, placeholder replacements, ...",
         "de-DE": "Die Eintragsdaten eines Studienverlaufsplans. Diese enthalten die Modulpositionierungen, Platzhalterersetzungen, ..."
     },
-    "exactMatch": [
-    ],
-    "relatedMatch": [
-    ]
+    "exactMatch": [],
+    "relatedMatch": []
 }
