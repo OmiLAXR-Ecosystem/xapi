@@ -31,7 +31,7 @@ Die IRI einer Definition ergibt sich aus ihrem Pfad unterhalb von
 
 ```
 definitions/generic/verbs/opened.json
-→ https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/opened
+→ https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/opened
 ```
 
 Sobald eine Definition gemergt ist, verwenden Statements ihre IRI. Deshalb gilt:
@@ -39,10 +39,13 @@ Sobald eine Definition gemergt ist, verwenden Statements ihre IRI. Deshalb gilt:
 - **Gemergte Dateien nicht umbenennen, verschieben oder löschen.** Korrigiere
   stattdessen den Text in der Datei.
 - Ist eine Umbenennung unvermeidbar, ist sie ein Breaking Change. Trage die alte
-  IRI in der verschobenen Datei unter `exactMatch` ein, damit Statements mit der
+  volle IRI in der verschobenen Datei unter `exactMatch` ein, damit Statements mit der
   alten IRI weiterhin zugeordnet werden können, und markiere den Eintrag im
   CHANGELOG mit **BREAKING**.
 - Wähle den Dateinamen sorgfältig, er lässt sich später nicht mehr korrigieren.
+- Bis Version 1.x begannen die IRIs mit `https://xapi.elearn.rwth-aachen.de/`.
+  Jede Definition aus dieser Zeit führt ihre frühere IRI als ersten Eintrag in
+  `exactMatch`. Entferne sie nicht.
 
 ## Dateiformat
 

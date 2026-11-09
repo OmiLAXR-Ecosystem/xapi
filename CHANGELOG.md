@@ -50,6 +50,14 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
   indentation (211 files used 2 spaces or tabs) and a trailing newline (405
   files had none). Formatting only: names, descriptions, matches and key order
   are unchanged.
+- **BREAKING:** New IRI base `https://omilaxr-ecosystem.github.io/xapi/`,
+  replacing `https://xapi.elearn.rwth-aachen.de/`, whose hosting is not
+  guaranteed long-term. The IRI of every definition changes by this prefix, e.g.
+  `…/definitions/assistanceSystem/verbs/notNeeded` now starts with the new base.
+  All 757 definitions list their former IRI as the first `exactMatch`, and the
+  87 references between definitions (e.g. in `observation`) use the new base.
+  The website shows the former IRI below the IRI, and its search finds
+  definitions by their former IRI.
 - **BREAKING:** Moved `media/extensions/duration.json` to
   `media/extensions/activity/duration.json`, the folder `CONTRIBUTING.md`
   requires for extensions. Its IRI changes from

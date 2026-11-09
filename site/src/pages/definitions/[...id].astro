@@ -4,7 +4,7 @@ import T from "../../components/T.astro";
 import LMap from "../../components/LMap.astro";
 import Badge from "../../components/Badge.astro";
 import ListButton from "../../components/ListButton.astro";
-import { findByIri, getDefinitions, pageParam, REPO_URL, type Definition } from "../../lib/definitions";
+import { findByIri, getDefinitions, isFormerIri, pageParam, REPO_URL, type Definition } from "../../lib/definitions";
 import { pick } from "../../lib/i18n";
 import { definitionHref, href } from "../../lib/url";
 
@@ -20,12 +20,17 @@ const { definition: d } = Astro.props;
 const languages = [...new Set([...Object.keys(d.name), ...Object.keys(d.description)])].sort();
 
 // "*Match" fields with plain IRI lists become link lists, everything else is shown as JSON.
+// IRIs of this definition under a former registry base are shown next to the IRI instead.
+const formerIris: string[] = [];
 const matchFields: { key: string; iris: { iri: string; target?: Definition }[] }[] = [];
 const otherFields: [string, unknown][] = [];
 for (const [key, value] of Object.entries(d.data)) {
   if (key === "name" || key === "description") continue;
   if (key.endsWith("Match") && Array.isArray(value) && value.every((v) => typeof v === "string")) {
-    matchFields.push({ key, iris: await Promise.all(value.map(async (iri) => ({ iri, target: await findByIri(iri) }))) });
+    const iris = key === "exactMatch" ? value.filter((iri) => !isFormerIri(iri)) : value;
+    if (key === "exactMatch") formerIris.push(...value.filter(isFormerIri));
+    if (iris.length === 0) continue;
+    matchFields.push({ key, iris: await Promise.all(iris.map(async (iri) => ({ iri, target: await findByIri(iri) }))) });
   } else {
     otherFields.push([key, value]);
   }
@@ -56,6 +61,9 @@ const formatDate = (iso: string) => iso.slice(0, 10);
       <span class="when-idle"><T k="copy" /></span>
     </button>
   </div>
+  {formerIris.map((iri) => (
+    <p class="former-iri"><T k="formerIri" />: <code>{iri}</code></p>
+  ))}
   <div class="actions">
     <a class="btn" href={href(`definitions/${d.id}.json`)}>JSON</a>
     <a class="btn" href={fileUrl("main", d.file)}><T k="editOnGithub" /></a>

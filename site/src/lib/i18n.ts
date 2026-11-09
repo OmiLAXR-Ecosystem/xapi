@@ -23,6 +23,7 @@ const strings = {
   name: { en: "Name", de: "Name" },
   desc: { en: "Description", de: "Beschreibung" },
   iri: { en: "IRI", de: "IRI" },
+  formerIri: { en: "Former IRI", de: "Frühere IRI" },
   language: { en: "Language", de: "Sprache" },
   languages: { en: "Languages", de: "Sprachen" },
   matches: { en: "Related definitions", de: "Verwandte Definitionen" },
