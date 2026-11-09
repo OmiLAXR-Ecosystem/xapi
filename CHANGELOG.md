@@ -35,6 +35,9 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
 - `CONTRIBUTING.md` (English) and `CONTRIBUTING.de.md` (German): repository
   layout, why file paths must not change, file format, naming and writing
   conventions, and how to submit a change.
+- The about page links to the original registry at xapi.elearn.rwth-aachen.de
+  and cites the paper "xAPI Made Easy"
+  ([doi:10.3991/ijoe.v18i14.35079](https://doi.org/10.3991/ijoe.v18i14.35079)).
 - `scripts/format-definitions.py` normalizes the formatting of all definition
   files (`make format`). With `--check` it only reports files that are not
   normalized (`make check-format`).
