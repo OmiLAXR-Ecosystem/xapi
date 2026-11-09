@@ -1,0 +1,12 @@
+---
+// A language map rendered for both UI languages (with fallback, see pick()).
+import { pick } from "../lib/i18n";
+
+interface Props {
+  map: Record<string, string>;
+}
+const { map } = Astro.props;
+const en = pick(map, "en");
+const de = pick(map, "de");
+---
+{en === de ? en : <><span class="l-en">{en}</span><span class="l-de">{de}</span></>}

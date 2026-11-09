@@ -1,0 +1,68 @@
+---
+import "../styles/global.css";
+import T from "../components/T.astro";
+import { href } from "../lib/url";
+import { REPO_URL } from "../lib/definitions";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description = "Open, community-maintained xAPI verbs, activities and extensions." } = Astro.props;
+const fullTitle = title ? `${title} · xAPI Registry` : "xAPI Definitions Registry";
+const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "");
+const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) ? "page" : undefined);
+---
+<!doctype html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={href("favicon.svg")} type="image/svg+xml" />
+    <script is:inline>
+      // Set the language before first paint: saved choice, else the browser language.
+      (function () {
+        var lang;
+        try { lang = localStorage.getItem("xapi-registry:lang"); } catch (e) {}
+        if (lang !== "de" && lang !== "en") lang = /^de\b/i.test(navigator.language) ? "de" : "en";
+        document.documentElement.dataset.lang = lang;
+        document.documentElement.lang = lang;
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={href()}>
+          <span class="brand-mark" aria-hidden="true">x</span>
+          <span>xAPI Registry</span>
+        </a>
+        <nav class="nav">
+          <a href={href()} aria-current={current("/")}><T k="search" /></a>
+          <a href={href("list")} aria-current={current("/list")}><T k="list" /> <span class="count" data-list-count></span></a>
+          <a href={href("about")} aria-current={current("/about")}><T k="about" /></a>
+          <button type="button" class="lang-toggle" id="lang-toggle"><T k="switchLang" /></button>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a href={REPO_URL}><T k="sourceRepo" /></a>
+        <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}><T k="suggest" /></a>
+        <a href={href("definitions.json")}><T k="allJson" /></a>
+      </div>
+    </footer>
+    <script>
+      import { bindListButtons } from "../scripts/list";
+      import { getLang, setLang } from "../scripts/lang";
+
+      bindListButtons();
+      document.getElementById("lang-toggle")!.addEventListener("click", () => setLang(getLang() === "de" ? "en" : "de"));
+    </script>
+  </body>
+</html>

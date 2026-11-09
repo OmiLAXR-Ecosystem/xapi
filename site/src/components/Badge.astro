@@ -1,0 +1,10 @@
+---
+import T from "./T.astro";
+import type { DefinitionType } from "../lib/definitions";
+
+interface Props {
+  type: DefinitionType;
+}
+const { type } = Astro.props;
+---
+<span class={`badge badge-${type}`}><T k={type} /></span>

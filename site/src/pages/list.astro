@@ -1,0 +1,118 @@
+---
+import Base from "../layouts/Base.astro";
+import T from "../components/T.astro";
+import { href } from "../lib/url";
+---
+<Base title="List">
+  <div id="own">
+    <h1><T k="list" /></h1>
+    <p class="status"><T k="listIntro" /></p>
+  </div>
+  <div id="shared" hidden>
+    <h1><T k="sharedList" /></h1>
+    <p class="status"><T k="sharedIntro" /></p>
+  </div>
+
+  <div class="actions" id="actions" hidden>
+    <button type="button" class="btn" id="adopt" hidden><T k="adoptList" /></button>
+    <a class="btn" id="show-own" href={href("list")} hidden><T k="showMyList" /></a>
+    <button type="button" class="btn" id="share"><span class="label"><T k="shareLink" /></span></button>
+    <button type="button" class="btn" id="export-json"><T k="exportJson" /></button>
+    <button type="button" class="btn" id="export-csv"><T k="exportCsv" /></button>
+    <button type="button" class="btn" id="print"><T k="print" /></button>
+    <button type="button" class="btn danger" id="clear"><T k="clear" /></button>
+  </div>
+
+  <p class="status" id="status" aria-live="polite"></p>
+  <ul class="rows" id="rows"></ul>
+  <p class="status" id="unknown" hidden></p>
+</Base>
+
+<script>
+  import { pick, t } from "../lib/i18n";
+  import { getLang, LANG_EVENT } from "../scripts/lang";
+  import { bindListButtons, CHANGE_EVENT, decodeIds, encodeIds, getList, setList } from "../scripts/list";
+  import { download, loadIndex, rowHtml, toCsv } from "../scripts/render";
+  import { href } from "../lib/url";
+  import type { IndexEntry } from "../lib/definitions";
+
+  const $ = (id: string) => document.getElementById(id)!;
+  const sharedParam = new URLSearchParams(location.search).get("ids");
+  let sharedIds: string[] | undefined;
+  let byId = new Map<string, IndexEntry>();
+
+  const ids = () => sharedIds ?? getList();
+  const entries = () => ids().map((id) => byId.get(id)).filter((e): e is IndexEntry => Boolean(e));
+  const stamp = () => new Date().toISOString().slice(0, 10);
+
+  function render() {
+    const lang = getLang();
+    const list = entries();
+    const missing = ids().filter((id) => !byId.has(id));
+    $("actions").hidden = list.length === 0;
+    $("adopt").hidden = !sharedIds;
+    $("show-own").hidden = !sharedIds;
+    $("clear").hidden = Boolean(sharedIds);
+    $("status").textContent = list.length ? `${list.length} ${t("definitions", lang)}` : sharedIds ? t("nomatches", lang) : t("listEmpty", lang);
+    $("rows").innerHTML = list.map((e) => rowHtml(e, lang)).join("");
+    $("unknown").hidden = missing.length === 0;
+    $("unknown").textContent = `${t("unknownIds", lang)} ${missing.join(", ")}`;
+    bindListButtons($("rows"));
+  }
+
+  $("share").addEventListener("click", async () => {
+    const url = new URL(href("list"), location.origin);
+    url.searchParams.set("ids", await encodeIds(ids()));
+    const label = $("share").innerHTML;
+    try {
+      await navigator.clipboard.writeText(url.toString());
+      $("share").textContent = t("copied", getLang());
+    } catch {
+      prompt(t("shareLink", getLang()), url.toString());
+    }
+    setTimeout(() => ($("share").innerHTML = label), 1500);
+  });
+
+  $("export-json").addEventListener("click", async () => {
+    const all: { id: string }[] = await (await fetch(href("definitions.json"))).json();
+    const wanted = new Set(ids());
+    download(`xAPI_${stamp()}.json`, JSON.stringify(all.filter((d) => wanted.has(d.id)), null, 2), "application/json");
+  });
+
+  $("export-csv").addEventListener("click", () => {
+    const lang = getLang();
+    const header = [t("name", lang), "Context", "Type", t("desc", lang), "IRI"];
+    const rows = entries().map((e) => [pick(e.name, lang), e.context, e.type, pick(e.description, lang), e.iri]);
+    download(`xAPI_${stamp()}.csv`, toCsv([header, ...rows]), "text/csv;charset=utf-8");
+  });
+
+  $("print").addEventListener("click", () => window.print());
+
+  $("clear").addEventListener("click", () => {
+    if (confirm(t("clearConfirm", getLang()))) setList([]);
+  });
+
+  $("adopt").addEventListener("click", () => {
+    setList([...getList(), ...(sharedIds ?? [])]);
+    location.href = href("list");
+  });
+
+  document.addEventListener(CHANGE_EVENT, render);
+  document.addEventListener(LANG_EVENT, render);
+
+  async function init() {
+    if (sharedParam) {
+      try {
+        sharedIds = await decodeIds(sharedParam);
+      } catch {
+        sharedIds = [];
+      }
+      $("own").hidden = true;
+      $("shared").hidden = false;
+    }
+    $("status").textContent = t("loading", getLang());
+    byId = new Map((await loadIndex()).map((e) => [e.id, e]));
+    render();
+  }
+  init();
+</script>

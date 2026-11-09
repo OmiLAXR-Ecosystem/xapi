@@ -1,0 +1,148 @@
+---
+import Base from "../layouts/Base.astro";
+import T from "../components/T.astro";
+import { getContexts, getDefinitions, TYPES } from "../lib/definitions";
+import { href } from "../lib/url";
+
+const definitions = await getDefinitions();
+const contexts = await getContexts();
+---
+<Base>
+  <section class="hero">
+    <h1><T k="title" /></h1>
+    <p><T k="tagline" /></p>
+    <p class="stats">{definitions.length} <T k="definitions" /> · {contexts.length} <T k="contexts" /></p>
+  </section>
+
+  <form class="search" role="search" id="search-form">
+    <input type="search" id="q" name="q" autocomplete="off" aria-label="Search" />
+    <select id="context" name="context" aria-label="Context">
+      <option value="" data-i18n="allContexts"></option>
+      {contexts.map((c) => <option value={c.name}>{c.name}</option>)}
+    </select>
+    <select id="type" name="type" aria-label="Type">
+      <option value="" data-i18n="allTypes"></option>
+      {TYPES.map((type) => <option value={type} data-i18n={type}></option>)}
+    </select>
+  </form>
+
+  <p class="status" id="status" aria-live="polite"></p>
+  <ul class="rows" id="results" hidden></ul>
+
+  <section id="browse">
+    <h2><T k="contexts" /></h2>
+    <ul class="cards">
+      {contexts.map((c) => (
+        <li>
+          <a class="card" href={href(`contexts/${c.name}`)}>
+            <strong>{c.name}</strong>
+            <span>
+              {c.counts.verbs} <T k="verbs" /> · {c.counts.activities} <T k="activities" /> · {c.counts.extensions} <T k="extensions" />
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
+
+<script>
+  import MiniSearch from "minisearch";
+  import { t, type StringKey } from "../lib/i18n";
+  import { getLang, LANG_EVENT } from "../scripts/lang";
+  import { bindListButtons } from "../scripts/list";
+  import { loadIndex, rowHtml } from "../scripts/render";
+  import type { IndexEntry } from "../lib/definitions";
+
+  const form = document.getElementById("search-form") as HTMLFormElement;
+  const q = document.getElementById("q") as HTMLInputElement;
+  const context = document.getElementById("context") as HTMLSelectElement;
+  const type = document.getElementById("type") as HTMLSelectElement;
+  const status = document.getElementById("status")!;
+  const results = document.getElementById("results")!;
+  const browse = document.getElementById("browse")!;
+
+  let entries: IndexEntry[] = [];
+  let search: MiniSearch | undefined;
+
+  function translateControls() {
+    const lang = getLang();
+    q.placeholder = t("searchPlaceholder", lang);
+    form.querySelectorAll<HTMLOptionElement>("[data-i18n]").forEach((o) => (o.textContent = t(o.dataset.i18n as StringKey, lang)));
+  }
+
+  function readUrl() {
+    const params = new URLSearchParams(location.search);
+    q.value = params.get("q") ?? "";
+    context.value = params.get("context") ?? "";
+    type.value = params.get("type") ?? "";
+  }
+
+  function writeUrl() {
+    const params = new URLSearchParams();
+    if (q.value.trim()) params.set("q", q.value.trim());
+    if (context.value) params.set("context", context.value);
+    if (type.value) params.set("type", type.value);
+    const query = params.toString();
+    history.replaceState(null, "", query ? `?${query}` : location.pathname);
+  }
+
+  function update() {
+    const lang = getLang();
+    const query = q.value.trim();
+    const active = query || context.value || type.value;
+    browse.hidden = Boolean(active);
+    results.hidden = !active;
+    if (!active) {
+      status.textContent = "";
+      results.innerHTML = "";
+      return;
+    }
+    if (!search) {
+      status.textContent = t("loading", lang);
+      return;
+    }
+
+    const matches = (e: IndexEntry) => (!context.value || e.context === context.value) && (!type.value || e.type === type.value);
+    const hits = query
+      ? search.search(query).map((r) => entries[r.id as number]).filter(matches)
+      : entries.filter(matches);
+
+    status.textContent = hits.length ? `${hits.length} ${t("results", lang)}` : t("nomatches", lang);
+    results.innerHTML = hits.map((e) => rowHtml(e, lang)).join("");
+    bindListButtons(results);
+  }
+
+  form.addEventListener("submit", (e) => e.preventDefault());
+  form.addEventListener("input", () => {
+    writeUrl();
+    update();
+  });
+  document.addEventListener(LANG_EVENT, () => {
+    translateControls();
+    update();
+  });
+
+  readUrl();
+  translateControls();
+  update();
+
+  loadIndex().then((loaded) => {
+    entries = loaded;
+    search = new MiniSearch<IndexEntry & { i: number }>({
+      idField: "i",
+      fields: ["names", "descriptions", "iri", "matches", "context"],
+      extractField: (doc, field) => {
+        if (field === "i") return doc.i as unknown as string;
+        if (field === "names") return Object.values(doc.name).join(" ");
+        if (field === "descriptions") return Object.values(doc.description).join(" ");
+        if (field === "matches") return doc.matches.join(" ");
+        return (doc as unknown as Record<string, string>)[field];
+      },
+      // Typo tolerance only for longer words; short ones ("gaze") would match too much.
+      searchOptions: { prefix: true, fuzzy: (term) => (term.length > 4 ? 0.2 : false), boost: { names: 3, iri: 2 }, combineWith: "AND" },
+    });
+    search.addAll(entries.map((e, i) => ({ ...e, i })));
+    update();
+  });
+</script>

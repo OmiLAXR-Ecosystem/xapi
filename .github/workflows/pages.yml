@@ -1,0 +1,62 @@
+# Builds the registry website from definitions/ and deploys it to GitHub Pages.
+# On pull requests it only builds, which also validates every definition file.
+name: Registry website
+
+on:
+  push:
+    branches: [main]
+    paths: ["definitions/**", "site/**", ".github/workflows/pages.yml"]
+  pull_request:
+    paths: ["definitions/**", "site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; don't cancel a running one
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Full history for the per-definition change log
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: site/.nvmrc
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v6
+      - run: npm ci
+      - run: npm run build
+        env:
+          # Follows the Pages setting, so a custom domain needs no code change
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path || '/' }}
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,53 @@
+---
+import Base from "../../layouts/Base.astro";
+import T from "../../components/T.astro";
+import LMap from "../../components/LMap.astro";
+import ListButton from "../../components/ListButton.astro";
+import { getContexts, getDefinitions, TYPES, type Definition } from "../../lib/definitions";
+import { definitionHref, href } from "../../lib/url";
+
+export async function getStaticPaths() {
+  return (await getContexts()).map((c) => ({ params: { context: c.name } }));
+}
+
+const { context } = Astro.params;
+const definitions = (await getDefinitions()).filter((d) => d.context === context);
+
+// Per type, grouped by the folders below the type folder (e.g. extensions/activity).
+const sections = TYPES.map((type) => {
+  const groups = new Map<string, Definition[]>();
+  for (const d of definitions.filter((d) => d.type === type)) {
+    const key = d.group.join("/");
+    groups.set(key, [...(groups.get(key) ?? []), d]);
+  }
+  return { type, groups: [...groups].sort(([a], [b]) => a.localeCompare(b)) };
+}).filter((s) => s.groups.length);
+---
+<Base title={context}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={href()}>Registry</a> / <span>{context}</span></nav>
+  <h1>{context}</h1>
+  <p class="status">{definitions.length} <T k="definitions" /> · <a href={href(`?context=${context}`)}><T k="search" /></a></p>
+
+  {sections.map(({ type, groups }) => (
+    <section id={type}>
+      <h2><T k={type} /></h2>
+      {groups.map(([group, items]) => (
+        <>
+          {group && <p class="links key mono">{type}/{group}</p>}
+          <ul class="rows">
+            {items.map((d) => (
+              <li class="row">
+                <ListButton id={d.id} />
+                <div class="row-body">
+                  <div class="row-title"><a href={definitionHref(d.id)}><LMap map={d.name} /></a></div>
+                  <p class="row-desc"><LMap map={d.description} /></p>
+                  <code class="row-iri">{d.iri}</code>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </>
+      ))}
+    </section>
+  ))}
+</Base>

@@ -5,3 +5,7 @@
 # Other
 .DS_Store
 *.meta
+# Website build
+site/node_modules
+site/dist
+site/.astro

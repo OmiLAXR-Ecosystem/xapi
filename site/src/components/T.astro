@@ -1,0 +1,12 @@
+---
+// A UI string in both languages; CSS shows the one matching <html data-lang>.
+import { t, type StringKey } from "../lib/i18n";
+
+interface Props {
+  k: StringKey;
+}
+const { k } = Astro.props;
+const en = t(k, "en");
+const de = t(k, "de");
+---
+{en === de ? en : <><span class="l-en">{en}</span><span class="l-de">{de}</span></>}

@@ -1,0 +1,148 @@
+---
+import Base from "../../layouts/Base.astro";
+import T from "../../components/T.astro";
+import LMap from "../../components/LMap.astro";
+import Badge from "../../components/Badge.astro";
+import ListButton from "../../components/ListButton.astro";
+import { findByIri, getDefinitions, pageParam, REPO_URL, type Definition } from "../../lib/definitions";
+import { pick } from "../../lib/i18n";
+import { definitionHref, href } from "../../lib/url";
+
+export async function getStaticPaths() {
+  return (await getDefinitions()).map((definition) => ({ params: { id: pageParam(definition.id) }, props: { definition } }));
+}
+
+interface Props {
+  definition: Definition;
+}
+const { definition: d } = Astro.props;
+
+const languages = [...new Set([...Object.keys(d.name), ...Object.keys(d.description)])].sort();
+
+// "*Match" fields with plain IRI lists become link lists, everything else is shown as JSON.
+const matchFields: { key: string; iris: { iri: string; target?: Definition }[] }[] = [];
+const otherFields: [string, unknown][] = [];
+for (const [key, value] of Object.entries(d.data)) {
+  if (key === "name" || key === "description") continue;
+  if (key.endsWith("Match") && Array.isArray(value) && value.every((v) => typeof v === "string")) {
+    matchFields.push({ key, iris: await Promise.all(value.map(async (iri) => ({ iri, target: await findByIri(iri) }))) });
+  } else {
+    otherFields.push([key, value]);
+  }
+}
+
+const fileUrl = (ref: string, file: string) => `${REPO_URL}/blob/${ref}/${encodeURI(file)}`;
+const formatDate = (iso: string) => iso.slice(0, 10);
+---
+<Base title={pick(d.name, "en")} description={pick(d.description, "en")}>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={href()}>Registry</a> /
+    <a href={href(`contexts/${d.context}`)}>{d.context}</a> /
+    <a href={`${href(`contexts/${d.context}`)}#${d.type}`}><T k={d.type} /></a>
+    {d.group.map((g) => <span>/ {g}</span>)}
+  </nav>
+
+  <div class="detail-head">
+    <div>
+      <h1><LMap map={d.name} /> <Badge type={d.type} /></h1>
+      <p class="lead"><LMap map={d.description} /></p>
+    </div>
+    <ListButton id={d.id} label />
+  </div>
+
+  <div class="iri-box">
+    <code id="iri">{d.iri}</code>
+    <button type="button" class="btn small" data-copy={d.iri}>
+      <span class="when-idle"><T k="copy" /></span>
+    </button>
+  </div>
+  <div class="actions">
+    <a class="btn" href={href(`definitions/${d.id}.json`)}>JSON</a>
+    <a class="btn" href={fileUrl("main", d.file)}><T k="editOnGithub" /></a>
+  </div>
+
+  <h2><T k="languages" /></h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th><T k="language" /></th><th><T k="name" /></th><th><T k="desc" /></th></tr></thead>
+      <tbody>
+        {languages.map((lang) => (
+          <tr><td class="mono">{lang}</td><td>{d.name[lang] ?? "–"}</td><td>{d.description[lang] ?? "–"}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {matchFields.length > 0 && (
+    <>
+      <h2><T k="matches" /></h2>
+      {matchFields.map(({ key, iris }) => (
+        <>
+          <p class="links key mono">{key}</p>
+          <ul class="links">
+            {iris.map(({ iri, target }) => (
+              <li>{target ? <a href={definitionHref(target.id)}><LMap map={target.name} /></a> <span class="mono">{iri}</span> : iri.startsWith("http") ? <a class="mono" href={iri}>{iri}</a> : <span class="mono">{iri}</span>}</li>
+            ))}
+          </ul>
+        </>
+      ))}
+    </>
+  )}
+
+  {otherFields.length > 0 && (
+    <>
+      <h2><T k="moreFields" /></h2>
+      {otherFields.map(([key, value]) => (
+        <>
+          <p class="links key mono">{key}</p>
+          <pre>{JSON.stringify(value, null, 2)}</pre>
+        </>
+      ))}
+    </>
+  )}
+
+  <h2><T k="history" /></h2>
+  {d.history.length === 0 ? (
+    <p><T k="noHistory" /></p>
+  ) : (
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th><T k="date" /></th><th><T k="message" /></th><th><T k="author" /></th><th><T k="version" /></th></tr></thead>
+        <tbody>
+          {d.history.map((c) => (
+            <tr>
+              <td class="mono">{formatDate(c.date)}</td>
+              <td><a href={`${REPO_URL}/commit/${c.hash}`}>{c.message}</a></td>
+              <td>{c.author}</td>
+              <td><a class="mono" href={fileUrl(c.hash, c.file)}>{c.hash.slice(0, 7)}</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+
+  <h2><T k="rawJson" /></h2>
+  <details>
+    <summary class="mono">{d.file}</summary>
+    <pre>{d.raw}</pre>
+  </details>
+</Base>
+
+<script>
+  import { getLang } from "../../scripts/lang";
+  import { t } from "../../lib/i18n";
+
+  document.querySelectorAll<HTMLButtonElement>("[data-copy]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.copy!);
+        const label = button.innerHTML;
+        button.textContent = t("copied", getLang());
+        setTimeout(() => (button.innerHTML = label), 1500);
+      } catch {
+        // Clipboard blocked; the IRI is selectable text anyway.
+      }
+    });
+  });
+</script>
