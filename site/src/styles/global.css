@@ -199,6 +199,7 @@ details summary { cursor: pointer; color: var(--muted); }
 
 .prose { max-width: 70ch; }
 .prose p, .prose li { color: var(--text); }
+.prose code { overflow-wrap: anywhere; }
 .notice { background: var(--accent-soft); border-radius: var(--radius); padding: 0.8rem 1rem; margin: 1rem 0; }
 
 @media print {
