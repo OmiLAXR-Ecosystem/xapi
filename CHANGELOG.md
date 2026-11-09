@@ -24,12 +24,16 @@ listed under **Changed** or **Removed** and marked with **BREAKING**.
   no two files with the same IRI). Pull requests that touch `definitions/` run it.
 - `Makefile` for common tasks: `install`, `dev`, `build`, `preview`, `format`,
   `check-format`, `check` and `clean`. Run `make` to list them.
+- `CONTRIBUTING.md` (English) and `CONTRIBUTING.de.md` (German): repository
+  layout, why file paths must not change, file format, naming and writing
+  conventions, and how to submit a change.
 - `scripts/format-definitions.py` normalizes the formatting of all definition
   files (`make format`). With `--check` it only reports files that are not
   normalized (`make check-format`).
 
 ### Changed
 
+- Moved the concept text formerly in `CONTRIBUTING.md` to `docs/concept.md`.
 - Normalized the formatting of 615 definition files. They now use UTF-8 without
   BOM (80 files had one), LF line endings (2 files used CRLF), 4-space
   indentation (211 files used 2 spaces or tabs) and a trailing newline (405
