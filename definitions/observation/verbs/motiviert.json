@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur motiviert jemanden"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/motiviert"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich selbst"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/sich selbst"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
                     ],
                     "result": {
                         "score": {
@@ -37,7 +40,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/bleibt in schwierigenunangenehmen Situationen gelassen und ruhig"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/bleibt in schwierigenunangenehmen Situationen gelassen und ruhig"
                     ],
                     "result": {
                         "score": {
@@ -49,7 +52,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
                     ],
                     "result": {
                         "score": {
@@ -63,12 +66,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
                     ],
                     "result": {
                         "score": {
@@ -80,7 +83,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
                     ],
                     "result": {
                         "score": {
@@ -92,7 +95,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
                     ],
                     "result": {
                         "score": {
@@ -104,7 +107,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
                     ],
                     "result": {
                         "score": {
@@ -116,7 +119,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
                     ],
                     "result": {
                         "score": {

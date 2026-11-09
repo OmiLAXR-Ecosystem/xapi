@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Position in scene.",
         "de-DE": "Position in der Szene."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/position"
+    ]
 }

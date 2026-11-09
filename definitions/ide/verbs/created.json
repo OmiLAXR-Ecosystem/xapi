@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has created a component or asset.",
         "de-DE": "Ein Akteur erstellte eine Komponente oder Asset."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/created"
+    ]
 }

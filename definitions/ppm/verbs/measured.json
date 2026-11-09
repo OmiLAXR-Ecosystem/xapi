@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A psycho-physiological measure has been measured.",
         "de-DE": "Eine psychophysiologische Messgröße wurde gemessen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/verbs/measured"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The angle, in degrees, between the gaze direction at the event time and the vector from the gaze origin to the reference point of the viewed object or area (typically the AOI’s bounds center). 0° means the gaze is aimed directly at the reference point; larger values indicate more off-axis viewing. Range: 0°–180°.",
         "de-DE": "Der Winkel in Grad zwischen der Blickrichtung zum Ereigniszeitpunkt und dem Vektor vom Blickursprung zum Referenzpunkt des betrachteten Objekts bzw. Bereichs (typischerweise das Bounds-Zentrum der AOI). 0° bedeutet, dass der Blick direkt auf den Referenzpunkt gerichtet ist; höhere Werte zeigen eine stärkere Abweichung von der Achse an. Wertebereich: 0°–180°."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/attention/extensions/result/viewingAngle"
+    ]
 }

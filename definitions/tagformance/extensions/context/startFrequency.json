@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The selected frequency to start the measurement."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/startFrequency"
+    ]
 }

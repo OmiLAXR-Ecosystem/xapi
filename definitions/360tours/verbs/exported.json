@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor exported a 360° tour to an external destination.",
         "de-DE": "Ein Akteur exportierte eine 360° Tour zu einer externen Ressource."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/exported"
+    ]
 }

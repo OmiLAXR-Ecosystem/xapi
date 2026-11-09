@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Mainscore (5/5) wenn ein Akteuer Methodisches Potenzial zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Methodisches_Potenzial"
+    ],
     "result": {
         "score": {
             "min": 1,

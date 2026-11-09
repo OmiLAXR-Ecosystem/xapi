@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur unterbricht jemand oder etwas anderen verbal."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/unterbricht"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/lässt andere ausreden"
                     ],
                     "result": {
                         "score": {
@@ -37,7 +40,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
                     ],
                     "result": {
                         "score": {
@@ -51,12 +54,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Erklärung"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -68,7 +71,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/lässt andere ausreden"
                     ],
                     "result": {
                         "score": {
@@ -80,7 +83,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"
                     ],
                     "result": {
                         "score": {

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Root mean square of successive differences between NN intervals, in milliseconds.",
         "de-DE": "Quadratisches Mittel der aufeinanderfolgenden Differenzen der NN-Intervalle, in Millisekunden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrvRmssdMs"
+    ]
 }

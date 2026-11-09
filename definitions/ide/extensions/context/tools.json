@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A list of IDE tools. Must be a string array.",
         "de-DE": "Eine Liste mit IDE Tools. Muss ein String Array sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/tools"
+    ]
 }

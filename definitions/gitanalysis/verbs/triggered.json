@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor triggered a pipeline with an activity.",
         "de-DE": "Ein Akteur löste durch eine Aktivität die Ausführung einer Pipeline aus."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/triggered"
+    ]
 }

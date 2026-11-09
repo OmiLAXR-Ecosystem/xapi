@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Scale in scene.",
         "de-DE": "Skalierung in der Szene."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/scale"
+    ]
 }

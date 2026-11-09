@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer auch schwierige feinmotorische Handlungen ausführen kann"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/kann_auch_schwierige_feinmotorische_Handlungen_ausführen"
+    ],
     "result": {
         "score": {
             "min": 1,

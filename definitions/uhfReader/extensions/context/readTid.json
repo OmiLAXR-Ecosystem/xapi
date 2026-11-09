@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The selected element to read for the transponder."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/readTid"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has left a window with the mouse.",
         "de-DE": "Ein Akteur verließ ein Fenster mit der Maus."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/left"
+    ]
 }

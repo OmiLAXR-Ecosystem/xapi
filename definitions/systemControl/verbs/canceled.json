@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur brach eine Spiel Instanz, ein Spiel oder ein Level ab ohne es zu vollenden."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/canceled",
         "https://registry.tincanapi.com/#uri/verb/96",
         "https://activitystrea.ms/schema/1.0/cancel"
     ]

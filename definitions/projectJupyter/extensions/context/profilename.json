@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Name of the currently loaded JupyterLab profile (within a JupyterHub).",
         "de-DE": "Name des aktuell geladenen JupyterLab-Profils (in einem JupyterHub)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/context/profilename"
+    ]
 }

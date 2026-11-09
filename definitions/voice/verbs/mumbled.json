@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has mumbled something, which was not recognizable.",
         "de-DE": "Eine Akteurin hat etwas genuschelt, was nicht näher beschrieben werden kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/mumbled"
+    ]
 }

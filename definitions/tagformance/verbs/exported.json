@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor has exported a digital artefact from the software."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/exported"
+    ]
 }

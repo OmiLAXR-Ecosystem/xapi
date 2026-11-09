@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The type of button which was pressed. Has to be a string.",
         "de-DE": "Der Typ des Knopfes der gedrückt wurde. Muss ein String sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/activity/buttontype"
+    ]
 }

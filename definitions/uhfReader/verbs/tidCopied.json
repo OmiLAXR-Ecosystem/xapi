@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor copied the TID from the screen. Then the actor can paste it in google to research on the transponder."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/tidCopied"
+    ]
 }

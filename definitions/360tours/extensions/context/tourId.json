@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Unique identifier of a 360° tour.",
         "de-DE": "Eindeutige Kennung einer 360° Tour."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/context/tourId"
+    ]
 }

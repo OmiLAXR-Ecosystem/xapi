@@ -7,7 +7,9 @@
         "en-US": "Actor rated an object/person",
         "de-DE": "Akteur hat ein/e Objekt/Person benotet"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/graded"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/306"
     ]

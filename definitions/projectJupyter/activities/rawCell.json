@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A Jupyter Notebook Cell of type 'raw cell'. Raw Cells provide storage options for data other than programming code and markdown text. They can contain any type of data.",
         "de-DE": "Eine Jupyter Notebook Zelle mit dem Typ 'raw cell'. Raw Cells bieten die Möglichkeit daten zu speichern, welche weder programmier code noch markdown text sind. Sie können alle arten von daten enthalten"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/rawCell"
+    ]
 }

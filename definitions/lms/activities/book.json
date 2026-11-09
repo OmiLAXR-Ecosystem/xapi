@@ -7,7 +7,9 @@
         "en-US": "A book, containing multiple texts and images, structured as chapters.",
         "de-DE": "Ein Buch welches Texte und Bilder in einzelnen Kapiteln darstellt."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book"
+    ],
     "relatedMatch": [
         "http://id.tincanapi.com/activitytype/book"
     ]

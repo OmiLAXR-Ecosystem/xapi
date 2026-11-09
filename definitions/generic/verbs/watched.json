@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur schaute ein Video. Sollte nur genutzt werden wenn sichergestellt werden kann, dass das Video wirklich geschaut wurde. Eyetracking könnte dafür zum Beispiel benutzt werden."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/watched",
         "https://registry.tincanapi.com/#uri/verb/50",
         "https://activitystrea.ms/schema/1.0/watch"
     ]

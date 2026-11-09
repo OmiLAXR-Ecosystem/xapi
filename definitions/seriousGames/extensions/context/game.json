@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The identifier for the game in which the event happened. Can be a string or integer.",
         "de-DE": "Der Identifikator dafür welches Spiel gespielt wird. Kann ein String oder Integer sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/game"
+    ]
 }

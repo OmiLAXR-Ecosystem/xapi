@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur schloss etwas. Könnten zum Beispiel die Einstellungen sein."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/closed",
         "https://registry.tincanapi.com/#uri/verb/97",
         "https://activitystrea.ms/schema/1.0/close"
     ]

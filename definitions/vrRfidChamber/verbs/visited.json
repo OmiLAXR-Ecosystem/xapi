@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor has visited the virtual lab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/visited"
+    ]
 }

@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur erzählt etwas verbal"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/erzaehlt"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine Idee"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/seine Idee"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/entwickelt eigene Ideen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/entwickelt eigene Ideen"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"
                     ],
                     "result": {
                         "score": {
@@ -37,7 +40,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"
                     ],
                     "result": {
                         "score": {

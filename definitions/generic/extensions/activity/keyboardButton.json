@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The button of the keyboard.",
         "de-DE": "Eine Taste der Tastatur."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/keyboardButton"
+    ]
 }

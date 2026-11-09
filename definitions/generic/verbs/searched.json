@@ -8,6 +8,7 @@
         "de-DE": "Ein Acteur oder ein Gruppe suchte nach einem Gegenstand oder zum Beispiel auch einen Ort ab."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/searched",
         "https://registry.tincanapi.com/#uri/verb/144",
         "https://activitystrea.ms/schema/1.0/search"
     ]

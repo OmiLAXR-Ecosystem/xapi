@@ -8,6 +8,7 @@
         "de-DE": "Ein elektronisches Dokument, das mit einer Büro-Software erstellt wird, z. B. ein Textverarbeitungsdokument, eine Tabellenkalkulation, eine Folie usw. Abhängig vom Kontext kann es z.B. auch ein Dokument in einem Spiel beschreiben."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/document",
         "https://registry.tincanapi.com/#uri/activityType/479",
         "http://id.tincanapi.com/activitytype/document"
     ]

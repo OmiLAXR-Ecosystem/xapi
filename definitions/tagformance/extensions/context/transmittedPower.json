@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The Y-axis unit in dBm for measurement."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/transmittedPower"
+    ]
 }

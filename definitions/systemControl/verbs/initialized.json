@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur initialisierte eine Spielinstanz. Dieses Verb wird nur mit der gamesession Aktivität verwendet, um Spielinstanzen besser verfolgen zu können."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/initialized",
         "https://registry.tincanapi.com/#uri/verb/26",
         "https://adlnet.gov/expapi/verbs/initialized"
     ]

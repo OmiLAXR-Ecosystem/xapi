@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Rotation in scene.",
         "de-DE": "Rotation in der Szene."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/rotation"
+    ]
 }

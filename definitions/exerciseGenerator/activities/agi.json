@@ -7,6 +7,8 @@
         "en-US": "The \"AufgabenGeneratorInfrastruktur\", developed at the Learning Technologies Research Group at RWTH Aachen, serving as a provider for different exercise generators.",
         "de-DE": "Die AufgabenGeneratorInfrastruktur, die am Lehr- und Forschungsgebiet Lerntechnologien an der RWTH Aachen entwickelt wird und verschiedene Aufgabengeneratoren bereitstellt."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/activities/agi"
+    ],
     "relatedMatch": []
 }

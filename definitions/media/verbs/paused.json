@@ -7,6 +7,8 @@
         "en-US": "An actor paused a playing media element.",
         "de-DE": "Ein Akteur pausierte die Wiedergabe eines Medienelements."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/paused"
+    ],
     "relatedMatch": []
 }

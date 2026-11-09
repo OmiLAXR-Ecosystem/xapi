@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A collection of commits that are pushed to the repository.",
         "de-DE": "Eine Sammlung von Änderungen am Repository."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/changes"
+    ]
 }

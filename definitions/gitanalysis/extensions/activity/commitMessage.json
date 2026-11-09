@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The message describing the commit.",
         "de-DE": "Eine Nachricht, die den Inhalt eines Commits beschreibt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/commitMessage"
+    ]
 }

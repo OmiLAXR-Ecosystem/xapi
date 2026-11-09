@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A user evaluated a target (e.g. transponder)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/evaluate"
+    ]
 }

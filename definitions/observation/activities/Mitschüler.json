@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Verb bezieht sich auf andere Mitschüler"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Mitschüler"
+    ]
 }

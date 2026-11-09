@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An action the actor can trigger.",
         "de-DE": "Eine Aktion, die von der Akteurin ausgelöst wird."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/action"
+    ]
 }

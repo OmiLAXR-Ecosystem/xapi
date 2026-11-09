@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor dragged a draggable object across the screen.",
         "de-DE": "Ein Akteur zog ein ziehbares Objekt über den Bildschirm."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/dragged"
+    ]
 }

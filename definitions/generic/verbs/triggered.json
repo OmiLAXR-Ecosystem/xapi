@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor triggered an event.",
         "de-DE": "Ein Akteur löste ein Ereignis aus."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/triggered"
+    ]
 }

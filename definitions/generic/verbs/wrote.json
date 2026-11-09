@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor put some text into a text field.",
         "de-DE": "Ein Akteur gab einen Text in ein Textfeld ein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/wrote"
+    ]
 }

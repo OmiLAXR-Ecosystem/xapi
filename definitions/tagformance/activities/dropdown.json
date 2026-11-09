@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor selects an option through a dropdown menu."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/dropdown"
+    ]
 }

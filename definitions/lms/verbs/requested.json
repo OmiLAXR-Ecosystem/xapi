@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat ein/en Objekt/Zugang/Informationen angefordert"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/requested",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/136"
     ],

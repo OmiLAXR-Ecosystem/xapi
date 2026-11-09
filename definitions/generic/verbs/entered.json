@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor gave some input.",
         "de-DE": "Ein Akteur gab eine Eingabe."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/entered"
+    ]
 }

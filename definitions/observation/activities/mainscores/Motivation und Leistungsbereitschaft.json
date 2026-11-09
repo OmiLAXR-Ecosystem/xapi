@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Mainscore (5/5) wenn ein Akteuer Motivation und Leistungsbereitschaft zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Motivation_und_Leistungsbereitschaft"
+    ],
     "result": {
         "score": {
             "min": 1,

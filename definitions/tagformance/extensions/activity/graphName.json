@@ -5,6 +5,9 @@
     "description": {
         "en-US": "An actor has authored the name of the graph or entered the username."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/graphName"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/92"
     ]

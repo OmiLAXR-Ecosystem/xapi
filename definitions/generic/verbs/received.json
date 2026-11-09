@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur erhielt zum Beispiel einen Gegenstand oder Hilfe."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/received",
         "https://registry.tincanapi.com/#uri/verb/131",
         "https://activitystrea.ms/schema/1.0/receive"
     ]

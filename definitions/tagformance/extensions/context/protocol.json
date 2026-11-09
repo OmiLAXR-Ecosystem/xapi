@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The protocol used is ISO 18000-6c Query."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/protocol"
+    ]
 }

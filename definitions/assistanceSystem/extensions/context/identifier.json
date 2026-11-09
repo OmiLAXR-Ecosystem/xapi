@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The identifier of an object, behavior, or person.",
         "de-DE": "Der Identifikator eines Objekts, einer Verhaltensweise oder einer Person."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/context/identifier"
+    ]
 }

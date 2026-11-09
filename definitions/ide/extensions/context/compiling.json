@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The IDE is compiling.",
         "de-DE": "Die IDE kompiliert."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/compiling"
+    ]
 }

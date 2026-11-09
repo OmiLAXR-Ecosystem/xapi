@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Indicates that an actor ran some programming construct. Typically a Jupyter Notebook Code Cell.",
         "de-DE": "Signalisiert, dass ein Akteur ein Programmierkonstrukt ausführte. Typischerweise eine Jupyter Notebook Codezelle."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/verbs/run"
+    ]
 }

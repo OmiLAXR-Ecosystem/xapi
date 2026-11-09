@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The level in which or for which something happened. Can be an integer or a string.",
         "de-DE": "Das Level in welchem ein Ereignis stattfand. Kann ein String oder Integer sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/level"
+    ]
 }

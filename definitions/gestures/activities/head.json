@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Actor's physical head.",
         "de-DE": "Physikalische Kopf vom Akteur."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/activities/head"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Signed change compared to the previous value.",
         "de-DE": "Signierte Änderung gegenüber dem vorherigen Wert."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/delta"
+    ]
 }

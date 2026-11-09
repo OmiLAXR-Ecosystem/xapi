@@ -6,6 +6,7 @@
         "en-US": "An actor selects an activity mode or experiment mode from menu."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/selected",
         "https://registry.tincanapi.com/#uri/verb/448"
     ]
 }

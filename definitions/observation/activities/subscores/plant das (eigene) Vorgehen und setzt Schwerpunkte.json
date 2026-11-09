@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer das (eigene) Vorgehen plant und Schwerpunkte setzt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/plant_das_(eigene)_Vorgehen_und_setzt_Schwerpunkte"
+    ],
     "result": {
         "score": {
             "min": 1,

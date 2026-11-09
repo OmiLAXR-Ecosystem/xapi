@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur erstellte etwas."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/created",
         "https://registry.tincanapi.com/#uri/verb/102",
         "https://activitystrea.ms/schema/1.0/create"
     ]

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The blink duration is the measure of how long the actor's eyes remain closed during a blink. Described in ISO 8601.",
         "de-DE": "Die Blinzeldauer beschreibt die Zeit, die die Augen eines Akteurs oder einer Akteurin während eines Blinzelns geschlossen bleiben. Beschrieben in ISO 8601."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/blinkDuration"
+    ]
 }

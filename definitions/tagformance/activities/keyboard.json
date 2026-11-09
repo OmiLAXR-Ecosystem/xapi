@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A keyboard used to input text or interact with the lab and enter values as per the actor's wish."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/keyboard"
+    ]
 }

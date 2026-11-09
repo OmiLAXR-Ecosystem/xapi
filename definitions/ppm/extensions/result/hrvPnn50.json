@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Proportion of successive NN interval differences greater than 50 ms [0.0; 1.0].",
         "de-DE": "Anteil der aufeinanderfolgenden NN-Intervall-Differenzen über 50 ms [0.0; 1.0]."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrvPnn50"
+    ]
 }

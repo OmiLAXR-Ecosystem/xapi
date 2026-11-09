@@ -7,6 +7,8 @@
         "en-US": "A single discussion/thread within a forum.",
         "de-DE": "Eine einzelne Diskussion in einem Forum."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/forumDiscussion"
+    ],
     "relatedMatch": []
 }

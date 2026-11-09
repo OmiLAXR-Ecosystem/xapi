@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has pointed at a VR object.",
         "de-DE": "Eine Akteurin zeigte auf ein VR Objekt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/pointed"
+    ]
 }

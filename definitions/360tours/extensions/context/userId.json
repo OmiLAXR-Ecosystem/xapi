@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Unique identifier of a user account.",
         "de-DE": "Eindeutige Kennung eines Nutzeraccounts."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/context/userId"
+    ]
 }

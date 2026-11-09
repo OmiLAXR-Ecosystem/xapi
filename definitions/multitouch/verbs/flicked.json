@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor dragged a draggable across the screen and released it while moving, so it continued without further guidance.",
         "de-DE": "Ein Akteur zog ein ziehbares Objekt über den Bildschirm und lies es in der Bewegung los was dazu führte, dass das Objekt sich weiter bewegte."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/flicked"
+    ]
 }

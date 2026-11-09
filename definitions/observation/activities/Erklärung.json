@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Von Beobachtern durchgeführte Aufgabenerklärung"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung"
+    ]
 }

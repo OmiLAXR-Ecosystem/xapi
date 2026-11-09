@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The IDE is running.",
         "de-DE": "Die IDE läuft."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/running"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Response to a question given or received by the user.",
         "de-DE": "Eine Antwort - kann auf eine Frage gegeben oder erhalten werden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/answer"
+    ]
 }

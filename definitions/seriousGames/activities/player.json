@@ -7,6 +7,9 @@
         "en-US": "An actor which plays the game and interacts with it.",
         "de-DE": "Ein Agierender der das Spiel spielt und mit ihm interagiert."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/player"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/activityType/168"
     ]

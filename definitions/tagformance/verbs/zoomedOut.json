@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor zoomed out of a visual element like the graph generated."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/zoomedOut"
+    ]
 }

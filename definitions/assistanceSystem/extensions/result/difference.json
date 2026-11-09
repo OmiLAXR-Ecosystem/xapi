@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The difference between two objects, behaviors or persons.",
         "de-DE": "Der Unterschied zwischen Objekten, Verhaltensweisen oder Personen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/difference"
+    ]
 }

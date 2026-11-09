@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor changed the name of a 360° tour.",
         "de-DE": "Ein Akteur benannte eine 360° Tour um."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/renamed"
+    ]
 }

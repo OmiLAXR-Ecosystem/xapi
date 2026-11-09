@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Boolean value which is true when something is empty."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/result/empty"
+    ]
 }

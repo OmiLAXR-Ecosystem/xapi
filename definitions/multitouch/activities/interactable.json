@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Something a player can interact with in the game.",
         "de-DE": "Etwas womit der Spieler im Spiel interagieren kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/interactable"
+    ]
 }

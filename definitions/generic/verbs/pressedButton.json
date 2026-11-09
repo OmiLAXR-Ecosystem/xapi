@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor or group pressed a specific button. Only use if the press of specific buttons should be tracked. Use the specific button as activity then. Otherwise use pressed as verb and button as activity.",
         "de-DE": "Ein Akteur drückte einen bestimmten Knopf. Sollte nur genutzt werden, wenn das Drücken eines bestimmten Knopfes aufgezeichnet werden soll. Nutze dann den speziellen Knopf als Aktivität der Aussage. Andernfalls nutze drückte als Verb und Knopf als Aktivität."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/pressedButton"
+    ]
 }

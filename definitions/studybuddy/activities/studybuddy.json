@@ -7,6 +7,8 @@
         "en-US": "The interactive study planning tool.",
         "de-DE": "Der interaktive Studienverlaufsplaner."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/studybuddy"
+    ],
     "relatedMatch": []
 }

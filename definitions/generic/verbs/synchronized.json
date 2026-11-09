@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor synchronized data with an LMS for example, which means, that two objects/processes/devices synchronized between A and B or with something.",
         "de-DE": "Ein Agierender synchronisierte etwas, zum Beispiel Daten mit einem LMS, d.h. zwei Objekte/Vorgänge/Geräte wurden auf einen Stand gebracht."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/synchronized"
+    ]
 }

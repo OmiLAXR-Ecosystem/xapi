@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor zoomed out of some visual part of the game.",
         "de-DE": "Ein Akteur verkleinerte einen sichtbaren Teil des Spiels."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/zoomedOut"
+    ]
 }

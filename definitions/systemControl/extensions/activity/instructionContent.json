@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Represents the content of an instruction provided by the system.",
         "de-DE": "Repräsentiert den Inhalt einer Anweisung, die vom System erteilt wird."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity/instructionContent"
+    ]
 }

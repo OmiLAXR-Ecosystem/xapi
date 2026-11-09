@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A card, for example showing information inside a game or to display a task in a Kanban-Board.",
         "de-DE": "Eine Karte, die zum Beispiel Informationen in einem Spiel anzeigt oder eine Aufgabe in einem Kanban-Board repräsentiert."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/card"
+    ]
 }

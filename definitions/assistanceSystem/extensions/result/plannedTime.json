@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The planned time for an event to happen.",
         "de-DE": "Die geplante Zeit, zu der ein Ereignis stattfinden soll."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/plannedTime"
+    ]
 }

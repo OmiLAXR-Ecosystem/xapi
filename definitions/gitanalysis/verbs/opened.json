@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor opened an issue or a merge request.",
         "de-DE": "Ein Akteur öffnete ein Ticket oder eine Merge-Anfrage."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/opened"
+    ]
 }

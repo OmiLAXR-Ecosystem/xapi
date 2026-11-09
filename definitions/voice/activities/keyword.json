@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A keyword is a word the actor can use to interact with the system.",
         "de-DE": "Ein Schlüsselwort ist ein Wort, das für die Interaktion mit dem System genutzt werden kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/keyword"
+    ]
 }

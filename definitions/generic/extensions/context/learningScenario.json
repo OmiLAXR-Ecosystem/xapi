@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A learning scenario, which can consist of multiple learning units.",
         "de-DE": "Ein Lernszenario, welches aus mehreren Lerneinheiten bestehen kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/learningScenario"
+    ]
 }

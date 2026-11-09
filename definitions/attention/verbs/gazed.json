@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has gazed in a certain direction or towards an entity.",
         "de-DE": "Eine Akteurin richtete ihren Blick in eine bestimmte Richtung oder auf eine Entität."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/attention/verbs/gazed"
+    ]
 }

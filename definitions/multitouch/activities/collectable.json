@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Something which can be collected inside the game to fulfill a task or goal.",
         "de-DE": "Ein Objekt, welches im Spiel eingesammelt werden kann um ein Spielziel zu erreichen oder eine Aufgabe zu erfüllen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/collectable"
+    ]
 }

@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer respektvoll und tolerant mit Meinungsverschiedenheiten umgeht"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um"
+    ],
     "result": {
         "score": {
             "min": 1,

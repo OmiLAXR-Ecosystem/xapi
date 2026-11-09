@@ -8,6 +8,7 @@
         "de-DE": "Ein grafisches Bild. Es kann sich um ein interaktives Objekt handeln, z. B. können Objekte dieses Typs eine zusätzliche Vollbild-Eigenschaft enthalten, deren Wert zu einer größeren Darstellung des Bildes führt."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/image",
         "https://registry.tincanapi.com/#uri/activityType/65",
         "https://activitystrea.ms/schema/1.0/image"
     ]

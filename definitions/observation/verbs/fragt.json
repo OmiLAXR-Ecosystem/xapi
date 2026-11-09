@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur fragt etwas"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/fragt"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nach Aufgaben Details"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/nach Aufgaben Details"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
                     ],
                     "result": {
                         "score": {
@@ -37,7 +40,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"
                     ],
                     "result": {
                         "score": {
@@ -49,7 +52,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/beteiligt sich sprachlich an Lösung der Aufgabe/stellt Fragen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/beteiligt sich sprachlich an Lösung der Aufgabe/stellt Fragen"
                     ],
                     "result": {
                         "score": {
@@ -63,12 +66,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -80,7 +83,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/wird immer wieder von sich aus aktiv"
                     ],
                     "result": {
                         "score": {
@@ -92,7 +95,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
                     ],
                     "result": {
                         "score": {
@@ -104,7 +107,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"
                     ],
                     "result": {
                         "score": {
@@ -116,7 +119,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
                     ],
                     "result": {
                         "score": {

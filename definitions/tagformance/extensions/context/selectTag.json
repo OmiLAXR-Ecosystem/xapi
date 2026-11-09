@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The RFID tag selected for measurement."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/selectTag"
+    ]
 }

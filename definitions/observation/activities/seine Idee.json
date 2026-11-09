@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Von Akteur selbst erbrachte Denkleistung"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine_Idee"
+    ]
 }

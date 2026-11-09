@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor clicked something on the screen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/clicked"
+    ]
 }

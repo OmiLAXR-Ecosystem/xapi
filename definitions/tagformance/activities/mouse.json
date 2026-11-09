@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A mouse used to click on buttons or drag items in the lab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/mouse"
+    ]
 }

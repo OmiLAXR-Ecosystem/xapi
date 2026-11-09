@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor deleted something.",
         "de-DE": "Ein Akteur löschte etwas."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/deleted"
+    ]
 }

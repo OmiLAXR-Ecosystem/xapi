@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Maximum heart rate observed within the analysis window (bpm).",
         "de-DE": "Maximale Herzfrequenz im Analysefenster (bpm)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrBpmMax"
+    ]
 }

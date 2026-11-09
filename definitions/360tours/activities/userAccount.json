@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A personal account for accessing a 360° tours platform.",
         "de-DE": "Ein persönliches Profil für den Zugriff auf eine 360° Touren Plattform."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/userAccount"
+    ]
 }

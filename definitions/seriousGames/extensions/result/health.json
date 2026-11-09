@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The current health of a player character. Has to be an integer.",
         "de-DE": "Das momentane Leben eines Spielers. Muss ein Integer sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/health"
+    ]
 }

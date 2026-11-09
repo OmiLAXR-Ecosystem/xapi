@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat ein Objekt (z. B. eine PDF Datei) heruntergeladen"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/downloaded",
         "https://registry.tincanapi.com/#uri/verb/475"
     ],
     "relatedMatch": []

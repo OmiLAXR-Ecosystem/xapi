@@ -7,6 +7,8 @@
         "en-US": "Content of a target activity. Must be a string.",
         "de-DE": "Inhalt der Zielaktivität. Muss ein String sein."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/content"
+    ],
     "relatedMatch": []
 }

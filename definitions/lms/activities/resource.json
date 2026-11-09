@@ -8,6 +8,7 @@
         "de-DE": "Eine Kursressource als einzelne Datei (z. B. PDF)."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/resource",
         "http://id.tincanapi.com/activitytype/resource"
     ],
     "relatedMatch": []

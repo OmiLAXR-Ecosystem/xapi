@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer geschriebene/bebilderte Informationen (z.B. Texte, Anweisungen) versteht"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/versteht_geschriebenebebilderte_Informationen_(z.B._Texte,_Anweisungen)"
+    ],
     "result": {
         "score": {
             "min": 1,

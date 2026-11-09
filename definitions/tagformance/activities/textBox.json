@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A textbox, where the actor can fill text."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/textBox"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The algorithm/model that estimates the measure.",
         "de-DE": "Algorithmus/Modell, das die Messgröße schätzt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/estimator"
+    ]
 }

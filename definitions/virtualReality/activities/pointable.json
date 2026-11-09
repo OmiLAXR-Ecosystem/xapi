@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An object which can be pointed and highlighted with for example a laser starting from the controller.",
         "de-DE": "Ein Objekt, welches z.B. mit einem Laser vom Controller markiert werden kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/pointable"
+    ]
 }

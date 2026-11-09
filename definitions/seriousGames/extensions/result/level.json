@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The result of a level change. Has to be a string or integer.",
         "de-DE": "Das neue Level welches das Ergebnis des Ereignisses ist."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/level"
+    ]
 }

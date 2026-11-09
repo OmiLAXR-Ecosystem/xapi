@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "aus dem Fenster"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus_dem_Fenster"
+    ]
 }

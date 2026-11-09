@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A list of people assigned to the issue.",
         "de-DE": "Eine Liste zuständiger Personen, denen ein Ticket zugewiesen wurde."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueAssignees"
+    ]
 }

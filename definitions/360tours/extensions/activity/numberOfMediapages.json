@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The total number of media pages associated with a 360° tour.",
         "de-DE": "Die Gesamtzahl der Medienseiten, die mit einer 360° Tour verknüpft sind."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity/numberOfMediapages"
+    ]
 }

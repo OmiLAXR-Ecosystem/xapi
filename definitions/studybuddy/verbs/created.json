@@ -7,6 +7,8 @@
         "en-US": "Actor created an object",
         "de-DE": "Akteur hat ein Objekt erstellt/angelegt"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/created"
+    ],
     "relatedMatch": []
 }

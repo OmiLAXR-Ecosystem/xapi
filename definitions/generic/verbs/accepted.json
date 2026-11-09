@@ -8,6 +8,7 @@
         "de-DE": "Signalisiert, dass ein Agierender ein Objekt akzeptiert hat. Zum Beispiel: Eine Person akzeptiert eine Auszeichnung oder eine Aufgabe."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/accepted",
         "https://registry.tincanapi.com/#uri/verb/80",
         "http://activitystrea.ms/schema/1.0/accept"
     ],

@@ -7,6 +7,8 @@
         "en-US": "Actor used the exercise generator to generate a new exercise.",
         "de-DE": "Akteur nutzte den Aufgabengenerator um eine neue Aufgabe generieren zu lassen."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/verbs/generated"
+    ],
     "relatedMatch": []
 }

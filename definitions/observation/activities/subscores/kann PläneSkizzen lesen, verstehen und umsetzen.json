@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Pläne/Skizzen lesen, verstehen und umsetzen kann"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/kann_PläneSkizzen_lesen,_verstehen_und_umsetzen"
+    ],
     "result": {
         "score": {
             "min": 1,

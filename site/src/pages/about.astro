@@ -42,6 +42,38 @@ import { href } from "../lib/url";
         <li>All definitions: <a href={href("definitions.json")}>definitions.json</a></li>
       </ul>
 
+      <h2>Why GitHub</h2>
+      <p>
+        Since version 2.0.0 the registry lives entirely on GitHub: the definitions in a public repository, this website on
+        GitHub Pages. An identifier has to outlive projects, funding periods and server contracts, and this setup is more
+        durable than a server run by a single institute:
+      </p>
+      <ul>
+        <li>No server of our own has to be operated, updated or paid for. The website is static and rebuilt from the repository on every change.</li>
+        <li>Every change to a definition is versioned and publicly traceable, down to the commit that introduced it.</li>
+        <li>Anyone can fork or mirror the repository. The definitions stay available even if this site is moved.</li>
+        <li>Maintenance does not depend on one person or institution; new maintainers only need access to the repository.</li>
+      </ul>
+      <p>
+        The IRIs therefore use the address of this site, <code>{REGISTRY_URL}</code>. Definitions that existed before kept
+        their former IRI under <code>https://xapi.elearn.rwth-aachen.de/</code> as an <code>exactMatch</code>, so statements
+        recorded with the former IRIs can still be mapped.
+      </p>
+
+      <h2>Origin and citation</h2>
+      <p>
+        The registry was started by the Learning Technologies Research Group at RWTH Aachen University. The original
+        registry is hosted at <a href="https://xapi.elearn.rwth-aachen.de/">xapi.elearn.rwth-aachen.de</a>. The concept
+        and the surrounding learning analytics infrastructure are described in the following paper. Please cite it if you
+        use the registry in your research:
+      </p>
+      <p>
+        Heinemann, B., Ehlenz, M., Görzen, S., &amp; Schroeder, U. (2022). xAPI Made Easy: A Learning Analytics
+        Infrastructure for Interdisciplinary Projects. <em>International Journal of Online and Biomedical Engineering
+        (iJOE)</em>, 18(14), 99–113.
+        <a href="https://doi.org/10.3991/ijoe.v18i14.35079">https://doi.org/10.3991/ijoe.v18i14.35079</a>
+      </p>
+
       <h2>Acknowledgement</h2>
       <p>
         The development of this initiative was partially funded by the Federal Ministry of Education and Research (BMBF) in
@@ -85,6 +117,38 @@ import { href } from "../lib/url";
         <li>Jede Definition: <a href={href("definitions/generic/activities/file.json")}>definitions/&lt;id&gt;.json</a></li>
         <li>Alle Definitionen: <a href={href("definitions.json")}>definitions.json</a></li>
       </ul>
+
+      <h2>Warum GitHub</h2>
+      <p>
+        Seit Version 2.0.0 liegt die Registry vollständig auf GitHub: die Definitionen in einem öffentlichen Repository,
+        diese Website auf GitHub Pages. Ein Identifier muss Projekte, Förderperioden und Serververträge überdauern, und
+        dieser Aufbau ist langlebiger als ein Server, den ein einzelnes Institut betreibt:
+      </p>
+      <ul>
+        <li>Es muss kein eigener Server betrieben, aktualisiert oder bezahlt werden. Die Website ist statisch und wird bei jeder Änderung aus dem Repository neu gebaut.</li>
+        <li>Jede Änderung an einer Definition ist versioniert und öffentlich nachvollziehbar, bis hin zum Commit, der sie eingeführt hat.</li>
+        <li>Jede und jeder kann das Repository forken oder spiegeln. Die Definitionen bleiben verfügbar, auch wenn diese Seite umzieht.</li>
+        <li>Die Pflege hängt nicht an einer Person oder Einrichtung; neue Maintainer brauchen nur Zugriff auf das Repository.</li>
+      </ul>
+      <p>
+        Die IRIs verwenden deshalb die Adresse dieser Seite, <code>{REGISTRY_URL}</code>. Bereits vorhandene Definitionen
+        behalten ihre frühere IRI unter <code>https://xapi.elearn.rwth-aachen.de/</code> als <code>exactMatch</code>, damit
+        Statements mit den früheren IRIs weiterhin zugeordnet werden können.
+      </p>
+
+      <h2>Herkunft und Zitieren</h2>
+      <p>
+        Die Registry wurde vom Lehr- und Forschungsgebiet Learning Technologies der RWTH Aachen ins Leben gerufen. Die
+        ursprüngliche Registry liegt unter <a href="https://xapi.elearn.rwth-aachen.de/">xapi.elearn.rwth-aachen.de</a>.
+        Das Konzept und die zugehörige Learning-Analytics-Infrastruktur beschreibt das folgende Paper. Bitte zitiere es,
+        wenn du die Registry in deiner Forschung verwendest:
+      </p>
+      <p>
+        Heinemann, B., Ehlenz, M., Görzen, S., &amp; Schroeder, U. (2022). xAPI Made Easy: A Learning Analytics
+        Infrastructure for Interdisciplinary Projects. <em>International Journal of Online and Biomedical Engineering
+        (iJOE)</em>, 18(14), 99–113.
+        <a href="https://doi.org/10.3991/ijoe.v18i14.35079">https://doi.org/10.3991/ijoe.v18i14.35079</a>
+      </p>
 
       <h2>Danksagung</h2>
       <p>

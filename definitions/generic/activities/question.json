@@ -8,6 +8,7 @@
         "de-DE": "Eine Frage kann gestellt oder beantwortet werden."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/question",
         "https://registry.tincanapi.com/#uri/activityType/75",
         "https://activitystrea.ms/schema/1.0/question"
     ]

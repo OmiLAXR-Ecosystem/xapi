@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The framerate is the amount of frames (images) per second, which was generated at the captured moment in the recorded period of time.",
         "de-DE": "Die Bildfrequenz ist die Anzahl an Einzelbildern pro Sekunde, die zum aufgenommenen Zeitpunkt bzw. während der aufgenommenen Zeitspanne vorgelegen hat."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/context/fps"
+    ]
 }

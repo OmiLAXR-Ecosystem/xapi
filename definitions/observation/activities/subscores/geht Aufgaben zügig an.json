@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Aufgaben zügig angeht"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/geht_Aufgaben_zügig_an"
+    ],
     "result": {
         "score": {
             "min": 1,

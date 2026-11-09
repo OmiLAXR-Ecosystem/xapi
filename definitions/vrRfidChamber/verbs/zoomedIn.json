@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor zoomed into some part of the screen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/zoomedIn"
+    ]
 }

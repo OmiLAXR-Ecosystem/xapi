@@ -6,5 +6,8 @@
     "description": {
         "en-US": "True, if the target window is maximized.",
         "de-DE": "Wahr, wenn das Fenster maximiert ist."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/maximized"
+    ]
 }

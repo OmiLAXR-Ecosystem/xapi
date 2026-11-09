@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A string representing the cell outputs of a JupyterLab cell. Outputs can contain, among others, execution results or display data.",
         "de-DE": "Ein String der die Ausgabe einer JupyterLab-Zelle beschreibt. Ausgaben können u.a. Ausführungsergebnisse oder Anzeigedaten enthalten."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/result/cellOutput"
+    ]
 }

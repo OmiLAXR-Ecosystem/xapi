@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The head that is selected to read the TID."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/readingHead"
+    ]
 }

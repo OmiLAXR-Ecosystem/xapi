@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Unbiased sample variance of heart rate over the analysis window (bpm²).",
         "de-DE": "Unverzerrte Stichprobenvarianz der Herzfrequenz über das Analysefenster (bpm²)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrBpmVariance"
+    ]
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Acteur las einen Text. Sollte nur genutzt werden wenn sichergestellt werden kann, dass der Text auch wirklich gelesen wurde."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/read",
         "https://registry.tincanapi.com/#uri/verb/130",
         "https://activitystrea.ms/schema/1.0/read"
     ]

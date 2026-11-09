@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Language of the system.",
         "de-DE": "Sprache des Systems."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/result/language"
+    ]
 }

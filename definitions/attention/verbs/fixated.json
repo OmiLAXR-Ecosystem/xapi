@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor fixated an object with her eyes. A fixation was detected, i.e., the eyes stayed in a small area between 100 and 500 milliseconds without saccades.",
         "de-DE": "Eine Akteurin fixierte ein Objekt mit ihren Augen. Eine Fixation wurde erkannt, d.h. die Augen haben ohne größere Sprünge zwischen 100 und 500 Millisekunden in einem kleinen Bereich verweilt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/attention/verbs/fixated"
+    ]
 }

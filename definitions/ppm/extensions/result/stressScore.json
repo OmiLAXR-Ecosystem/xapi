@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Normalized stress score (range [0.0; 1.0]).",
         "de-DE": "Normalisierter Stress-Score (empfohlener Bereich [0.0; 1.0])."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/stressScore"
+    ]
 }

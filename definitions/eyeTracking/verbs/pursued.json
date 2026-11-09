@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor smoothly pursued a moving target with her eyes. The gaze continuously followed the target while saccades were excluded.",
         "de-DE": "Eine Akteurin verfolgte ein bewegtes Ziel mit den Augen (glatte Blickfolge). Der Blick folgte dem Ziel kontinuierlich, während Sakkaden ausgeschlossen wurden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/verbs/pursued"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The number of instances in which the player marked an incorrect solution as correct.",
         "de-DE": "Die Anzahl der Male, in denen der Spielende es eine falsche Lösung als richtig markiert hat."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberCommissionErrors"
+    ]
 }

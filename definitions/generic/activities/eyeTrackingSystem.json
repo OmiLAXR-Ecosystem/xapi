@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A system to track gazes of an actor.",
         "de-DE": "Ein System um die Augenbewegungen eines Akteurs aufzuzeichnen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/eyeTrackingSystem"
+    ]
 }

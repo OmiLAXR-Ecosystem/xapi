@@ -7,6 +7,8 @@
         "en-US": "Actor clicked a link, button, ...",
         "de-DE": "Akteur klickte auf/an einen Link, Button, ..."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/clicked"
+    ],
     "relatedMatch": []
 }

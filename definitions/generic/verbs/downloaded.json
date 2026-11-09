@@ -8,6 +8,7 @@
         "de-DE": "Ein Benutzer nutze ein lokales Gerät um Daten von einem entfernten Speichermedium zu laden."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/downloaded",
         "http://id.tincanapi.com/verb/downloaded",
         "https://registry.tincanapi.com/#uri/verb/475"
     ]

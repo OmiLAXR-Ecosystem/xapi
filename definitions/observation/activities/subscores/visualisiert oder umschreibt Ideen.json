@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Ideen visualisiert oder umschreibt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/visualisiert_oder_umschreibt_Ideen"
+    ],
     "result": {
         "score": {
             "min": 1,

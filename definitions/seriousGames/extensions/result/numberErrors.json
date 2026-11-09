@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The number of Errors that have been made in a gamemode or level.",
         "de-DE": "Die Anzahl der Fehler, die in einem Spielmodus oder Level gemacht wurden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberErrors"
+    ]
 }

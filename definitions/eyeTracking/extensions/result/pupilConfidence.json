@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Confidence score [0.0;1.0] reflecting the system's certainty in the pupil measurement at the sample time.",
         "de-DE": "Confidence-Wert [0,0;1,0], der die Sicherheit des Systems bei der Pupillenmessung zum Abtastzeitpunkt widerspiegelt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/pupilConfidence"
+    ]
 }

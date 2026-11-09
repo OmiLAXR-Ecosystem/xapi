@@ -7,6 +7,8 @@
         "en-US": "An exercise generator.",
         "de-DE": "Ein Aufgabengenerator."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/activities/generator"
+    ],
     "relatedMatch": []
 }

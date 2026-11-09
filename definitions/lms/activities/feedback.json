@@ -7,6 +7,8 @@
         "en-US": "An activity to create surveys, questionnaires or polls with.",
         "de-DE": "Eine Aktivität mit der Umfragen oder Fragebögen erstellt werden können."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/feedback"
+    ],
     "relatedMatch": []
 }

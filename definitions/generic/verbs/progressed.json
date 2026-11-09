@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur erzielte in einer Form einen Fortschritt im Spiel(erreichte oder vollendete etwas)."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/progressed",
         "https://registry.tincanapi.com/#uri/verb/31",
         "https://adlnet.gov/expapi/verbs/progressed"
     ]

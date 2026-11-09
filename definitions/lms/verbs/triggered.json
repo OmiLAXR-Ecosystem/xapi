@@ -7,6 +7,8 @@
         "en-US": "Actor triggered a process",
         "de-DE": "Akteur hat einen Prozess ausgelöst"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/triggered"
+    ],
     "relatedMatch": []
 }

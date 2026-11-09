@@ -6,6 +6,7 @@
         "en-US": "An image of the reader is generated which is interactable. The reading head is selected in the image."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/readerImage",
         "https://registry.tincanapi.com/#uri/activityType/65"
     ]
 }

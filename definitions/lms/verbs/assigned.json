@@ -8,6 +8,7 @@
         "de-DE": "Akteur wurde ein/e Objekt/Aufgabe/Aktivität zugeteilt"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/assigned",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/88"
     ],

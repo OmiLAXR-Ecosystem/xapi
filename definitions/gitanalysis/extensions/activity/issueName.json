@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The name of the issue.",
         "de-DE": "Der Name des Tickets."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueName"
+    ]
 }

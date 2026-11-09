@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Name of the mouse button the actor has used (e.g. 'right', 'left')."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/mouseButton"
+    ]
 }

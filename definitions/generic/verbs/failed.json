@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur scheiterte an einer Aufgabe."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/failed",
         "https://registry.tincanapi.com/#uri/verb/20",
         "https://adlnet.gov/expapi/verbs/failed"
     ]

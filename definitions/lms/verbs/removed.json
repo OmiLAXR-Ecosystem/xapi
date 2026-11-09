@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat ein/e Objekt/Person von einer Sammlung entfernt"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/removed",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/133"
     ],

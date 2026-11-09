@@ -3,8 +3,9 @@
 A repository to host definitions for xAPI verbs, activities and other related features.
 
 Each definition is a JSON file at `definitions/<context>/<verbs|activities|extensions>/…/<name>.json`.
-Its IRI is `https://xapi.elearn.rwth-aachen.de/definitions/<path without .json>`, with spaces replaced by `_`.
-Renaming or moving a file changes the IRI.
+Its IRI is `https://omilaxr-ecosystem.github.io/xapi/definitions/<path without .json>`, with spaces replaced by `_`.
+Renaming or moving a file changes the IRI. Up to version 1.x the IRIs started with `https://xapi.elearn.rwth-aachen.de/`;
+every definition keeps its former IRI as the first entry of `exactMatch`.
 
 ## Website
 
@@ -23,4 +24,4 @@ npm run build    # writes site/dist, fails on invalid definitions
 ```
 
 Environment variables: `SITE_URL` and `BASE_PATH` set where the site is served (CI takes them from the
-Pages settings). `REGISTRY_URL` is the IRI base and defaults to `https://xapi.elearn.rwth-aachen.de/`.
+Pages settings). `REGISTRY_URL` is the IRI base and defaults to `https://omilaxr-ecosystem.github.io/xapi/`.

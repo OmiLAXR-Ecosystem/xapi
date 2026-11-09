@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor has released, for example, a controller button or a virtual object.",
         "de-DE": "Eine Akteurin löste z.B. eine Controller Taste oder ein virtuelles Objekt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/released"
+    ]
 }

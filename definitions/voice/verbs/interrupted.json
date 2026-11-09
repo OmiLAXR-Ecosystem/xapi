@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has interrupted someone/ cut someone off.",
         "de-DE": "Eine Akteurin hat jemanden unterbrochen/ ist jemandem ins Wort gefallen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/interrupted"
+    ]
 }

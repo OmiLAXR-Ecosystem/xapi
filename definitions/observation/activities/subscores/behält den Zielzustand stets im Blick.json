@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer den Zielzustand stets im Blick behält"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/behält_den_Zielzustand_stets_im_Blick"
+    ],
     "result": {
         "score": {
             "min": 1,

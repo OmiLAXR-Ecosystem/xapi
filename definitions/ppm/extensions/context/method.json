@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Estimation method or algorithm used (e.g., BPM→IBI approximation, RR-based HRV).",
         "de-DE": "Verwendete Schätzmethode bzw. Algorithmus (z. B. BPM→IBI-Approximation, RR-basiertes HRV)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/context/method"
+    ]
 }

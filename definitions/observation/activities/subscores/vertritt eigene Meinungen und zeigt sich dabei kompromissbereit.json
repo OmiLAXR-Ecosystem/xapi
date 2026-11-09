@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Meinungen vertritt und sich dabei kompromissbereit zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/vertritt_eigene_Meinungen_und_zeigt_sich_dabei_kompromissbereit"
+    ],
     "result": {
         "score": {
             "min": 1,

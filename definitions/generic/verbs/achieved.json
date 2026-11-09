@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor achieved some goal or score.",
         "de-DE": "Ein Akteur erreichte ein Ziel oder ein Ergebnis."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/achieved"
+    ]
 }

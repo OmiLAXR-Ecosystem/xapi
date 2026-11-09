@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The content of a comment (text, link, picture, etc.).",
         "de-DE": "Der Inhalt eines Kommentares."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commentContent"
+    ]
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur spielte ein Spiel oder etwas spezifisches in einem Spiel."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/played",
         "https://registry.tincanapi.com/#uri/verb/49",
         "https://activitystrea.ms/schema/1.0/play"
     ]

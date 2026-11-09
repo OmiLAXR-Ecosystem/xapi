@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor sorted some objects.",
         "de-DE": "Ein Akteur sortierte Objekte."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/sorted"
+    ]
 }

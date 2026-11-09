@@ -6,5 +6,8 @@
     "description": {
         "en-US": "It is the name of an action.",
         "de-DE": "Es ist der Name einer Aktion."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/actionName"
+    ]
 }

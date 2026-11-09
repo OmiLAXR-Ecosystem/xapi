@@ -7,6 +7,8 @@
         "en-US": "A submission for an assignment object. Contains the proposed solution for the assignment's task description.",
         "de-DE": "Eine Abgabe zu einer Aufgabe. Enthält die vorgeschlagene Lösung zu der Aufgabenstellung der Aufgabe."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/assignSubmission"
+    ],
     "relatedMatch": []
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur öffnete etwas. Könnten zum Beispiel auch die Einstellungen sein."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/opened",
         "https://registry.tincanapi.com/#uri/verb/126",
         "https://activitystrea.ms/schema/1.0/open"
     ]

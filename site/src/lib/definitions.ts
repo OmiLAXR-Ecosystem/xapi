@@ -11,7 +11,14 @@ export const REPO_ROOT = path.resolve(process.cwd(), "..");
 export const DEFINITIONS_DIR = path.join(REPO_ROOT, "definitions");
 
 /** Base of every IRI. It is the identifier, independent of where this site is hosted. */
-export const REGISTRY_URL = withSlash(process.env.REGISTRY_URL || "https://xapi.elearn.rwth-aachen.de/");
+export const REGISTRY_URL = withSlash(process.env.REGISTRY_URL || "https://omilaxr-ecosystem.github.io/xapi/");
+
+/** Earlier IRI bases. Each definition lists its IRI under such a base as an exactMatch. */
+export const FORMER_REGISTRY_URLS = ["https://xapi.elearn.rwth-aachen.de/"];
+
+export function isFormerIri(iri: string): boolean {
+  return FORMER_REGISTRY_URLS.some((base) => iri.startsWith(`${base}definitions/`));
+}
 export const REPO_URL = (process.env.REPO_URL || "https://github.com/OmiLAXR-Ecosystem/xapi").replace(/\/$/, "");
 
 export const TYPES = ["verbs", "activities", "extensions"] as const;

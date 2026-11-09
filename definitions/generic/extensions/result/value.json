@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The value of an element.",
         "de-DE": "Der Wert eines Elements."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/value"
+    ]
 }

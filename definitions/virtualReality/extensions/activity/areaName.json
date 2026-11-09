@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Human-readable name of the area or room at the time of the event.",
         "de-DE": "Menschenlesbarer Name des Bereichs oder Raums zum Zeitpunkt des Ereignisses."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/areaName"
+    ]
 }

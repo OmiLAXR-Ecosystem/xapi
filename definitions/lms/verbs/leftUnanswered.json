@@ -7,6 +7,8 @@
         "en-US": "An Actor did not give an answer to a question. Might occur in quizzes if a question is left open.",
         "de-DE": "Ein Akteur hat keine Antwort auf eine Frage gegeben. Kann z. B. in Tests auftreten, wenn das Antwortfeld einer Frage leer ist."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/leftUnanswered"
+    ],
     "relatedMatch": []
 }

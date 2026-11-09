@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A word shown on the screen that eventually can be interacted with in some way.",
         "de-DE": "Ein Wort, welches auf dem Bildschirm angezeigt wird und mit dem eventuell interagiert werden kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/word"
+    ]
 }

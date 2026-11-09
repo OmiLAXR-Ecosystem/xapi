@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Facial emotion detected based on the actor’s facial expressions, computed from facial Action Units (AUs).",
         "de-DE": "Erkannte Gesichtsemotion basierend auf dem Gesichtsausdruck der Akteurin, berechnet aus Facial Action Units (AUs)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/facialTracking/activities/emotion"
+    ]
 }

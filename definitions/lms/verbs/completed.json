@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat eine Aktivität/Aufgabe fertiggestellt"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/completed",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/98"
     ],

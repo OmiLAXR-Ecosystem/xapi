@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Actor closed an application, asset, video, ...",
         "de-DE": "Akteur hat eine Applikation, ein Asset, ein Video, ... geschlossen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/closed"
+    ]
 }

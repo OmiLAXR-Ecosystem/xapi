@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The date the issue is or was due.",
         "de-DE": "Das Datum an dem ein Ticket fällig ist oder war."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueDueDate"
+    ]
 }

@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen"
+    ],
     "result": {
         "score": {
             "min": 1,

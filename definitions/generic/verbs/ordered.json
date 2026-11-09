@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor brought some objects into order.",
         "de-DE": "Ein Akteur ordnete ein Anzahl an Gegenständen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/ordered"
+    ]
 }

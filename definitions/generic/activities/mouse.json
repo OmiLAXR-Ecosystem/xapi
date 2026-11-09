@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A mouse to use UI or interact with the system in another way.",
         "de-DE": "Eine Maus um die Benutzeroberfläche zu benutzen oder in einer anderen Form mit dem System zu interagieren."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/mouse"
+    ]
 }

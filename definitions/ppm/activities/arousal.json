@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor’s general arousal level.",
         "de-DE": "Das allgemeine Erregungsniveau (Arousal) der Akteurin."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/arousal"
+    ]
 }

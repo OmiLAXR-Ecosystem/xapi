@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor zoomed into the visual element like the graph generated."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/zoomedIn"
+    ]
 }

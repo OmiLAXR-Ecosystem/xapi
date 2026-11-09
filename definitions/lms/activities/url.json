@@ -7,6 +7,8 @@
         "en-US": "A URL object, linking to another website or web resource.",
         "de-DE": "Ein Link, der auf eine andere Webseite oder Webressource weiterleitet."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/url"
+    ],
     "relatedMatch": []
 }

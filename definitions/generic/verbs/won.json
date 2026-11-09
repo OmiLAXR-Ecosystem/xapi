@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur gewann ein Spiel."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/won",
         "https://registry.tincanapi.com/#uri/verb/162",
         "https://activitystrea.ms/schema/1.0/win"
     ]

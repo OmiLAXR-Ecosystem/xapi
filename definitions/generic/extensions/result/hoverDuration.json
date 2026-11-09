@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The time in seconds the pointer or input source has been hovering over the UI element.",
         "de-DE": "Die Zeit in Sekunden, in der sich der Zeiger oder die Eingabequelle über dem UI-Element befand."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/hoverDuration"
+    ]
 }

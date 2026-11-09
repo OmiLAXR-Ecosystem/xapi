@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The identifier of a commit, given as a hash. Can be used to find a certain commit in the repository.",
         "de-DE": "Ein Hash zur eindeutigen Identifikation eines Commits. Hilfreich zur Suche bestimmter Commits im Repo."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/commitId"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor crossed out some text or object.",
         "de-DE": "Ein Acteur streichte einen Text oder ein Objekt durch."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/crossedOut"
+    ]
 }

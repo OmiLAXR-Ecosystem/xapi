@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Something an actor can press, which then triggers an action in the lab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/button"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Mean angular eye velocity, in degrees per second, over the pursuit segment.",
         "de-DE": "Mittlere angulare Blickgeschwindigkeit in Grad pro Sekunde über die Pursuit-Phase."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/averageEyeVelocity"
+    ]
 }

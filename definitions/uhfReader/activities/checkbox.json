@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A box which can be checked or unchecked. For example in this case Read TID should be selected."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/checkbox"
+    ]
 }

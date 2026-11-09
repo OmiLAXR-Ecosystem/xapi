@@ -7,6 +7,8 @@
         "en-US": "A video, played by a video player.",
         "de-DE": "Ein Video, welches von einem geeigneten Wiedergabegerät abgespielt wird."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/activities/video"
+    ],
     "relatedMatch": []
 }

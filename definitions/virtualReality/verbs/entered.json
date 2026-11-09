@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has entered an area or room.",
         "de-DE": "Eine Akteurin hat einen Bereich oder Raum betreten."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/entered"
+    ]
 }

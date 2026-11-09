@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor dragged and pulled an object."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/dragPull"
+    ]
 }

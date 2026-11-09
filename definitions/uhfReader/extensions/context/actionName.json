@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Name of a UI element action, which the user interacted with. For example the read value checkbox has the name 'readValue'."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/actionName"
+    ]
 }

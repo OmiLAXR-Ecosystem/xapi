@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor unapproved a merge request.",
         "de-DE": "Ein Akteur hob die Genehmigung für eine Merge-Anfrage auf."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/unapproved"
+    ]
 }

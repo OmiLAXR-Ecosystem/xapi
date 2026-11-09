@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur lies einen Gegenstand zurück."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/left",
         "https://registry.tincanapi.com/#uri/verb/121",
         "https://activitystrea.ms/schema/1.0/leave"
     ]

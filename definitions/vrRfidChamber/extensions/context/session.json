@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A session is one execution of the lab from entering the lab to exiting it."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/session"
+    ]
 }

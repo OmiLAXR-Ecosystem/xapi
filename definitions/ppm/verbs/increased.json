@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The measure increased compared to the previous value.",
         "de-DE": "Die Messgröße ist im Vergleich zum vorherigen Wert gestiegen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/verbs/increased"
+    ]
 }

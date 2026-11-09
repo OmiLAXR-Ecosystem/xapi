@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur setzte eine Aktivität in einer Spiel Instanz fort."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/resumed",
         "https://adlnet.gov/expapi/verbs/resumed",
         "https://registry.tincanapi.com/#uri/verb/33"
     ]

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A list of words used to describe or group activities.",
         "de-DE": "Eine Liste mit von Wörtern mit denen eine Aktivität beschrieben wird oder mit denen mehrere Aktivitäten gruppiert werden können."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/activity/tags"
+    ]
 }

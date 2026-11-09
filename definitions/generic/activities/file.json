@@ -8,6 +8,7 @@
         "de-DE": "Eine Sammlung von meist zusammenhängenden Daten auf einem Speichermedium die zusammen unter einem bestimmten Namen gespeichert werden."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/file",
         "http://activitystrea.ms/schema/1.0/file",
         "https://registry.tincanapi.com/#uri/activityType/62"
     ]

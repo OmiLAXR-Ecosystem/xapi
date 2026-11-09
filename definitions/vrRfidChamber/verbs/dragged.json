@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor has dragged an object across the screen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/dragged"
+    ]
 }

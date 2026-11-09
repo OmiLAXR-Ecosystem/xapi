@@ -8,6 +8,7 @@
         "de-DE": "Ein Kurs in einem LMS. Enthält Lernmaterialien und -aktivitäten"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/course",
         "http://adlnet.gov/expapi/activities/course"
     ],
     "relatedMatch": []

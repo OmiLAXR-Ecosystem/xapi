@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer auf andere achtet/Rücksicht nimmt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/achtet_auf_anderenimmt_Rücksicht"
+    ],
     "result": {
         "score": {
             "min": 1,

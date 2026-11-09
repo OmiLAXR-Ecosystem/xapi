@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A button to stop a video.",
         "de-DE": "Ein Knopf um ein Video zu stoppen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/stopVideoButton"
+    ]
 }
