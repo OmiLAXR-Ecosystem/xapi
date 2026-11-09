@@ -7,6 +7,8 @@
         "en-US": "Actor updated an object",
         "de-DE": "Akteur hat ein Objekt aktualisiert"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/updated"
+    ],
     "relatedMatch": []
 }

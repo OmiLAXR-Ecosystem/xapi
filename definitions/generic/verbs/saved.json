@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur speicherte den Fortschritt."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/saved",
         "https://registry.tincanapi.com/#uri/verb/142",
         "https://activitystrea.ms/schema/1.0/save"
     ]

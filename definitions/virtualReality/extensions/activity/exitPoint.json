@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The world position (and optionally orientation) where the actor exited the area.",
         "de-DE": "Die Weltposition (und optional Orientierung), an der die Akteurin den Bereich verlassen hat."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/exitPoint"
+    ]
 }

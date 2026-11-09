@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor found some item and collected it.",
         "de-DE": "Ein Akteur fand einen Gegenstand und sammelte ihn ein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/looted"
+    ]
 }

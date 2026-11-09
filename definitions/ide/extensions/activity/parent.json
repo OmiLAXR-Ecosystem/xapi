@@ -7,6 +7,8 @@
         "en-US": "Parent of activity target. Must be a string.",
         "de-DE": "Elternteil der Zielaktivität. Muss ein String sein."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/parent"
+    ],
     "relatedMatch": []
 }

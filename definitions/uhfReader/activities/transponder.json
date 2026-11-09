@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Represents the transponder to the physical reader."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/transponder"
+    ]
 }

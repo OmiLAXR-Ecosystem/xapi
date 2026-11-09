@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The reason a CI/CD pipeline was triggered.",
         "de-DE": "Der Grund, der die Ausführung der CI/CD-Pipeline ausgelöst hat."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/pipelineTrigger"
+    ]
 }

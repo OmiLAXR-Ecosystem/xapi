@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The result of a change of the gamemode. Can be a string or integer.",
         "de-DE": "Der neue Spielmodus der aus dem Ereignis hervorgeht."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/gamemode"
+    ]
 }

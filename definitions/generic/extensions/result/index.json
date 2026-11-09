@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A number to index something. Can only be an integer.",
         "de-DE": "Eine Zahl zur Indexierung von etwas. Muss ganzzahlig sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/index"
+    ]
 }

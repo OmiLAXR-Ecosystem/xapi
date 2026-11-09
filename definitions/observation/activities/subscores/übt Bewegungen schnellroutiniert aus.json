@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Bewegungen schnell/routiniert ausübt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/übt_Bewegungen_schnellroutiniert_aus"
+    ],
     "result": {
         "score": {
             "min": 1,

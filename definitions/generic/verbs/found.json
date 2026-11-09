@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur fand einen Gegenstand."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/found",
         "https://registry.tincanapi.com/#uri/verb/110",
         "https://activitystrea.ms/schema/1.0/find"
     ]

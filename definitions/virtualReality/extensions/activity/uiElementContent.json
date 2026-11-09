@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The content of a VR user interface element, such as input controls (e.g., buttons, sliders) or navigation components. The content may include elements like button labels or instructional texts within a panel.",
         "de-DE": "Der Inhalt eines VR-Benutzerflächenelements, wie etwa Eingabesteuerungen (z. B. Schaltflächen, Schieberegler) oder Navigationselemente. Der Inhalt kann beispielsweise aus Schaltflächentexten oder Anweisungen innerhalb eines Bedienfelds bestehen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementContent"
+    ]
 }

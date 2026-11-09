@@ -7,6 +7,8 @@
         "en-US": "Plugin for collaborative markup on PDF documents.",
         "de-DE": "Plugin zum kollaborativem Markieren von PDF Dokumenten."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/pdfannotator"
+    ],
     "relatedMatch": []
 }

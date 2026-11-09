@@ -6,6 +6,7 @@
         "en-US": "An actor logged out of the portal."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/loggedOut",
         "https://registry.tincanapi.com/#uri/verb/398"
     ]
 }

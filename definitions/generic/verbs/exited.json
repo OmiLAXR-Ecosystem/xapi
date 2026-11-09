@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor exited a previously hovered or focused user interface element, area, or object — for example by moving a pointer or gaze away.",
         "de-DE": "Ein Akteur verließ ein zuvor fokussiertes oder überflogenes Benutzeroberflächenelement, einen Bereich oder ein Objekt — beispielsweise durch das Wegbewegen von Zeiger oder Blick."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/exited"
+    ]
 }

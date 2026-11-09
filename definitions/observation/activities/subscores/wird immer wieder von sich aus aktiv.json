@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer immer wieder von sich aus aktiv wird"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/wird_immer_wieder_von_sich_aus_aktiv"
+    ],
     "result": {
         "score": {
             "min": 1,

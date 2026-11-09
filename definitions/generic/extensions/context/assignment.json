@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An assignment for a specific topic or a defined learning goal.",
         "de-DE": "Eine Aufgabe für ein bestimmtes Thema oder ein definiertes Lernziel."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/assignment"
+    ]
 }

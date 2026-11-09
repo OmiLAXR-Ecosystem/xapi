@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat eine/n Person/Gegenstand zu einer Sammlung hinzugefügt"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/added",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/83"
     ],

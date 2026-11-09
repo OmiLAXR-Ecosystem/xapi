@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer sich sprachlich an Lösung der Aufgabe beteiligt/Fragen stellt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/beteiligt_sich_sprachlich_an_Lösung_der_Aufgabestellt_Fragen"
+    ],
     "result": {
         "score": {
             "min": 1,

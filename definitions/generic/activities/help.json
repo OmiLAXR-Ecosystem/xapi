@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Something an actor can ask for to find the solution to a task.",
         "de-DE": "Etwas wonach eine Person fragen kann um eine Lösung für eine Aufgabe zu finden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/help"
+    ]
 }

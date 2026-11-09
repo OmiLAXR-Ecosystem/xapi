@@ -6,5 +6,8 @@
     "description": {
         "en-US": "ISO 8601 timestamp marking when the pursuit segment ended (statement timestamp should equal this).",
         "de-DE": "ISO-8601-Zeitstempel, der das Ende der Pursuit-Phase markiert (Statement-Zeitstempel sollte damit übereinstimmen)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/pursuitEnd"
+    ]
 }

@@ -5,6 +5,9 @@
     "description": {
         "en-US": "An actor started an activity or process."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/started"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/149"
     ]

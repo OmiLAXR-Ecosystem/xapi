@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Position of activity target. Must be a string with coordinates of '(x,y)'.",
         "de-DE": "Position der Zielaktivität. Muss ein String mit Koordinaten sein '(x,y)'."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/position"
+    ]
 }

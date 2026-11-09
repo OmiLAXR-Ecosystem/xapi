@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A code written by the player was executed.",
         "de-DE": "Ein vom Spielenden geschriebener Code wurde ausgeführt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/verbs/compiled"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor has entered a relaxed state according to the estimator.",
         "de-DE": "Die Akteurin ist gemäß dem Schätzer in einen entspannten Zustand gewechselt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/verbs/relaxed"
+    ]
 }

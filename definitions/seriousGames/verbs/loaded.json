@@ -7,6 +7,9 @@
         "en-US": "An actor loaded something in the game (a level or menu for example).",
         "de-DE": "Ein Akteur lud etwas im Spiel. Dies kann zum Beispiel ein Meü oder Level sein"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/verbs/loaded"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/38"
     ]

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor asked something.",
         "de-DE": "Eine Akteurin hat etwas gefragt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/asked"
+    ]
 }

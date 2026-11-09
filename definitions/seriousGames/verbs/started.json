@@ -8,6 +8,7 @@
         "de-DE": "Ein Spieler startete eine Aktivität in einer Spiel Instanz. Dies könnte zum Beispiel ein Spiel selber sein, ein Level oder ein Spielabschnitt."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/verbs/started",
         "https://registry.tincanapi.com/#uri/verb/149",
         "https://activitystrea.ms/schema/1.0/start"
     ]

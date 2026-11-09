@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The title of a merge request.",
         "de-DE": "Der Titel der Merge-Anfrage"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeTitle"
+    ]
 }

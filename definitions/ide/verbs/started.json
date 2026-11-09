@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur startete ein Plugin oder eine Applikation."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/started",
         "https://registry.tincanapi.com/#uri/verb/149",
         "https://activitystrea.ms/schema/1.0/start"
     ]

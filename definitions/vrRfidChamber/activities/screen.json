@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The screen showing the virtual lab and can be clicked or touched on for interaction with the game."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/screen"
+    ]
 }

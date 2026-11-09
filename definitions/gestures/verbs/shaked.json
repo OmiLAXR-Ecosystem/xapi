@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has shaken something, for example a part of her body.",
         "de-DE": "Eine Akteurin schüttelte etwas, zum Beispiel einen Körperteil wie ihren Kopf."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/shaked"
+    ]
 }

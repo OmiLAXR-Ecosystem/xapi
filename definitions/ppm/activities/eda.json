@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Electrodermal activity (skin conductance).",
         "de-DE": "Elektrodermale Aktivität (Hautleitfähigkeit)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/eda"
+    ]
 }

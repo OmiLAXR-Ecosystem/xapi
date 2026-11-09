@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The number of attempts that have been completed, either by winning or losing.",
         "de-DE": "Die Anzahl der Versuche, die beendet wurden, sowohl durch Gewinnen als auch Verlieren."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberCompleted"
+    ]
 }

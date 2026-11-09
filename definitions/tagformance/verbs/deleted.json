@@ -5,6 +5,9 @@
     "description": {
         "en-US": "An actor has deleted a digital artefact from the software."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/deleted"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/103"
     ]

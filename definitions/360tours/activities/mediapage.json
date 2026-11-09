@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A page displaying a single 360° image or video, allowing users to explore the content interactively.",
         "de-DE": "Eine Seite, die ein einzelnes 360° Bild oder Video anzeigt und es Benutzern ermöglicht, den Inhalt interaktiv zu erkunden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/mediapage"
+    ]
 }

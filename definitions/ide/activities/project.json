@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A project is a temporary endeavor designed to achieve a specific goal or set of objectives.",
         "de-DE": "Ein Projekt ist ein zeitlich begrenztes Vorhaben, das darauf ausgerichtet ist, ein bestimmtes Ziel oder eine bestimmte Reihe von Zielen zu erreichen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/project"
+    ]
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Lernmanagementsystem (LMS)"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/lms",
         "http://id.tincanapi.com/activitytype/lms"
     ],
     "relatedMatch": []

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has scrolled on a trackpad or mouse wheel.",
         "de-DE": "Der Agierende skrollte auf einem Trackpad or Mausrad."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/scrolled"
+    ]
 }

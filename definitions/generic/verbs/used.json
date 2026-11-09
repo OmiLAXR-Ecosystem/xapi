@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur benutze einen Gegenstand."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/used",
         "https://registry.tincanapi.com/#uri/verb/161",
         "https://activitystrea.ms/schema/1.0/use"
     ]

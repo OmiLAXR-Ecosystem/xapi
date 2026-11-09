@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer sich höflich, freundlich und wohlwollend verhält"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/verhält_sich_höflich,_freundlich_und_wohlwollend"
+    ],
     "result": {
         "score": {
             "min": 1,

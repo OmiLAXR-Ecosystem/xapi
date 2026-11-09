@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Mainscore (5/5) wenn ein Akteuer Achtsamkeit zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Achtsamkeit"
+    ],
     "result": {
         "score": {
             "min": 1,

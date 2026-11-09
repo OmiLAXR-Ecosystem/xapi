@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A box which can be checked to select an already generated graph. Then it can be deleted using the cross button."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/checkbox"
+    ]
 }

@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer sich hilfsbereit zeigt und andere aktiv unterstützt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_sich_hilfsbereit_und_unterstützt_andere_aktiv"
+    ],
     "result": {
         "score": {
             "min": 1,

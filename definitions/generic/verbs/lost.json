@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur verlor das Spiel."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/lost",
         "https://registry.tincanapi.com/#uri/verb/124",
         "https://activitystrea.ms/schema/1.0/lose"
     ]

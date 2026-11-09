@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "In this case the best possible orientation of the RFID tag is measured."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/orientationmeasure"
+    ]
 }

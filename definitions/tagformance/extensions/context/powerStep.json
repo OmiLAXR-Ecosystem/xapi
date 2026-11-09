@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The power step selected for the measurement."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/powerStep"
+    ]
 }

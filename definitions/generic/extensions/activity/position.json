@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A number or other identifier (e.g. 'top', 'bottom') to identify the position of an element inside a collection such as a list of elements.",
         "de-DE": "Eine Nummer oder ein anderer Kennzeichnung einer Position eines Elementes einer Sammlung wie zum Beispliel einer Liste von Elementen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/position"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Arithmetic mean of heart rate over the analysis window (bpm).",
         "de-DE": "Arithmetischer Mittelwert der Herzfrequenz über das Analysefenster (bpm)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrBpmMean"
+    ]
 }

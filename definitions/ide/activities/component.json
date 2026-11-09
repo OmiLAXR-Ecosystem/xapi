@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A component is a container with functionality for the IDE or application.",
         "de-DE": "Eine Komponente ist ein Halter für Functionalität der IDE oder Applikation."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/component"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor’s physiological stress state.",
         "de-DE": "Der physiologische Stresszustand der Akteurin."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/stress"
+    ]
 }

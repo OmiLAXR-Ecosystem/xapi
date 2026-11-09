@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The names of the files, which were modified in a commit.",
         "de-DE": "Die Namen der Dateien, die im Commit verändert wurden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commitModifiedFiles"
+    ]
 }

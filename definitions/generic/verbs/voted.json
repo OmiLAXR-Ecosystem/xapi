@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A group of actors voted on something.",
         "de-DE": "Eine Gruppe von Acteuren stimmte für etwas ab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/voted"
+    ]
 }

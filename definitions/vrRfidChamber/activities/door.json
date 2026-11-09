@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor opened or closed the door"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/door"
+    ]
 }

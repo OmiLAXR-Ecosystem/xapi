@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The position of the mouse.",
         "de-DE": "Die Position der Maus."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/mousePosition"
+    ]
 }

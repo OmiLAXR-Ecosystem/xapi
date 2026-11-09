@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Additional explanation or information that serves the understanding of the game content.",
         "de-DE": "Zusätzliche Erklärung oder Informationen, die dem Verständis der Spielinhalte dienen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/explanation"
+    ]
 }

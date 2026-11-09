@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor has watched the formation of the graph."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/watched"
+    ]
 }

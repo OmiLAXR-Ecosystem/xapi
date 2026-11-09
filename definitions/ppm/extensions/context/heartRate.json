@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Heart rate as conditional information of a context. The value is an integer.",
         "de-DE": "Die Herzfrequenz als bedingte Information in einem Kontext. Der Wert ist eine Ganzzahl."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/context/heartRate"
+    ]
 }

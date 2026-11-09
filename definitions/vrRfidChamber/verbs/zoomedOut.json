@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor zoomed out of some part of the screen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/zoomedOut"
+    ]
 }

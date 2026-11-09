@@ -7,6 +7,8 @@
         "en-US": "A collection of definitions, resources and information.",
         "de-DE": "Eine Sammlung verschiedener Definitionen, Ressourcen und Informationen."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/glossary"
+    ],
     "relatedMatch": []
 }

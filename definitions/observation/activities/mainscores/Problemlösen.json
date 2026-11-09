@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Mainscore (5/5) wenn ein Akteuer Problemlösent zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Problemlösen"
+    ],
     "result": {
         "score": {
             "min": 1,

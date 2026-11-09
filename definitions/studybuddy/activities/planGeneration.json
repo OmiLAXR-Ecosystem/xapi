@@ -7,6 +7,8 @@
         "en-US": "The automated generation of a study plan.",
         "de-DE": "Die automatisierte Generierung eines Studienverlaufsplans."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/planGeneration"
+    ],
     "relatedMatch": []
 }

@@ -7,6 +7,8 @@
         "en-US": "Actor locked an object",
         "de-DE": "Akteur hat ein Objekt gesperrt"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/locked"
+    ],
     "relatedMatch": []
 }

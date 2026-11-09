@@ -7,6 +7,8 @@
         "en-US": "Actor reset an object",
         "de-DE": "Akteur hat ein Objekt zurückgesetzt"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/reset"
+    ],
     "relatedMatch": []
 }

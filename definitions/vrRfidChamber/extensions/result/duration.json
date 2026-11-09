@@ -6,6 +6,7 @@
         "en-US": "Value representing a length of time required to complete the experiment."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/duration",
         "https://registry.tincanapi.com/#uri/extension/288"
     ]
 }

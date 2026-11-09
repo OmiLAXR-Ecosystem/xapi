@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The content of a wiki page.",
         "de-DE": "Der Inhalt einer Wikiseite."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/wikiContent"
+    ]
 }

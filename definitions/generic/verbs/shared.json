@@ -8,6 +8,7 @@
         "de-DE": "Ein Agierender teilte eine Gegenstand mit einer anderen Preson oder einer Gruppe."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/shared",
         "https://registry.tincanapi.com/#uri/verb/147",
         "https://activitystrea.ms/schema/1.0/share"
     ]

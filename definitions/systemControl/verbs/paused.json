@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur pausierte eine Aktivität in einer Spiel Instanz."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/paused",
         "https://registry.tincanapi.com/#uri/verb/47",
         "http://id.tincanapi.com/verb/paused"
     ]

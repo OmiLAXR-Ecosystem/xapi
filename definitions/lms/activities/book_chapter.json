@@ -8,6 +8,7 @@
         "de-DE": "Ein Kapitel in einem Buch."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book_chapter",
         "http://id.tincanapi.com/activitytype/chapter"
     ],
     "relatedMatch": []

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has released a button.",
         "de-DE": "Der Agierende löste eine Taste."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/released"
+    ]
 }

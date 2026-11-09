@@ -7,6 +7,8 @@
         "en-US": "A version of a single provider schema defines the intended data collection and analyses for a single provider, a single platform. Different versions of a schema for the same provider can differ in terms of the verbs, objects, analyses or translations and descriptions they contain.",
         "de-DE": "Ein Version eines Einzel-Provider Schema listet die intendierte Datensammlung und die Analysen für einen einzelnen Provider, eine einzelne Plattform, auf. Verschiedene Versionen eines Schemas für einen Provider können sich in Bezug auf die enthaltenen Verben, Objekte, Analysen oder Übersetzungen und Beschreibungen unterscheiden."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/singleProviderSchemaVersion"
+    ],
     "relatedMatch": []
 }

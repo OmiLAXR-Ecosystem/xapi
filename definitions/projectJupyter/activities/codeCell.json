@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A Jupyter Notebook Cell of type 'code cell'. Code Cells store programming code, that can be executed by a user. Code within a Code Cell is typically conceptually coherent.",
         "de-DE": "Eine Jupyter Notebook Zelle mit dem Typ 'code cell'. Codezellen enthalten programmier code, welcher von einem user ausgeführt werden kann. Der Code einer Zelle ist meist konzeptionell zusammenhängend."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/codeCell"
+    ]
 }

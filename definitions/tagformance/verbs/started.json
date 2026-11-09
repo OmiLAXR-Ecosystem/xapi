@@ -6,6 +6,7 @@
         "en-US": "An actor has started the measurements."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/started",
         "https://registry.tincanapi.com/#uri/verb/149"
     ]
 }

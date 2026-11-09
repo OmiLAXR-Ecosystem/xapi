@@ -6,6 +6,7 @@
         "en-US": "An actor has interacted with the object."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/interacted",
         "https://registry.tincanapi.com/#uri/verb/118"
     ]
 }

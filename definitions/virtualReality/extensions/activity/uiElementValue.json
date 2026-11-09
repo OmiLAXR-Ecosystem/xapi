@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The value of a VR UI element, such as input controls (e.g., buttons, sliders), navigation components (e.g., breadcrumbs, navigation panels), or informational elements (e.g., message boxes). The value may represent the selected item or provide additional context such as a range.",
         "de-DE": "Der Wert eines VR-Bedienoberflächenelements, z.B. einer Eingabesteuerung (wie Schaltfläche oder Schieberegler), eines Navigationselements (wie Brotkrumen oder Navigationstafel) oder einer Informationsanzeige (wie einer Meldungsbox). Der Wert kann den aktuellen Auswahlwert sowie zusätzliche Informationen wie den Wertebereich enthalten."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementValue"
+    ]
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Level ist ein in sich selbst geschlossener Teil eines Spiels, den das Spiel selber Level nennt."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/level",
         "https://registry.tincanapi.com/#uri/activityType/352",
         "http://curatr3.com/define/type/level"
     ]

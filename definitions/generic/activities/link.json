@@ -8,6 +8,7 @@
         "de-DE": "Ein Querverweis auf ein elektronischces Dokument, welches dem Benutzer ermöglicht zu dem Dokument (z.B. einer Website) oder zu einem bestimmten Abschnitt in dem Dokument zu springen."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/link",
         "http://adlnet.gov/expapi/activities/link",
         "https://registry.tincanapi.com/#uri/activityType/11"
     ]

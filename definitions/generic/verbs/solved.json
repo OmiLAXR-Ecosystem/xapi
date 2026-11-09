@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor solved some task.",
         "de-DE": "Ein Akteur löste eine Aufgabe."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/solved"
+    ]
 }

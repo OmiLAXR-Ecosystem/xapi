@@ -6,5 +6,8 @@
     "description": {
         "en-US": "ISO 8601 timestamp marking when the pursuit segment began.",
         "de-DE": "ISO-8601-Zeitstempel, der den Beginn der Pursuit-Phase markiert."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/pursuitStart"
+    ]
 }

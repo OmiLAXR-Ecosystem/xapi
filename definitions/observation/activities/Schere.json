@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Konkreter Gegenstand, der zum Aufgabenlösen zur Verfügung gestellt wurde"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Schere"
+    ]
 }

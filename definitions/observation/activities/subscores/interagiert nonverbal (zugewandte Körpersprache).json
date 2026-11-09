@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer nonverbal interagiert (zugewandte Körpersprache)"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/interagiert_nonverbal_(zugewandte_Körpersprache)"
+    ],
     "result": {
         "score": {
             "min": 1,

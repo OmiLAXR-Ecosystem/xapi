@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Actor's physical (left or right) hand.",
         "de-DE": "Physikalische (linke oder rechte) Hand vom Akteur."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/activities/hand"
+    ]
 }

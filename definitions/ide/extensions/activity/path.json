@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Path of activity target. Must be a string.",
         "de-DE": "Path der Zielaktivität. Muss ein String sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/path"
+    ]
 }

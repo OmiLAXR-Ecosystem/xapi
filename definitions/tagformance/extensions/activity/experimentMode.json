@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An experiment mode can be for example 'Energy Measurement' or 'Orientation Measurement'"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/experimentMode"
+    ]
 }

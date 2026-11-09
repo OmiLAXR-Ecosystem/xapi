@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Heart rate is the number of times the heart beats per minute, indicating the frequency of heart contractions. The value is an integer.",
         "de-DE": "Die Herzfrequenz ist die Anzahl der Herzschläge pro Minute und gibt die Häufigkeit der Herzkontraktionen an. Der Wert ist eine Ganzzahl."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/heartRate"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A button to go forward on a page or a screen (navigation).",
         "de-DE": "Ein Knopf um auf einer Seite oder dem Bildschirm weiterzugehen (Navigation)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/forwardButton"
+    ]
 }

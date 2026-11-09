@@ -5,6 +5,9 @@
     "description": {
         "en-US": "Represent the RFID tag. You can drag it as per your requirements"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/rfidTag"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/activityType/74"
     ]

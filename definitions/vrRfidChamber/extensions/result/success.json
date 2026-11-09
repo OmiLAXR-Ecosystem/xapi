@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Experiment is successful."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/success"
+    ]
 }

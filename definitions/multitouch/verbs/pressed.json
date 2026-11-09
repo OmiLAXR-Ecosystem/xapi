@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor activated a button.",
         "de-DE": "Ein Akteur aktivierte einen Knopf."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/pressed"
+    ]
 }

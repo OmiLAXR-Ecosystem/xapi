@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Verb bezieht sich auf Objekte, die nichts mit der Aufgabenstellung zutun haben."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich_mit_anderen_Dingen"
+    ]
 }

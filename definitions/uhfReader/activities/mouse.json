@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A mouse used to click on buttons in the software."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/mouse"
+    ]
 }

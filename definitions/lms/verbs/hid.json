@@ -7,6 +7,8 @@
         "en-US": "Actor hid an object",
         "de-DE": "Akteur hat ein Objekt ausgeblendet"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/hid"
+    ],
     "relatedMatch": []
 }

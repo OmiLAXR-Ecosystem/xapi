@@ -8,11 +8,12 @@
         "de-DE": "Akteur hat sich in einem System angemeldet"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/loggedInTo",
         "https://registry.tincanapi.com/#uri/verb/284",
         "https://brindlewaye.com/xAPITerms/verbs/loggedin/"
     ],
     "relatedMatch": [
-        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedIn",
-        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedIn"
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/loggedIn",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/loggedIn"
     ]
 }

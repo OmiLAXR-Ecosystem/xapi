@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "genaure Informationen über Aufgaben"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nach_Aufgaben_Details"
+    ]
 }

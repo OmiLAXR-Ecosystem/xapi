@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor performed something, e.g. a gesture",
         "de-DE": "Ein Akteur hat etwas getan, z.B. eine Geste verrichtet."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/performed"
+    ]
 }

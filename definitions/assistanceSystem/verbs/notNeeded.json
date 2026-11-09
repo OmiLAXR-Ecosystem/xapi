@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Indicates that the actor did not need something. For instance, a person did not need help.",
         "de-DE": "Signalisiert, dass ein Agierendem etwas nicht benötigt hat. Zum Beispiel: Eine Person hat eine Hilfe nicht benötigt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/verbs/notNeeded"
+    ]
 }

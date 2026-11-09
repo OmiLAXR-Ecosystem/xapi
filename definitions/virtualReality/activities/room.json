@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A room or enclosed space in the virtual environment.",
         "de-DE": "Ein Raum oder geschlossener Bereich in der virtuellen Umgebung."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/room"
+    ]
 }

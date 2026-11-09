@@ -7,6 +7,8 @@
         "en-US": "Actor updated the content of an object",
         "de-DE": "Akteur aktualisierte den Inhalt eines Objekts."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/updated"
+    ],
     "relatedMatch": []
 }

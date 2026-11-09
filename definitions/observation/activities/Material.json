@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Gegnstände die zum Aufgabenlösen zur Verfügung gestellt werden"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material"
+    ]
 }

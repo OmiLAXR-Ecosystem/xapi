@@ -7,6 +7,8 @@
         "en-US": "A context of a provider. This can be a course, a profile, a subpage, etc.",
         "de-DE": "Ein Kontext eines Providers. Dies kann ein Kurs, ein Profil, eine Unterseite, etc. sein."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/providerContext"
+    ],
     "relatedMatch": []
 }

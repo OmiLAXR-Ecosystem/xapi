@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The scroll value of a trackpad or mouse wheel.",
         "de-DE": "Die Skrollwert vom Trackpad oder Mausrad."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/scrollValue"
+    ]
 }

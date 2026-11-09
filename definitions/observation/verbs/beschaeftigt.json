@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur beschäftigt sich mit etwas"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/beschaeftigt"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich mit anderen Dingen"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/sich mit anderen Dingen"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
                     ],
                     "result": {
                         "score": {

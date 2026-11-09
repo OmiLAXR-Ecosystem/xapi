@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The selected frequency to stop the measurement."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/stopFrequency"
+    ]
 }

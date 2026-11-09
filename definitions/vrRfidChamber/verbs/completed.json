@@ -6,6 +6,7 @@
         "en-US": "The system scan is completed to check the RFID output."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/completed",
         "https://registry.tincanapi.com/#uri/verb/98"
     ]
 }

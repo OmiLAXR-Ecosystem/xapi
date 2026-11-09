@@ -8,6 +8,7 @@
         "de-DE": "Repräsentiert jede Art von Spiel."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/game",
         "https://registry.tincanapi.com/#uri/activityType/63",
         "http://activitystrea.ms/schema/1.0/game"
     ]

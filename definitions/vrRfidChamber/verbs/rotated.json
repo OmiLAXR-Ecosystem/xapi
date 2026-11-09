@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor rotated a lab object."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/rotated"
+    ]
 }

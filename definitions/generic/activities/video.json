@@ -8,6 +8,7 @@
         "de-DE": "Ein Video, welches im Spiel angeschaut werden kann."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/video",
         "https://registry.tincanapi.com/#uri/activityType/79",
         "https://activitystrea.ms/schema/1.0/video"
     ]

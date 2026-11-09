@@ -7,6 +7,8 @@
         "en-US": "Actor reopened an activity (assignment submission, forum)",
         "de-DE": "Akteuer hat eine Aktivität (Aufgabenabgabe, Forum) wiedereröffnet"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/reopened"
+    ],
     "relatedMatch": []
 }

@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "State of the transponder to the physical reader."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/result/transponderState"
+    ]
 }

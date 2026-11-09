@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A fixed teleport point in VR environment.",
         "de-DE": "Ein fester Teleport Punkt in der VR Umgebung."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/teleportPoint"
+    ]
 }

@@ -6,6 +6,7 @@
         "en-US": "Some kind of written text to explain an action"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/comment",
         "https://registry.tincanapi.com/#uri/activityType/59"
     ]
 }

@@ -7,6 +7,8 @@
         "en-US": "Actor unlocked an object",
         "de-DE": "Akteur hat ein Objekt freigegeben"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unlocked"
+    ],
     "relatedMatch": []
 }

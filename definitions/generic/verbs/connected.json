@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor connected two or more items with each other. This is meant in the sense of drawing a line between the objects, while combined can make something new out of the objects.",
         "de-DE": "Ein Agierender verband zwei oder mehr Objekte mit einander. Dies ist eher im Sinne der Verbindung durch eine Linie zwischen den Objekten, während mit kombinierte auch zum Beispiel neue Objekte aus den Verbundenen entstehen können."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/connected"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A stage is a part of a level.",
         "de-DE": "Ein Spielabschnitt ist ein Teil eines Levels."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/stage"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor has entered a high-stress state according to the estimator.",
         "de-DE": "Die Akteurin ist gemäß dem Schätzer in einen Hochstress-Zustand gewechselt."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/verbs/stressed"
+    ]
 }

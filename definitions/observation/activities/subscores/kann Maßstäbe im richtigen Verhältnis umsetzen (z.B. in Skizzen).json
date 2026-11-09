@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Maßstäbe im richtigen Verhältnis umsetzen kann (z.B. in Skizzen)"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/kann_Maßstäbe_im_richtigen_Verhältnis_umsetzen_(z.B._in_Skizzen)"
+    ],
     "result": {
         "score": {
             "min": 1,

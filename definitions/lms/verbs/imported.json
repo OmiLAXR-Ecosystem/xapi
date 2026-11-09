@@ -8,6 +8,7 @@
         "de-DE": "Akteur hat ein Objekt/Daten importiert"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/imported",
         "https://registry.tincanapi.com/#uri/verb/23"
     ],
     "relatedMatch": []

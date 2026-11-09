@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The angle in degrees between the negative gaze direction (ray toward the surface) and the surface normal at the hit point. 0° indicates straight-on viewing; 90° indicates a glancing view. Range: 0°–180°.",
         "de-DE": "Der Winkel in Grad zwischen der negativen Blickrichtung (Strahl zur Oberfläche) und der Oberflächennormale am Treffpunkt. 0° steht für frontale Betrachtung, 90° für streifende Betrachtung. Wertebereich: 0°–180°."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/attention/extensions/result/gazeIncidenceAngle"
+    ]
 }

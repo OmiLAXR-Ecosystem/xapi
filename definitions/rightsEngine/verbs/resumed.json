@@ -7,6 +7,8 @@
         "en-US": "Actor resumed a previously paused provider context. Consequently, the data collection is resumed with the preserved consent settings.",
         "de-DE": "Akteur setzte einen zuvor pausierten Provider-Kontext fort. In Folge ist die Datensammlung für das Schema mit den beibehaltenen Zustimmungseinstellungen wiederaufgenommen."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/resumed"
+    ],
     "relatedMatch": []
 }

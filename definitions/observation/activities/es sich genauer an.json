@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "mit Betrachtung einiger Details"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es_sich_genauer_an"
+    ]
 }

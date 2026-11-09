@@ -6,6 +6,7 @@
         "en-US": "An actor has pressed the keyboard."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/pressed",
         "https://registry.tincanapi.com/#uri/verb/305"
     ]
 }

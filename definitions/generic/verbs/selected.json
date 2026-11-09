@@ -8,6 +8,7 @@
         "de-DE": "Ein Agierender wählte eine Option. Dies könnte eine Antwort auf eine Frage oder auch ein Level sein."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/selected",
         "https://registry.tincanapi.com/#uri/verb/448",
         "http://id.tincanapi.com/verb/selected"
     ]

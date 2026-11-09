@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A field which can be clicked to fire an action. For example the 'start button'."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/button"
+    ]
 }

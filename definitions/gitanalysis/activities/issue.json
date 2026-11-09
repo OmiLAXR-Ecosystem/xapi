@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An issue used on GitLab.",
         "de-DE": "Ein Ticket auf GitLab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/issue"
+    ]
 }

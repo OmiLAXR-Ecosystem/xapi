@@ -7,7 +7,9 @@
         "en-US": "An assignment object. Provides the students with a task description and further needed materials and allows to upload a submission.",
         "de-DE": "Eine Aufgabe. Gibt eine Aufgabenstellung vor und weiteres benötigtes Material und ermöglicht das Hochladen einer Abgabe."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/assign"
+    ],
     "relatedMatch": [
         "http://id.tincanapi.com/activitytype/school-assignment"
     ]

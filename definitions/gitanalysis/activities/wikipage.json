@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A wiki page in a repository.",
         "de-DE": "Eine Wikiseite in einem Repository."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/wikipage"
+    ]
 }

@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer verschiedne Lösungsansätze verfolgt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/verfolgt_verschiedene_Lösungsansätze"
+    ],
     "result": {
         "score": {
             "min": 1,

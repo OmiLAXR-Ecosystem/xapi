@@ -7,6 +7,8 @@
         "en-US": "An actor continued playing a media element.",
         "de-DE": "Ein Akteur setzte die Wiedergabe eines Medienelements fort."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/resumed"
+    ],
     "relatedMatch": []
 }

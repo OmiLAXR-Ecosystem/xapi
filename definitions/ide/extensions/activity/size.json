@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Size of activity target (e.g. window size). Must be a string with coordinates of '(width,height)'.",
         "de-DE": "Größe der Zielaktivität (z.B. Fenstergröße). Muss ein String mit Koordinaten sein '(Breite,Höhe)'."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/size"
+    ]
 }

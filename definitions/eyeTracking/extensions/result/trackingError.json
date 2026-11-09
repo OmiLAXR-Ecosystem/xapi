@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Mean angular difference, in degrees, between the gaze direction and the line of sight to the moving target during the pursuit segment. Lower is better.",
         "de-DE": "Mittlere Winkeldifferenz in Grad zwischen Blickrichtung und Sichtlinie zum bewegten Ziel während der Pursuit-Phase. Niedriger ist besser."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/trackingError"
+    ]
 }

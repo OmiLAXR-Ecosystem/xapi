@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has removed a component or asset.",
         "de-DE": "Ein Akteur entfernte eine Komponente oder Asset."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/removed"
+    ]
 }

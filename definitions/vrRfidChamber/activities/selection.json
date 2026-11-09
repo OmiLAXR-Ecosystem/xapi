@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Some kind of selection is represented by this. It is given by user."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/selection"
+    ]
 }

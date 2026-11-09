@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor unlocked some option or item.",
         "de-DE": "Ein Akteur schaltete eine Option oder einen Gegenstand frei."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/unlocked"
+    ]
 }

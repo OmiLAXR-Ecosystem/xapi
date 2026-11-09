@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has focused a control element or window.",
         "de-DE": "Ein Akteur fokussierte ein Kontrollelement oder ein Fenster."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/focused"
+    ]
 }

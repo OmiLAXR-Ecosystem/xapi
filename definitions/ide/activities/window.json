@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A window of an IDE is an area with controls which can be either docked or in front of the IDE.",
         "de-DE": "Ein Fenster der IDE ist ein Bereich mit Kontrollelementen, welches entweder an der IDE befestigt ist oder frei ist."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/window"
+    ]
 }

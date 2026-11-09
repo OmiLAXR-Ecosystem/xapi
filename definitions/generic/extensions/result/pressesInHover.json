@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The number of times the UI element was pressed while it was being hovered over during the current interaction session.",
         "de-DE": "Die Anzahl der Betätigungen des UI-Elements während es im aktuellen Interaktionszeitraum gehovt wurde."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/pressesInHover"
+    ]
 }

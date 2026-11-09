@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor changed something. This could be the level or some settings.",
         "de-DE": "Ein Akteur veränderte etwas. Dies könnte das Level sein oder die Einstellungen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/changed"
+    ]
 }

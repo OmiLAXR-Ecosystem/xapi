@@ -7,6 +7,8 @@
         "en-US": "Actor succeeded in an activity",
         "de-DE": "Akteur ist eine Aktivität gelungen"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/succeeded"
+    ],
     "relatedMatch": []
 }

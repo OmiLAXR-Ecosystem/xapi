@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A button the actor can interact with."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/button"
+    ]
 }

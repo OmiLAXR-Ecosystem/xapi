@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A string describing an error. Used to provide the runtime error that might occur during the execution of a JupyterLab notebook cell.",
         "de-DE": "Die beschreibung eines Fehlers. Wird verwended um z.b. Laufzeitfehler während des Ausführens einer JupyterLab Notebook Zelle anzugeben."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/result/errorMessage"
+    ]
 }

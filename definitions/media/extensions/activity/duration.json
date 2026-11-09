@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The duration of the media element in seconds.",
         "de-DE": "Die Dauer/Länge des Medienelements in Sekunden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/extensions/duration"
+    ]
 }

@@ -8,6 +8,7 @@
         "de-DE": "Ein Spieler loggte sich in eine Spiel Instanz ein."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/verbs/loggedIn",
         "https://registry.tincanapi.com/#uri/verb/284",
         "https://brindlewaye.com/xAPITerms/verbs/loggedin/"
     ]

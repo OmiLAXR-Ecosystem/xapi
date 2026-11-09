@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A time span depending on context.",
         "de-DE": "Eine bestimmte Zeitspanne abhängig vom Kontext."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/timeSpan"
+    ]
 }

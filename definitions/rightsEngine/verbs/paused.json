@@ -7,6 +7,8 @@
         "en-US": "Actor paused the data collection for the related provider context, but the consent settings will be kept. Data collection can be resumed by resuming the provider context.",
         "de-DE": "Akteur pausierte die Datensammlung für einen Provider-Kontext, die Zustimmungen bleiben aber erhalten. Die Datensammlung kann fortgesetzt werden, wenn der der Provider-Kontext wieder fortgesetzt wird."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/paused"
+    ],
     "relatedMatch": []
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Instantaneous heart rate (beats per minute).",
         "de-DE": "Momentane Herzfrequenz (Schläge pro Minute)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/heartRate"
+    ]
 }

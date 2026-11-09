@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein AkteuerRücksicht auf eigene Bedürfnisse  nimmt/die eigene Meinung vertritt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/nimmt_Rücksicht_auf_eigene_Bedürfnissevertritt_die_eigene_Meinung"
+    ],
     "result": {
         "score": {
             "min": 1,

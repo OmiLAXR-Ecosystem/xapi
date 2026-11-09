@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Speaking time of a person. Time span in which the actor spoke (in seconds).",
         "de-DE": "Zeitspanne in der die Akteurin gesprochen hat (in Sekunden)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/extensions/activity/duration"
+    ]
 }

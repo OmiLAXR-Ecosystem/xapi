@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Time in milliseconds from target motion onset to the onset of smooth pursuit.",
         "de-DE": "Zeit in Millisekunden vom Beginn der Zielbewegung bis zum Einsetzen der glatten Blickfolge."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/pursuitOnsetLatency"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A list of people set to review a merge request.",
         "de-DE": "Eine Liste der Personen, denen die Prüfung einer Merge-Anfrage zugewiesen wurde."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeReviewers"
+    ]
 }

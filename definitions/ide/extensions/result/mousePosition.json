@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Mouse position of the screen. Must be a string with coordinates of '(x,y)'.",
         "de-DE": "Maus Position auf dem Bildschirm. Muss ein String mit Koordinaten sein '(x,y)'."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/result/mousePosition"
+    ]
 }

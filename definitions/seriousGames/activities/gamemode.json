@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The gamemode in which a game is played (e.g. competitive or cooperative).",
         "de-DE": "Der Spielmodus in dem ein Spiel gespielt wird (z.B. kompetetiv oder kooperativ)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/gamemode"
+    ]
 }

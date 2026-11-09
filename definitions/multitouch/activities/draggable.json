@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Something that can be dragged across the screen in the game.",
         "de-DE": "Etwas was im Spiel über den Bildschirm gezogen werden kann."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/draggable"
+    ]
 }

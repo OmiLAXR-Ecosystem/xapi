@@ -7,6 +7,8 @@
         "en-US": "Actor unblocked a blocked person",
         "de-DE": "Akteur hat eine blockierte Person entblockt"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unblocked"
+    ],
     "relatedMatch": []
 }

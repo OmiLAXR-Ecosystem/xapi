@@ -6,6 +6,7 @@
         "en-US": "An actor logged in to the portal."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/loggedIn",
         "https://registry.tincanapi.com/#uri/verb/284"
     ]
 }

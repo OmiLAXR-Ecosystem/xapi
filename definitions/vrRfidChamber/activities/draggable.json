@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "Clicking an item, holding the click and moving it around the lab."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/draggable"
+    ]
 }

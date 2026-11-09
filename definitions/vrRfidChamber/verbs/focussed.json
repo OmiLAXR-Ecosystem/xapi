@@ -6,6 +6,7 @@
         "en-US": "An actor has focused on the RFID tag."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/focussed",
         "https://registry.tincanapi.com/#uri/verb/278",
         "http://id.tincanapi.com/verb/focused"
     ]

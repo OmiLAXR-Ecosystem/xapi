@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Intresse, Stolz oder Freude zeigt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_Interesse,_Stolz_oder_Freude"
+    ],
     "result": {
         "score": {
             "min": 1,

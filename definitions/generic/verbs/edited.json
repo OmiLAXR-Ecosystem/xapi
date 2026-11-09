@@ -8,6 +8,7 @@
         "de-DE": "Ein Acteur editierte ein Object, zum Beispiel ihren Account.'editierte' hat eine startke Verbindung zu text-basiertem Input. Z.B. Ein Benutzer editierte den Titel. Wenn dem Benutzer eine Auswahl benutzt, wie bei einem Dropdown Menü, sollte 'geändert' benutzt werden. Darüberhinaus ist in den meisten nicht-text-basierten Input, z.B. beim Ändern einer Farbe, 'änderte' das passende Verb"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/edited",
         "http://curatr3.com/define/verb/edited",
         "https://registry.tincanapi.com/#uri/verb/354"
     ]

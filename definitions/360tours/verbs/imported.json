@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor imported a 360° tour from an external destination.",
         "de-DE": "Ein Akteur importierte eine 360° Tour von einer externen Ressource."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/imported"
+    ]
 }

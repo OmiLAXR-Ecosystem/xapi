@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur gibt etwas"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/gibt"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Anweisungen"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Anweisungen"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/findet Möglichkeiten zur Strukturierung einer Aufgabe"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/findet Möglichkeiten zur Strukturierung einer Aufgabe"
                     ],
                     "result": {
                         "score": {
@@ -25,7 +28,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/erarbeitet ein klares Bild der Ausgangssituation/Problemstellung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/erarbeitet ein klares Bild der Ausgangssituation/Problemstellung"
                     ],
                     "result": {
                         "score": {
@@ -39,12 +42,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Führung ab"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Führung ab"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
                     ],
                     "result": {
                         "score": {
@@ -56,7 +59,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
                     ],
                     "result": {
                         "score": {
@@ -68,7 +71,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
                     ],
                     "result": {
                         "score": {
@@ -80,7 +83,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
                     ],
                     "result": {
                         "score": {
@@ -94,12 +97,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material ab"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Material ab"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
                     ],
                     "result": {
                         "score": {
@@ -111,7 +114,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt sich hilfsbereit und unterstützt andere aktiv"
                     ],
                     "result": {
                         "score": {
@@ -123,7 +126,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
                     ],
                     "result": {
                         "score": {
@@ -135,7 +138,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/nimmt Rücksicht auf eigene Bedürfnissevertritt die eigene Meinung"
                     ],
                     "result": {
                         "score": {
@@ -147,7 +150,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/achtet auf anderenimmt Rücksicht"
                     ],
                     "result": {
                         "score": {
@@ -159,7 +162,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
                     ],
                     "result": {
                         "score": {

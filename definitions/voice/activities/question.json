@@ -6,5 +6,8 @@
     "description": {
         "en-US": "A question is a specialized sentence, which expresses a problem, a point which need to be considered, a doubt, argument or uncertainty. A question often has a prompting character.",
         "de-DE": "Eine Frage ist ein besonderer Satz, der verschiedene Zwecke verfolgt und eine Aufforderung, Unsicherheit, Idee oder einen ähnliches enthält, häufig mit dem Ziel eine Antwort oder Erklärung zu provozieren."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/question"
+    ]
 }

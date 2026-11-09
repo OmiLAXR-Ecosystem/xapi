@@ -5,15 +5,18 @@
     "description": {
         "de-DE": "Ein Akteur sieht etwas"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/sieht"
+    ],
     "choices": [
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es sich genauer an"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/es sich genauer an"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"
                     ],
                     "result": {
                         "score": {
@@ -27,12 +30,12 @@
         },
         {
             "exactMatch": [
-                "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus dem Fenster"
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/aus dem Fenster"
             ],
             "rules": [
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"
                     ],
                     "result": {
                         "score": {
@@ -44,7 +47,7 @@
                 },
                 {
                     "exactMatch": [
-                        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"
                     ],
                     "result": {
                         "score": {

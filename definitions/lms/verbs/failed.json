@@ -8,6 +8,7 @@
         "de-DE": "Akteur scheiterte an einer Aktivität (Quizversuch, Upload, Einloggen)"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/failed",
         "https://registry.tincanapi.com/#uri/verb/20"
     ],
     "relatedMatch": []

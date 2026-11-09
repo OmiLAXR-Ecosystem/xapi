@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor collected some item.",
         "de-DE": "Ein Akteur sammelte einen Gegenstand ein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/collected"
+    ]
 }

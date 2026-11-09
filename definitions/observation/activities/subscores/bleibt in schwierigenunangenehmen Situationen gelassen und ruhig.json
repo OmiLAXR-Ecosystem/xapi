@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer in schwierigen/unangenehmen Situationen gelassen und ruhig bleibt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/bleibt_in_schwierigenunangenehmen_Situationen_gelassen_und_ruhig"
+    ],
     "result": {
         "score": {
             "min": 1,

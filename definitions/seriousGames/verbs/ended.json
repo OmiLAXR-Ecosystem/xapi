@@ -7,6 +7,9 @@
         "en-US": "An actor ended a game session. This verb is only used with the gamesession activity for better session tracking.",
         "de-DE": "Ein Akteur beendete eine Spiel Instanz. Dieses Verb wird nur mit der gamesession Aktivität verwendet, um Spiel Instanzen besser verfolgen zu können."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/verbs/ended"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/verb/29"
     ]

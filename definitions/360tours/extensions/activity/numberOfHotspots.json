@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The number of interactive hotspots within a 360° mediapage.",
         "de-DE": "Die Anzahl der interaktiven Hotspots innerhalb einer 360° Medienseite."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity/numberOfHotspots"
+    ]
 }

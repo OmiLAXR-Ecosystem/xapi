@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor brought two or more objects together. This can create a new object out of the combined ones. If just a logical connection is meant, use connected.",
         "de-DE": "Ein Akteur brachte zwei oder mehr Gegenstände zusammen. Aus den kombinierten Gegenständen können neue Gegenstände entstehen. Wenn eine logische Kombination der Gegenstände gemeint ist, nutzte verband."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/combined"
+    ]
 }

@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The experiment is a failure."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/failure"
+    ]
 }

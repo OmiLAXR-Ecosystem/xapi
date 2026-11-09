@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor touched the screen or something on the screen with a finger or tangible.",
         "de-DE": "Ein Akteur berührte den Bildschirm oder etwas auf dem Bildschirm mit einem Finger oder Tangible."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/touched"
+    ]
 }

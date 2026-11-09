@@ -6,6 +6,7 @@
         "en-US": "Represents the RFID chamber."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/device",
         "https://registry.tincanapi.com/#uri/activityType/60"
     ]
 }

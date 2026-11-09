@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Möglichkeiten zur Strukturierung einer Aufgabe findet"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/findet_Möglichkeiten_zur_Strukturierung_einer_Aufgabe"
+    ],
     "result": {
         "score": {
             "min": 1,

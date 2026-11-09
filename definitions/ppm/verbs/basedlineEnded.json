@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The baseline/calibration period has ended for this measure.",
         "de-DE": "Die Baseline-/Kalibrierungsphase für diese Messgröße wurde beendet."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/verbs/basedlineEnded"
+    ]
 }

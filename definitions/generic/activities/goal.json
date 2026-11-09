@@ -8,6 +8,7 @@
         "de-DE": "Ein Ziel ist etwas, das eine Person erreichen möchte, der Zweck der Durchführung einer Aufgabe oder einer Gruppe von Aufgaben. Es kann Unteraufgaben und Unterziele haben."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/goal",
         "http://id.tincanapi.com/activitytype/goal",
         "https://registry.tincanapi.com/#uri/activityType/454"
     ]

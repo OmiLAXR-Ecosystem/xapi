@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has gestured with part of her body (e.g. hands, feet, ...).",
         "de-DE": "Eine Akteurin gestikulierte mit einem ihrer Körperteile (z.B. Hände, Füße, ...)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/gestured"
+    ]
 }

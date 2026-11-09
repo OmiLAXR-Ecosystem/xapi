@@ -8,6 +8,7 @@
         "de-DE": "Ein Akteur beantwortete eine Frage."
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/answered",
         "https://registry.tincanapi.com/#uri/verb/21",
         "https://adlnet.gov/expapi/verbs/answered"
     ]

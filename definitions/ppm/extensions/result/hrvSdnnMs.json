@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Standard deviation of normal-to-normal (NN) intervals over the window, in milliseconds.",
         "de-DE": "Standardabweichung der NN-Intervalle über das Fenster, in Millisekunden."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/hrvSdnnMs"
+    ]
 }

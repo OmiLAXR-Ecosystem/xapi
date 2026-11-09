@@ -7,6 +7,8 @@
         "en-US": "An actor interacted with a media element. This might have changed the element's volume or playback rate.",
         "de-DE": "Ein Akteur interagierte mit einem Medienelement. Das kann z. B. die Anpassung der Lautstärke oder Wiedergabegeschwindigkeit bedeuten."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/interacted"
+    ],
     "relatedMatch": []
 }

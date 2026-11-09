@@ -7,6 +7,9 @@
         "en-US": "Some part of the goal or something to be completed to progress within the game or a level.",
         "de-DE": "Eine Aufgabe, die zum Erreichen des Ziels erfüllt werden muss oder zum Abschließen eines Levels."
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/task"
+    ],
     "relatedMatch": [
         "https://registry.tincanapi.com/#uri/activityType/10"
     ]

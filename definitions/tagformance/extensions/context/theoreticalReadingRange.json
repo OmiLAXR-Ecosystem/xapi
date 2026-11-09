@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The Y-axis unit in the graph for measuring the reading range of transponder."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/theoreticalReadingRange"
+    ]
 }

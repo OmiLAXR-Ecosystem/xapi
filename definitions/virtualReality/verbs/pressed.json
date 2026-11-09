@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The actor has pressed a controller button.",
         "de-DE": "Eine Akteurin drückte einen Controller Taste."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/pressed"
+    ]
 }

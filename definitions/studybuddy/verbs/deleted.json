@@ -8,10 +8,11 @@
         "de-DE": "Akteur hat ein Objekt gelöscht"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/deleted",
         "https://activitystrea.ms/registry/verbs/",
         "https://registry.tincanapi.com/#uri/verb/103"
     ],
     "relatedMatch": [
-        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/deleted"
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/deleted"
     ]
 }

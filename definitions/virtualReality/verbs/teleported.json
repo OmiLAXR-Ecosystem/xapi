@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor has changed her own position in VR environment by teleport.",
         "de-DE": "Eine Akteurin hat die eigene Position in der VR Umgebung durch Teleportation verändert."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/teleported"
+    ]
 }

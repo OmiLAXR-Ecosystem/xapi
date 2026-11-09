@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The status of a merge (unapproved/approved/ready to merge).",
         "de-DE": "Der Status einer Merge-Anfrage (abgelehnt, zugestimmt, bereit zum Zusammenführen)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/mergeStatus"
+    ]
 }

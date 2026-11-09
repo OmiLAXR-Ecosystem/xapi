@@ -7,6 +7,8 @@
         "en-US": "Actor blocked a person",
         "de-DE": "Akteur hat eine Person gesperrt"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/blocked"
+    ],
     "relatedMatch": []
 }

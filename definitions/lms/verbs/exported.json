@@ -7,6 +7,8 @@
         "en-US": "Actor exported an object/data",
         "de-DE": "Akteur hat ein Objekt/Daten exportiert"
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/exported"
+    ],
     "relatedMatch": []
 }

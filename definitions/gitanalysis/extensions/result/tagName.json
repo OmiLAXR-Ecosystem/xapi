@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The name of the tag.",
         "de-DE": "Der Name des Tags."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/tagName"
+    ]
 }

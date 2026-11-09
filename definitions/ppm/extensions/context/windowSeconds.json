@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Length of the analysis window in seconds used to compute statistics.",
         "de-DE": "Länge des Analysefensters in Sekunden, das zur Berechnung der Statistiken verwendet wird."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/context/windowSeconds"
+    ]
 }

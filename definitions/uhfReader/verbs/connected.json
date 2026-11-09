@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "An actor connected a device (e.g. transponder) to the physical reader."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/connected"
+    ]
 }

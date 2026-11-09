@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Seconds passed since startup. Must be a float value, where 1.0 is one second.",
         "de-DE": "Sekunden, die seit dem Start vergangen sind. Ist ein float, wobei 1.0 eine Sekunde ist."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/result/secondsSinceStartup"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Ratio of eye angular velocity to target angular velocity during pursuit (unitless). ≈1.0 indicates ideal tracking; <1.0 lag; >1.0 overshoot.",
         "de-DE": "Verhältnis der angulären Blickgeschwindigkeit zur Zielgeschwindigkeit während der Pursuit (einheitslos). ≈1,0 steht für ideales Tracking; <1,0 Nachlauf; >1,0 Überschwingen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/pursuitGain"
+    ]
 }

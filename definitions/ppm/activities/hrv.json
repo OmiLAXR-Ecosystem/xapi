@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Heart rate variability (e.g., time- or frequency-domain indices).",
         "de-DE": "Herzfrequenzvariabilität (z. B. Zeit- oder Frequenzkennwerte)."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/ppm/activities/hrv"
+    ]
 }

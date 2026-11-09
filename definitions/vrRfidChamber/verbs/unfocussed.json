@@ -6,6 +6,7 @@
         "en-US": "An actor unfocused the object"
     },
     "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/unfocussed",
         "https://registry.tincanapi.com/#uri/verb/277"
     ]
 }

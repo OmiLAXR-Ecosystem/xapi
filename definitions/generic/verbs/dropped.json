@@ -6,5 +6,8 @@
     "description": {
         "en-US": "An actor dropped some draggable into a specific area.",
         "de-DE": "Ein Acteur ließ einen ziehbaren Gegenstand in ein spezielles Feld fallen."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/dropped"
+    ]
 }

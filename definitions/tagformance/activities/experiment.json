@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "A scientific procedure, especially in a laboratory, to determine something."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/experiment"
+    ]
 }

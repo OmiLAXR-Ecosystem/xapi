@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Sequence of vertices with its index, color and position.",
         "de-DE": "Sequenz von Knotenpunkten mit dessen Index, Farbe und Position."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/triangle"
+    ]
 }

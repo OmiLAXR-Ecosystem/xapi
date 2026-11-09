@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "This is an experiment mode as per lab instruction."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context/orientationMeasure"
+    ]
 }

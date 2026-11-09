@@ -4,5 +4,8 @@
     },
     "description": {
         "de-DE": "Verb bezieht sich auf das Abgeben der Führung"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Führung_ab"
+    ]
 }

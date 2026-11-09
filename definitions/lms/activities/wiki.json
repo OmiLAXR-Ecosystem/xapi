@@ -7,6 +7,8 @@
         "en-US": "A collection of pages linking to each other. All versions of the pages are stored to keep track of edits.",
         "de-DE": "Eine Sammlung von untereinander verlinkten Seiten. Alle Versionen der Seiten werden gespeichert um die Bearbeitungshistorie festzuhalten."
     },
-    "exactMatch": [],
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/wiki"
+    ],
     "relatedMatch": []
 }

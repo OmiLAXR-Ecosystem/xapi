@@ -6,5 +6,8 @@
     "description": {
         "en-US": "The color of an object.",
         "de-DE": "Das Farbe eines Objekts."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/color"
+    ]
 }

@@ -6,5 +6,8 @@
     "description": {
         "en-US": "Name of a system control activity. Must be a string.",
         "de-DE": "Namen von einer Aktivität von des Systemkontrollers. Muss ein String sein."
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity/name"
+    ]
 }

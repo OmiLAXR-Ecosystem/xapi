@@ -4,5 +4,8 @@
     },
     "description": {
         "en-US": "The experimentmode in which the experiment is carried. Can be energy measurement or reading range measurement"
-    }
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/experimentmode"
+    ]
 }

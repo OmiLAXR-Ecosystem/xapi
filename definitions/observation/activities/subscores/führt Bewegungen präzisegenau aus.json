@@ -5,6 +5,9 @@
     "description": {
         "de-DE": "Subscore (5/5 bzw. ++) wenn ein Akteuer Bewegungen präzisegenau ausführt"
     },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/führt_Bewegungen_präzisegenau_aus"
+    ],
     "result": {
         "score": {
             "min": 1,
