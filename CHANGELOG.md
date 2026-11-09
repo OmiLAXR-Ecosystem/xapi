@@ -38,6 +38,9 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
 - The about page links to the original registry at xapi.elearn.rwth-aachen.de
   and cites the paper "xAPI Made Easy"
   ([doi:10.3991/ijoe.v18i14.35079](https://doi.org/10.3991/ijoe.v18i14.35079)).
+  It thanks everyone at the Learning Technologies Research Group (Informatik 9)
+  of RWTH Aachen University who created the original registry, and attributes
+  the BMBF funding (Open Digital Lab 4 you, 16DHB2114) to that original work.
 - `scripts/format-definitions.py` normalizes the formatting of all definition
   files (`make format`). With `--check` it only reports files that are not
   normalized (`make check-format`).
