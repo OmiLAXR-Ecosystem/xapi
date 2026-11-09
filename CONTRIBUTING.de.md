@@ -133,9 +133,13 @@ einem Zeilenumbruch am Ende. `make format` wendet das auf alle Dateien an,
 2. Lege Definitionsdateien an oder bearbeite sie. Ein Thema pro Pull Request.
 3. Führe `make format` und `make check` aus. `make check` baut die Website und
    validiert dabei jede Definitionsdatei.
-4. Trage die Änderung in `CHANGELOG.md` unter `[Unreleased]` ein, in den
-   Abschnitten von [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
-   (**Added**, **Changed**, **Fixed**, **Removed**). Markiere Umbenennungen und
+4. Jede Änderung wird veröffentlicht, sobald sie gemergt ist. Lege oben in
+   `CHANGELOG.md` eine neue Version mit heutigem Datum an
+   (`## [X.Y.Z] - YYYY-MM-DD`) und ordne die Einträge in die Abschnitte von
+   [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) ein (**Added**,
+   **Changed**, **Fixed**, **Removed**). Erhöhe die Version wie oben im
+   CHANGELOG beschrieben: major, wenn sich eine IRI ändert, minor für neue
+   Definitionen oder Felder, patch für Korrekturen. Markiere Umbenennungen und
    Löschungen mit **BREAKING**.
 5. Öffne einen Pull Request gegen `main`. Der Website-Build läuft bei jedem Pull
    Request, der `definitions/` berührt.

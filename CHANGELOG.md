@@ -2,14 +2,22 @@
 
 All notable changes to this repository are documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and the registry follows [Semantic Versioning](https://semver.org/):
+
+- **Major:** an IRI changes, i.e. a definition file is renamed, moved or deleted.
+- **Minor:** new definitions, contexts or fields.
+- **Patch:** corrections of names and descriptions, formatting, tooling.
 
 The file path of a definition is part of its IRI
 (`https://xapi.elearn.rwth-aachen.de/definitions/<path>`). Renaming, moving or
 deleting a definition file breaks existing statements. Such changes are always
 listed under **Changed** or **Removed** and marked with **BREAKING**.
 
-## [Unreleased]
+Versions 1.x were not tagged. They are the history of the original repository
+at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
+
+## [2.0.0] - 2026-11-09
 
 ### Added
 

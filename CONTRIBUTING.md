@@ -127,10 +127,13 @@ only checks.
 2. Add or edit definition files. Keep one topic per pull request.
 3. Run `make format` and `make check`. `make check` builds the website, which
    validates every definition file.
-4. Add an entry to `CHANGELOG.md` under `[Unreleased]`, using the sections of
-   [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) (**Added**,
-   **Changed**, **Fixed**, **Removed**). Mark renames and deletions with
-   **BREAKING**.
+4. Every change is released as soon as it is merged. Add a new version on top
+   of `CHANGELOG.md` with today's date (`## [X.Y.Z] - YYYY-MM-DD`) and sort the
+   entries into the sections of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
+   (**Added**, **Changed**, **Fixed**, **Removed**). Bump the version as the top
+   of the CHANGELOG describes: major if an IRI changes, minor for new
+   definitions or fields, patch for corrections. Mark renames and deletions
+   with **BREAKING**.
 5. Open a pull request against `main`. The website build runs on every pull
    request that touches `definitions/`.
 
