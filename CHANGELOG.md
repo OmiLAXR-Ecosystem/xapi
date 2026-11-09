@@ -39,6 +39,13 @@ listed under **Changed** or **Removed** and marked with **BREAKING**.
   indentation (211 files used 2 spaces or tabs) and a trailing newline (405
   files had none). Formatting only: names, descriptions, matches and key order
   are unchanged.
+- **BREAKING:** Moved `media/extensions/duration.json` to
+  `media/extensions/activity/duration.json`, the folder `CONTRIBUTING.md`
+  requires for extensions. Its IRI changes from
+  `…/definitions/media/extensions/duration` to
+  `…/definitions/media/extensions/activity/duration`. xAPI4Unity skipped the
+  file before ("Unknown extension type"), so generated registries did not
+  contain it.
 
 ### Fixed
 
