@@ -25,11 +25,12 @@ Checked with --base, for the files changed since REF (merge base with HEAD):
 - Deleting or renaming a definition changes its IRI. That is a breaking change
   and an error unless --allow-breaking is given (the pull request title is
   marked with "!", e.g. "feat!: ...").
-- A renamed definition lists its old IRI in exactMatch. A deleted definition
-  should be replaced: another definition lists its IRI in exactMatch
-  (a warning otherwise).
-- An IRI under a former registry base (see FORMER_BASES) that the file listed
-  before is still listed.
+- The IRI of a renamed or deleted definition is listed in the exactMatch of the
+  definition that replaces it (the renamed file, or the one it was merged into).
+- An IRI under a former registry base (see FORMER_BASES) that a changed or
+  deleted file listed is still listed by some definition.
+  Both checks look at the whole registry instead of pairs of renamed files,
+  because git pairs similar small files wrongly.
 - Added and changed files: a missing "de-DE" text is a warning.
 
 Exit code 1 if there is an error. Warnings do not fail. On GitHub Actions the
@@ -211,22 +212,12 @@ def former_iris(data: dict | None) -> list[str]:
     return [e for e in entries or [] if isinstance(e, str) and any(e.startswith(b) for b in FORMER_BASES)]
 
 
-def changes(base: str) -> list[tuple[str, str, str | None]]:
-    """(status, path, old path) for every changed definition file; status is A, M, D or R."""
-    out = git("diff", "--name-status", "-z", "-M", "--no-ext-diff", f"{base}...HEAD", "--", DEFINITIONS)
+def changes(base: str) -> list[tuple[str, str]]:
+    """(status, path) for every changed definition file; status is A, M or D (a rename is D plus A)."""
+    out = git("diff", "--name-status", "-z", "--no-renames", "--no-ext-diff", f"{base}...HEAD", "--", DEFINITIONS)
     fields = out.split("\0")
-    result = []
-    i = 0
-    while i < len(fields) - 1:
-        status = fields[i][0]
-        if status in "RC":
-            old, new = fields[i + 1], fields[i + 2]
-            result.append(("R", new, old) if status == "R" else ("A", new, None))
-            i += 3
-        else:
-            result.append((status if status in "ADM" else "M", fields[i + 1], None))
-            i += 2
-    return result
+    return [(fields[i][0] if fields[i][0] in "ADM" else "M", unicodedata.normalize("NFC", fields[i + 1]))
+            for i in range(0, len(fields) - 1, 2)]
 
 
 def main(argv: list[str]) -> int:
@@ -262,14 +253,26 @@ def main(argv: list[str]) -> int:
         except subprocess.CalledProcessError as e:
             print(f"cannot diff against {base}: {e.stderr.strip()}", file=sys.stderr)
             return 2
-        for status, file, old in changed:
+        # Renames are seen as deletion plus addition: git pairs similar files by content,
+        # which goes wrong for many small, similar definitions.
+        current_ids = {definition_id(f) for f in files}
+        for status, file in changed:
+            if status in "DM":
+                # IRIs under former bases must survive somewhere, wherever the definition went
+                before = parse(git("show", f"{base}:{file}"))
+                for former in former_iris(before):
+                    if former not in replaced:
+                        report.error(file, f"no definition lists the former IRI {former} any more. Do not remove it")
+
             if status == "D":
+                if definition_id(file) in current_ids:
+                    continue  # same IRI, e.g. "a b.json" renamed to "a_b.json"
                 if not allow_breaking:
-                    report.error(file, f"deleting a definition removes its IRI {iri(file)}. "
+                    report.error(file, f"renaming or deleting a definition removes its IRI {iri(file)}. "
                                        "This is a breaking change: mark the pull request title with \"!\"")
                 if iri(file) not in replaced:
-                    report.warning(file, f"no definition lists the deleted IRI {iri(file)} in exactMatch; "
-                                         "if another definition replaces it, add the IRI there")
+                    report.error(file, f"no definition lists the removed IRI {iri(file)} in exactMatch. "
+                                       "Add it to the definition that replaces it (the renamed file)")
                 continue
 
             data = files.get(file)
@@ -278,19 +281,6 @@ def main(argv: list[str]) -> int:
             for key in ("name", "description"):
                 if isinstance(data.get(key), dict) and "de-DE" not in data[key]:
                     report.warning(file, f'"{key}" has no "de-DE" text')
-
-            if status == "R" and definition_id(old) != definition_id(file):
-                if not allow_breaking:
-                    report.error(file, f"renaming {old} changes its IRI. "
-                                       "This is a breaking change: mark the pull request title with \"!\"")
-                if iri(old) not in (data.get("exactMatch") or []):
-                    report.error(file, f"renamed from {old}: add its old IRI {iri(old)} to exactMatch")
-
-            if status in "MR":
-                before = parse(git("show", f"{base}:{old or file}"))
-                for former in former_iris(before):
-                    if former not in (data.get("exactMatch") or []):
-                        report.error(file, f"exactMatch no longer lists the former IRI {former}. Do not remove it")
 
     scope = f"{len(changed)} changed since {base}" if base else "without --base: no checks of changes"
     print(f"{len(files)} definitions ({scope}): {report.errors} errors, {report.warnings} warnings")

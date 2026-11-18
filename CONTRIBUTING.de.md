@@ -181,11 +181,12 @@ Für jede Datei:
 
 Für die Dateien, die ein Pull Request ändert:
 
-- Löschen oder Umbenennen einer Datei ist nur mit `!` im Titel erlaubt, und
-  eine umbenannte Datei führt ihre alte IRI in `exactMatch`. Eine gelöschte
-  Datei, deren IRI keine andere Definition führt, wird als Warnung gemeldet.
+- Löschen oder Umbenennen einer Datei ist nur mit `!` im Titel erlaubt. Ihre
+  alte IRI muss im `exactMatch` der Definition stehen, die sie ersetzt: der
+  umbenannten Datei oder der Definition, in die sie zusammengeführt wurde.
 - Eine frühere IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch`
-  wird nicht entfernt.
+  wird nicht entfernt; nach einer Umbenennung oder Zusammenführung führt sie
+  die ersetzende Definition.
 - Ein fehlender Text `de-DE` wird als Warnung gemeldet.
 
 Ob ein Name englisch ist, lässt sich nicht automatisch prüfen; das prüft das

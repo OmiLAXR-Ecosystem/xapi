@@ -176,11 +176,11 @@ For every file:
 
 For the files a pull request changes:
 
-- Deleting or renaming a file is only allowed with `!` in the title, and a
-  renamed file lists its old IRI in `exactMatch`. A deleted file without a
-  definition that lists its IRI is reported as a warning.
+- Deleting or renaming a file is only allowed with `!` in the title. Its old
+  IRI must be listed in the `exactMatch` of the definition that replaces it:
+  the renamed file, or the definition it was merged into.
 - A former IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch` is
-  not removed.
+  not removed; after a rename or merge, the replacing definition lists it.
 - A missing `de-DE` text is reported as a warning.
 
 Whether a name is English cannot be checked automatically; reviewers check it.
