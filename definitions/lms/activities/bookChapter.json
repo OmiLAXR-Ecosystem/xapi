@@ -1,6 +1,6 @@
 {
     "name": {
-        "en-US": "Book Chapter",
+        "en-US": "book chapter",
         "de-DE": "Buchkapitel"
     },
     "description": {
@@ -9,6 +9,7 @@
     },
     "exactMatch": [
         "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book_chapter",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/book_chapter",
         "http://id.tincanapi.com/activitytype/chapter"
     ]
 }
