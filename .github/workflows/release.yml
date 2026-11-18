@@ -1,0 +1,40 @@
+name: Release
+
+# Every push to main updates the release PR (version.txt, CHANGELOG.md).
+# Merging the release PR creates the tag vX.Y.Z and the GitHub release. The
+# merge changes version.txt, so pages.yml deploys the site with the new version.
+
+on:
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release-please:
+    name: Release PR
+    runs-on: ubuntu-latest
+    steps:
+      # A GitHub App token instead of GITHUB_TOKEN: PRs made with GITHUB_TOKEN
+      # do not trigger workflows, so the release PR would get no checks and
+      # could never be merged.
+      - name: Create release bot token
+        id: app-token
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3.4.0
+        with:
+          client-id: ${{ vars.RELEASE_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-issues: write
+
+      - name: Update release PR or create release
+        uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          config-file: .github/release-please-config.json
+          manifest-file: .github/.release-please-manifest.json
