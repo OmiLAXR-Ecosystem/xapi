@@ -4,7 +4,12 @@
 Usage:
     check-definitions.py [--base REF] [--allow-breaking]
 
-Always checked, for every file (the content can be fixed without changing an IRI):
+Always checked, for every file:
+- The path is definitions/<context>/{verbs,activities}/<name>.json or
+  definitions/<context>/extensions/{activity,context,result}/<name>.json, and
+  context and file name are lowerCamelCase with ASCII letters and digits only.
+  Fixing a wrong path changes the IRI: rename the file in a breaking change
+  and list the old IRI in exactMatch.
 - "name" and "description" are language maps with valid language tags,
   non-empty texts and an "en-US" entry.
 - Every "...Match" list, also nested ones such as choices[].exactMatch, is a
@@ -16,12 +21,11 @@ Checked with --base, for the files changed since REF (merge base with HEAD):
 - Deleting or renaming a definition changes its IRI. That is a breaking change
   and an error unless --allow-breaking is given (the pull request title is
   marked with "!", e.g. "feat!: ...").
-- A renamed definition lists its old IRI in exactMatch.
+- A renamed definition lists its old IRI in exactMatch. A deleted definition
+  should be replaced: another definition lists its IRI in exactMatch
+  (a warning otherwise).
 - An IRI under a former registry base (see FORMER_BASES) that the file listed
   before is still listed.
-- Added and renamed files: lowerCamelCase file name (and context name, if the
-  context is new), extensions in extensions/{activity,context,result}/.
-  Older file names are not checked: fixing them would change their IRIs.
 - Added and changed files: a missing "de-DE" text is a warning.
 
 Exit code 1 if there is an error. Warnings do not fail. On GitHub Actions the
@@ -41,6 +45,7 @@ DEFINITIONS = "definitions"
 BASE = "https://omilaxr-ecosystem.github.io/xapi/"
 FORMER_BASES = ["https://xapi.elearn.rwth-aachen.de/"]
 TYPES = ("verbs", "activities", "extensions")
+EXTENSION_TYPES = ("activity", "context", "result")
 
 CAMEL_CASE = re.compile(r"^[a-z][a-zA-Z0-9]*$")
 LANGUAGE_TAG = re.compile(r"^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})*$")
@@ -146,18 +151,29 @@ def check_format(file: str, data: dict, report: Report) -> None:
                 report.error(file, f"{path} contains {entry!r}, which is not an IRI")
 
 
-def check_name(file: str, base_contexts: set[str], report: Report) -> None:
+def check_path(file: str, report: Report) -> None:
+    """definitions/<context>/{verbs,activities}/<name>.json or
+    definitions/<context>/extensions/{activity,context,result}/<name>.json, all names lowerCamelCase."""
     parts = file.split("/")
+    if not file.endswith(".json"):
+        report.error(file, "only .json files belong into definitions/")
+        return
     stem = parts[-1].removesuffix(".json")
     if not CAMEL_CASE.match(stem):
         report.error(file, f'file name "{stem}" must be lowerCamelCase with ASCII letters and digits only')
-    context = parts[1]
-    if context not in base_contexts and not CAMEL_CASE.match(context):
-        report.error(file, f'new context "{context}" must be lowerCamelCase with ASCII letters and digits only')
-    if len(parts) < 4 or parts[2] not in TYPES:
-        return  # the website build reports misplaced files
-    if parts[2] == "extensions" and (len(parts) != 5 or parts[3] not in ("activity", "context", "result")):
-        report.error(file, "extensions belong into extensions/{activity,context,result}/")
+    if len(parts) < 4:
+        report.error(file, "must be inside definitions/<context>/{verbs,activities,extensions}/")
+        return
+    context, kind = parts[1], parts[2]
+    if not CAMEL_CASE.match(context):
+        report.error(file, f'context "{context}" must be lowerCamelCase with ASCII letters and digits only')
+    if kind not in TYPES:
+        report.error(file, f'"{kind}" is not one of {", ".join(TYPES)}')
+    elif kind == "extensions":
+        if len(parts) != 5 or parts[3] not in EXTENSION_TYPES:
+            report.error(file, f"extensions belong directly into extensions/{{{','.join(EXTENSION_TYPES)}}}/")
+    elif len(parts) != 4:
+        report.error(file, f"{kind} belong directly into {kind}/, without subfolders ({'/'.join(parts[3:-1])})")
 
 
 def former_iris(data: dict | None) -> list[str]:
@@ -198,13 +214,16 @@ def main(argv: list[str]) -> int:
 
     report = Report()
     files: dict[str, dict] = {}
-    for path in sorted((ROOT / DEFINITIONS).rglob("*.json")):
-        data = parse(path.read_text("utf-8"))
-        if data is not None:
-            files[path.relative_to(ROOT).as_posix()] = data
+    for path in sorted(p for p in (ROOT / DEFINITIONS).rglob("*") if p.is_file()):
+        file = unicodedata.normalize("NFC", path.relative_to(ROOT).as_posix())
+        check_path(file, report)
+        if path.suffix == ".json" and (data := parse(path.read_text("utf-8"))) is not None:
+            files[file] = data
     for file, data in files.items():
         check_format(file, data, report)
     check_references(files, report)
+    # Every IRI that some definition declares as exactMatch; a deleted definition should be one of them.
+    replaced = {e for d in files.values() for e in d.get("exactMatch") or [] if isinstance(e, str)}
 
     changed = []
     if base:
@@ -213,14 +232,14 @@ def main(argv: list[str]) -> int:
         except subprocess.CalledProcessError as e:
             print(f"cannot diff against {base}: {e.stderr.strip()}", file=sys.stderr)
             return 2
-        base_files = git("ls-tree", "-r", "--name-only", "-z", base, "--", DEFINITIONS).split("\0")
-        base_contexts = {f.split("/")[1] for f in base_files if f.count("/") >= 2}
-
         for status, file, old in changed:
             if status == "D":
                 if not allow_breaking:
                     report.error(file, f"deleting a definition removes its IRI {iri(file)}. "
                                        "This is a breaking change: mark the pull request title with \"!\"")
+                if iri(file) not in replaced:
+                    report.warning(file, f"no definition lists the deleted IRI {iri(file)} in exactMatch; "
+                                         "if another definition replaces it, add the IRI there")
                 continue
 
             data = files.get(file)
@@ -229,8 +248,6 @@ def main(argv: list[str]) -> int:
             for key in ("name", "description"):
                 if isinstance(data.get(key), dict) and "de-DE" not in data[key]:
                     report.warning(file, f'"{key}" has no "de-DE" text')
-            if status != "M":
-                check_name(file, base_contexts, report)
 
             if status == "R" and definition_id(old) != definition_id(file):
                 if not allow_breaking:
