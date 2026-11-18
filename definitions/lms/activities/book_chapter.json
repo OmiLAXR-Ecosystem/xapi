@@ -10,6 +10,5 @@
     "exactMatch": [
         "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book_chapter",
         "http://id.tincanapi.com/activitytype/chapter"
-    ],
-    "relatedMatch": []
+    ]
 }

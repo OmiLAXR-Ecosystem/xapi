@@ -10,6 +10,5 @@
     "exactMatch": [
         "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/course",
         "http://adlnet.gov/expapi/activities/course"
-    ],
-    "relatedMatch": []
+    ]
 }
