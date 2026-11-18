@@ -128,17 +128,50 @@ only checks.
 
 1. Create a branch from `main` (or fork the repository).
 2. Add or edit definition files. Keep one topic per pull request.
-3. Run `make format` and `make check`. `make check` builds the website, which
-   validates every definition file.
-4. Every change is released as soon as it is merged. Add a new version on top
-   of `CHANGELOG.md` with today's date (`## [X.Y.Z] - YYYY-MM-DD`) and sort the
-   entries into the sections of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
-   (**Added**, **Changed**, **Fixed**, **Removed**). Bump the version as the top
-   of the CHANGELOG describes: major if an IRI changes, minor for new
-   definitions or fields, patch for corrections. Mark renames and deletions
-   with **BREAKING**.
-5. Open a pull request against `main`. The website build runs on every pull
-   request that touches `definitions/`.
+3. Run `make format` and `make check`. `make check` checks the formatting and
+   the rules of this guide (`scripts/check-definitions.py`, see below) and
+   builds the website, which validates every definition file.
+4. Open a pull request against `main`. Its title becomes the CHANGELOG entry
+   and decides the next version, so write it as a
+   [Conventional Commit](https://www.conventionalcommits.org/):
+
+   | Title | Use for | Version |
+   |---|---|---|
+   | `fix: correct German names in lms` | corrections of names, descriptions, formatting | patch |
+   | `feat(virtualReality): add grabbed verb` | new definitions, contexts or fields | minor |
+   | `feat!: move duration to extensions/activity` | renaming, moving or deleting a file (the IRI changes) | major |
+   | `docs:`, `ci:`, `chore:` | changes that do not touch the registry | none |
+
+   Do not edit `CHANGELOG.md` or `version.txt`. Several changes in one pull
+   request can be listed as further Conventional Commit lines in the
+   description of the squash commit.
+5. The pull request must pass the checks **PR title**, **Definitions** and
+   **Website**. It is merged with squash.
+6. release-please collects the merged changes in a release pull request. When
+   the maintainers merge it, the new version is tagged (`vX.Y.Z`), released on
+   GitHub and shown on the website.
+
+### What the checks enforce
+
+For every file:
+
+- `name` and `description` are language maps with valid language tags,
+  non-empty texts and an `en-US` entry.
+- Every `…Match` list, including nested ones such as
+  `choices[].rules[].exactMatch`, is a non-empty list of distinct IRIs without
+  spaces.
+- A reference to this registry points to a definition that exists. The IRI of
+  `a b.json` ends in `a_b`, so the reference must use `_` too.
+
+For the files a pull request changes:
+
+- Deleting or renaming a file is only allowed with `!` in the title, and a
+  renamed file lists its old IRI in `exactMatch`.
+- A former IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch` is
+  not removed.
+- New and renamed files and new contexts have lowerCamelCase names, and
+  extensions are in `extensions/{activity,context,result}/`.
+- A missing `de-DE` text is reported as a warning.
 
 ## Running the website locally
 

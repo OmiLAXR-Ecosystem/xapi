@@ -7,12 +7,19 @@ Its IRI is `https://omilaxr-ecosystem.github.io/xapi/definitions/<path without .
 Renaming or moving a file changes the IRI. Up to version 1.x the IRIs started with `https://xapi.elearn.rwth-aachen.de/`;
 every definition keeps its former IRI as the first entry of `exactMatch`.
 
+## Versions
+
+The registry follows [Semantic Versioning](https://semver.org/): a changed IRI is a major version, new
+definitions a minor, corrections a patch. Each release is a tag `vX.Y.Z` with a GitHub release; the current
+version is in `version.txt`, in the footer of the website and in `registry.json`. Pin a tag instead of `main`
+to get a fixed set of definitions. Releases are made by release-please, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Website
 
 `site/` builds a static website from `definitions/`: search, one page per definition with its history,
 a shareable list, and the raw JSON of every definition at `definitions/<id>.json`
 (all definitions: `definitions.json`). Every push to `main` deploys it to GitHub Pages
-(`.github/workflows/pages.yml`). Pull requests only build it, which validates all definition files.
+(`.github/workflows/pages.yml`). Pull requests build it in the "Website" check (`.github/workflows/checks.yml`).
 
 Run it locally (Node 22.23 or newer, see `site/.nvmrc`):
 

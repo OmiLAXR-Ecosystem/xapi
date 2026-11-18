@@ -134,18 +134,49 @@ einem Zeilenumbruch am Ende. `make format` wendet das auf alle Dateien an,
 
 1. Lege einen Branch von `main` an (oder forke das Repository).
 2. Lege Definitionsdateien an oder bearbeite sie. Ein Thema pro Pull Request.
-3. Führe `make format` und `make check` aus. `make check` baut die Website und
-   validiert dabei jede Definitionsdatei.
-4. Jede Änderung wird veröffentlicht, sobald sie gemergt ist. Lege oben in
-   `CHANGELOG.md` eine neue Version mit heutigem Datum an
-   (`## [X.Y.Z] - YYYY-MM-DD`) und ordne die Einträge in die Abschnitte von
-   [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) ein (**Added**,
-   **Changed**, **Fixed**, **Removed**). Erhöhe die Version wie oben im
-   CHANGELOG beschrieben: major, wenn sich eine IRI ändert, minor für neue
-   Definitionen oder Felder, patch für Korrekturen. Markiere Umbenennungen und
-   Löschungen mit **BREAKING**.
-5. Öffne einen Pull Request gegen `main`. Der Website-Build läuft bei jedem Pull
-   Request, der `definitions/` berührt.
+3. Führe `make format` und `make check` aus. `make check` prüft die
+   Formatierung und die Regeln dieses Leitfadens (`scripts/check-definitions.py`,
+   siehe unten) und baut die Website, die dabei jede Definitionsdatei validiert.
+4. Öffne einen Pull Request gegen `main`. Sein Titel wird zum Eintrag im
+   CHANGELOG und bestimmt die nächste Version. Schreibe ihn deshalb als
+   [Conventional Commit](https://www.conventionalcommits.org/de/):
+
+   | Titel | Wofür | Version |
+   |---|---|---|
+   | `fix: correct German names in lms` | Korrekturen an Namen, Beschreibungen, Formatierung | patch |
+   | `feat(virtualReality): add grabbed verb` | neue Definitionen, Kontexte oder Felder | minor |
+   | `feat!: move duration to extensions/activity` | Umbenennen, Verschieben oder Löschen einer Datei (die IRI ändert sich) | major |
+   | `docs:`, `ci:`, `chore:` | Änderungen, die die Registry nicht betreffen | keine |
+
+   Bearbeite `CHANGELOG.md` und `version.txt` nicht. Mehrere Änderungen in
+   einem Pull Request lassen sich als weitere Conventional-Commit-Zeilen in der
+   Beschreibung des Squash-Commits aufführen.
+5. Der Pull Request muss die Checks **PR title**, **Definitions** und
+   **Website** bestehen. Er wird per Squash gemergt.
+6. release-please sammelt die gemergten Änderungen in einem Release-Pull-Request.
+   Sobald die Maintainer ihn mergen, wird die neue Version getaggt (`vX.Y.Z`),
+   auf GitHub veröffentlicht und auf der Website angezeigt.
+
+### Was die Checks prüfen
+
+Für jede Datei:
+
+- `name` und `description` sind Language-Maps mit gültigen Sprach-Tags,
+  nicht leeren Texten und einem Eintrag `en-US`.
+- Jede `…Match`-Liste, auch verschachtelte wie `choices[].rules[].exactMatch`,
+  ist eine nicht leere Liste verschiedener IRIs ohne Leerzeichen.
+- Ein Verweis auf diese Registry zeigt auf eine existierende Definition. Die
+  IRI von `a b.json` endet auf `a_b`, der Verweis muss also auch `_` verwenden.
+
+Für die Dateien, die ein Pull Request ändert:
+
+- Löschen oder Umbenennen einer Datei ist nur mit `!` im Titel erlaubt, und
+  eine umbenannte Datei führt ihre alte IRI in `exactMatch`.
+- Eine frühere IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch`
+  wird nicht entfernt.
+- Neue und umbenannte Dateien sowie neue Kontexte haben lowerCamelCase-Namen,
+  und Extensions liegen in `extensions/{activity,context,result}/`.
+- Ein fehlender Text `de-DE` wird als Warnung gemeldet.
 
 ## Website lokal starten
 
