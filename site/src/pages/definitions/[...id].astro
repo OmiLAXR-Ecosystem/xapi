@@ -4,31 +4,38 @@ import T from "../../components/T.astro";
 import LMap from "../../components/LMap.astro";
 import Badge from "../../components/Badge.astro";
 import ListButton from "../../components/ListButton.astro";
-import { findByIri, getDefinitions, isFormerIri, pageParam, REPO_URL, type Definition } from "../../lib/definitions";
+import { findByIri, getDefinitions, getRedirects, pageParam, REPO_URL, type Definition } from "../../lib/definitions";
 import { pick } from "../../lib/i18n";
 import { definitionHref, href } from "../../lib/url";
 
 export async function getStaticPaths() {
-  return (await getDefinitions()).map((definition) => ({ params: { id: pageParam(definition.id) }, props: { definition } }));
+  const pages = (await getDefinitions()).map((definition) => ({ params: { id: pageParam(definition.id) }, props: { definition } }));
+  // The old address of a renamed or merged definition redirects to the new one.
+  const redirects = (await getRedirects()).map(({ id, target }) => ({
+    params: { id: pageParam(id) },
+    props: { definition: target, redirect: true },
+  }));
+  return [...pages, ...redirects];
 }
 
 interface Props {
   definition: Definition;
+  redirect?: boolean;
 }
-const { definition: d } = Astro.props;
+const { definition: d, redirect } = Astro.props;
+if (redirect) return Astro.redirect(definitionHref(d.id), 301);
 
 const languages = [...new Set([...Object.keys(d.name), ...Object.keys(d.description)])].sort();
 
 // "*Match" fields with plain IRI lists become link lists, everything else is shown as JSON.
-// IRIs of this definition under a former registry base are shown next to the IRI instead.
-const formerIris: string[] = [];
+// Former IRIs of this definition are shown next to the IRI instead.
+const formerIris = d.formerIris;
 const matchFields: { key: string; iris: { iri: string; target?: Definition }[] }[] = [];
 const otherFields: [string, unknown][] = [];
 for (const [key, value] of Object.entries(d.data)) {
   if (key === "name" || key === "description") continue;
   if (key.endsWith("Match") && Array.isArray(value) && value.every((v) => typeof v === "string")) {
-    const iris = key === "exactMatch" ? value.filter((iri) => !isFormerIri(iri)) : value;
-    if (key === "exactMatch") formerIris.push(...value.filter(isFormerIri));
+    const iris = key === "exactMatch" ? value.filter((iri) => !formerIris.includes(iri)) : value;
     if (iris.length === 0) continue;
     matchFields.push({ key, iris: await Promise.all(iris.map(async (iri) => ({ iri, target: await findByIri(iri) }))) });
   } else {
