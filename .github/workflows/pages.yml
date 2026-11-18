@@ -1,13 +1,12 @@
 # Builds the registry website from definitions/ and deploys it to GitHub Pages.
-# On pull requests it only builds, which also validates every definition file.
+# Pull requests are built by the "Website" job in checks.yml.
 name: Registry website
 
 on:
   push:
     branches: [main]
-    paths: ["definitions/**", "site/**", ".github/workflows/pages.yml"]
-  pull_request:
-    paths: ["definitions/**", "site/**", ".github/workflows/pages.yml"]
+    # version.txt changes with every release; the site shows the version
+    paths: ["definitions/**", "site/**", "version.txt", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -37,7 +36,6 @@ jobs:
           cache: npm
           cache-dependency-path: site/package-lock.json
       - id: pages
-        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v6
       - run: npm ci
       - run: npm run build
@@ -45,13 +43,11 @@ jobs:
           # Follows the Pages setting, so a custom domain needs no code change
           SITE_URL: ${{ steps.pages.outputs.origin }}
           BASE_PATH: ${{ steps.pages.outputs.base_path || '/' }}
-      - if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site/dist
 
   deploy:
-    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

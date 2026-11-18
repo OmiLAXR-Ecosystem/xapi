@@ -1,0 +1,87 @@
+name: Checks
+
+# Required checks for pull requests into main. The ruleset on main requires
+# the jobs "PR title", "Definitions" and "Website" to pass before a merge.
+# No path filter: a required check that does not run blocks the merge.
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  pr-title:
+    name: PR title
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    steps:
+      # The PR title becomes the squash commit on main, and release-please
+      # derives the next version from it: fix -> patch (corrections),
+      # feat -> minor (new definitions), "!" -> major (an IRI changes).
+      - uses: amannn/action-semantic-pull-request@2252a14e810aa9b85c2d560bd7070c802206ecf6 # v6.1.2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          types: |
+            feat
+            fix
+            perf
+            revert
+            refactor
+            docs
+            test
+            build
+            ci
+            chore
+
+  definitions:
+    name: Definitions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The base branch, to find deleted and renamed definitions
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check formatting
+        run: python3 -I scripts/format-definitions.py --check
+
+      # HEAD is the merge commit of the pull request, HEAD^1 the base branch.
+      # Deleting or renaming a definition is only allowed with a breaking
+      # PR title such as "feat!: ...".
+      - name: Check rules of CONTRIBUTING.md
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          args=(--base HEAD^1)
+          breaking='^[a-z]+(\([^)]*\))?!:'
+          if [[ "$TITLE" =~ $breaking ]]; then
+            args+=(--allow-breaking)
+          fi
+          python3 -I scripts/check-definitions.py "${args[@]}"
+
+  website:
+    name: Website
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Full history for the per-definition change log
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: site/.nvmrc
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      # Fails on invalid definitions (see site/src/lib/definitions.ts)
+      - run: npm run build

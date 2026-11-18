@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Keeps the actions in .github/workflows up to date.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
+    groups:
+      actions:
+        patterns: ["*"]
+  # Dependencies of the registry website.
+  - package-ecosystem: npm
+    directory: /site
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: build
+    groups:
+      site:
+        patterns: ["*"]
