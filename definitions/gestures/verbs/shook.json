@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "shook",
+        "de-DE": "schüttelte"
+    },
+    "description": {
+        "en-US": "An actor shook something, for example a part of the body such as the head.",
+        "de-DE": "Ein Akteur schüttelte etwas, zum Beispiel einen Körperteil wie den Kopf."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/shaked",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/shaked"
+    ]
+}
