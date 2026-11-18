@@ -7,7 +7,8 @@ Usage:
 Always checked, for every file:
 - The path is definitions/<context>/{verbs,activities}/<name>.json or
   definitions/<context>/extensions/{activity,context,result}/<name>.json, and
-  context and file name are lowerCamelCase with ASCII letters and digits only.
+  context and file name are lowerCamelCase with ASCII letters and digits only
+  (a context may start with a digit, e.g. 360tours).
   Fixing a wrong path changes the IRI: rename the file in a breaking change
   and list the old IRI in exactMatch.
 - "name" and "description" are language maps with valid language tags,
@@ -15,7 +16,10 @@ Always checked, for every file:
 - Every "...Match" list, also nested ones such as choices[].exactMatch, is a
   non-empty list of distinct IRIs without spaces.
 - References to this registry point to a definition that exists. The IRI of
-  "a b.json" ends in "a_b", so a reference must use "_" too.
+  "a b.json" ends in "a_b", so a reference must use "_" too. Only the top-level
+  exactMatch may list an IRI that no longer exists: the former IRI of a renamed
+  definition. Its path must exist in the git history, and only one definition
+  may claim it.
 
 Checked with --base, for the files changed since REF (merge base with HEAD):
 - Deleting or renaming a definition changes its IRI. That is a breaking change
@@ -48,6 +52,8 @@ TYPES = ("verbs", "activities", "extensions")
 EXTENSION_TYPES = ("activity", "context", "result")
 
 CAMEL_CASE = re.compile(r"^[a-z][a-zA-Z0-9]*$")
+# Contexts may start with a digit, e.g. "360tours".
+CONTEXT_NAME = re.compile(r"^[a-z0-9][a-zA-Z0-9]*$")
 LANGUAGE_TAG = re.compile(r"^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})*$")
 IRI = re.compile(r"^[a-zA-Z][a-zA-Z0-9+.-]*:\S+$")
 ON_GITHUB = os.environ.get("GITHUB_ACTIONS") == "true"
@@ -110,17 +116,41 @@ def match_lists(value, path: str = ""):
             yield from match_lists(child, f"{path}/{i}")
 
 
+def historic_ids() -> set[str] | None:
+    """Ids of every definition file that ever existed in the git history, or None without git."""
+    try:
+        out = git("log", "--all", "--no-renames", "--name-only", "--format=", "-z", "--", DEFINITIONS)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return None
+    return {definition_id(f.strip("\n")) for f in out.split("\0") if f.strip("\n").endswith(".json")}
+
+
 def check_references(files: dict[str, dict], report: Report) -> None:
+    """References to this registry must exist. The top-level exactMatch may also list a
+    former IRI of the definition itself: a path that existed before and was renamed."""
     ids = {definition_id(f) for f in files}
+    history = historic_ids()
+    if history is None:
+        report.warning(DEFINITIONS, "no git history; former IRIs in exactMatch are not checked")
     prefix = f"{BASE}{DEFINITIONS}/"
+    claimed: dict[str, str] = {}
     for file, data in files.items():
         for path, entries in match_lists(data):
             for entry in entries if isinstance(entries, list) else []:
                 if not isinstance(entry, str) or not entry.startswith(prefix):
                     continue
                 # Exact match: the IRI of "a b.json" is ".../a_b", never ".../a b".
-                if unicodedata.normalize("NFC", entry[len(prefix):]) not in ids:
+                target = unicodedata.normalize("NFC", entry[len(prefix):])
+                if target in ids:
+                    continue
+                if path != "/exactMatch":
                     report.error(file, f"{path} points to {entry}, which is not in the registry")
+                elif history is not None and target not in history:
+                    report.error(file, f"{path} lists {entry}, which neither exists nor existed before")
+                elif target in claimed:
+                    report.error(file, f"former IRI {entry} is also claimed by {claimed[target]}")
+                else:
+                    claimed[target] = file
 
 
 def check_language_map(file: str, data: dict, key: str, report: Report) -> None:
@@ -165,7 +195,7 @@ def check_path(file: str, report: Report) -> None:
         report.error(file, "must be inside definitions/<context>/{verbs,activities,extensions}/")
         return
     context, kind = parts[1], parts[2]
-    if not CAMEL_CASE.match(context):
+    if not CONTEXT_NAME.match(context):
         report.error(file, f'context "{context}" must be lowerCamelCase with ASCII letters and digits only')
     if kind not in TYPES:
         report.error(file, f'"{kind}" is not one of {", ".join(TYPES)}')

@@ -38,9 +38,11 @@ Once a definition is merged, statements in the wild use its IRI. Therefore:
 
 - **Do not rename, move or delete merged files.** Fix the text inside the file
   instead.
-- If a rename is unavoidable, it is a breaking change. Add the old full IRI to
-  `exactMatch` in the moved file, so statements using the old IRI can still be
-  mapped, and mark the entry in the CHANGELOG with **BREAKING**.
+- If a rename is unavoidable, it is a breaking change (`!` in the pull request
+  title). Add the old full IRI to `exactMatch` in the moved file, so statements
+  using the old IRI can still be mapped. The website then shows it as former
+  IRI and redirects the old address to the new definition. When two
+  definitions are merged, the remaining one lists the IRI of the deleted one.
 - Choose the file name carefully, it cannot be fixed later.
 - Up to version 1.x the IRIs started with `https://xapi.elearn.rwth-aachen.de/`.
   Every definition from that time lists its former IRI as the first entry of
@@ -96,7 +98,11 @@ only checks.
   `numberOfPlayers.json`. No spaces, umlauts, hyphens or underscores.
 - Verbs in the past tense: `opened`, `loggedIn`, `shook` (not `open`, `shaked`).
 - Activities and extensions as nouns: `controllerButton`, `pupilDiameter`.
-- Contexts follow the same rule: `virtualWorld`, `eyeTracking`.
+- File names are English, also in contexts whose texts are mainly German.
+- Contexts follow the same rule: `virtualWorld`, `eyeTracking`. They may start
+  with a digit (`360tours`).
+- No further subfolders: `activities/subscores/x.json` is not allowed, put the
+  grouping into the name or the description instead.
 
 ### English (`en-US`)
 
@@ -155,23 +161,29 @@ only checks.
 
 For every file:
 
+- The path follows [Repository layout](#repository-layout) without further
+  subfolders, and context and file name follow [File names](#file-names).
 - `name` and `description` are language maps with valid language tags,
   non-empty texts and an `en-US` entry.
 - Every `…Match` list, including nested ones such as
   `choices[].rules[].exactMatch`, is a non-empty list of distinct IRIs without
   spaces.
 - A reference to this registry points to a definition that exists. The IRI of
-  `a b.json` ends in `a_b`, so the reference must use `_` too.
+  `a b.json` ends in `a_b`, so the reference must use `_` too. Only the
+  top-level `exactMatch` may list an IRI that no longer exists: the former IRI
+  of a renamed definition. Its path must exist in the git history, and only one
+  definition may list it.
 
 For the files a pull request changes:
 
 - Deleting or renaming a file is only allowed with `!` in the title, and a
-  renamed file lists its old IRI in `exactMatch`.
+  renamed file lists its old IRI in `exactMatch`. A deleted file without a
+  definition that lists its IRI is reported as a warning.
 - A former IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch` is
   not removed.
-- New and renamed files and new contexts have lowerCamelCase names, and
-  extensions are in `extensions/{activity,context,result}/`.
 - A missing `de-DE` text is reported as a warning.
+
+Whether a name is English cannot be checked automatically; reviewers check it.
 
 ## Running the website locally
 
