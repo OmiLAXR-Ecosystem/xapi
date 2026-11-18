@@ -109,6 +109,8 @@ main.wrap { flex: 1; padding-top: 2rem; padding-bottom: 3rem; }
 
 .site-footer { border-top: 1px solid var(--border); background: var(--surface); }
 .footer-inner { display: flex; gap: 1.2rem; flex-wrap: wrap; padding-top: 1rem; padding-bottom: 1rem; font-size: 0.9rem; }
+.footer-version { margin-left: auto; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.footer-version .unreleased { color: var(--muted); }
 
 /* Search */
 .hero p { color: var(--muted); margin: 0; }

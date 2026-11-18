@@ -69,6 +69,9 @@ const strings = {
   sourceRepo: { en: "Definitions repository", de: "Definitions-Repository" },
   suggest: { en: "Suggest a definition", de: "Definition vorschlagen" },
   allJson: { en: "All definitions as JSON", de: "Alle Definitionen als JSON" },
+  version: { en: "Version", de: "Version" },
+  unreleased: { en: "unreleased changes", de: "unveröffentlichte Änderungen" },
+  unreleasedOne: { en: "unreleased change", de: "unveröffentlichte Änderung" },
   notFound: { en: "Page not found", de: "Seite nicht gefunden" },
   backHome: { en: "Back to the search", de: "Zurück zur Suche" },
 } satisfies Record<string, Record<Lang, string>>;

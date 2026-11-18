@@ -3,6 +3,7 @@ import "../styles/global.css";
 import T from "../components/T.astro";
 import { href } from "../lib/url";
 import { REPO_URL } from "../lib/definitions";
+import { VERSION, RELEASE_URL, UNRELEASED, UNRELEASED_URL } from "../lib/version";
 
 interface Props {
   title?: string;
@@ -55,6 +56,14 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
         <a href={REPO_URL}><T k="sourceRepo" /></a>
         <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}><T k="suggest" /></a>
         <a href={href("definitions.json")}><T k="allJson" /></a>
+        <span class="footer-version">
+          <a href={RELEASE_URL}><T k="version" /> {VERSION}</a>
+          {UNRELEASED ? (
+            <a href={UNRELEASED_URL} class="unreleased">
+              + {UNRELEASED} <T k={UNRELEASED === 1 ? "unreleasedOne" : "unreleased"} />
+            </a>
+          ) : null}
+        </span>
       </div>
     </footer>
     <script>
