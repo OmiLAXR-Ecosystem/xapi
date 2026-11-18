@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "articulates own thoughts clearly",
+        "de-DE": "artikuliert eigene Gedanken klar und verständlich"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor articulated their own thoughts clearly and understandably.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur eigene Gedanken klar und verständlich artikulierte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/artikuliert_eigene_Gedanken_klar_und_verständlich",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/artikuliert_eigene_Gedanken_klar_und_verständlich"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

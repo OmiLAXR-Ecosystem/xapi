@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "other things",
+        "de-DE": "andere Dinge"
+    },
+    "description": {
+        "en-US": "Objects that have nothing to do with the task.",
+        "de-DE": "Objekte, die nichts mit der Aufgabe zu tun haben."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich_mit_anderen_Dingen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/sich_mit_anderen_Dingen"
+    ]
+}

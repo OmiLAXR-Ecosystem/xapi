@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en-US": "material",
+        "de-DE": "Material"
+    },
+    "description": {
+        "en-US": "Items provided to solve the task, e.g. that an actor gave to someone or took.",
+        "de-DE": "Gegenstände, die zum Lösen der Aufgabe zur Verfügung gestellt werden, z. B. die ein Akteur jemandem gab oder nahm."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material",
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Material_ab",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Material",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Material_ab"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "others",
+        "de-DE": "andere"
+    },
+    "description": {
+        "en-US": "Other actors, e.g. whom an actor asked, motivated or interrupted.",
+        "de-DE": "Andere Akteure, z. B. die ein Akteur fragte, motivierte oder unterbrach."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere"
+    ]
+}

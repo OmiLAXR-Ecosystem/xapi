@@ -1,0 +1,157 @@
+{
+    "name": {
+        "en-US": "gave",
+        "de-DE": "gab"
+    },
+    "description": {
+        "en-US": "An actor gave something to someone, e.g. instructions, material or the lead.",
+        "de-DE": "Ein Akteur gab jemandem etwas, z. B. Anweisungen, Material oder die Führung."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/gibt",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/gibt"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/instructions"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/taskStructuring"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/problemAnalysis"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/leadership"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/selfAdvocacy"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/considerateness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/interestInOthers"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/material"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/selflessness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/helpfulness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/selfAdvocacy"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/considerateness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/interestInOthers"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

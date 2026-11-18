@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "develops own ideas",
+        "de-DE": "entwickelt eigene Ideen"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor developed their own ideas.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur eigene Ideen entwickelte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/entwickelt_eigene_Ideen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/entwickelt_eigene_Ideen"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

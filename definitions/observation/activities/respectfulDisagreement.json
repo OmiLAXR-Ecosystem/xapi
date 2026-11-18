@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "handles disagreements respectfully",
+        "de-DE": "geht respektvoll und tolerant mit Meinungsverschiedenheiten um"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor handled disagreements respectfully and tolerantly.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur respektvoll und tolerant mit Meinungsverschiedenheiten umging."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

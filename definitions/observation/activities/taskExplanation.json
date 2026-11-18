@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "task explanation",
+        "de-DE": "Aufgabenerklärung"
+    },
+    "description": {
+        "en-US": "An explanation of the task, given by the observers.",
+        "de-DE": "Eine Erklärung der Aufgabe durch die Beobachter."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Erklärung"
+    ]
+}

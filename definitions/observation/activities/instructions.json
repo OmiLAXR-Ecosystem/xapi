@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "instructions",
+        "de-DE": "Anweisungen"
+    },
+    "description": {
+        "en-US": "Instructions on how to solve the task, e.g. given by an actor to others.",
+        "de-DE": "Anweisungen zum Lösen der Aufgabe, z. B. die ein Akteur anderen gibt."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Anweisungen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Anweisungen"
+    ]
+}

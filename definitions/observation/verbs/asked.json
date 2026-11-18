@@ -1,0 +1,141 @@
+{
+    "name": {
+        "en-US": "asked",
+        "de-DE": "fragte"
+    },
+    "description": {
+        "en-US": "An actor asked something, e.g. for details of the task.",
+        "de-DE": "Ein Akteur fragte etwas, z. B. nach Details der Aufgabe."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/fragt",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/fragt"
+    ],
+    "relatedMatch": [
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/asked"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/taskDetails"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/enthusiasm"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/initiative"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/purposefulAction"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/verbalParticipation"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/others"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/enthusiasm"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/initiative"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/selflessness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/willingnessToCompromise"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/interestInOthers"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "own idea",
+        "de-DE": "eigene Idee"
+    },
+    "description": {
+        "en-US": "A thought that an actor came up with on their own.",
+        "de-DE": "Eine Denkleistung, die ein Akteur selbst erbracht hat."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine_Idee",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/seine_Idee"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "finds ways to structure a task",
+        "de-DE": "findet Möglichkeiten zur Strukturierung einer Aufgabe"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor found ways to structure a task.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur Möglichkeiten zur Strukturierung einer Aufgabe fand."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/findet_Möglichkeiten_zur_Strukturierung_einer_Aufgabe",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/findet_Möglichkeiten_zur_Strukturierung_einer_Aufgabe"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

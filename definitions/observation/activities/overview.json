@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "keeps track of everything",
+        "de-DE": "behält stets den Überblick"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor always kept track of everything.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur stets den Überblick behielt."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/behält_stehts_den_Überblick",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/behält_stehts_den_Überblick"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

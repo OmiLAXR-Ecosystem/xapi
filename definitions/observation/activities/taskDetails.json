@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "task details",
+        "de-DE": "Aufgabendetails"
+    },
+    "description": {
+        "en-US": "Detailed information about the task, e.g. that an actor asked for.",
+        "de-DE": "Genauere Informationen über die Aufgabe, z. B. nach denen ein Akteur fragte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nach_Aufgaben_Details",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/nach_Aufgaben_Details"
+    ]
+}

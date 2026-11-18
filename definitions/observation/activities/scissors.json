@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "scissors",
+        "de-DE": "Schere"
+    },
+    "description": {
+        "en-US": "A pair of scissors provided to solve the task.",
+        "de-DE": "Eine Schere, die zum Lösen der Aufgabe zur Verfügung gestellt wurde."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Schere",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Schere"
+    ]
+}

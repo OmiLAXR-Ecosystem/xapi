@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "problem solving",
+        "de-DE": "Problemlösen"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the problem solving skills of an actor. 5 means that the actor showed problem solving skills.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für die Problemlösefähigkeit eines Akteurs. 5 bedeutet, dass der Akteur Problemlösefähigkeit zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Problemlösen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Problemlösen"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

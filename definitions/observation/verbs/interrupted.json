@@ -1,0 +1,105 @@
+{
+    "name": {
+        "en-US": "interrupted",
+        "de-DE": "unterbrach"
+    },
+    "description": {
+        "en-US": "An actor verbally interrupted someone or something, e.g. others or an explanation.",
+        "de-DE": "Ein Akteur unterbrach jemanden oder etwas mündlich, z. B. andere oder eine Erklärung."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/unterbricht",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/unterbricht"
+    ],
+    "relatedMatch": [
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/interrupted"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/others"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/enthusiasm"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/lettingOthersFinish"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/politeness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/taskExplanation"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/enthusiasm"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/lettingOthersFinish"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 1,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/politeness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

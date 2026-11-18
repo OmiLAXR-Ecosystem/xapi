@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "practical potential",
+        "de-DE": "Praktisches Potenzial"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the practical potential of an actor. 5 means that the actor showed practical potential.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für das praktische Potenzial eines Akteurs. 5 bedeutet, dass der Akteur praktisches Potenzial zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Praktisches_Potenzial",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Praktisches_Potenzial"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

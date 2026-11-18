@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "builds a clear picture of the problem",
+        "de-DE": "erarbeitet ein klares Bild der Ausgangssituation/Problemstellung"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor built a clear picture of the initial situation or the problem.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur ein klares Bild der Ausgangssituation oder Problemstellung erarbeitete."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/erarbeitet_ein_klares_Bild_der_AusgangssituationProblemstellung",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/erarbeitet_ein_klares_Bild_der_AusgangssituationProblemstellung"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}
