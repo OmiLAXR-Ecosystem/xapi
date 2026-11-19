@@ -21,7 +21,11 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href={href("favicon.svg")} type="image/svg+xml" />
+    <link rel="icon" href={href("favicon.ico")} sizes="any" />
+    <link rel="icon" href={href("favicon-32x32.png")} type="image/png" sizes="32x32" />
+    <link rel="icon" href={href("favicon-16x16.png")} type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href={href("apple-touch-icon.png")} sizes="180x180" />
+    <link rel="manifest" href={href("site.webmanifest")} />
     <script is:inline>
       // Set the language before first paint: saved choice, else the browser language.
       (function () {
