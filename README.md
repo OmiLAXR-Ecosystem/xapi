@@ -2,7 +2,13 @@
 
 A repository to host definitions for xAPI verbs, activities and other related features.
 
-Each definition is a JSON file at `definitions/<context>/<verbs|activities|extensions>/…/<name>.json`.
+**Browse the registry at <https://omilaxr-ecosystem.github.io/xapi/>.** The website lists every definition
+with its IRI, description in English and German, and change history. You can search by name, description or
+IRI (also former IRIs), collect definitions in a shareable list and export it as JSON or CSV. Each
+definition's IRI is also its address on the website, so opening an IRI in the browser shows its definition.
+
+Each definition is a JSON file at `definitions/<context>/{verbs,activities}/<name>.json` or
+`definitions/<context>/extensions/{activity,context,result}/<name>.json`.
 Its IRI is `https://omilaxr-ecosystem.github.io/xapi/definitions/<path without .json>`, with spaces replaced by `_`.
 Renaming or moving a file changes the IRI. Up to version 1.x the IRIs started with `https://xapi.elearn.rwth-aachen.de/`;
 every definition keeps its former IRI as the first entry of `exactMatch`.
