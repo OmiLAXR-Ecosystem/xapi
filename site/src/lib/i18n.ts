@@ -68,6 +68,7 @@ const strings = {
   pubAbout: { en: "About the registry", de: "Über die Registry" },
   pubUsing: { en: "Using the registry", de: "Mit der Registry" },
   inGerman: { en: "German", de: "Deutsch" },
+  fullText: { en: "Full text", de: "Volltext" },
   switchLang: { en: "Deutsch", de: "English" },
   sourceRepo: { en: "Definitions repository", de: "Definitions-Repository" },
   suggest: { en: "Suggest a definition", de: "Definition vorschlagen" },

@@ -124,7 +124,7 @@ main.wrap { flex: 1; padding-top: 2rem; padding-bottom: 3rem; }
 
 @media (max-width: 640px) {
   .search { grid-template-columns: 1fr 1fr; }
-  .search input { grid-column: 1 / -1; }
+  .search-field { grid-column: 1 / -1; }
 }
 
 /* Context cards */
@@ -196,6 +196,28 @@ th { color: var(--muted); font-weight: 600; font-size: 0.85rem; }
 .links .key { color: var(--muted); font-size: 0.85rem; }
 
 details summary { cursor: pointer; color: var(--muted); }
+
+/* Icons (components/Icon.astro) */
+.icon { width: 1em; height: 1em; flex: none; vertical-align: -0.125em; }
+.h-icon { display: flex; align-items: center; gap: 0.5rem; }
+.h-icon > .icon { color: var(--accent); }
+.nav a, .lang-toggle, .footer-inner a { display: inline-flex; align-items: center; gap: 0.35rem; }
+.icon-link { display: inline-flex; align-items: center; gap: 0.3rem; }
+
+/* External links in running text get a small arrow. Links with their own icon opt out with .no-ext. */
+.prose a[href^="http"]:not(.no-ext)::after, a.ext::after {
+  content: ""; display: inline-block; width: 0.75em; height: 0.75em; margin-left: 0.2em; vertical-align: -0.02em;
+  background: currentColor; opacity: 0.7;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 3h6v6'/%3E%3Cpath d='M10 14 21 3'/%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 3h6v6'/%3E%3Cpath d='M10 14 21 3'/%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* Search field with a leading icon */
+.search-field { position: relative; min-width: 0; display: flex; }
+.search-field .icon { position: absolute; left: 0.8rem; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search-field input { width: 100%; padding-left: 2.3rem; }
+.card strong { display: flex; align-items: center; gap: 0.4rem; }
+.card strong .icon { color: var(--muted); }
 
 .prose { max-width: 70ch; }
 .prose p, .prose li { color: var(--text); }

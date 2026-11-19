@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import T from "../../components/T.astro";
+import Icon from "../../components/Icon.astro";
 import LMap from "../../components/LMap.astro";
 import Badge from "../../components/Badge.astro";
 import ListButton from "../../components/ListButton.astro";
@@ -65,18 +66,18 @@ const formatDate = (iso: string) => iso.slice(0, 10);
   <div class="iri-box">
     <code id="iri">{d.iri}</code>
     <button type="button" class="btn small" data-copy={d.iri}>
-      <span class="when-idle"><T k="copy" /></span>
+      <Icon name="copy" /><span class="when-idle"><T k="copy" /></span>
     </button>
   </div>
   {formerIris.map((iri) => (
     <p class="former-iri"><T k="formerIri" />: <code>{iri}</code></p>
   ))}
   <div class="actions">
-    <a class="btn" href={href(`definitions/${d.id}.json`)}>JSON</a>
-    <a class="btn" href={fileUrl("main", d.file)}><T k="editOnGithub" /></a>
+    <a class="btn" href={href(`definitions/${d.id}.json`)}><Icon name="braces" />JSON</a>
+    <a class="btn" href={fileUrl("main", d.file)}><Icon name="pencil" /><T k="editOnGithub" /></a>
   </div>
 
-  <h2><T k="languages" /></h2>
+  <h2 class="h-icon"><Icon name="globe" /><T k="languages" /></h2>
   <div class="table-wrap">
     <table>
       <thead><tr><th><T k="language" /></th><th><T k="name" /></th><th><T k="desc" /></th></tr></thead>
@@ -90,13 +91,13 @@ const formatDate = (iso: string) => iso.slice(0, 10);
 
   {matchFields.length > 0 && (
     <>
-      <h2><T k="matches" /></h2>
+      <h2 class="h-icon"><Icon name="link" /><T k="matches" /></h2>
       {matchFields.map(({ key, iris }) => (
         <>
           <p class="links key mono">{key}</p>
           <ul class="links">
             {iris.map(({ iri, target }) => (
-              <li>{target ? <a href={definitionHref(target.id)}><LMap map={target.name} /></a> <span class="mono">{iri}</span> : iri.startsWith("http") ? <a class="mono" href={iri}>{iri}</a> : <span class="mono">{iri}</span>}</li>
+              <li>{target ? <a href={definitionHref(target.id)}><LMap map={target.name} /></a> <span class="mono">{iri}</span> : iri.startsWith("http") ? <a class="mono ext" href={iri}>{iri}</a> : <span class="mono">{iri}</span>}</li>
             ))}
           </ul>
         </>
@@ -106,7 +107,7 @@ const formatDate = (iso: string) => iso.slice(0, 10);
 
   {otherFields.length > 0 && (
     <>
-      <h2><T k="moreFields" /></h2>
+      <h2 class="h-icon"><Icon name="list" /><T k="moreFields" /></h2>
       {otherFields.map(([key, value]) => (
         <>
           <p class="links key mono">{key}</p>
@@ -116,7 +117,7 @@ const formatDate = (iso: string) => iso.slice(0, 10);
     </>
   )}
 
-  <h2><T k="history" /></h2>
+  <h2 class="h-icon"><Icon name="history" /><T k="history" /></h2>
   {d.history.length === 0 ? (
     <p><T k="noHistory" /></p>
   ) : (
@@ -129,7 +130,7 @@ const formatDate = (iso: string) => iso.slice(0, 10);
               <td class="mono">{formatDate(c.date)}</td>
               <td><a href={`${REPO_URL}/commit/${c.hash}`}>{c.message}</a></td>
               <td>{c.author}</td>
-              <td><a class="mono" href={fileUrl(c.hash, c.file)}>{c.hash.slice(0, 7)}</a></td>
+              <td><a class="mono icon-link" href={fileUrl(c.hash, c.file)}><Icon name="commit" />{c.hash.slice(0, 7)}</a></td>
             </tr>
           ))}
         </tbody>
@@ -137,7 +138,7 @@ const formatDate = (iso: string) => iso.slice(0, 10);
     </div>
   )}
 
-  <h2><T k="rawJson" /></h2>
+  <h2 class="h-icon"><Icon name="braces" /><T k="rawJson" /></h2>
   <details>
     <summary class="mono">{d.file}</summary>
     <pre>{d.raw}</pre>

@@ -1,6 +1,7 @@
 ---
 // Papers about the original registry, from src/data/publications.json. Rendered once per language block.
 import { t, type Lang } from "../lib/i18n";
+import Icon from "./Icon.astro";
 import publications from "../data/publications.json";
 
 interface Props {
@@ -47,7 +48,11 @@ const link = (p: Publication) => (p.doi ? `https://doi.org/${p.doi}` : p.url);
           </div>
           <div class="pub-venue">{source(p)}</div>
           {p.note ? <p class="pub-note">{p.note[lang]}</p> : null}
-          {p.doi ? <div class="pub-doi">DOI: <a href={`https://doi.org/${p.doi}`}>{p.doi}</a></div> : null}
+          <div class="pub-links">
+            {p.doi ? <a class="no-ext" href={`https://doi.org/${p.doi}`}><Icon name="link" />DOI {p.doi}</a> : null}
+            {p.url?.endsWith(".pdf") ? <a class="no-ext" href={p.url}><Icon name="file" />PDF</a> : null}
+            {p.url && !p.doi && !p.url.endsWith(".pdf") ? <a class="no-ext" href={p.url}><Icon name="external" />{t("fullText", lang)}</a> : null}
+          </div>
         </li>
       ))}
     </ul>
@@ -63,11 +68,13 @@ const link = (p: Publication) => (p.doi ? `https://doi.org/${p.doi}` : p.url);
     border-radius: var(--radius);
     padding: 0.9rem 1rem;
   }
-  .pub-authors, .pub-venue, .pub-doi { color: var(--muted); font-size: 0.9rem; }
+  .pub-authors, .pub-venue { color: var(--muted); font-size: 0.9rem; }
   .pub-title { font-weight: 600; margin: 0.15rem 0; }
   .pub-venue { font-style: italic; }
   .pub-note { margin: 0.5rem 0 0; font-size: 0.95rem; }
-  .pub-doi { margin-top: 0.35rem; overflow-wrap: anywhere; }
+  .pub-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; margin-top: 0.5rem; font-size: 0.9rem; }
+  .pub-links:empty { display: none; }
+  .pub-links a { display: inline-flex; align-items: center; gap: 0.3rem; overflow-wrap: anywhere; }
   .pub-lang {
     margin-left: 0.5rem;
     font-size: 0.75rem;
