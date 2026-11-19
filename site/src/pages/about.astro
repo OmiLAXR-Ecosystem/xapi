@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Publications from "../components/Publications.astro";
 import { REGISTRY_URL, REPO_URL } from "../lib/definitions";
 import { href } from "../lib/url";
 
@@ -117,6 +118,16 @@ const contributorsUrl = `${REPO_URL}#contributors`;
           </li>
         ))}
       </ul>
+
+      <h2 id="publications">Publications</h2>
+      <p>
+        All papers below describe or use the <strong>original registry</strong> at{" "}
+        <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>, and the IRIs they mention
+        point there. Definitions that existed there keep their former IRI here as <code>exactMatch</code>, so data
+        recorded in these studies can be mapped to this registry. Missing a paper? Add it to{" "}
+        <a href={`${REPO_URL}/blob/main/site/src/data/publications.json`}>publications.json</a> with a pull request.
+      </p>
+      <Publications lang="en" />
     </div>
 
     <div class="l-de">
@@ -211,6 +222,16 @@ const contributorsUrl = `${REPO_URL}#contributors`;
           </li>
         ))}
       </ul>
+
+      <h2 id="publikationen">Publikationen</h2>
+      <p>
+        Alle folgenden Paper beschreiben oder verwenden die <strong>ursprüngliche Registry</strong> unter{" "}
+        <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>, und die IRIs darin verweisen
+        dorthin. Definitionen, die es dort gab, behalten ihre frühere IRI hier als <code>exactMatch</code>. So lassen sich
+        die Daten aus diesen Studien dieser Registry zuordnen. Ein Paper fehlt? Per Pull Request in der{" "}
+        <a href={`${REPO_URL}/blob/main/site/src/data/publications.json`}>publications.json</a> ergänzen.
+      </p>
+      <Publications lang="de" />
     </div>
   </article>
 </Base>

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "heinemann2022xapimadeeasy",
+    "relation": "registry",
+    "type": "article",
+    "authors": ["Birte Heinemann", "Matthias Ehlenz", "Sergej Görzen", "Ulrik Schroeder"],
+    "year": 2022,
+    "title": "xAPI Made Easy: A Learning Analytics Infrastructure for Interdisciplinary Projects",
+    "venue": "International Journal of Online and Biomedical Engineering (iJOE)",
+    "volume": "18",
+    "issue": "14",
+    "pages": "99–113",
+    "doi": "10.3991/ijoe.v18i14.35079",
+    "url": "https://online-journals.org/index.php/i-joe/article/view/35079",
+    "note": {
+      "en": "Describes the registry, its concept and the xAPI Definitions Fetcher. Please cite this paper if you use the registry.",
+      "de": "Beschreibt die Registry, ihr Konzept und den xAPI Definitions Fetcher. Bitte zitiere dieses Paper, wenn du die Registry verwendest."
+    }
+  },
+  {
+    "id": "ehlenz2020registries",
+    "relation": "registry",
+    "type": "inproceedings",
+    "authors": ["Matthias Ehlenz", "Birte Heinemann", "Thiemo Leonhardt", "René Röpke", "Vlatko Lukarov", "Ulrik Schroeder"],
+    "year": 2020,
+    "title": "Eine forschungspraktische Perspektive auf xAPI-Registries",
+    "language": "de",
+    "venue": "DELFI 2020 – Die 18. Fachtagung Bildungstechnologien der Gesellschaft für Informatik e.V.",
+    "publisher": "Gesellschaft für Informatik e.V.",
+    "pages": "331–336",
+    "url": "https://dl.gi.de/handle/20.500.12116/34179",
+    "note": {
+      "en": "Compares existing xAPI registries and explains why research needs a shared vocabulary. The starting point of this registry.",
+      "de": "Vergleicht bestehende xAPI-Registries und begründet, warum die Forschung ein gemeinsames Vokabular braucht. Ausgangspunkt dieser Registry."
+    }
+  },
+  {
+    "id": "goerzen2024xapivr",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Sergej Görzen", "Birte Heinemann", "Ulrik Schroeder"],
+    "year": 2024,
+    "title": "Towards using the xAPI specification for Learning Analytics in Virtual Reality",
+    "venue": "Joint Proceedings of LAK 2024 Workshops (LAVR-LAK24), CEUR Workshop Proceedings",
+    "volume": "3667",
+    "pages": "260–271",
+    "url": "https://ceur-ws.org/Vol-3667/LAVRLAK24_paper_1.pdf",
+    "note": {
+      "en": "Extends the registry for the VR application RePiX VR, syncs it into Unity with the Definitions Fetcher and introduces OmiLAXR.",
+      "de": "Erweitert die Registry für die VR-Anwendung RePiX VR, synchronisiert sie mit dem Definitions Fetcher in Unity und stellt OmiLAXR vor."
+    }
+  },
+  {
+    "id": "heinemann2024dashboard",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Birte Heinemann", "Sergej Görzen", "Ana Dragoljić", "Lars Florian Meiendresch", "Marc Troll", "Ulrik Schroeder"],
+    "year": 2024,
+    "title": "A Learning Analytics Dashboard to Investigate the Influence of Interaction in a VR Learning Application",
+    "venue": "Joint Proceedings of LAK 2024 Workshops (LAVR-LAK24), CEUR Workshop Proceedings",
+    "volume": "3667",
+    "pages": "251–259",
+    "url": "https://ceur-ws.org/Vol-3667/LAVRLAK24_paper_2.pdf",
+    "note": {
+      "en": "A dashboard for VR study data recorded with xAPI definitions from the registry.",
+      "de": "Ein Dashboard für VR-Studiendaten, die mit xAPI-Definitionen aus der Registry erfasst wurden."
+    }
+  },
+  {
+    "id": "judel2022moodle",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Sven Judel", "Erik Schnell", "Ulrik Schroeder"],
+    "year": 2022,
+    "title": "Performantes xAPI Logging in Moodle",
+    "language": "de",
+    "venue": "DELFI 2022 – Die 20. Fachtagung Bildungstechnologien der Gesellschaft für Informatik e.V.",
+    "publisher": "Gesellschaft für Informatik e.V.",
+    "pages": "159–164",
+    "doi": "10.18420/delfi2022-028",
+    "note": {
+      "en": "A Moodle plugin that turns Moodle and client-side events into xAPI statements and takes all IRIs from this one open registry.",
+      "de": "Ein Moodle-Plugin, das Moodle- und clientseitige Events in xAPI-Statements überführt und alle IRIs aus dieser einen offenen Registry nimmt."
+    }
+  },
+  {
+    "id": "brocker2022juxl",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Annabell Brocker", "Sven Judel", "Ulrik Schroeder", "Yanik Söltzer"],
+    "year": 2022,
+    "title": "Juxl: JupyterLab xAPI Logging Interface",
+    "venue": "2022 International Conference on Advanced Learning Technologies (ICALT), IEEE",
+    "pages": "158–160",
+    "doi": "10.1109/ICALT55010.2022.00054",
+    "note": {
+      "en": "A JupyterLab extension that logs interactions in notebooks as xAPI statements with IRIs from the registry.",
+      "de": "Eine JupyterLab-Erweiterung, die Interaktionen in Notebooks als xAPI-Statements mit IRIs aus der Registry loggt."
+    }
+  },
+  {
+    "id": "judel2022excalibur",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Sven Judel", "Ulrik Schroeder"],
+    "year": 2022,
+    "title": "EXCALIBUR LA – An Extendable and Scalable Infrastructure Build for Learning Analytics",
+    "venue": "2022 International Conference on Advanced Learning Technologies (ICALT), IEEE",
+    "pages": "155–157",
+    "doi": "10.1109/ICALT55010.2022.00053",
+    "note": {
+      "en": "A learning analytics infrastructure that analyzes xAPI statements from several platforms, described with definitions from the registry.",
+      "de": "Eine Learning-Analytics-Infrastruktur, die xAPI-Statements aus mehreren Plattformen auswertet, beschrieben mit Definitionen aus der Registry."
+    }
+  },
+  {
+    "id": "judel2024videoanalytics",
+    "relation": "uses",
+    "type": "article",
+    "authors": ["Sven Judel", "Jasper vom Felde", "Ulrik Schroeder"],
+    "year": 2024,
+    "title": "Video Analytics in Moodle Using xAPI",
+    "venue": "Technology, Knowledge and Learning",
+    "volume": "29",
+    "issue": "4",
+    "pages": "1939–1963",
+    "doi": "10.1007/s10758-023-09720-3",
+    "note": {
+      "en": "Logs video interactions in Moodle as xAPI statements whose verbs and object types link to the registry.",
+      "de": "Erfasst Video-Interaktionen in Moodle als xAPI-Statements, deren Verben und Objekttypen auf die Registry verweisen."
+    }
+  },
+  {
+    "id": "judel2024consent",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Sven Judel", "Christopher Zeise", "Ulrik Schroeder"],
+    "year": 2024,
+    "title": "Informiertes Zustimmungsmanagement für Learning Analytics in Lernmanagementsystemen",
+    "language": "de",
+    "venue": "DELFI 2024 – Die 22. Fachtagung Bildungstechnologien der Gesellschaft für Informatik e.V.",
+    "publisher": "Gesellschaft für Informatik e.V.",
+    "pages": "81–94",
+    "doi": "10.18420/delfi2024_06",
+    "note": {
+      "en": "Consent management for learning analytics. Learners consent per verb and object, using registry IRIs such as media/verbs/finished and its language maps.",
+      "de": "Zustimmungsmanagement für Learning Analytics. Lernende stimmen pro Verb und Objekt zu, mit IRIs der Registry wie media/verbs/finished und ihren Language Maps."
+    }
+  },
+  {
+    "id": "ehlenz2025twolayers",
+    "relation": "uses",
+    "type": "inproceedings",
+    "authors": ["Matthias Ehlenz", "Birte Heinemann"],
+    "year": 2025,
+    "title": "Two Layers of Learning Analytics: Authoring Immersive Experiences",
+    "venue": "Joint Proceedings of LAK 2025 Workshops (LAVR-LAK25), CEUR Workshop Proceedings",
+    "volume": "3995",
+    "pages": "26–34",
+    "url": "https://ceur-ws.org/Vol-3995/LAVRLAK25_paper3_short.pdf",
+    "note": {
+      "en": "Adds a context with definitions for authoring 360° learning experiences to the registry.",
+      "de": "Ergänzt die Registry um einen Kontext mit Definitionen für das Erstellen von 360°-Lernerfahrungen."
+    }
+  }
+]

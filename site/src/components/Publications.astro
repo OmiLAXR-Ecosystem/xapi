@@ -1,0 +1,81 @@
+---
+// Papers about the original registry, from src/data/publications.json. Rendered once per language block.
+import { t, type Lang } from "../lib/i18n";
+import publications from "../data/publications.json";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+
+type Publication = {
+  id: string;
+  relation: "registry" | "uses";
+  authors: string[];
+  year: number;
+  title: string;
+  language?: string;
+  venue: string;
+  volume?: string;
+  issue?: string;
+  pages?: string;
+  doi?: string;
+  url?: string;
+  note?: Record<Lang, string>;
+};
+
+const all = (publications as Publication[]).toSorted((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+const groups = [
+  { title: t("pubAbout", lang), items: all.filter((p) => p.relation === "registry") },
+  { title: t("pubUsing", lang), items: all.filter((p) => p.relation === "uses") },
+];
+
+const source = (p: Publication) =>
+  [p.venue, p.volume && (p.issue ? `${p.volume}(${p.issue})` : `Vol. ${p.volume}`), p.pages].filter(Boolean).join(", ");
+const link = (p: Publication) => (p.doi ? `https://doi.org/${p.doi}` : p.url);
+---
+{groups.map((g) => (
+  <>
+    <h3>{g.title}</h3>
+    <ul class="pubs">
+      {g.items.map((p) => (
+        <li class="pub">
+          <div class="pub-authors">{p.authors.join(", ")} ({p.year})</div>
+          <div class="pub-title">
+            {link(p) ? <a href={link(p)}>{p.title}</a> : p.title}
+            {p.language === "de" ? <span class="pub-lang">{t("inGerman", lang)}</span> : null}
+          </div>
+          <div class="pub-venue">{source(p)}</div>
+          {p.note ? <p class="pub-note">{p.note[lang]}</p> : null}
+          {p.doi ? <div class="pub-doi">DOI: <a href={`https://doi.org/${p.doi}`}>{p.doi}</a></div> : null}
+        </li>
+      ))}
+    </ul>
+  </>
+))}
+
+<style>
+  h3 { font-size: 1rem; margin: 1.4rem 0 0.6rem; }
+  .pubs { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.9rem; }
+  .pub {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+  .pub-authors, .pub-venue, .pub-doi { color: var(--muted); font-size: 0.9rem; }
+  .pub-title { font-weight: 600; margin: 0.15rem 0; }
+  .pub-venue { font-style: italic; }
+  .pub-note { margin: 0.5rem 0 0; font-size: 0.95rem; }
+  .pub-doi { margin-top: 0.35rem; overflow-wrap: anywhere; }
+  .pub-lang {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.05rem 0.45rem;
+    white-space: nowrap;
+  }
+</style>
