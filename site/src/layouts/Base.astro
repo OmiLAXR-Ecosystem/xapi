@@ -41,8 +41,10 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href={href()}>
-          <span class="brand-mark" aria-hidden="true">x</span>
-          <span>xAPI Registry</span>
+          <picture>
+            <source srcset={href("logo-dark.png")} media="(prefers-color-scheme: dark)" />
+            <img class="brand-logo" src={href("logo-light.png")} alt="xAPI Registry" width="155" height="32" />
+          </picture>
         </a>
         <nav class="nav">
           <a href={href()} aria-current={current("/")}><T k="search" /></a>

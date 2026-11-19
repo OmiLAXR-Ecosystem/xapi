@@ -88,10 +88,8 @@ pre {
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 60px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 0.55rem; font-weight: 650; color: var(--text); }
 .brand:hover { text-decoration: none; }
-.brand-mark {
-  display: grid; place-items: center; width: 28px; height: 28px; border-radius: 7px;
-  background: var(--accent); color: var(--surface); font-family: var(--mono); font-weight: 700;
-}
+/* logo-light.png / logo-dark.png follow prefers-color-scheme like the color tokens */
+.brand-logo { display: block; height: 32px; width: auto; }
 .nav { display: flex; align-items: center; gap: 0.25rem; flex-wrap: wrap; }
 .nav a, .lang-toggle {
   color: var(--muted); padding: 0.35rem 0.6rem; border-radius: 7px; font-size: 0.95rem;
