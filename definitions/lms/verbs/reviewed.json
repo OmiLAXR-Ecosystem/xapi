@@ -10,6 +10,5 @@
     "exactMatch": [
         "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/reviewed",
         "https://registry.tincanapi.com/#uri/verb/247"
-    ],
-    "relatedMatch": []
+    ]
 }

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "uses suitable means/actions to reach the goal",
+        "de-DE": "setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor used suitable means or actions to reach the goal.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur geeignete Mittel einsetzte oder geeignete Handlungen ausführte, um das Ziel zu erreichen."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/setzt_geeignete_Mittel_einführt_geeignete_Handlungen_aus,_um_das_Ziel_zu_erreichen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/setzt_geeignete_Mittel_einführt_geeignete_Handlungen_aus,_um_das_Ziel_zu_erreichen"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

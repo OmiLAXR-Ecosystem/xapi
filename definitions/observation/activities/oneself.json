@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "oneself",
+        "de-DE": "sich selbst"
+    },
+    "description": {
+        "en-US": "The actor themselves, e.g. when an actor motivated themselves.",
+        "de-DE": "Der Akteur selbst, z. B. wenn ein Akteur sich selbst motivierte."
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "name": {
+        "en-US": "explained",
+        "de-DE": "erklärte"
+    },
+    "description": {
+        "en-US": "An actor verbally explained something to someone else.",
+        "de-DE": "Ein Akteur erklärte jemand anderem mündlich etwas."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/erklaert",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/erklaert"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/ownIdea"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/ideaGeneration"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/purposefulAction"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/willingnessToCompromise"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

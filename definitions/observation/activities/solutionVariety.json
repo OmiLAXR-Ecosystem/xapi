@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "pursues different approaches",
+        "de-DE": "verfolgt verschiedene Lösungsansätze"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor pursued different approaches to a solution.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur verschiedene Lösungsansätze verfolgte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/verfolgt_verschiedene_Lösungsansätze",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/verfolgt_verschiedene_Lösungsansätze"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

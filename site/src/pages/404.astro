@@ -1,9 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
 import T from "../components/T.astro";
+import Icon from "../components/Icon.astro";
 import { href } from "../lib/url";
 ---
 <Base title="404">
   <h1><T k="notFound" /></h1>
-  <p><a href={href()}><T k="backHome" /></a></p>
+  <p><a class="icon-link" href={href()}><Icon name="arrowLeft" /><T k="backHome" /></a></p>
 </Base>

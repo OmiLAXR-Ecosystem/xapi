@@ -38,10 +38,12 @@ Sobald eine Definition gemergt ist, verwenden Statements ihre IRI. Deshalb gilt:
 
 - **Gemergte Dateien nicht umbenennen, verschieben oder löschen.** Korrigiere
   stattdessen den Text in der Datei.
-- Ist eine Umbenennung unvermeidbar, ist sie ein Breaking Change. Trage die alte
-  volle IRI in der verschobenen Datei unter `exactMatch` ein, damit Statements mit der
-  alten IRI weiterhin zugeordnet werden können, und markiere den Eintrag im
-  CHANGELOG mit **BREAKING**.
+- Ist eine Umbenennung unvermeidbar, ist sie ein Breaking Change (`!` im Titel
+  des Pull Requests). Trage die alte volle IRI in der verschobenen Datei unter
+  `exactMatch` ein, damit Statements mit der alten IRI weiterhin zugeordnet
+  werden können. Die Website zeigt sie dann als frühere IRI an und leitet die
+  alte Adresse auf die neue Definition weiter. Werden zwei Definitionen
+  zusammengeführt, führt die verbleibende die IRI der gelöschten.
 - Wähle den Dateinamen sorgfältig, er lässt sich später nicht mehr korrigieren.
 - Bis Version 1.x begannen die IRIs mit `https://xapi.elearn.rwth-aachen.de/`.
   Jede Definition aus dieser Zeit führt ihre frühere IRI als ersten Eintrag in
@@ -101,7 +103,11 @@ einem Zeilenumbruch am Ende. `make format` wendet das auf alle Dateien an,
   `open`, `shaked`).
 - Activities und Extensions als Substantive: `controllerButton`,
   `pupilDiameter`.
-- Für Kontexte gilt dieselbe Regel: `virtualWorld`, `eyeTracking`.
+- Dateinamen sind englisch, auch in Kontexten mit überwiegend deutschen Texten.
+- Für Kontexte gilt dieselbe Regel: `virtualWorld`, `eyeTracking`. Sie dürfen
+  mit einer Ziffer beginnen (`360tours`).
+- Keine weiteren Unterordner: `activities/subscores/x.json` ist nicht erlaubt,
+  die Gruppierung gehört in den Namen oder die Beschreibung.
 
 ### Englisch (`en-US`)
 
@@ -134,18 +140,57 @@ einem Zeilenumbruch am Ende. `make format` wendet das auf alle Dateien an,
 
 1. Lege einen Branch von `main` an (oder forke das Repository).
 2. Lege Definitionsdateien an oder bearbeite sie. Ein Thema pro Pull Request.
-3. Führe `make format` und `make check` aus. `make check` baut die Website und
-   validiert dabei jede Definitionsdatei.
-4. Jede Änderung wird veröffentlicht, sobald sie gemergt ist. Lege oben in
-   `CHANGELOG.md` eine neue Version mit heutigem Datum an
-   (`## [X.Y.Z] - YYYY-MM-DD`) und ordne die Einträge in die Abschnitte von
-   [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) ein (**Added**,
-   **Changed**, **Fixed**, **Removed**). Erhöhe die Version wie oben im
-   CHANGELOG beschrieben: major, wenn sich eine IRI ändert, minor für neue
-   Definitionen oder Felder, patch für Korrekturen. Markiere Umbenennungen und
-   Löschungen mit **BREAKING**.
-5. Öffne einen Pull Request gegen `main`. Der Website-Build läuft bei jedem Pull
-   Request, der `definitions/` berührt.
+3. Führe `make format` und `make check` aus. `make check` prüft die
+   Formatierung und die Regeln dieses Leitfadens (`scripts/check-definitions.py`,
+   siehe unten) und baut die Website, die dabei jede Definitionsdatei validiert.
+4. Öffne einen Pull Request gegen `main`. Sein Titel wird zum Eintrag im
+   CHANGELOG und bestimmt die nächste Version. Schreibe ihn deshalb als
+   [Conventional Commit](https://www.conventionalcommits.org/de/):
+
+   | Titel | Wofür | Version |
+   |---|---|---|
+   | `fix: correct German names in lms` | Korrekturen an Namen, Beschreibungen, Formatierung | patch |
+   | `feat(virtualReality): add grabbed verb` | neue Definitionen, Kontexte oder Felder | minor |
+   | `feat!: move duration to extensions/activity` | Umbenennen, Verschieben oder Löschen einer Datei (die IRI ändert sich) | major |
+   | `docs:`, `ci:`, `chore:` | Änderungen, die die Registry nicht betreffen | keine |
+
+   Bearbeite `CHANGELOG.md` und `version.txt` nicht. Mehrere Änderungen in
+   einem Pull Request lassen sich als weitere Conventional-Commit-Zeilen in der
+   Beschreibung des Squash-Commits aufführen.
+5. Der Pull Request muss die Checks **PR title**, **Definitions** und
+   **Website** bestehen. Er wird per Squash gemergt.
+6. release-please sammelt die gemergten Änderungen in einem Release-Pull-Request.
+   Sobald die Maintainer ihn mergen, wird die neue Version getaggt (`vX.Y.Z`),
+   auf GitHub veröffentlicht und auf der Website angezeigt.
+
+### Was die Checks prüfen
+
+Für jede Datei:
+
+- Der Pfad folgt [Aufbau des Repositorys](#aufbau-des-repositorys) ohne weitere
+  Unterordner, Kontext und Dateiname folgen [Dateinamen](#dateinamen).
+- `name` und `description` sind Language-Maps mit gültigen Sprach-Tags,
+  nicht leeren Texten und einem Eintrag `en-US`.
+- Jede `…Match`-Liste, auch verschachtelte wie `choices[].rules[].exactMatch`,
+  ist eine nicht leere Liste verschiedener IRIs ohne Leerzeichen.
+- Ein Verweis auf diese Registry zeigt auf eine existierende Definition. Die
+  IRI von `a b.json` endet auf `a_b`, der Verweis muss also auch `_` verwenden.
+  Nur das oberste `exactMatch` darf eine IRI enthalten, die es nicht mehr gibt:
+  die frühere IRI einer umbenannten Definition. Ihr Pfad muss in der
+  Git-History vorkommen, und nur eine Definition darf sie führen.
+
+Für die Dateien, die ein Pull Request ändert:
+
+- Löschen oder Umbenennen einer Datei ist nur mit `!` im Titel erlaubt. Ihre
+  alte IRI muss im `exactMatch` der Definition stehen, die sie ersetzt: der
+  umbenannten Datei oder der Definition, in die sie zusammengeführt wurde.
+- Eine frühere IRI (`https://xapi.elearn.rwth-aachen.de/…`) in `exactMatch`
+  wird nicht entfernt; nach einer Umbenennung oder Zusammenführung führt sie
+  die ersetzende Definition.
+- Ein fehlender Text `de-DE` wird als Warnung gemeldet.
+
+Ob ein Name englisch ist, lässt sich nicht automatisch prüfen; das prüft das
+Review.
 
 ## Website lokal starten
 

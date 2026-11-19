@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "keeps the goal in view",
+        "de-DE": "behält den Zielzustand stets im Blick"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor always kept the goal state in view.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur den Zielzustand stets im Blick behielt."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/behält_den_Zielzustand_stets_im_Blick",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/behält_den_Zielzustand_stets_im_Blick"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import T from "../../components/T.astro";
+import Icon from "../../components/Icon.astro";
 import LMap from "../../components/LMap.astro";
 import ListButton from "../../components/ListButton.astro";
 import { getContexts, getDefinitions, TYPES, type Definition } from "../../lib/definitions";
@@ -25,8 +26,8 @@ const sections = TYPES.map((type) => {
 ---
 <Base title={context}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href={href()}>Registry</a> / <span>{context}</span></nav>
-  <h1>{context}</h1>
-  <p class="status">{definitions.length} <T k="definitions" /> · <a href={href(`?context=${context}`)}><T k="search" /></a></p>
+  <h1 class="h-icon"><Icon name="folder" />{context}</h1>
+  <p class="status">{definitions.length} <T k="definitions" /> · <a class="icon-link" href={href(`?context=${context}`)}><Icon name="search" /><T k="search" /></a></p>
 
   {sections.map(({ type, groups }) => (
     <section id={type}>

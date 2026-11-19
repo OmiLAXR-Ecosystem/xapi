@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "classmate",
+        "de-DE": "Mitschüler"
+    },
+    "description": {
+        "en-US": "Another student in the group of an actor.",
+        "de-DE": "Ein anderer Schüler in der Gruppe eines Akteurs."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Mitschüler",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Mitschüler"
+    ]
+}

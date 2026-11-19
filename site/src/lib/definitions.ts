@@ -16,7 +16,8 @@ export const REGISTRY_URL = withSlash(process.env.REGISTRY_URL || "https://omila
 /** Earlier IRI bases. Each definition lists its IRI under such a base as an exactMatch. */
 export const FORMER_REGISTRY_URLS = ["https://xapi.elearn.rwth-aachen.de/"];
 
-export function isFormerIri(iri: string): boolean {
+/** An IRI under one of the former registry bases. */
+export function isFormerBaseIri(iri: string): boolean {
   return FORMER_REGISTRY_URLS.some((base) => iri.startsWith(`${base}definitions/`));
 }
 export const REPO_URL = (process.env.REPO_URL || "https://github.com/OmiLAXR-Ecosystem/xapi").replace(/\/$/, "");
@@ -52,6 +53,11 @@ export interface Definition {
   /** The file content as committed. */
   raw: string;
   history: Commit[];
+  /**
+   * Earlier IRIs of this definition, taken from exactMatch: the IRI under a former
+   * registry base, and the IRIs of files it was renamed from or that were merged into it.
+   */
+  formerIris: string[];
 }
 
 function withSlash(url: string): string {
@@ -142,6 +148,7 @@ async function load(): Promise<Definition[]> {
   const errors: string[] = [];
   const warnings: string[] = [];
   const byId = new Map<string, Definition>();
+  redirects.clear();
 
   for (const full of files) {
     const rel = path.relative(DEFINITIONS_DIR, full).split(path.sep).join("/");
@@ -191,7 +198,27 @@ async function load(): Promise<Definition[]> {
       data,
       raw,
       history: [],
+      formerIris: [],
     });
+  }
+
+  // An exactMatch IRI under this registry that no file has is the former IRI of a
+  // renamed or merged definition. The site redirects it to the definition.
+  const prefix = `${REGISTRY_URL}definitions/`;
+  for (const d of byId.values()) {
+    const exactMatch = Array.isArray(d.data.exactMatch) ? d.data.exactMatch : [];
+    for (const iri of exactMatch) {
+      if (typeof iri !== "string") continue;
+      if (isFormerBaseIri(iri)) {
+        d.formerIris.push(iri);
+      } else if (iri.startsWith(prefix) && !byId.has(iri.slice(prefix.length).normalize("NFC"))) {
+        const oldId = iri.slice(prefix.length).normalize("NFC");
+        const other = redirects.get(oldId);
+        if (other) errors.push(`${d.file}: former IRI ${iri} is also listed by ${other.file}`);
+        redirects.set(oldId, d);
+        d.formerIris.push(iri);
+      }
+    }
   }
 
   if (errors.length) {
@@ -209,6 +236,15 @@ async function load(): Promise<Definition[]> {
     console.warn("[definitions] not a git checkout, history is empty");
   }
   return definitions;
+}
+
+/** Former id (path below definitions/) -> the definition that replaces it. */
+const redirects = new Map<string, Definition>();
+
+/** Pages of renamed or merged definitions, which redirect to the replacement. */
+export async function getRedirects(): Promise<{ id: string; target: Definition }[]> {
+  await getDefinitions();
+  return [...redirects].map(([id, target]) => ({ id, target })).sort((a, b) => a.id.localeCompare(b.id));
 }
 
 let cache: Promise<Definition[]> | undefined;
@@ -231,8 +267,8 @@ export async function getContexts(): Promise<{ name: string; counts: Record<Defi
 /** Resolves an IRI found inside a definition (e.g. in exactMatch) to a definition of this registry. */
 export async function findByIri(iri: string): Promise<Definition | undefined> {
   if (!iri.startsWith(`${REGISTRY_URL}definitions/`)) return undefined;
-  const id = toId(iri.slice(`${REGISTRY_URL}definitions/`.length));
-  return (await getDefinitions()).find((d) => d.id === id);
+  const id = toId(iri.slice(`${REGISTRY_URL}definitions/`.length)).normalize("NFC");
+  return (await getDefinitions()).find((d) => d.id === id) ?? redirects.get(id);
 }
 
 /** Rows for the client-side search and the list page. */

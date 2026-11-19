@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "considers own needs/stands up for own opinion",
+        "de-DE": "nimmt Rücksicht auf eigene Bedürfnisse/vertritt die eigene Meinung"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor considered their own needs and stood up for their own opinion.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur Rücksicht auf eigene Bedürfnisse nahm und die eigene Meinung vertrat."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/nimmt_Rücksicht_auf_eigene_Bedürfnissevertritt_die_eigene_Meinung",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/nimmt_Rücksicht_auf_eigene_Bedürfnissevertritt_die_eigene_Meinung"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

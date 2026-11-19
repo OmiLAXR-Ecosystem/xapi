@@ -1,0 +1,47 @@
+{
+    "name": {
+        "en-US": "engaged",
+        "de-DE": "beschäftigte sich"
+    },
+    "description": {
+        "en-US": "An actor engaged with something, e.g. with things that have nothing to do with the task.",
+        "de-DE": "Ein Akteur beschäftigte sich mit etwas, z. B. mit Dingen, die nichts mit der Aufgabe zu tun haben."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/beschaeftigt",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/beschaeftigt"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/otherThings"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/enthusiasm"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/selflessness"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 2,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

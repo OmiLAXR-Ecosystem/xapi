@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "leadership",
+        "de-DE": "Führung"
+    },
+    "description": {
+        "en-US": "The lead of a group, e.g. that an actor gave to someone else.",
+        "de-DE": "Die Führung einer Gruppe, z. B. die ein Akteur an jemand anderen abgab."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Führung_ab",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Führung_ab"
+    ]
+}

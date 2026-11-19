@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "patience",
+        "de-DE": "Geduld"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the patience of an actor. 5 means that the actor showed patience.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für die Geduld eines Akteurs. 5 bedeutet, dass der Akteur Geduld zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Geduld",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Geduld"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

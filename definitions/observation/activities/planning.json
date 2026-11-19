@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "plans the approach and sets priorities",
+        "de-DE": "plant das (eigene) Vorgehen und setzt Schwerpunkte"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor planned their approach and set priorities.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur das eigene Vorgehen plante und Schwerpunkte setzte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/plant_das_(eigene)_Vorgehen_und_setzt_Schwerpunkte",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/plant_das_(eigene)_Vorgehen_und_setzt_Schwerpunkte"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

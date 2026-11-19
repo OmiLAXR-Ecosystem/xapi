@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "repeatedly takes the initiative",
+        "de-DE": "wird immer wieder von sich aus aktiv"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor repeatedly took action on their own initiative.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur immer wieder von sich aus aktiv wurde."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/wird_immer_wieder_von_sich_aus_aktiv",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/wird_immer_wieder_von_sich_aus_aktiv"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

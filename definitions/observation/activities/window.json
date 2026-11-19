@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "window",
+        "de-DE": "Fenster"
+    },
+    "description": {
+        "en-US": "A window, e.g. out of which an actor looked.",
+        "de-DE": "Ein Fenster, z. B. aus dem ein Akteur sah."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus_dem_Fenster",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/aus_dem_Fenster"
+    ]
+}

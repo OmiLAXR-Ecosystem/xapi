@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "performs movements quickly/routinely",
+        "de-DE": "übt Bewegungen schnell/routiniert aus"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor performed movements quickly and routinely.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur Bewegungen schnell und routiniert ausführte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/übt_Bewegungen_schnellroutiniert_aus",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/übt_Bewegungen_schnellroutiniert_aus"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

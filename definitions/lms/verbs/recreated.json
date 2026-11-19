@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "re-created",
+        "de-DE": "erstellte erneut"
+    },
+    "description": {
+        "en-US": "An actor re-created an object, e.g. a new submission after the previous one was deleted.",
+        "de-DE": "Ein Akteur erstellte ein Objekt erneut, z. B. eine neue Abgabe, nachdem die vorherige gelöscht wurde."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/re-created",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/re-created"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en-US": "closer look",
+        "de-DE": "genauere Betrachtung"
+    },
+    "description": {
+        "en-US": "A closer look at some details, e.g. of the task.",
+        "de-DE": "Eine genauere Betrachtung einiger Details, z. B. der Aufgabe."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es_sich_genauer_an",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/es_sich_genauer_an"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "puts own needs aside when the situation requires it",
+        "de-DE": "stellt eigene Bedürfnisse hintan, wenn es die Situation erfordert"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor put their own needs aside when the situation required it.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur eigene Bedürfnisse hintanstellte, wenn es die Situation erforderte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/stellt_eigene_Bedürfnisse_hinten_an,_wenn_es_die_Situation_erfordert",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/stellt_eigene_Bedürfnisse_hinten_an,_wenn_es_die_Situation_erfordert"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

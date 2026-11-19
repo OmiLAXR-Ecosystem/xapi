@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "shows interest, pride or joy",
+        "de-DE": "zeigt Interesse, Stolz oder Freude"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor showed interest, pride or joy.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur Interesse, Stolz oder Freude zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_Interesse,_Stolz_oder_Freude",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/zeigt_Interesse,_Stolz_oder_Freude"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

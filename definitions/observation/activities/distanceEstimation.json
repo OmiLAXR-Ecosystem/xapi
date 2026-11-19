@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "estimates distances, heights and depths",
+        "de-DE": "kann Entfernungen/Höhen/Tiefen einschätzen (im Raum/von Gegenständen)"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor estimated distances, heights or depths in the room or of objects.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur Entfernungen, Höhen oder Tiefen im Raum oder von Gegenständen einschätzte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/kann_EntfernungenHöhenTiefen_einschätzen_(im_Raumvon_Gegenständen)",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/kann_EntfernungenHöhenTiefen_einschätzen_(im_Raumvon_Gegenständen)"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

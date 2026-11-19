@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "shows active interest in others and their views/ideas",
+        "de-DE": "zeigt aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor actively showed interest in other people and their views or ideas.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur aktiv Interesse an anderen Menschen und ihren Ansichten oder Ideen zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

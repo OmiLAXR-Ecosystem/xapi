@@ -2,13 +2,15 @@
 
 PYTHON ?= python3
 SITE   := site
+# Branch that check-definitions compares against (renames, deletions, new files)
+BASE   ?= origin/main
 
 .DEFAULT_GOAL := help
-.PHONY: help install dev build preview format check-format check clean
+.PHONY: help install dev build preview format check-format check-definitions check clean
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-13s\033[0m %s\n", $$1, $$2}'
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
 
 install: ## Install the website dependencies (npm ci)
 	cd $(SITE) && npm ci
@@ -32,7 +34,10 @@ format: ## Normalize the formatting of all definition files
 check-format: ## Fail if a definition file is not normalized
 	$(PYTHON) scripts/format-definitions.py --check
 
-check: check-format build ## Run all checks (formatting and website build)
+check-definitions: ## Check the rules of CONTRIBUTING.md, changes against BASE (default origin/main)
+	$(PYTHON) scripts/check-definitions.py --base $(BASE)
+
+check: check-format check-definitions build ## Run all checks (formatting, rules, website build)
 
 clean: ## Remove website build output
 	rm -rf $(SITE)/dist $(SITE)/.astro

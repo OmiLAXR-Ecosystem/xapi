@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "methodical potential",
+        "de-DE": "Methodisches Potenzial"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the methodical potential of an actor. 5 means that the actor showed methodical potential.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für das methodische Potenzial eines Akteurs. 5 bedeutet, dass der Akteur methodisches Potenzial zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Methodisches_Potenzial",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Methodisches_Potenzial"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

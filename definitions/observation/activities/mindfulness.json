@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "mindfulness",
+        "de-DE": "Achtsamkeit"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the mindfulness of an actor. 5 means that the actor showed mindfulness.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für die Achtsamkeit eines Akteurs. 5 bedeutet, dass der Akteur Achtsamkeit zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Achtsamkeit",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Achtsamkeit"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

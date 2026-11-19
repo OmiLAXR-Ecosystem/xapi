@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "is helpful and actively supports others",
+        "de-DE": "zeigt sich hilfsbereit und unterstützt andere aktiv"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor was helpful and actively supported others.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur sich hilfsbereit zeigte und andere aktiv unterstützte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/zeigt_sich_hilfsbereit_und_unterstützt_andere_aktiv",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/zeigt_sich_hilfsbereit_und_unterstützt_andere_aktiv"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

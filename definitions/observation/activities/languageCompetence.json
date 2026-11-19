@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "language competence",
+        "de-DE": "Sprachkompetenz"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the language competence of an actor. 5 means that the actor showed language competence.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für die Sprachkompetenz eines Akteurs. 5 bedeutet, dass der Akteur Sprachkompetenz zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Sprachkompetenz",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Sprachkompetenz"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

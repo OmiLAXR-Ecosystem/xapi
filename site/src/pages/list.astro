@@ -1,26 +1,27 @@
 ---
 import Base from "../layouts/Base.astro";
 import T from "../components/T.astro";
+import Icon from "../components/Icon.astro";
 import { href } from "../lib/url";
 ---
 <Base title="List">
   <div id="own">
-    <h1><T k="list" /></h1>
+    <h1 class="h-icon"><Icon name="star" /><T k="list" /></h1>
     <p class="status"><T k="listIntro" /></p>
   </div>
   <div id="shared" hidden>
-    <h1><T k="sharedList" /></h1>
+    <h1 class="h-icon"><Icon name="share" /><T k="sharedList" /></h1>
     <p class="status"><T k="sharedIntro" /></p>
   </div>
 
   <div class="actions" id="actions" hidden>
-    <button type="button" class="btn" id="adopt" hidden><T k="adoptList" /></button>
-    <a class="btn" id="show-own" href={href("list")} hidden><T k="showMyList" /></a>
-    <button type="button" class="btn" id="share"><span class="label"><T k="shareLink" /></span></button>
-    <button type="button" class="btn" id="export-json"><T k="exportJson" /></button>
-    <button type="button" class="btn" id="export-csv"><T k="exportCsv" /></button>
-    <button type="button" class="btn" id="print"><T k="print" /></button>
-    <button type="button" class="btn danger" id="clear"><T k="clear" /></button>
+    <button type="button" class="btn" id="adopt" hidden><Icon name="plus" /><T k="adoptList" /></button>
+    <a class="btn" id="show-own" href={href("list")} hidden><Icon name="star" /><T k="showMyList" /></a>
+    <button type="button" class="btn" id="share"><Icon name="share" /><span class="label"><T k="shareLink" /></span></button>
+    <button type="button" class="btn" id="export-json"><Icon name="braces" /><T k="exportJson" /></button>
+    <button type="button" class="btn" id="export-csv"><Icon name="download" /><T k="exportCsv" /></button>
+    <button type="button" class="btn" id="print"><Icon name="printer" /><T k="print" /></button>
+    <button type="button" class="btn danger" id="clear"><Icon name="trash" /><T k="clear" /></button>
   </div>
 
   <p class="status" id="status" aria-live="polite"></p>

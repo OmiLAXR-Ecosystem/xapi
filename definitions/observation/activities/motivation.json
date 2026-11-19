@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "motivation and commitment",
+        "de-DE": "Motivation und Leistungsbereitschaft"
+    },
+    "description": {
+        "en-US": "A main score from 1 to 5 for the motivation and commitment of an actor. 5 means that the actor showed motivation and commitment.",
+        "de-DE": "Ein Hauptwert von 1 bis 5 für die Motivation und Leistungsbereitschaft eines Akteurs. 5 bedeutet, dass der Akteur Motivation und Leistungsbereitschaft zeigte."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mainscores/Motivation_und_Leistungsbereitschaft",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mainscores/Motivation_und_Leistungsbereitschaft"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

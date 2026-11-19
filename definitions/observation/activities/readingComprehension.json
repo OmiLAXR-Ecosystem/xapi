@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en-US": "understands written/illustrated information (e.g. texts, instructions)",
+        "de-DE": "versteht geschriebene/bebilderte Informationen (z. B. Texte, Anweisungen)"
+    },
+    "description": {
+        "en-US": "A subscore from 1 to 5. 5 (or ++) means that an actor understood written or illustrated information, e.g. texts or instructions.",
+        "de-DE": "Ein Teilwert von 1 bis 5. 5 (bzw. ++) bedeutet, dass ein Akteur geschriebene oder bebilderte Informationen verstand, z. B. Texte oder Anweisungen."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscores/versteht_geschriebenebebilderte_Informationen_(z.B._Texte,_Anweisungen)",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscores/versteht_geschriebenebebilderte_Informationen_(z.B._Texte,_Anweisungen)"
+    ],
+    "result": {
+        "score": {
+            "min": 1,
+            "max": 5
+        }
+    }
+}

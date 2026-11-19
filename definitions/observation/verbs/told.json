@@ -1,0 +1,59 @@
+{
+    "name": {
+        "en-US": "told",
+        "de-DE": "erzählte"
+    },
+    "description": {
+        "en-US": "An actor verbally told something, e.g. an own idea.",
+        "de-DE": "Ein Akteur erzählte mündlich etwas, z. B. eine eigene Idee."
+    },
+    "exactMatch": [
+        "https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/erzaehlt",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/erzaehlt"
+    ],
+    "choices": [
+        {
+            "exactMatch": [
+                "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/ownIdea"
+            ],
+            "rules": [
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/ideaGeneration"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/purposefulAction"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "exactMatch": [
+                        "https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/willingnessToCompromise"
+                    ],
+                    "result": {
+                        "score": {
+                            "raw": 5,
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

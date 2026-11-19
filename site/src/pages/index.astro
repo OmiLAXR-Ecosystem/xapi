@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import T from "../components/T.astro";
+import Icon from "../components/Icon.astro";
 import { getContexts, getDefinitions, TYPES } from "../lib/definitions";
 import { href } from "../lib/url";
 
@@ -15,7 +16,10 @@ const contexts = await getContexts();
   </section>
 
   <form class="search" role="search" id="search-form">
-    <input type="search" id="q" name="q" autocomplete="off" aria-label="Search" />
+    <div class="search-field">
+      <Icon name="search" />
+      <input type="search" id="q" name="q" autocomplete="off" aria-label="Search" />
+    </div>
     <select id="context" name="context" aria-label="Context">
       <option value="" data-i18n="allContexts"></option>
       {contexts.map((c) => <option value={c.name}>{c.name}</option>)}
@@ -30,12 +34,12 @@ const contexts = await getContexts();
   <ul class="rows" id="results" hidden></ul>
 
   <section id="browse">
-    <h2><T k="contexts" /></h2>
+    <h2 class="h-icon"><Icon name="folder" /><T k="contexts" /></h2>
     <ul class="cards">
       {contexts.map((c) => (
         <li>
           <a class="card" href={href(`contexts/${c.name}`)}>
-            <strong>{c.name}</strong>
+            <strong><Icon name="folder" />{c.name}</strong>
             <span>
               {c.counts.verbs} <T k="verbs" /> · {c.counts.activities} <T k="activities" /> · {c.counts.extensions} <T k="extensions" />
             </span>

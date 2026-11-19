@@ -1,7 +1,29 @@
 ---
 import Base from "../layouts/Base.astro";
+import Publications from "../components/Publications.astro";
+import Icon from "../components/Icon.astro";
 import { REGISTRY_URL, REPO_URL } from "../lib/definitions";
 import { href } from "../lib/url";
+
+// Derived from the git history of main, see "Contributors" in the README for the counts and the method.
+const contributors: { name: string; period: string; contexts: string[]; url?: string }[] = [
+  { name: "Annabell Brocker", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~hdcay/Annabell-Brocker/lidx/1/", period: "2022–2024", contexts: ["generic", "projectJupyter", "seriousGames", "systemControl"] },
+  { name: "Matthias Ehlenz", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~jygg/Matthias-Ehlenz/lidx/1/", period: "2020–2024", contexts: ["generic", "gitanalysis", "lms", "observation", "rightsEngine", "studybuddy"] },
+  { name: "Jasper vom Felde", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~bfktdi/Jasper-vom-Felde/lidx/1/", period: "2024", contexts: ["rightsEngine"] },
+  { name: "Philipp Goerick", period: "2020", contexts: ["generic", "ide", "multitouch", "seriousGames", "systemControl"] },
+  { name: "Sergej Görzen", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~nwbzq/Sergej-Goerzen/lidx/1/", period: "2021–2026", contexts: ["assistanceSystem", "attention", "eyeTracking", "facialTracking", "generic", "gestures", "ide", "lms", "media", "ppm", "seriousGames", "studybuddy", "systemControl", "virtualReality", "voice"] },
+  { name: "Birte Heinemann", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~dxpnu/Birte-Heinemann/lidx/1/", period: "2020–2025", contexts: ["attention", "eyeTracking", "generic", "gestures", "lms", "seriousGames", "studybuddy", "systemControl", "tagformance", "uhfReader", "virtualReality", "voice", "vrRfidChamber"] },
+  { name: "Sven Judel", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~rmjb/Sven-Judel/lidx/1/", period: "2021–2025", contexts: ["exerciseGenerator", "lms", "media", "rightsEngine", "studybuddy"] },
+  { name: "Fredrik Konrad", period: "2022", contexts: ["seriousGames"] },
+  { name: "Sam Mattiussi", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~bdvydl/Sam-Mattiussi/lidx/1/", period: "2023", contexts: ["assistanceSystem"] },
+  { name: "Lars Florian Meiendresch", url: "https://s3.paluno.uni-due.de/team/wissenschaftliche-mitarbeiterinnnen-und-mitarbeiter/lars-meiendresch", period: "2022–2024", contexts: ["360tours", "tagformance", "vrRfidChamber"] },
+  { name: "Philip Niederprüm", period: "2022", contexts: ["seriousGames"] },
+  { name: "Paul Rennecke", period: "2021", contexts: ["observation"] },
+  { name: "Yanik Söltzer", period: "2021", contexts: ["generic", "projectJupyter"] },
+  { name: "Marc Troll", period: "2023–2025", contexts: ["seriousGames", "virtualReality"] },
+  { name: "Lukas Witeczek", period: "2023", contexts: ["gitanalysis"] },
+];
+const contributorsUrl = `${REPO_URL}#contributors`;
 ---
 <Base title="About">
   <article class="prose">
@@ -19,7 +41,7 @@ import { href } from "../lib/url";
         therefore changes the IRI and breaks existing statements.
       </p>
 
-      <h2>Rules for definitions</h2>
+      <h2 class="h-icon"><Icon name="listChecks" />Rules for definitions</h2>
       <ul>
         <li>Contexts are folders. Each one contains subfolders for the xAPI vocabulary: <code>verbs</code>, <code>activities</code>, <code>extensions</code>.</li>
         <li>Contexts should provide semantic clarity, but not become overly specific.</li>
@@ -29,20 +51,20 @@ import { href } from "../lib/url";
         <li>Enriching definitions with further meta information is encouraged; this site shows every field.</li>
       </ul>
 
-      <h2>Contributing</h2>
+      <h2 class="h-icon"><Icon name="pullRequest" />Contributing</h2>
       <p>
         Fork the <a href={REPO_URL}>repository</a>, add or change definition files and open a pull request. See{" "}
         <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}>CONTRIBUTING.md</a> for the conventions and{" "}
         <a href={`${REPO_URL}/blob/main/docs/concept.md`}>docs/concept.md</a> (German) for the background of the project.
       </p>
 
-      <h2>For machines</h2>
+      <h2 class="h-icon"><Icon name="bot" />For machines</h2>
       <ul>
         <li>Every definition: <a href={href("definitions/generic/activities/file.json")}>definitions/&lt;id&gt;.json</a></li>
         <li>All definitions: <a href={href("definitions.json")}>definitions.json</a></li>
       </ul>
 
-      <h2>Why GitHub</h2>
+      <h2 class="h-icon"><Icon name="github" />Why GitHub</h2>
       <p>
         Since version 2.0.0 the registry lives entirely on GitHub: the definitions in a public repository, this website on
         GitHub Pages. An identifier has to outlive projects, funding periods and server contracts, and this setup is more
@@ -60,10 +82,12 @@ import { href } from "../lib/url";
         recorded with the former IRIs can still be mapped.
       </p>
 
-      <h2>Origin and citation</h2>
+      <h2 class="h-icon"><Icon name="quote" />Origin and citation</h2>
       <p>
         The registry was started by the Learning Technologies Research Group at RWTH Aachen University. The original
-        registry is hosted at <a href="https://xapi.elearn.rwth-aachen.de/">xapi.elearn.rwth-aachen.de</a>. The concept
+        registry is hosted at <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>, its
+        definitions up to version 1.x are in the repository{" "}
+        <a href="https://gitlab.com/learntech-rwth/xapi">gitlab.com/learntech-rwth/xapi</a>. The concept
         and the surrounding learning analytics infrastructure are described in the following paper. Please cite it if you
         use the registry in your research:
       </p>
@@ -74,13 +98,37 @@ import { href } from "../lib/url";
         <a href="https://doi.org/10.3991/ijoe.v18i14.35079">https://doi.org/10.3991/ijoe.v18i14.35079</a>
       </p>
 
-      <h2>Acknowledgement</h2>
+      <h2 class="h-icon"><Icon name="heart" />Acknowledgement</h2>
       <p>
         We thank everyone at the Learning Technologies Research Group (Informatik 9) of RWTH Aachen University who created
         the original registry, its concept and its definitions. The development of the original registry was partially
         funded there by the Federal Ministry of Education and Research (BMBF) in the joint project Open Digital Lab 4 you
         (grant no. 16DHB2114).
       </p>
+
+      <h2 id="contributors" class="h-icon"><Icon name="users" />Contributors</h2>
+      <p>
+        These people created or edited the definitions of the registry, with the years of their work and the contexts
+        they worked on. The <a href={contributorsUrl}>README</a> lists how many definitions each person created and
+        edited, per context.
+      </p>
+      <ul>
+        {contributors.map((c) => (
+          <li>
+            {c.url ? <a href={c.url}>{c.name}</a> : c.name} ({c.period}): {c.contexts.map((k, i) => <>{i > 0 && ", "}<code>{k}</code></>)}
+          </li>
+        ))}
+      </ul>
+
+      <h2 id="publications" class="h-icon"><Icon name="book" />Publications</h2>
+      <p>
+        All papers below describe or use the <strong>original registry</strong> at{" "}
+        <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>, and the IRIs they mention
+        point there. Definitions that existed there keep their former IRI here as <code>exactMatch</code>, so data
+        recorded in these studies can be mapped to this registry. Missing a paper? Add it to{" "}
+        <a href={`${REPO_URL}/blob/main/site/src/data/publications.json`}>publications.json</a> with a pull request.
+      </p>
+      <Publications lang="en" />
     </div>
 
     <div class="l-de">
@@ -97,7 +145,7 @@ import { href } from "../lib/url";
         verschiebt, ändert also die IRI, und bestehende Statements passen nicht mehr.
       </p>
 
-      <h2>Regeln für Definitionen</h2>
+      <h2 class="h-icon"><Icon name="listChecks" />Regeln für Definitionen</h2>
       <ul>
         <li>Kontexte sind Ordner. Jeder enthält Unterordner für das xAPI-Vokabular: <code>verbs</code>, <code>activities</code>, <code>extensions</code>.</li>
         <li>Kontexte sollen semantische Eindeutigkeit herstellen, aber nicht übermäßig spezifisch werden.</li>
@@ -107,20 +155,20 @@ import { href } from "../lib/url";
         <li>Weitere Meta-Informationen sind erwünscht; diese Seite zeigt jedes Feld an.</li>
       </ul>
 
-      <h2>Mitwirken</h2>
+      <h2 class="h-icon"><Icon name="pullRequest" />Mitwirken</h2>
       <p>
         Das <a href={REPO_URL}>Repository</a> forken, Definitionsdateien hinzufügen oder ändern und einen Pull Request
         öffnen. Die Konventionen beschreibt die <a href={`${REPO_URL}/blob/main/CONTRIBUTING.de.md`}>CONTRIBUTING.de.md</a>,
         den Hintergrund des Projekts <a href={`${REPO_URL}/blob/main/docs/concept.md`}>docs/concept.md</a>.
       </p>
 
-      <h2>Für Maschinen</h2>
+      <h2 class="h-icon"><Icon name="bot" />Für Maschinen</h2>
       <ul>
         <li>Jede Definition: <a href={href("definitions/generic/activities/file.json")}>definitions/&lt;id&gt;.json</a></li>
         <li>Alle Definitionen: <a href={href("definitions.json")}>definitions.json</a></li>
       </ul>
 
-      <h2>Warum GitHub</h2>
+      <h2 class="h-icon"><Icon name="github" />Warum GitHub</h2>
       <p>
         Seit Version 2.0.0 liegt die Registry vollständig auf GitHub: die Definitionen in einem öffentlichen Repository,
         diese Website auf GitHub Pages. Ein Identifier muss Projekte, Förderperioden und Serververträge überdauern, und
@@ -138,10 +186,12 @@ import { href } from "../lib/url";
         Statements mit den früheren IRIs weiterhin zugeordnet werden können.
       </p>
 
-      <h2>Herkunft und Zitieren</h2>
+      <h2 class="h-icon"><Icon name="quote" />Herkunft und Zitieren</h2>
       <p>
         Die Registry wurde vom Lehr- und Forschungsgebiet Learning Technologies der RWTH Aachen ins Leben gerufen. Die
-        ursprüngliche Registry liegt unter <a href="https://xapi.elearn.rwth-aachen.de/">xapi.elearn.rwth-aachen.de</a>.
+        ursprüngliche Registry liegt unter <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>,
+        ihre Definitionen bis Version 1.x im Repository{" "}
+        <a href="https://gitlab.com/learntech-rwth/xapi">gitlab.com/learntech-rwth/xapi</a>.
         Das Konzept und die zugehörige Learning-Analytics-Infrastruktur beschreibt das folgende Paper. Bitte zitiere es,
         wenn du die Registry in deiner Forschung verwendest:
       </p>
@@ -152,13 +202,37 @@ import { href } from "../lib/url";
         <a href="https://doi.org/10.3991/ijoe.v18i14.35079">https://doi.org/10.3991/ijoe.v18i14.35079</a>
       </p>
 
-      <h2>Danksagung</h2>
+      <h2 class="h-icon"><Icon name="heart" />Danksagung</h2>
       <p>
         Wir danken allen Beteiligten am Lehr- und Forschungsgebiet Informatik 9 (Learning Technologies) der RWTH Aachen,
         die die ursprüngliche Registry, ihr Konzept und ihre Definitionen erarbeitet haben. Die Entwicklung der
         ursprünglichen Registry wurde dort teilweise vom Bundesministerium für Bildung und Forschung im Verbundprojekt
         Open Digital Lab 4 you gefördert (Förderkennzeichen 16DHB2114).
       </p>
+
+      <h2 id="mitwirkende" class="h-icon"><Icon name="users" />Mitwirkende</h2>
+      <p>
+        Diese Personen haben Definitionen der Registry erstellt oder bearbeitet, mit den Jahren ihrer Arbeit und den
+        Kontexten, an denen sie gearbeitet haben. Wie viele Definitionen jede Person pro Kontext erstellt und bearbeitet
+        hat, steht in der <a href={contributorsUrl}>README</a>.
+      </p>
+      <ul>
+        {contributors.map((c) => (
+          <li>
+            {c.url ? <a href={c.url}>{c.name}</a> : c.name} ({c.period}): {c.contexts.map((k, i) => <>{i > 0 && ", "}<code>{k}</code></>)}
+          </li>
+        ))}
+      </ul>
+
+      <h2 id="publikationen" class="h-icon"><Icon name="book" />Publikationen</h2>
+      <p>
+        Alle folgenden Paper beschreiben oder verwenden die <strong>ursprüngliche Registry</strong> unter{" "}
+        <a href="https://xapi.elearn.rwth-aachen.de/about">xapi.elearn.rwth-aachen.de</a>, und die IRIs darin verweisen
+        dorthin. Definitionen, die es dort gab, behalten ihre frühere IRI hier als <code>exactMatch</code>. So lassen sich
+        die Daten aus diesen Studien dieser Registry zuordnen. Ein Paper fehlt? Per Pull Request in der{" "}
+        <a href={`${REPO_URL}/blob/main/site/src/data/publications.json`}>publications.json</a> ergänzen.
+      </p>
+      <Publications lang="de" />
     </div>
   </article>
 </Base>

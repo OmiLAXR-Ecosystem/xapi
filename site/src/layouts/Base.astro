@@ -1,8 +1,10 @@
 ---
 import "../styles/global.css";
 import T from "../components/T.astro";
+import Icon from "../components/Icon.astro";
 import { href } from "../lib/url";
 import { REPO_URL } from "../lib/definitions";
+import { VERSION, RELEASE_URL, UNRELEASED, UNRELEASED_URL } from "../lib/version";
 
 interface Props {
   title?: string;
@@ -10,7 +12,7 @@ interface Props {
 }
 const { title, description = "Open, community-maintained xAPI verbs, activities and extensions." } = Astro.props;
 const fullTitle = title ? `${title} · xAPI Registry` : "xAPI Definitions Registry";
-const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "");
+const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "") || "/";
 const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) ? "page" : undefined);
 ---
 <!doctype html>
@@ -20,7 +22,11 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href={href("favicon.svg")} type="image/svg+xml" />
+    <link rel="icon" href={href("favicon.ico")} sizes="any" />
+    <link rel="icon" href={href("favicon-32x32.png")} type="image/png" sizes="32x32" />
+    <link rel="icon" href={href("favicon-16x16.png")} type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href={href("apple-touch-icon.png")} sizes="180x180" />
+    <link rel="manifest" href={href("site.webmanifest")} />
     <script is:inline>
       // Set the language before first paint: saved choice, else the browser language.
       (function () {
@@ -36,14 +42,16 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href={href()}>
-          <span class="brand-mark" aria-hidden="true">x</span>
-          <span>xAPI Registry</span>
+          <picture>
+            <source srcset={href("logo-dark.png")} media="(prefers-color-scheme: dark)" />
+            <img class="brand-logo" src={href("logo-light.png")} alt="xAPI Registry" width="155" height="32" />
+          </picture>
         </a>
         <nav class="nav">
-          <a href={href()} aria-current={current("/")}><T k="search" /></a>
-          <a href={href("list")} aria-current={current("/list")}><T k="list" /> <span class="count" data-list-count></span></a>
-          <a href={href("about")} aria-current={current("/about")}><T k="about" /></a>
-          <button type="button" class="lang-toggle" id="lang-toggle"><T k="switchLang" /></button>
+          <a href={href()} aria-current={current("/")}><Icon name="search" /><T k="search" /></a>
+          <a href={href("list")} aria-current={current("/list")}><Icon name="star" /><T k="list" /> <span class="count" data-list-count></span></a>
+          <a href={href("about")} aria-current={current("/about")}><Icon name="info" /><T k="about" /></a>
+          <button type="button" class="lang-toggle icon-link" id="lang-toggle"><Icon name="languages" /><T k="switchLang" /></button>
         </nav>
       </div>
     </header>
@@ -52,9 +60,17 @@ const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) 
     </main>
     <footer class="site-footer">
       <div class="wrap footer-inner">
-        <a href={REPO_URL}><T k="sourceRepo" /></a>
-        <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}><T k="suggest" /></a>
-        <a href={href("definitions.json")}><T k="allJson" /></a>
+        <a href={REPO_URL}><Icon name="github" /><T k="sourceRepo" /></a>
+        <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}><Icon name="plusCircle" /><T k="suggest" /></a>
+        <a href={href("definitions.json")}><Icon name="braces" /><T k="allJson" /></a>
+        <span class="footer-version">
+          <a href={RELEASE_URL}><Icon name="tag" /><T k="version" /> {VERSION}</a>
+          {UNRELEASED ? (
+            <a href={UNRELEASED_URL} class="unreleased">
+              + {UNRELEASED} <T k={UNRELEASED === 1 ? "unreleasedOne" : "unreleased"} />
+            </a>
+          ) : null}
+        </span>
       </div>
     </footer>
     <script>
