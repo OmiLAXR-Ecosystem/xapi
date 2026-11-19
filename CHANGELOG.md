@@ -47,6 +47,19 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
 - `observation/activities/oneself` ("sich selbst"), which
   `observation/verbs/motivated` already referenced.
 - English names and descriptions for all definitions in `observation`.
+- The website shows the xAPI Registry logo in the header, in a light and a dark
+  variant, and has a favicon set with web manifest. The full-size logo, icon and
+  a banner for the GitHub social preview are in the repository.
+- Contributors: the README lists everyone who created or edited definitions,
+  with their period and contexts, derived from the git history since January
+  2020. The about page of the website shows the same list.
+- Publications: the about page lists the papers that describe or use the
+  original registry at xapi.elearn.rwth-aachen.de, read from
+  `site/src/data/publications.json`. It notes that their IRIs point to the
+  original registry and are kept as `exactMatch`.
+- Icons in the navigation, footer, buttons, section headings, the search field
+  and the context cards of the website. External links in running text show a
+  small arrow, and each publication links its DOI and PDF.
 
 ### Changed
 
@@ -74,6 +87,10 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
   (`360tours`), and the guides explain how to rename or merge a definition.
 - Pull requests are built by the "Website" check. `pages.yml` only deploys
   `main`, and also when `version.txt` changes.
+- The README starts with the address of the website and what it offers. The
+  about page links the about page of the original registry and the original
+  repository at gitlab.com/learntech-rwth/xapi, which holds the definitions up
+  to version 1.x.
 
 ### Fixed
 
@@ -89,6 +106,9 @@ at [gitlab.com/learntech-rwth/xapi](https://gitlab.com/learntech-rwth/xapi).
   descriptions of `lms/verbs/recreated` and `gestures/verbs/shook` follow the
   writing conventions.
 - The header of this file named the old IRI base.
+- "Search" and the logo linked the start page with a trailing slash, which
+  the dev server does not serve. Links in running text on the about page that
+  wrapped onto a new line lost the space before them.
 
 ### Removed
 
