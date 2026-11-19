@@ -11,7 +11,7 @@ interface Props {
 }
 const { title, description = "Open, community-maintained xAPI verbs, activities and extensions." } = Astro.props;
 const fullTitle = title ? `${title} · xAPI Registry` : "xAPI Definitions Registry";
-const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "");
+const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "") || "/";
 const current = (p: string) => (path === p || (p !== "/" && path.startsWith(p)) ? "page" : undefined);
 ---
 <!doctype html>
