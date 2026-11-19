@@ -2,6 +2,26 @@
 import Base from "../layouts/Base.astro";
 import { REGISTRY_URL, REPO_URL } from "../lib/definitions";
 import { href } from "../lib/url";
+
+// Derived from the git history of main, see "Contributors" in the README for the counts and the method.
+const contributors: { name: string; period: string; contexts: string[]; url?: string }[] = [
+  { name: "Annabell Brocker", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~hdcay/Annabell-Brocker/lidx/1/", period: "2022–2024", contexts: ["generic", "projectJupyter", "seriousGames", "systemControl"] },
+  { name: "Matthias Ehlenz", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~jygg/Matthias-Ehlenz/lidx/1/", period: "2020–2024", contexts: ["generic", "gitanalysis", "lms", "observation", "rightsEngine", "studybuddy"] },
+  { name: "Jasper vom Felde", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~bfktdi/Jasper-vom-Felde/lidx/1/", period: "2024", contexts: ["rightsEngine"] },
+  { name: "Philipp Goerick", period: "2020", contexts: ["generic", "ide", "multitouch", "seriousGames", "systemControl"] },
+  { name: "Sergej Görzen", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~nwbzq/Sergej-Goerzen/lidx/1/", period: "2021–2026", contexts: ["assistanceSystem", "attention", "eyeTracking", "facialTracking", "generic", "gestures", "ide", "lms", "media", "ppm", "seriousGames", "studybuddy", "systemControl", "virtualReality", "voice"] },
+  { name: "Birte Heinemann", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~dxpnu/Birte-Heinemann/lidx/1/", period: "2020–2025", contexts: ["attention", "eyeTracking", "generic", "gestures", "lms", "seriousGames", "studybuddy", "systemControl", "tagformance", "uhfReader", "virtualReality", "voice", "vrRfidChamber"] },
+  { name: "Sven Judel", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-M/~rmjb/Sven-Judel/lidx/1/", period: "2021–2025", contexts: ["exerciseGenerator", "lms", "media", "rightsEngine", "studybuddy"] },
+  { name: "Fredrik Konrad", period: "2022", contexts: ["seriousGames"] },
+  { name: "Sam Mattiussi", url: "https://learntech.rwth-aachen.de/cms/learntech/Das-Lehr-und-Forschungsgebiet/Mitarbeiter/Ehemalige-Externe-Mitarbeiterinnen-und-M/~bdvydl/Sam-Mattiussi/lidx/1/", period: "2023", contexts: ["assistanceSystem"] },
+  { name: "Lars Florian Meiendresch", url: "https://s3.paluno.uni-due.de/team/wissenschaftliche-mitarbeiterinnnen-und-mitarbeiter/lars-meiendresch", period: "2022–2024", contexts: ["360tours", "tagformance", "vrRfidChamber"] },
+  { name: "Philip Niederprüm", period: "2022", contexts: ["seriousGames"] },
+  { name: "Paul Rennecke", period: "2021", contexts: ["observation"] },
+  { name: "Yanik Söltzer", period: "2021", contexts: ["generic", "projectJupyter"] },
+  { name: "Marc Troll", period: "2023–2025", contexts: ["seriousGames", "virtualReality"] },
+  { name: "Lukas Witeczek", period: "2023", contexts: ["gitanalysis"] },
+];
+const contributorsUrl = `${REPO_URL}#contributors`;
 ---
 <Base title="About">
   <article class="prose">
@@ -81,6 +101,20 @@ import { href } from "../lib/url";
         funded there by the Federal Ministry of Education and Research (BMBF) in the joint project Open Digital Lab 4 you
         (grant no. 16DHB2114).
       </p>
+
+      <h2 id="contributors">Contributors</h2>
+      <p>
+        These people created or edited the definitions of the registry, with the years of their work and the contexts
+        they worked on. The <a href={contributorsUrl}>README</a> lists how many definitions each person created and
+        edited, per context.
+      </p>
+      <ul>
+        {contributors.map((c) => (
+          <li>
+            {c.url ? <a href={c.url}>{c.name}</a> : c.name} ({c.period}): {c.contexts.map((k, i) => <>{i > 0 && ", "}<code>{k}</code></>)}
+          </li>
+        ))}
+      </ul>
     </div>
 
     <div class="l-de">
@@ -159,6 +193,20 @@ import { href } from "../lib/url";
         ursprünglichen Registry wurde dort teilweise vom Bundesministerium für Bildung und Forschung im Verbundprojekt
         Open Digital Lab 4 you gefördert (Förderkennzeichen 16DHB2114).
       </p>
+
+      <h2 id="mitwirkende">Mitwirkende</h2>
+      <p>
+        Diese Personen haben Definitionen der Registry erstellt oder bearbeitet, mit den Jahren ihrer Arbeit und den
+        Kontexten, an denen sie gearbeitet haben. Wie viele Definitionen jede Person pro Kontext erstellt und bearbeitet
+        hat, steht in der <a href={contributorsUrl}>README</a>.
+      </p>
+      <ul>
+        {contributors.map((c) => (
+          <li>
+            {c.url ? <a href={c.url}>{c.name}</a> : c.name} ({c.period}): {c.contexts.map((k, i) => <>{i > 0 && ", "}<code>{k}</code></>)}
+          </li>
+        ))}
+      </ul>
     </div>
   </article>
 </Base>
